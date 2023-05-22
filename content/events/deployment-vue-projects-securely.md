@@ -5,7 +5,7 @@ date: '27 Feb 2023 18:00'
 location: 'Torq'
 tags: [Web Development, JavaScript Frameworks, Frond-end Development, JavaScript, Vue.js]
 ---
-![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/img2.png "Vue.js Israel Meetup")
+![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/img2.png "Vue.js Israel Meetup")
 
 # Deployment Vue projects securely
 
