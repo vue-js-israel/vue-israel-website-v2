@@ -1,28 +1,29 @@
 ---
-title: 'Data Management with Vue'
-description: 'Vue Israel Meetup'
-date: '02 May 2023 18:00'
-location: 'Semperis'
-tags: [Web Development, JavaScript Frameworks, Frond-end Development, JavaScript, Vue.js]
+title: "Data Management with Vue"
+description: "Vue Israel Meetup"
+date: "02 May 2023 18:00"
+location: "Semperis"
+tags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
+img: images/img1.png
 ---
-![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/img1.png "Vue.js Israel Meetup")
 
-# Deployment Vue projects securely
+<!-- ![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/img1.png "Vue.js Israel Meetup") -->
+<!-- # Data Management with Vue -->
 
 Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 
-## Photos
+## 📷 Photos
 
 ---
 
 [Event photos](https://www.facebook.com/media/set/?set=a.570013135214360&type=3)
 
-## Speakers
+## 📢 Speakers
 
 ---
 
-* [Guy Passy - Semperis](https://www.linkedin.com/in/guy-passy-1923a62a/)
-* [Michael Salaverry - Quris](https://www.linkedin.com/in/michaelsalaverry/)
+- [Guy Passy - Semperis](https://www.linkedin.com/in/guy-passy-1923a62a/)
+- [Michael Salaverry - Quris](https://www.linkedin.com/in/michaelsalaverry/)
 
 ## 📹The full playlist
 
@@ -48,7 +49,7 @@ _Short Break_
 
 **20:15 - 20:35** GIFT time for the lucky attendees 🎁
 
-## 🏢 The venue:
+## 🏢 The venue
 
 ---
 
@@ -58,7 +59,7 @@ Ramat Gan
 
 👉 **Date**: 02 May 2023 (18:00 - 20:30)
 
-## ❤️ Sponsors:
+## ❤️ Sponsors
 
 ---
 
