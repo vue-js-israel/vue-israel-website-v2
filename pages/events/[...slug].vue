@@ -21,7 +21,7 @@ const [prev, next] = data.value.surround;
 
 // set the meta
 useHead({
-  title: `Vue Israel | ${data.value.event.title}`,
+  title: `Vue.js Israel | ${data.value.event.title}`,
   meta: [
     { name: "description", content: data.value.event.description },
     {
