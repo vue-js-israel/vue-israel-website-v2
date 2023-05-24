@@ -34,7 +34,6 @@ useHead({
 </script>
 
 <template>
-  <NuxtLayout />
   <main id="main" class="event-main">
     <section class="event-section">
       <aside class="aside">
@@ -57,41 +56,32 @@ useHead({
 </template>
 
 <style scoped>
-/* :deep(h1),
-:deep(h2),
-:deep(h3),
-:deep(h4),
-:deep(h5),
-:deep(h6),
-:deep(p),
-:deep(a),
-:deep(ul),
-:deep(li),
-:deep(ol),
-:deep(img),
-:deep(hr) {
-  margin: 0px;
-} */
+
 
 .event-header {
   @apply m-auto my-10 flex max-w-screen-xl flex-col flex-wrap content-center justify-center;
 }
+
 .event-header .heading {
   @apply text-4xl font-extrabold;
 }
+
 .event-header .img-container {
   @apply w-fit;
 }
+
 .event-section {
   @apply grid grid-cols-8;
 }
+
 .event-section .event {
   @apply prose col-span-full m-auto w-full max-w-3xl p-4 md:col-span-6 md:col-start-1 md:row-start-1;
 }
+
 .aside {
   @apply row-start-1 pt-14;
 }
+
 .aside .toc {
   @apply sticky top-20;
-}
-</style>
+}</style>

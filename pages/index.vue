@@ -1,5 +1,4 @@
 <template>
-  <NuxtLayout />
   <main >
     <section class="max-w-7xl h-96 bg-green-100 m-auto p-4 flex flex-col justify-around">
       <header class="m-5">

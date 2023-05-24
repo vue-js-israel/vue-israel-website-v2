@@ -8,7 +8,6 @@ useHead({
 </script>
 
 <template>
-  <NuxtLayout />
   <main>
     <header class="page-heading">
       <div class="wrapper">
