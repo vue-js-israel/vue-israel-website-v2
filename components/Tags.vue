@@ -41,7 +41,8 @@ const eventTags = [...new Set(flatten(data.value, "tags"))];
     <ul class="event-tags" :class="{ expanded: expanded }">
       <!-- list out tags with links -->
       <li v-for="(tag, n) in eventTags" :key="n" class="tag">
-        <NuxtLink :to="`/events/tags/${tag}`" class="font-semibold"> {{ tag }} </NuxtLink>
+        {{ tag }}
+        <NuxtLink :to="`/events/tags/${tag}`" class="font-semibold"/>
       </li>
     </ul>
   </div>

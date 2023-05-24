@@ -9,6 +9,8 @@ og-image: images/img2.png
 ![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/img2.png "Vue.js Israel Meetup")
 # Deployment Vue projects securely
 
+:static-tags{tags='["Web", "Development", "Frameworks", "Frontend", "JavaScript", "Vue.js"]'}
+
 Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 
 ## 📷 Photos

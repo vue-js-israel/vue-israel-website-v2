@@ -1,11 +1,11 @@
 <script setup>
 const { path } = useRoute();
 const { data } = await useAsyncData(`content-${path}`, async () => {
-  // fetch document where the document path matches with the cuurent route
+  // fetch document where the document path matches with the current route
   let event = queryContent().where({ _path: path }).findOne();
 
   // get the surround information,
-  // which is an array of documeents that come before and after the current document
+  // which is an array of documents that come before and after the current document
   let surround = queryContent()
     .only(["_path", "title", "description"])
     .sort({ date: 1 })
@@ -16,7 +16,7 @@ const { data } = await useAsyncData(`content-${path}`, async () => {
   };
 });
 
-// destrucure `prev` and `next` value from data
+// destructure `prev` and `next` value from data
 const [prev, next] = data.value.surround;
 
 // set the meta
@@ -36,27 +36,6 @@ useHead({
 <template>
   <NuxtLayout />
   <main id="main" class="event-main">
-    <header v-if="data.event" class="event-header">
-      <div class="img-container">
-        <img
-          :src="`/${data.event.img}`"
-          :alt="data.event.title"
-          class="max-h-80 rounded-2xl"
-        />
-      </div>
-      <h1 class="heading">{{ data.event.title }}</h1>
-      <p class="supporting">{{ data.event.description }}</p>
-      <ul class="tag-container">
-        <li
-          class="tag"
-          v-for="(tag, n) in data.event.tags"
-          :key="`tag-key-${tag}-${n}`"
-        >
-          {{ tag }}
-        </li>
-      </ul>
-    </header>
-    <hr />
     <section class="event-section">
       <aside class="aside">
         <TableOfContent :links="data.event.body.toc.links" />
@@ -102,12 +81,6 @@ useHead({
 }
 .event-header .img-container {
   @apply w-fit;
-}
-.event-header .tag-container {
-  @apply my-2 flex gap-1;
-}
-.event-header .tag-container .tag {
-  @apply rounded-md bg-gray-200 p-0.5 text-xs;
 }
 .event-section {
   @apply grid grid-cols-8;
