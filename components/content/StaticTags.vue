@@ -1,10 +1,6 @@
 <template>
   <div class="tag-container">
-    <span
-      class="tag"
-      v-for="(tag, n) in stringTagsToArray"
-      :key="`tag-key-${tag}-${n}`"
-    >
+    <span class="tag" v-for="(tag, n) in stringTagsToArray" :key="`tag-key-${tag}-${n}`">
       {{ tag }}
     </span>
   </div>
@@ -16,7 +12,7 @@
  */
 const props = defineProps({
   tags: {
-    type: Array,
+    type: [Array, String],
     default: "[]",
   },
 });
@@ -27,8 +23,7 @@ const stringTagsToArray = computed(() => {
 </script>
 
 <style scoped>
-
-.tag-container{
+.tag-container {
   @apply flex gap-1 my-2;
 }
 .tag-container .tag {
