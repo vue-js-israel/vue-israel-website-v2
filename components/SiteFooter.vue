@@ -5,7 +5,7 @@
                 <p class="text-xl font-bold">
                     Official Vue.js Israel Community
                 </p>
-                <span>Built with 💚 by <a href="#" target="_blank" rel="noopener noreferrer">Alex Nechaev</a> & <a
+                <span>Built with 💚 by <a href="#" target="_blank" rel="noopener noreferrer">Alex Nechayev</a> & <a
                         href="https://dimshik.com" target="_blank" rel="noopener noreferrer">Dima Vishnevetsky</a></span>
             </div>
 
