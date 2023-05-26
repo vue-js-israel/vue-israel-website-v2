@@ -2,7 +2,7 @@
   <NuxtLink :to="`${event._path}`">
     <div class="rounded-lg bg-white p-6 shadow-md">
       <h3 class="text-sm font-medium text-gray-500">
-        {{ formattedDate(event.date) }}
+        {{ event.date }}
       </h3>
       <h2 class="mb-2 text-xl font-bold text-gray-600">{{ event.title }}</h2>
       <div class="flex items-center">
