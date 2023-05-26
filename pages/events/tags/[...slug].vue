@@ -49,7 +49,7 @@ useHead({
         </template>
         <!-- Not found slot to display message when no content us is found -->
         <template #not-found>
-          <p>No articles found.</p>
+          <p>No Events found.</p>
         </template>
       </ContentList>
     </section>
