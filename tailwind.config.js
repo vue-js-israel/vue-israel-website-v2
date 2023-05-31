@@ -3,8 +3,8 @@ module.exports = {
   content: [],
   theme: {
     fontFamily: {
-      header: ['Cabinet Grotesk', 'sans-serif'],
-      sans: ['Satoshi', 'sans-serif'],
+      cabinetGrotesk: ['Cabinet Grotesk', 'sans-serif'],
+      satoshi: ['Satoshi', 'sans-serif'],
     },
   },
   plugins: [

@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  @apply font-sans;
+  @apply font-satoshi;
   @apply text-slate-700;
 }
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-header;
+  @apply font-cabinetGrotesk;
 }
 
 .page-heading{
