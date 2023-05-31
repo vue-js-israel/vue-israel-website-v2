@@ -71,15 +71,15 @@ useHead({
 }
 
 .event-section {
-  @apply grid grid-cols-8;
+  @apply grid grid-cols-10;
 }
 
 .event-section .event {
-  @apply prose col-span-full m-auto w-full max-w-3xl p-4 md:col-span-6 md:col-start-1 md:row-start-1;
+  @apply prose col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4;
 }
 
 .aside {
-  @apply row-start-1 pt-14;
+  @apply px-4 pt-8 col-span-full md:col-start-8 md:col-end-10 md:pt-12;
 }
 
 .aside .toc {

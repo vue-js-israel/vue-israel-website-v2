@@ -40,12 +40,13 @@ const onTagClickHandler = (tagIndex) => {
 
 <style scoped>
 .tag-list {
-  @apply flex items-center gap-2 p-2 rounded-lg;
+  @apply flex flex-col gap-2 p-4 rounded-lg ;
+  @apply md:items-center md:flex-row;
 }
 .event-tags {
-  @apply py-1;
-  @apply grid grid-cols-4 transition-all max-w-0 overflow-hidden gap-2;
+  @apply grid grid-cols-3 transition-all max-h-0 overflow-hidden gap-2 ;
   @apply select-none;
+  @apply md:max-w-0 md:max-h-max md:grid-cols-4;
   /* @apply transition-all max-w-0 max-h-10 overflow-hidden flex flex-row justify-center content-center; */
 }
 .event-tags .tag {
@@ -58,6 +59,7 @@ const onTagClickHandler = (tagIndex) => {
 }
 
 .event-tags.expanded {
-  @apply max-w-full;
+  @apply max-h-max;
+  @apply md:max-w-full;
 }
 </style>

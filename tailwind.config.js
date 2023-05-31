@@ -2,7 +2,10 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      header: ['Cabinet Grotesk', 'sans-serif'],
+      sans: ['Satoshi', 'sans-serif'],
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
