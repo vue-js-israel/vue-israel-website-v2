@@ -30,12 +30,9 @@ h6 {
     @apply flex justify-center;
   }
 
-.cta {
+.tag-button {
   @apply rounded-lg border border-slate-200 bg-slate-50 p-1.5 px-2 font-semibold;
   @apply transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner;
-}
-
-.cta.w-icon {
   @apply flex items-center gap-2 pr-3;
 }
 

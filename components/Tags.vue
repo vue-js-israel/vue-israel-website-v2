@@ -24,7 +24,7 @@ const onTagClickHandler = (tagIndex) => {
 <template>
   <div class="tag-list">
     <!-- Button to toggle expand -->
-    <button @click="toggleExpand" class="cta w-icon">
+    <button @click="toggleExpand" class="tag-button">
       <Icon name="mdi:tag-outline" />
       <span>Tags</span>
     </button>
