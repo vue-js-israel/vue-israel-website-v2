@@ -2,22 +2,12 @@
 const { path } = useRoute();
 const { data } = await useAsyncData(`content-${path}`, async () => {
   // fetch document where the document path matches with the current route
-  let event = queryContent().where({ _path: path }).findOne();
+  const event = queryContent().where({ _path: path }).findOne();
 
-  // get the surround information,
-  // which is an array of documents that come before and after the current document
-  let surround = queryContent()
-    .only(["_path", "title", "description"])
-    .sort({ date: 1 })
-    .findSurround(path);
   return {
     event: await event,
-    surround: await surround,
   };
 });
-
-// destructure `prev` and `next` value from data
-const [prev, next] = data.value.surround;
 
 // set the meta
 useHead({
