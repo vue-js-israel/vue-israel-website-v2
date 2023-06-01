@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "All Events",
+  title: "Vue.js Israel Events",
   meta: [
     { name: "description", content: "Vus.js Israel's events" },
   ],
