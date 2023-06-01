@@ -24,11 +24,6 @@ useHead({
   title: `Vue.js Israel | ${data.value.event.title}`,
   meta: [
     { name: "description", content: data.value.event.description },
-    {
-      hid: "og:image",
-      property: "og:image",
-      content: `https://site.com/${data.value.event.img}`,
-    },
   ],
 });
 </script>
