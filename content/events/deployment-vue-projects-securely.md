@@ -1,15 +1,17 @@
 ---
-title: 'Deployment Vue projects securely'
-description: 'Vue Israel Meetup'
-date: '27 Feb 2023 18:00'
-location: 'Torq'
-tags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
+title: "Deployment Vue projects securely"
+description: "Vue Israel Meetup"
+date: "27 Feb 2023 18:00"
+location: "Torq"
+eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/img2.png
 ---
-![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/img2.png "Vue.js Israel Meetup")
+
+![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Torq-27.02.23.png "Vue.js Israel Meetup")
+
 # Deployment Vue projects securely
 
-:static-tags{tags='["Web", "Development", "Frameworks", "Frontend", "JavaScript", "Vue.js"]'}
+:static-tags{:tags=eventTags}
 
 Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 
@@ -19,8 +21,8 @@ Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and 
 
 ## 📢 Speakers
 
-* [Dudi Fedida - Torq](https://www.linkedin.com/in/dudi-fedida-892b48113/)
-* [Maya Shavin - Microsoft](https://www.linkedin.com/in/mayashavin/)
+- [Dudi Fedida - Torq](https://www.linkedin.com/in/dudi-fedida-892b48113/)
+- [Maya Shavin - Microsoft](https://www.linkedin.com/in/mayashavin/)
 
 ## 📹The full playlist
 

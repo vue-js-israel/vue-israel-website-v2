@@ -4,7 +4,9 @@
     <header class="site-header">
       <div class="wrapper">
         <NuxtLink to="/" class="no-underline flex">
-            <img class="w-8 mr-2" src="/logo/logo.svg" alt="Vue.js Israel Community Logo"> Vue.js Israel Community
+            <img class="w-8 mr-2" src="/logo/Vue.js-Israel-community-logo.svg
+
+" alt="Vue.js Israel Community Logo"> Vue.js Israel Community
         </NuxtLink>
 
         <nav class="site-nav">
