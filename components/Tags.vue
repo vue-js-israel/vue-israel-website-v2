@@ -39,6 +39,11 @@ const onTagClickHandler = (tagIndex) => {
 </template>
 
 <style scoped>
+.tag-button {
+  @apply rounded-lg border border-slate-200 bg-slate-50 p-1.5 px-2 font-semibold;
+  @apply transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner;
+  @apply flex items-center gap-2 pr-3;
+}
 .tag-list {
   @apply flex flex-col gap-2 p-4 rounded-lg ;
   @apply md:items-center md:flex-row;
@@ -59,6 +64,6 @@ const onTagClickHandler = (tagIndex) => {
 
 .event-tags.expanded {
   @apply max-h-max py-1;
-  @apply md:max-w-full;
+  @apply md:max-w-full md:py-0;
 }
 </style>

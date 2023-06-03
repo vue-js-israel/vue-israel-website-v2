@@ -135,6 +135,9 @@ const onTagClickHandler = (tagIndex) => {
 </template>
 
 <style scoped>
+.page-heading {
+  @apply flex justify-center;
+}
 .page-section {
   @apply max-w-xl m-auto;
 }
