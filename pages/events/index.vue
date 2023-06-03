@@ -1,4 +1,7 @@
 <script setup>
+import { addURLParams, removeURLParams } from '@/components/utils/urlUtils';
+
+
 useHead({
   title: "Vue.js Israel Events",
   meta: [
@@ -33,7 +36,6 @@ const selectedTagsFromURL = () => {
 }
 
 const selectedTags = ref(selectedTagsFromURL());
-
 /**
  * generates an array without duplicates from flattened array
  * and initiate each instance with the title and selected property.
@@ -53,32 +55,6 @@ const interactiveTags = () => {
 };
 const eventTags = ref(interactiveTags())
 
-const updateURLParams = () => {
-  const key = "tags";
-  const value = selectedTags.value;
-  // Get the current URL
-  const url = new URL(window.location.href);
-
-
-  if (selectedTags.value.length > 0) {
-    // Add the query parameter to the URL
-    url.searchParams.set(key, value);
-    // Replace the current URL with the updated decode URL
-    const decodedURL = decodeURIComponent(url.toString())
-    history.replaceState(null, null, decodedURL);
-    
-  } else {
-    const searchParams = new URLSearchParams(url.search);
-
-    // Remove all search parameters
-    searchParams.delete(key);
-    const newUrl = url.origin + url.pathname + searchParams.toString();
-    // Replace the current URL with the new URL
-    history.replaceState(null, '', newUrl);
-
-  }
-}
-
 const onTagClickHandler = (tagIndex) => {
   const tag = eventTags.value[tagIndex]
   tag.selected = !tag.selected
@@ -93,7 +69,11 @@ const onTagClickHandler = (tagIndex) => {
   }
 
   // Add/Remove tags to URL params
-  updateURLParams();
+  if (selectedTags.value.length > 0) {
+    addURLParams('tags', selectedTags.value)
+  } else {
+    removeURLParams('tags')
+  }
 }
 </script>
 
