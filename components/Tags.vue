@@ -44,7 +44,7 @@ const onTagClickHandler = (tagIndex) => {
   @apply md:items-center md:flex-row;
 }
 .event-tags {
-  @apply grid grid-cols-3 transition-all max-h-0 overflow-hidden gap-2 ;
+  @apply grid grid-cols-3 transition-all max-h-0 overflow-hidden gap-2;
   @apply select-none;
   @apply md:max-w-0 md:max-h-max md:grid-cols-4;
 }
@@ -58,7 +58,7 @@ const onTagClickHandler = (tagIndex) => {
 }
 
 .event-tags.expanded {
-  @apply max-h-max;
+  @apply max-h-max py-1;
   @apply md:max-w-full;
 }
 </style>
