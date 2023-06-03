@@ -68,7 +68,7 @@ const onTagClickHandler = (tagIndex) => {
     selectedTags.value.splice(tagIndex, 1);
   }
 
-  // Add/Remove tags to URL params
+  // Add/Remove tags to/from URL params
   if (selectedTags.value.length > 0) {
     addURLParams('tags', selectedTags.value)
   } else {
