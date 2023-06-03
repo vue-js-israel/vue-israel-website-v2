@@ -47,11 +47,10 @@ const onTagClickHandler = (tagIndex) => {
   @apply grid grid-cols-3 transition-all max-h-0 overflow-hidden gap-2 ;
   @apply select-none;
   @apply md:max-w-0 md:max-h-max md:grid-cols-4;
-  /* @apply transition-all max-w-0 max-h-10 overflow-hidden flex flex-row justify-center content-center; */
 }
 .event-tags .tag {
   @apply rounded-md bg-slate-100 p-2 py-1 text-sm text-slate-700;
-  @apply !py-0.5 transition-all hover:-translate-y-0.5;
+  @apply py-0.5 transition-all hover:-translate-y-0.5;
   @apply text-center;
 }
 .event-tags .tag.selected {

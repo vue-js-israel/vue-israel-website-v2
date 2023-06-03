@@ -21,24 +21,6 @@ const props = defineProps({
     require: true,
   },
 });
-
-const formattedDate = (date) => {
-  const formattedDate = new Date(date);
-
-  const options = {
-    weekday: "short",
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    hour: "numeric",
-    hour12: true,
-    minute: "numeric",
-    timeZoneName: "shortGeneric",
-    timeZone: "Asia/Jerusalem",
-  };
-
-  return formattedDate.toLocaleString("en-IL", options).toUpperCase();
-};
 </script>
 
 <style scoped>

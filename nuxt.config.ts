@@ -3,16 +3,5 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content','nuxt-icon','@nuxtjs/tailwindcss'],
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
-  },
-  content: {
-    // https://content.nuxtjs.org/api/configuration
-    highlight: {
-      theme: {
-        // Default theme (same as single string)
-        default: 'material-palenight',
-        // Theme used if `html.dark`
-        dark: 'github-dark',
-      }
-    }
-  },
+  }
 })
