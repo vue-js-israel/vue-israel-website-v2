@@ -63,8 +63,10 @@ const updateURLParams = () => {
   if (selectedTags.value.length > 0) {
     // Add the query parameter to the URL
     url.searchParams.set(key, value);
-    // Replace the current URL with the updated URL
-    history.replaceState(null, null, url.toString());
+    // Replace the current URL with the updated decode URL
+    const decodedURL = decodeURIComponent(url.toString())
+    history.replaceState(null, null, decodedURL);
+    
   } else {
     const searchParams = new URLSearchParams(url.search);
 
@@ -105,12 +107,12 @@ const onTagClickHandler = (tagIndex) => {
     </header>
     <section class="page-section">
       <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
-      <!-- Render list of all articles in ./content/blog using `path` -->
+      <!-- Render list of all events in ./events using `path` -->
       <!-- Provide only defined fields in the `:query` prop -->
       <ContentList path="/events" :query="{
         only: ['title', 'description', 'date', 'location', 'eventTags', '_path'],
         where: {
-          tags: {
+          eventTags: {
             // filtering through selectedTags
             $contains: selectedTags,
           },
@@ -138,6 +140,7 @@ const onTagClickHandler = (tagIndex) => {
 .page-heading {
   @apply flex justify-center;
 }
+
 .page-section {
   @apply max-w-xl m-auto;
 }
