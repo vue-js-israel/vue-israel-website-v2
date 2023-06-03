@@ -51,7 +51,7 @@ const onTagClickHandler = (tagIndex) => {
 .event-tags {
   @apply grid grid-cols-3 transition-all max-h-0 overflow-hidden gap-2;
   @apply select-none;
-  @apply md:max-w-0 md:max-h-max md:grid-cols-4;
+  @apply md:max-w-0 md:max-h-max md:grid-cols-4 md:py-2;
 }
 .event-tags .tag {
   @apply rounded-md bg-slate-100 p-2 py-1 text-sm text-slate-700;
@@ -63,7 +63,7 @@ const onTagClickHandler = (tagIndex) => {
 }
 
 .event-tags.expanded {
-  @apply max-h-max py-1;
-  @apply md:max-w-full md:py-0;
+  @apply max-h-max py-2;
+  @apply md:max-w-full md:py-2;
 }
 </style>
