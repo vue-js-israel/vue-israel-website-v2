@@ -9,7 +9,7 @@
         <Icon name="mdi:map-marker-outline" />
         <p>{{ event.location }}</p>
       </div>
-      <StaticTags :tags="event.tags"/>
+      <StaticTags :tags="event.eventTags"/>
     </div>
   </NuxtLink>
 </template>

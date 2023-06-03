@@ -7,7 +7,7 @@ useHead({
 });
 
 // get only tags data from `/events`
-const { data } = await useAsyncData("tags", () => queryContent("events").only(["tags"]).find());
+const { data } = await useAsyncData("eventTags", () => queryContent("events").only(["eventTags"]).find());
 
 // helper function to flatten tags array
 const flatten = (tags, key) => {
@@ -39,7 +39,7 @@ const selectedTags = ref(selectedTagsFromURL());
  * and initiate each instance with the title and selected property.
  */
 const interactiveTags = () => {
-  const tags = [...new Set(flatten(data.value, "tags"))];
+  const tags = [...new Set(flatten(data.value, "eventTags"))];
   const interactiveTags = tags.map((tag) => {
 
     const selected = selectedTags.value.includes(tag);
@@ -108,7 +108,7 @@ const onTagClickHandler = (tagIndex) => {
       <!-- Render list of all articles in ./content/blog using `path` -->
       <!-- Provide only defined fields in the `:query` prop -->
       <ContentList path="/events" :query="{
-        only: ['title', 'description', 'date', 'location', 'tags', '_path'],
+        only: ['title', 'description', 'date', 'location', 'eventTags', '_path'],
         where: {
           tags: {
             // filtering through selectedTags

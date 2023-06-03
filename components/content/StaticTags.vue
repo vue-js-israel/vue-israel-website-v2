@@ -1,24 +1,18 @@
 <template>
   <div class="tag-container">
-    <span class="tag" v-for="(tag, n) in stringTagsToArray" :key="`tag-key-${tag}-${n}`">
+    <span class="tag" v-for="(tag, n) in tags" :key="`tag-key-${tag}-${n}`">
       {{ tag }}
     </span>
   </div>
 </template>
 
 <script setup>
-/**
- * Static Tags Components for MD
- */
+
 const props = defineProps({
   tags: {
-    type: [Array, String],
-    default: "[]",
+    type: Array,
+    default: ()=>{return []},
   },
-});
-
-const stringTagsToArray = computed(() => {
-  return typeof props.tags === "string" ? JSON.parse(props.tags) : props.tags;
 });
 </script>
 
