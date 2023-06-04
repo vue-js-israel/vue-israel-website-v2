@@ -5,13 +5,28 @@ date: "02 May 2023 18:00"
 location: "Semperis"
 eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
+speakers:
+  - name: speakerName1
+    image: speakerImage1
+    video: speakerVideo1
+    socialULR: speakerURL
+    company: company
+  - name: speakerName1
+    image: speakerImage1
+    video: speakerVideo1
+    socialULR: speakerURL
+    company: company
 ---
 
 ![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup - Semperis - 02.05.23")
 
 # Data Management with Vue
 
-:static-tags{:tags=eventTags}
+<!-- :static-tags{:tags=eventTags} -->
+
+::event-tags
+Web, Development, Frameworks, Frontend, JavaScript, Vue.js
+::
 
 Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 
