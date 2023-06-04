@@ -7,7 +7,7 @@ eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
 ---
 
-![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup")
+![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup - Semperis - 02.05.23")
 
 # Data Management with Vue
 

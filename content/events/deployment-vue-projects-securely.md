@@ -7,7 +7,7 @@ eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/img2.png
 ---
 
-![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Torq-27.02.23.png "Vue.js Israel Meetup")
+![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Torq-27.02.23.png "Vue.js Israel Meetup - Torq - 27.02.23")
 
 # Deployment Vue projects securely
 
