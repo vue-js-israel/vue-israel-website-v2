@@ -3,6 +3,7 @@
     <span class="tag" v-for="(tag, n) in tags" :key="`tag-key-${tag}-${n}`">
       {{ tag }}
     </span>
+    <slot></slot>
   </div>
 </template>
 
