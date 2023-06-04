@@ -1,0 +1,97 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply scroll-m-20;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-satoshi;
+  @apply text-slate-700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-cabinetGrotesk;
+}
+
+/* 
+TODO: Add this to tailwind config
+This adds a small # sign near the heading links
+Or consider removing links from the headers in the page content.
+
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+  text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:focus {
+  text-decoration: underline;
+}
+
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+  background-color: transparent;
+}
+
+.event-main h1 a[href^="#"]::before,
+.event-main h2 a[href^="#"]::before,
+.event-main h3 a[href^="#"]::before,
+.event-main h4 a[href^="#"]::before,
+.event-main h5 a[href^="#"]::before,
+.event-main h6 a[href^="#"]::before {
+  color: light-grey; 
+  content: "#";
+  display: inline-block;
+  font-size: 0.7em;
+  line-height: 1;
+  margin-left: -0.8em;
+  text-decoration: none;
+  visibility: hidden;
+  width: 0.8em;
+}
+
+h1 a[href^="#"]:hover::before,
+h2 a[href^="#"]:hover::before,
+h3 a[href^="#"]:hover::before,
+h4 a[href^="#"]:hover::before,
+h5 a[href^="#"]:hover::before,
+h6 a[href^="#"]:hover::before {
+  visibility: visible;
+} */
