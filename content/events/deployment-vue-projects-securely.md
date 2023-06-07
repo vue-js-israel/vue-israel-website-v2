@@ -5,9 +5,20 @@ date: "27 Feb 2023 18:00"
 location: "Torq"
 eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/img2.png
+speakers:
+  - name: Dudi Fedida
+    image: https://www.w3schools.com/howto/img_avatar.png
+    video: speakerVideo1
+    socialULR: https://www.linkedin.com/in/dudi-fedida-892b48113/
+    company: Torq
+  - name: Maya Shavin
+    image: https://www.w3schools.com/howto/img_avatar2.png
+    video: speakerVideo3
+    socialULR: https://www.linkedin.com/in/mayashavin/
+    company: Microsoft
 ---
 
-![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Torq-27.02.23.png "Vue.js Israel Meetup - Torq - 27.02.23")
+![Vue.js Israel Official Meetup 27.02.23 | 18:00 - 21:00](/images/events/Vue.js-Israel-meetup-Torq-27.02.23.png "Vue.js Israel Meetup - Torq - 27.02.23")
 
 # Deployment Vue projects securely
 

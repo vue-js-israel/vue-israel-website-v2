@@ -6,19 +6,19 @@ location: "Semperis"
 eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
 speakers:
-  - name: speakerName1
-    image: speakerImage1
+  - name: Guy Passy
+    image: https://www.w3schools.com/howto/img_avatar.png
     video: speakerVideo1
-    socialULR: speakerURL
-    company: company
-  - name: speakerName1
-    image: speakerImage1
-    video: speakerVideo1
-    socialULR: speakerURL
-    company: company
+    socialULR: https://www.linkedin.com/in/guy-passy-1923a62a/
+    company: Semperis
+  - name: Michael Salaverry
+    image: https://www.w3schools.com/w3images/avatar2.png
+    video: speakerVideo2
+    socialULR: https://www.linkedin.com/in/michaelsalaverry/
+    company: Quris
 ---
 
-![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup - Semperis - 02.05.23")
+![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/events/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup - Semperis - 02.05.23")
 
 # Data Management with Vue
 

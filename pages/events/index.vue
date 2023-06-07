@@ -78,14 +78,14 @@ const onTagClickHandler = (tagIndex) => {
 </script>
 
 <template>
-  <main>
-    <header class="page-heading">
-      <div class="wrapper">
+  <main class="py-5">
+    <header class="flex justify-center">
+      <div>
         <h1 class="text-5xl font-extrabold">Events</h1>
-        <p class="text-lg font-medium">event of Vus.JS Israel</p>
+        <p class="text-lg font-medium">Events of Vus.JS Israel</p>
       </div>
     </header>
-    <section class="page-section">
+    <section class="max-w-xl m-auto py-2">
       <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
       <!-- Render list of all events in ./events using `path` -->
       <!-- Provide only defined fields in the `:query` prop -->
@@ -100,7 +100,7 @@ const onTagClickHandler = (tagIndex) => {
       }">
         <!-- Default list slot -->
         <template v-slot="{ list }">
-          <ul class="event-list">
+          <ul class="m-auto my-3 flex max-w-md flex-col gap-3">
             <li v-for="event in list" :key="event._path" class="event">
               <EventsEventCard :event="event" />
             </li>
@@ -116,16 +116,4 @@ const onTagClickHandler = (tagIndex) => {
   </main>
 </template>
 
-<style scoped>
-.page-heading {
-  @apply flex justify-center;
-}
-
-.page-section {
-  @apply max-w-xl m-auto;
-}
-
-.event-list {
-  @apply m-auto my-3 flex max-w-md flex-col gap-3;
-}
-</style>
+<style scoped></style>
