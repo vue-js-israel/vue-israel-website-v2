@@ -11,7 +11,13 @@ og-image: images/img2.png
 
 # Deployment Vue projects securely
 
-:static-tags{:tags=eventTags}
+<!-- :static-tags{:tags=eventTags} -->
+
+::event-tags
+
+##### Web, Development, Frameworks, Frontend, JavaScript, Vue.js
+
+::
 
 Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 
