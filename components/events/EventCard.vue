@@ -9,7 +9,15 @@
         <Icon name="mdi:map-marker-outline" />
         <p>{{ event.location }}</p>
       </div>
-      <StaticTags :tags="event.eventTags"/>
+      <div class="my-2 flex gap-1">
+        <span
+          class="rounded-md bg-gray-200 p-0.5 text-xs"
+          v-for="(tag, n) in event.eventTags"
+          :key="`tag-key-${tag}-${n}`"
+        >
+          {{ tag }}
+        </span>
+      </div>
     </div>
   </NuxtLink>
 </template>
@@ -24,11 +32,4 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.tag-container {
-  @apply flex gap-1 my-2;
-}
-
-.tag-container .tag {
-  @apply rounded-md bg-gray-200 p-0.5 text-xs;
-}
 </style>
