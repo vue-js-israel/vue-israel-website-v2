@@ -19,17 +19,13 @@ const flattenLinks = (links) => {
 };
 </script>
 <template>
-  <nav class="toc">
-    <header class="toc-header">
+  <nav class="rounded-lg border border-slate-200 bg-slate-50 p-4 max-h-[calc(100vh-6rem)] overflow-auto">
+    <header class="mb-2 border-b border-slate-200 pb-2">
       <h3 class="text-xl font-bold">Table of contents</h3>
     </header>
-    <ul class="toc-links">
+    <ul class="flex flex-col gap-2 px-2">
       <!-- render each link with depth class -->
-      <li
-        v-for="link of flattenLinks(links)"
-        :key="link.id"
-        :class="`toc-link _${link.depth}`"
-      >
+      <li v-for="link of flattenLinks(links)" :key="link.id" :class="`toc-link _${link.depth}`">
         <a :href="`#${link.id}`">
           {{ link.text }}
         </a>
@@ -39,18 +35,6 @@ const flattenLinks = (links) => {
 </template>
 
 <style scoped>
-.toc {
-  @apply rounded-lg border border-slate-200 bg-slate-50 p-4;
-  @apply max-h-[calc(100vh-6rem)] overflow-auto;
-}
-
-.toc-header {
-  @apply mb-2 border-b border-slate-200 pb-2;
-}
-
-.toc-links {
-  @apply flex flex-col gap-2 px-2;
-}
 
 .toc-link {
   @apply text-slate-500;
