@@ -1,7 +1,6 @@
 <script setup>
 import { addURLParams, removeURLParams } from '@/components/utils/urlUtils';
 
-
 useHead({
   title: "Vue.js Israel Events",
   meta: [
@@ -26,8 +25,6 @@ const flatten = (tags, key) => {
     .flat(1);
   return _tags;
 };
-
-
 
 const selectedTagsFromURL = () => {
   const { fullPath } = useRoute();
