@@ -7,13 +7,11 @@ eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/img2.png
 speakers:
   - name: Dudi Fedida
-    image: https://www.w3schools.com/howto/img_avatar.png
-    video: speakerVideo1
+    image: https://media.licdn.com/dms/image/D4D03AQG2LQlnGTei-Q/profile-displayphoto-shrink_800_800/0/1677607111258?e=1691625600&v=beta&t=esLBHbA4CrD_N8VI0KMPfDQd86ddNSOGN5CWQWPIi8E
     socialULR: https://www.linkedin.com/in/dudi-fedida-892b48113/
     company: Torq
   - name: Maya Shavin
     image: https://www.w3schools.com/howto/img_avatar2.png
-    video: speakerVideo3
     socialULR: https://www.linkedin.com/in/mayashavin/
     company: Microsoft
 ---
@@ -22,12 +20,8 @@ speakers:
 
 # Deployment Vue projects securely
 
-<!-- :static-tags{:tags=eventTags} -->
-
 ::event-tags
-
 ##### Web, Development, Frameworks, Frontend, JavaScript, Vue.js
-
 ::
 
 Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.

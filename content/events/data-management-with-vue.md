@@ -7,22 +7,57 @@ eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
 speakers:
   - name: Guy Passy
-    image: https://www.w3schools.com/howto/img_avatar.png
-    video: speakerVideo1
+    image: https://media.licdn.com/dms/image/C4D03AQFJcjlIeOgDdg/profile-displayphoto-shrink_800_800/0/1657400003176?e=1691625600&v=beta&t=nzqCQXqFBeFY6pHdNq5ABCtWHgNqOO50RHiZkW2j57g
+    video: https://www.youtube.com/embed/dQw4w9WgXcQ
     socialULR: https://www.linkedin.com/in/guy-passy-1923a62a/
     company: Semperis
   - name: Michael Salaverry
-    image: https://www.w3schools.com/w3images/avatar2.png
-    video: speakerVideo2
+    image: https://media.licdn.com/dms/image/D4E03AQEPY9BX6LsO7w/profile-displayphoto-shrink_800_800/0/1682950780064?e=1691625600&v=beta&t=RO1UGxFIewgtv2cf-J-3p027pbJpwtdRbWVvdSPSs38
+    video: https://www.youtube.com/embed/dQw4w9WgXcQ
     socialULR: https://www.linkedin.com/in/michaelsalaverry/
     company: Quris
+    slides:
+      {
+        link: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,
+        title: Unleashing the Power of Directus,
+      }
+  - name: Michael Salaverry
+    image: https://media.licdn.com/dms/image/D4E03AQEPY9BX6LsO7w/profile-displayphoto-shrink_800_800/0/1682950780064?e=1691625600&v=beta&t=RO1UGxFIewgtv2cf-J-3p027pbJpwtdRbWVvdSPSs38
+    video: https://www.youtube.com/embed/dQw4w9WgXcQ
+    socialULR: https://www.linkedin.com/in/michaelsalaverry/
+    company: Quris
+    slides:
+      {
+        link: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,
+        title: Unleashing the Power of Directus,
+      }
+  - name: Michael Salaverry
+    image: https://media.licdn.com/dms/image/D4E03AQEPY9BX6LsO7w/profile-displayphoto-shrink_800_800/0/1682950780064?e=1691625600&v=beta&t=RO1UGxFIewgtv2cf-J-3p027pbJpwtdRbWVvdSPSs38
+    video: https://www.youtube.com/embed/dQw4w9WgXcQ
+    socialULR: https://www.linkedin.com/in/michaelsalaverry/
+    company: Quris
+    slides:
+      {
+        link: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,
+        title: Unleashing the Power of Directus,
+      }
+  - name: Michael Salaverry
+    image: https://media.licdn.com/dms/image/D4E03AQEPY9BX6LsO7w/profile-displayphoto-shrink_800_800/0/1682950780064?e=1691625600&v=beta&t=RO1UGxFIewgtv2cf-J-3p027pbJpwtdRbWVvdSPSs38
+    video: https://www.youtube.com/embed/dQw4w9WgXcQ
+    socialULR: https://www.linkedin.com/in/michaelsalaverry/
+    company: Quris
+    slides:
+      {
+        link: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,
+        title: Unleashing the Power of Directus,
+      }
 ---
+
+<!-- Each speaker must have unique identifier-->
 
 ![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/events/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup - Semperis - 02.05.23")
 
 # Data Management with Vue
-
-<!-- :static-tags{:tags=eventTags} -->
 
 ::event-tags
 
