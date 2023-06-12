@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="`/speakers/${speakerNameParam}`">
+  <NuxtLink :to="`/speakers/${speaker.id}/${speakerNameParam}`">
     <div class="flex flex-col items-center justify-center bg-white">
       <img :src="speaker.image" :alt="`profile picture of ${speaker.name}`"
         class="md:h-36 h-64 rounded-3xl object-contain" />

@@ -1,6 +1,7 @@
 <template>
   <main class="max-w-6xl m-auto flex flex-col py-4 px-4 md:px-0">
-    <div class="flex flex-col justify-center items-center">
+    hello
+    <!-- <div class="flex flex-col justify-center items-center">
       <img :src="currentSpeaker.image" :alt="`${currentSpeaker.name}-profile-image`" class="w-72 rounded-full">
       <h1 class="text-4xl font-bold m-7">{{ currentSpeaker.name }}</h1>
       <div class="flex items-center gap-2">
@@ -9,7 +10,7 @@
             currentSpeaker.company
           }}</span>
         </p>
-        <a :href="currentSpeaker.socialULR" class="flex items-center">
+        <a :href="currentSpeaker.socialURL" class="flex items-center">
           <Icon name="mdi:linkedin" size="35" /><span class="text-2xl">Linkedin</span>
         </a>
       </div>
@@ -41,25 +42,37 @@
           {{ slide.title }}
         </a>
       </div>
-    </div>
+    </div> -->
   </main>
 </template>
 
 <script setup>
-import { getStructuredSpeakerData } from '@/components/utils/commonUtils'
 
-const { speaker } = useRoute().params
-const speakerName = ref(speaker[0].split('-').join(' '));
+const { speaker } = useRoute().params;
+const [id] = speaker;
 
-const speakers = await getStructuredSpeakerData();
-const currentSpeaker = speakers.find((speaker) => speaker.name === speakerName.value);
+const { data } = await useAsyncData(() =>
+  queryContent("events").only(["speakers"]).find()
+);
 
-useHead({
-  title: `${currentSpeaker.name} | Vue.js Israel`,
-  meta: [
-    { name: "description", content: "Vus.js Israel's speakers" },
-  ],
-});
+const filteredSpeakers = data.value.filter(mdFile => {
+  console.log("👾 ~ file: [...speaker].vue:59 ~ filteredSpeakers ~ speaker:", mdFile.speakers)
+  return mdFile.speakers.hasOwnProperty('_10')
+})
+
+console.log("👾 ~ file: [...speaker].vue:55 ~ data:", filteredSpeakers)
+
+// const speakerName = ref(speaker[0].split('-').join(' '));
+
+// const speakers = await getStructuredSpeakerData();
+// const currentSpeaker = speakers.find((speaker) => speaker.name === speakerName.value);
+
+// useHead({
+//   title: `${currentSpeaker.name} | Vue.js Israel`,
+//   meta: [
+//     { name: "description", content: "Vus.js Israel's speakers" },
+//   ],
+// });
 
 const hasSlides = computed(() => {
   /**

@@ -39,6 +39,9 @@ export const getStructuredSpeakerData = async () => {
   const { data } = await useAsyncData(() =>
     queryContent("events").only(["speakers", "title"]).find()
   );
-  const mergedSpeakers = _mergeSpeakerArrays(data.value);
-  return _mergeVideosAndEventsOfTheSameSpeaker(mergedSpeakers);
+  
+  console.log("👾 ~ file: commonUtils.js:44 ~ getStructuredSpeakerData ~ data.value:", data.value)
+  // const mergedSpeakers = _mergeSpeakerArrays(data.value);
+  // return _mergeVideosAndEventsOfTheSameSpeaker(mergedSpeakers);
+  return [];
 };

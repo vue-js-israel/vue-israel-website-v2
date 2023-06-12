@@ -24,7 +24,17 @@ useHead({
   ],
 });
 
-const speakers = await getStructuredSpeakerData();
+// const speakers = await getStructuredSpeakerData();
+// const speakers = []
+const { data } = await useAsyncData(() => queryContent("speakers").find());
+const [speakerListJson] = data.value
+const speakers = Object.entries(speakerListJson.speakers).map(([id, speaker]) => {
+  return {id,...speaker}
+})
+
+
+
+
 </script>
 
 <style scoped></style>
