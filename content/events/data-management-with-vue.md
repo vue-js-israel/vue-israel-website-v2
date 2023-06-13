@@ -5,17 +5,21 @@ date: "02 May 2023 18:00"
 location: "Semperis"
 eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
 og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
+poster: /images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg
 speakers:
   {
-    _10: { video: https://www.youtube.com/embed/dQw4w9WgXcQ },
+    _10:
+      {
+        slides: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        talkTitle: talk-title-4,
+        talkDescription: talk-description-4
+      },
     _11:
       {
-        video: https://www.youtube.com/embed/dQw4w9WgXcQ,
-        slides:
-          {
-            link: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,
-            title: Unleashing the Power of Directus,
-          },
+        videos: [https://www.youtube.com/embed/dQw4w9WgXcQ],
+        slides: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,
+        talkTitle: talk-title-5,
+        talkDescription: talk-description-5
       },
   }
 ---
