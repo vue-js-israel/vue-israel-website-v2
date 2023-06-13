@@ -1,47 +1,33 @@
-const _mergeVideosAndEventsOfTheSameSpeaker = (arr) => {
-  const mergedMap = new Map();
+export const getSpeakerData = async (id) => {
+  const { data } = await useAsyncData(() => queryContent("speakers").find());
 
-  for (const obj of arr) {
-    const existingObj = mergedMap.get(obj.name);
-
-    if (existingObj) {
-      existingObj.slides.push(obj.slides);
-      existingObj.video.push(obj.video);
-      existingObj.event.push(obj.event);
-    } else {
-      mergedMap.set(obj.name, {
-        ...obj,
-        slides: [obj.slides],
-        video: [obj.video],
-        event: [obj.event],
-      });
-    }
-  }
-
-  return Array.from(mergedMap.values());
+  const [speakersJsonFile] = data.value;
+  const { speakers } = speakersJsonFile;
+  return speakers[id];
 };
 
-const _mergeSpeakerArrays = (arr) => {
-  const array = arr.flatMap((obj) => {
-    const speakers =  obj.speakers.map((speaker)=>{
-        return {...speaker,event:obj.title}
-    })
-    return speakers
-  });
-
-  return array.reduce(
-    (mergedArray, currentArray) => mergedArray.concat(currentArray),
-    []
-  );
-};
-
-export const getStructuredSpeakerData = async () => {
+export const getSpeakerDataFromEvents = async (id) => {
   const { data } = await useAsyncData(() =>
-    queryContent("events").only(["speakers", "title"]).find()
+    queryContent("events").only(["speakers", "title","poster"]).find()
   );
-  
-  console.log("👾 ~ file: commonUtils.js:44 ~ getStructuredSpeakerData ~ data.value:", data.value)
-  // const mergedSpeakers = _mergeSpeakerArrays(data.value);
-  // return _mergeVideosAndEventsOfTheSameSpeaker(mergedSpeakers);
-  return [];
+
+  const _convertToEventLink = (eventTitle) => {
+    return eventTitle
+      .split(" ")
+      .map((word) => word.toLowerCase())
+      .join("-");
+  };
+
+  return data.value
+    .map(({ speakers, title,poster }) => {
+      if (speakers.hasOwnProperty(`_${id}`)) {
+        return {
+          ...speakers[`_${id}`],
+          title,
+          poster,
+          link: _convertToEventLink(title),
+        };
+      }
+    })
+    .filter((speakerData) => speakerData !== undefined);
 };

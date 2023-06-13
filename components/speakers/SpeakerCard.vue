@@ -1,8 +1,11 @@
 <template>
   <NuxtLink :to="`/speakers/${speaker.id}/${speakerNameParam}`">
     <div class="flex flex-col items-center justify-center bg-white">
-      <img :src="speaker.image" :alt="`profile picture of ${speaker.name}`"
-        class="md:h-36 h-64 rounded-3xl object-contain" />
+      <img
+        :src="speaker.image"
+        :alt="`profile picture of ${speaker.name}`"
+        class="h-64 rounded-3xl object-contain md:h-36"
+      />
       <h1 class="text-lg font-medium text-gray-500">
         {{ speaker.name }}
       </h1>
@@ -19,7 +22,10 @@ const props = defineProps({
 });
 
 const speakerNameParam = computed(() => {
-  return props.speaker.name.split(" ").join("-");
+  return props.speaker.name
+    .split(" ")
+    .map((word) => word.toLowerCase())
+    .join("-");
 });
 </script>
 
