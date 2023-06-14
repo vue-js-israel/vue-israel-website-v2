@@ -6,11 +6,14 @@
         :alt="`${speaker.name}-profile-image`"
         class="w-72 rounded-full"
       />
-      <h1 class="m-7 text-4xl font-bold">{{ speaker.name }}</h1>
+      <div class="my-4 text-center">
+        <h1 class="text-4xl font-bold">{{ speaker.name }}</h1>
+      <h1 class="text-xl">{{ speaker.title }}</h1>
+      </div>
       <div class="flex items-center gap-2">
         <p class="flex items-center">
           <Icon name="mdi:briefcase-outline" size="35" /><span
-            class="text-2xl"
+            class="text-xl"
             >{{ speaker.company }}</span
           >
         </p>
