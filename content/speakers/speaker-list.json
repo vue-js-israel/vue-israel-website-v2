@@ -2,24 +2,28 @@
     "speakers": {
         "10": {
             "name": "Guy Passy",
+            "title":"job title - 1",
             "image": "https://media.licdn.com/dms/image/C4D03AQFJcjlIeOgDdg/profile-displayphoto-shrink_800_800/0/1657400003176?e=1691625600&v=beta&t=nzqCQXqFBeFY6pHdNq5ABCtWHgNqOO50RHiZkW2j57g",
             "socialLinks": ["https://www.linkedin.com/in/guy-passy-1923a62a/","https://www.facebook.com/","https://www.github.com/"],
             "company": "Semperis"
         },
         "11": {
             "name": "Michael Salaverry",
+            "title":"job title - 2",
             "image": "https://media.licdn.com/dms/image/D4E03AQEPY9BX6LsO7w/profile-displayphoto-shrink_800_800/0/1682950780064?e=1691625600&v=beta&t=RO1UGxFIewgtv2cf-J-3p027pbJpwtdRbWVvdSPSs38",
             "socialLinks": ["https://www.linkedin.com/in/michaelsalaverry/"],
             "company": "Quris"
         },
         "12": {
             "name": "Dudi Fedida",
+            "title":"job title - 3",
             "image": "https://media.licdn.com/dms/image/D4D03AQG2LQlnGTei-Q/profile-displayphoto-shrink_800_800/0/1677607111258?e=1691625600&v=beta&t=esLBHbA4CrD_N8VI0KMPfDQd86ddNSOGN5CWQWPIi8E",
             "socialLinks": ["https://www.linkedin.com/in/dudi-fedida-892b48113/"],
             "company": "Torq"
         },
         "13": {
             "name": "Maya Shavin",
+            "title":"job title - 4",
             "image": "https://www.w3schools.com/howto/img_avatar2.png",
             "socialLinks": ["https://www.linkedin.com/in/mayashavin/"],
             "company": "Microsoft"
