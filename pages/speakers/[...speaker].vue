@@ -38,10 +38,10 @@
         <img
           :src="poster"
           :alt="`${speaker.name} Event Poster`"
-          class="h-96 justify-self-center"
+          class="md:h-96 h-64 justify-self-center"
         />
       </div>
-      <div class="grid max-w-md grid-cols-[1fr_2fr] p-2">
+      <div class="grid max-w-md md:grid-cols-[1fr_2fr] grid-cols-1 p-2">
         <h3 class="text-xl font-bold">Event:</h3>
         <NuxtLink class="" :to="`/events/${link}`">
           {{ title }}
@@ -53,9 +53,9 @@
         <h3 v-if="slides" class="text-xl font-bold">Event Slides:</h3>
         <NuxtLink v-if="slides" class="" :to="slides"> Link </NuxtLink>
       </div>
-      <div class="grid grid-cols-[1fr_7fr] p-2">
+      <div class="grid md:grid-cols-[1fr_2fr] grid-cols-1 p-2">
         <h3 v-if="videos" class="text-xl font-bold">Event Video:</h3>
-        <div class="grid grid-cols-3 gap-2">
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-2">
           <iframe
             v-for="video in videos"
             :key="video"
@@ -85,8 +85,6 @@ const speaker = {
   ...(await getSpeakerData(id)),
   events: await getSpeakerDataFromEvents(id),
 };
-
-console.log("😊", speaker);
 
 useHead({
   title: `${speaker.name} | Vue.js Israel`,
