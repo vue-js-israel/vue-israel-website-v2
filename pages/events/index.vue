@@ -72,6 +72,11 @@ const onTagClickHandler = (tagIndex) => {
     removeURLParams('tags')
   }
 }
+
+const onTagEventClickHandler = (eventTag) => {
+  const tagIndex = eventTags.value.findIndex((mainTag) => eventTag === mainTag.title)
+  onTagClickHandler(tagIndex)
+}
 </script>
 
 <template>
@@ -99,7 +104,7 @@ const onTagClickHandler = (tagIndex) => {
         <template v-slot="{ list }">
           <ul class="m-auto my-3 flex max-w-md flex-col gap-3">
             <li v-for="event in list" :key="event._path" class="event">
-              <EventsEventCard :event="event" />
+              <EventsEventCard :event="event" :selectedTags="selectedTags" @tag-click="onTagEventClickHandler"/>
             </li>
           </ul>
         </template>

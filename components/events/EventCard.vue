@@ -9,27 +9,34 @@
         <Icon name="mdi:map-marker-outline" />
         <p>{{ event.location }}</p>
       </div>
-      <div class="my-2 flex gap-1">
-        <span
-          class="rounded-md bg-gray-200 p-0.5 text-xs"
-          v-for="(tag, n) in event.eventTags"
-          :key="`tag-key-${tag}-${n}`"
-        >
-          {{ tag }}
-        </span>
-      </div>
+      <EventTags
+        :tags="event.eventTags"
+        :selectedTags="selectedTags"
+        @tag-click="
+          (tag) => {
+            emit('tagClick', tag);
+          }
+        "
+      />
     </div>
   </NuxtLink>
 </template>
 
 <script setup>
+const emit = defineEmits(["tagClick"]);
+
 const props = defineProps({
   event: {
     type: Object,
     require: true,
   },
+  selectedTags : {
+    type: Object,
+    default: () => [],
+  },
 });
+
+
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
