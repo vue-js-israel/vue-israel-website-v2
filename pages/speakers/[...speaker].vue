@@ -24,25 +24,17 @@
         </div>
       </div>
     </div>
-    <div
-      v-for="{
-        link,
-        title,
-        videos,
-        slides,
-        talkTitle,
-        talkDescription,
-        poster,
-      } in speaker.events"
-      :key="title"
-      class="mt-8"
-    >
+    <div v-for="{
+      link,
+      title,
+      videos,
+      slides,
+      talkTitle,
+      talkDescription,
+      poster,
+    } in speaker.events" :key="title" class="mt-8">
       <div class="w-md grid p-2">
-        <img
-          :src="poster"
-          :alt="`${speaker.name} Event Poster`"
-          class="md:h-96 h-64 justify-self-center"
-        />
+        <img :src="poster" :alt="`${speaker.name} Event Poster`" class="md:h-96 md:w-auto w-screen justify-self-center" />
       </div>
       <div class="grid max-w-md md:grid-cols-[1fr_2fr] grid-cols-1 p-2">
         <h3 class="text-xl font-bold">Event:</h3>
@@ -59,16 +51,10 @@
       <div class="grid md:grid-cols-[1fr_2fr] grid-cols-1 p-2">
         <h3 v-if="videos" class="text-xl font-bold">Event Video:</h3>
         <div class="grid md:grid-cols-3 grid-cols-1 gap-2">
-          <iframe
-            v-for="video in videos"
-            :key="video"
-            :src="video"
-            class="w-full"
-            title="YouTube video player"
+          <iframe v-for="video in videos" :key="video" :src="video" class="w-full" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+            allowfullscreen></iframe>
         </div>
       </div>
       <hr />
