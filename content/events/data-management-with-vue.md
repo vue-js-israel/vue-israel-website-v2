@@ -3,7 +3,7 @@ title: "Data Management with Vue"
 description: "Vue Israel Meetup"
 date: "02 May 2023 18:00"
 location: "Semperis"
-eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
+eventTags: [Vue.js,Web, Development, Frameworks, Frontend, JavaScript]
 og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
 poster: /images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg
 speakers:
@@ -28,11 +28,7 @@ speakers:
 
 # Data Management with Vue
 
-::event-tags
-
-##### Web, Development, Frameworks, Frontend, JavaScript, Vue.js
-
-::
+<EventTags :tags="eventTags"></EventTags>
 
 Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 

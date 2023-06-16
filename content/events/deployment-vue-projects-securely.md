@@ -41,11 +41,7 @@ speakers:
 
 # Deployment Vue projects securely
 
-::event-tags
-
-##### Web, Development, Frameworks, Frontend, JavaScript, Vue.js
-
-::
+<EventTags :tags="eventTags"></EventTags>
 
 Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 
