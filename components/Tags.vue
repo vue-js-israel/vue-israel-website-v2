@@ -1,13 +1,12 @@
 <script setup>
-
 const props = defineProps({
   tags: {
     type: Array,
     required: true,
-  }
-})
+  },
+});
 
-const emit = defineEmits(['tagClick'])
+const emit = defineEmits(["tagClick"]);
 
 // tag list state
 const expanded = ref(false);
@@ -18,52 +17,36 @@ const toggleExpand = () => {
 };
 
 const onTagClickHandler = (tagIndex) => {
-  emit('tagClick',tagIndex);
-}
+  emit("tagClick", tagIndex);
+};
 </script>
+
 <template>
-  <div class="tag-list">
+  <div class="flex flex-col gap-2 rounded-lg p-4 md:flex-row md:items-center">
     <!-- Button to toggle expand -->
-    <button @click="toggleExpand" class="tag-button">
+    <button
+      @click="toggleExpand"
+      class="flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 p-1.5 px-2 pr-3 font-semibold transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner"
+    >
       <Icon name="mdi:tag-outline" />
       <span>Tags</span>
     </button>
-    <ul class="event-tags" :class="{ expanded: expanded }">
+    <ul
+      class="grid max-h-0 select-none grid-cols-3 gap-2 overflow-hidden transition-all md:max-h-max md:max-w-0 md:grid-cols-4 md:py-2"
+      :class="{ 'max-h-max py-2 md:max-w-full md:py-2': expanded }"
+    >
       <!-- list out tags with links -->
-      <li v-for="(tag, index) in tags" :key="`${tag}-${index}`" @click="onTagClickHandler(index)" class="tag"
-        :class="{ selected: tag.selected }">
+      <li
+        v-for="(tag, index) in tags"
+        :key="`${tag}-${index}`"
+        @click="onTagClickHandler(index)"
+        class="rounded-md bg-slate-100 p-2 py-1 text-center text-sm text-slate-700 transition-all hover:-translate-y-0.5"
+        :class="{ 'bg-slate-400': tag.selected }"
+      >
         <a>{{ tag.title }}</a>
       </li>
     </ul>
   </div>
 </template>
 
-<style scoped>
-.tag-button {
-  @apply rounded-lg border border-slate-200 bg-slate-50 p-1.5 px-2 font-semibold;
-  @apply transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner;
-  @apply flex items-center gap-2 pr-3;
-}
-.tag-list {
-  @apply flex flex-col gap-2 p-4 rounded-lg ;
-  @apply md:items-center md:flex-row;
-}
-.event-tags {
-  @apply grid grid-cols-3 transition-all max-h-0 overflow-hidden gap-2;
-  @apply select-none;
-  @apply md:max-w-0 md:max-h-max md:grid-cols-4 md:py-2;
-}
-.event-tags .tag {
-  @apply rounded-md bg-slate-100 p-2 py-1 text-sm text-slate-700;
-  @apply py-0.5 transition-all hover:-translate-y-0.5;
-  @apply text-center;
-}
-.event-tags .tag.selected {
-  @apply bg-slate-400;
-}
-
-.event-tags.expanded {
-  @apply max-h-max py-2;
-  @apply md:max-w-full md:py-2;
-}
-</style>
+<style scoped></style>

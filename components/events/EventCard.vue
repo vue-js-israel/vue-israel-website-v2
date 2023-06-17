@@ -9,26 +9,34 @@
         <Icon name="mdi:map-marker-outline" />
         <p>{{ event.location }}</p>
       </div>
-      <StaticTags :tags="event.eventTags"/>
+      <EventTags
+        :tags="event.eventTags"
+        :selectedTags="selectedTags"
+        @tag-click="
+          (tag) => {
+            emit('tagClick', tag);
+          }
+        "
+      />
     </div>
   </NuxtLink>
 </template>
 
 <script setup>
+const emit = defineEmits(["tagClick"]);
+
 const props = defineProps({
   event: {
     type: Object,
     require: true,
   },
+  selectedTags : {
+    type: Object,
+    default: () => [],
+  },
 });
+
+
 </script>
 
-<style scoped>
-.tag-container {
-  @apply flex gap-1 my-2;
-}
-
-.tag-container .tag {
-  @apply rounded-md bg-gray-200 p-0.5 text-xs;
-}
-</style>
+<style scoped></style>

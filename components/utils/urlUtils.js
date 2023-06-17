@@ -4,7 +4,8 @@ export const addURLParams = (key, value) => {
   url.searchParams.set(key, value);
   // Replace the current URL with the updated decode URL
   const decodedURL = decodeURIComponent(url.toString());
-  history.replaceState(null, null, decodedURL);
+  const preservedState = history.state
+  history.replaceState(preservedState, null, decodedURL);
 };
 
 export const removeURLParams = (key) => {
@@ -14,5 +15,6 @@ export const removeURLParams = (key) => {
   searchParams.delete(key);
   const newUrl = url.origin + url.pathname + searchParams.toString();
   // Replace the current URL with the new URL
-  history.replaceState(null, "", newUrl);
+  const preservedState = history.state
+  history.replaceState(preservedState, "", newUrl);
 };

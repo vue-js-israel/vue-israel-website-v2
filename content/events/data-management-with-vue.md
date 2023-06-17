@@ -3,15 +3,32 @@ title: "Data Management with Vue"
 description: "Vue Israel Meetup"
 date: "02 May 2023 18:00"
 location: "Semperis"
-eventTags: [Web, Development, Frameworks, Frontend, JavaScript, Vue.js]
+eventTags: [Vue.js,Web, Development, Frameworks, Frontend, JavaScript]
 og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
+poster: /images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg
+speakers:
+  {
+    si_10:
+      {
+        slides: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        talkTitle: talk-title-4,
+        talkDescription: talk-description-4
+      },
+    si_20:
+      {
+        videos: [https://www.youtube.com/embed/dQw4w9WgXcQ],
+        slides: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,
+        talkTitle: talk-title-5,
+        talkDescription: talk-description-5
+      },
+  }
 ---
 
-![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup - Semperis - 02.05.23")
+![Vue.js Israel Official Meetup 02.05.23 | 18:00 - 21:00](/images/events/Vue.js-Israel-meetup-Semperis-02.05.23.png "Vue.js Israel Meetup - Semperis - 02.05.23")
 
 # Data Management with Vue
 
-:static-tags{:tags=eventTags}
+<EventTags :tags="eventTags"></EventTags>
 
 Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift.
 
