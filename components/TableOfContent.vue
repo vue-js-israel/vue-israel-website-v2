@@ -19,7 +19,7 @@ const flattenLinks = (links) => {
 };
 </script>
 <template>
-  <nav class="rounded-lg border border-slate-200 bg-slate-50 p-4 max-h-[calc(100vh-6rem)] overflow-auto">
+  <nav class="toc">
     <header class="mb-2 border-b border-slate-200 pb-2">
       <h3 class="text-xl font-bold">Table of contents</h3>
     </header>
@@ -35,6 +35,10 @@ const flattenLinks = (links) => {
 </template>
 
 <style scoped>
+.toc {
+  @apply rounded-lg border border-slate-200 bg-slate-50 p-4;
+  @apply max-h-[calc(100vh-6rem)] overflow-auto;
+}
 
 .toc-link {
   @apply text-slate-500;
