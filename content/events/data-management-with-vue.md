@@ -8,13 +8,13 @@ og-image: images/Vue.js Israel meetup - Semperis - 02.05.23.png
 poster: /images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg
 speakers:
   {
-    _10:
+    si_10:
       {
         slides: "https://www.youtube.com/embed/dQw4w9WgXcQ",
         talkTitle: talk-title-4,
         talkDescription: talk-description-4
       },
-    _11:
+    si_20:
       {
         videos: [https://www.youtube.com/embed/dQw4w9WgXcQ],
         slides: https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing,

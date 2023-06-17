@@ -8,7 +8,7 @@ og-image: images/img2.png
 poster: /images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg
 speakers:
   {
-    _10:
+    si_10:
       {
         videos:
           [
@@ -20,14 +20,14 @@ speakers:
         talkTitle: talk-title-1,
         talkDescription: talk-description-1,
       },
-    _12:
+    si_30:
       {
         videos: [https://www.youtube.com/embed/dQw4w9WgXcQ],
         slides: "https://www.youtube.com/embed/dQw4w9WgXcQ",
         talkTitle: talk-title-2,
         talkDescription: talk-description-2,
       },
-    _13:
+    si_40:
       {
         videos: [https://www.youtube.com/embed/dQw4w9WgXcQ],
         slides: "https://www.youtube.com/embed/dQw4w9WgXcQ",

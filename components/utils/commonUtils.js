@@ -20,9 +20,9 @@ export const getSpeakerDataFromEvents = async (id) => {
 
   return data.value
     .map(({ speakers, title,poster }) => {
-      if (speakers.hasOwnProperty(`_${id}`)) {
+      if (speakers.hasOwnProperty(id)) {
         return {
-          ...speakers[`_${id}`],
+          ...speakers[id],
           title,
           poster,
           link: _convertToEventLink(title),
