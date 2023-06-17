@@ -3,7 +3,7 @@
     <header class="flex justify-center">
       <div>
         <h1 class="text-5xl font-extrabold">Speakers</h1>
-        <p class="text-lg font-medium">Speakers of Vus.JS Israel</p>
+        <p class="text-lg font-medium">Vue.js Israel community speakers</p>
       </div>
     </header>
     <section class="m-auto py-2 md:max-w-xl max-w-sm grid md:grid-cols-3 grid-cols-1 gap-4">
