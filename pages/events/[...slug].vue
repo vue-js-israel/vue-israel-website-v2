@@ -67,6 +67,6 @@ useHead({
   @apply px-4 pt-8 col-span-full md:col-start-8 md:col-end-10 md:pt-12;
 }
 
-.aside .toc {
+.aside nav#toc {
   @apply sticky top-20;
 }</style>
