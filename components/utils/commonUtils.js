@@ -8,7 +8,7 @@ export const getSpeakerData = async (id) => {
 
 export const getSpeakerDataFromEvents = async (id) => {
   const { data } = await useAsyncData(() =>
-    queryContent("events").only(["speakers", "title","poster"]).find()
+    queryContent("events").only(["speakers", "title", "poster", "date"]).find()
   );
 
   const _convertToEventLink = (eventTitle) => {
@@ -19,12 +19,13 @@ export const getSpeakerDataFromEvents = async (id) => {
   };
 
   return data.value
-    .map(({ speakers, title,poster }) => {
+    .map(({ speakers, title, poster, date }) => {
       if (speakers.hasOwnProperty(id)) {
         return {
           ...speakers[id],
           title,
           poster,
+          date,
           link: _convertToEventLink(title),
         };
       }

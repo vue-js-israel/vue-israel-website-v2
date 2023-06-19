@@ -20,6 +20,7 @@
     <div v-for="{
       link,
       title,
+      date,
       videos,
       slides,
       talkTitle,
@@ -34,6 +35,8 @@
         <NuxtLink class="" :to="`/events/${link}`">
           {{ title }}
         </NuxtLink>
+        <h3 class="text-xl font-bold">Date:</h3>
+        <p>{{ date }}</p>
         <h3 class="text-xl font-bold">Topic:</h3>
         <p>{{ talkTitle }}</p>
         <h3 class="text-xl font-bold">Description:</h3>
