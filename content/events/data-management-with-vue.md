@@ -42,8 +42,8 @@ Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us wi
 
 ---
 
-- [Guy Passy - Semperis](https://www.linkedin.com/in/guy-passy-1923a62a/)
-- [Michael Salaverry - Quris](https://www.linkedin.com/in/michaelsalaverry/)
+- [Guy Passy - Semperis](/speakers/si_10/guy-passy)
+- [Michael Salaverry - Quris](/speakers/si_20/michael-salaverry)
 
 ## 📹The full playlist
 

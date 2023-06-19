@@ -8,18 +8,6 @@ og-image: images/img2.png
 poster: /images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg
 speakers:
   {
-    si_10:
-      {
-        videos:
-          [
-            https://www.youtube.com/embed/dQw4w9WgXcQ,
-            https://www.youtube.com/embed/dQw4w9WgXcQ,
-            https://www.youtube.com/embed/dQw4w9WgXcQ,
-            https://www.youtube.com/embed/dQw4w9WgXcQ,
-          ],
-        talkTitle: talk-title-1,
-        talkDescription: talk-description-1,
-      },
     si_30:
       {
         videos: [https://www.youtube.com/embed/dQw4w9WgXcQ],
@@ -51,8 +39,8 @@ Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and 
 
 ## 📢 Speakers
 
-- [Dudi Fedida - Torq](https://www.linkedin.com/in/dudi-fedida-892b48113/)
-- [Maya Shavin - Microsoft](https://www.linkedin.com/in/mayashavin/)
+- [Dudi Fedida - Torq](/speakers/si_30/dudi-fedida)
+- [Maya Shavin - Microsoft](/speakers/si_40/maya-shavin)
 
 ## 📹The full playlist
 
