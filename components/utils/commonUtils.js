@@ -6,6 +6,14 @@ export const getSpeakerData = async (id) => {
   return speakers[id];
 };
 
+export const getSpeakersList = async () => {
+  const { data } = await useAsyncData(() => queryContent("speakers").find());
+  const [speakerListJson] = data.value;
+  return Object.entries(speakerListJson.speakers).map(([id, speaker]) => {
+    return { id, ...speaker };
+  });
+};
+
 export const getSpeakerDataFromEvents = async (id) => {
   const { data } = await useAsyncData(() =>
     queryContent("events").only(["speakers", "title", "poster", "date"]).find()
