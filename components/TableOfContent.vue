@@ -3,20 +3,21 @@
 defineProps(["links"]);
 
 // flatten TOC links nested arrays to one array
-const flattenLinks = (links) => {
-  let _links = links
-    .map((link) => {
-      let _link = [link];
-      if (link.children) {
-        // recursively flatten children links
-        let flattened = flattenLinks(link.children);
-        _link = [link, ...flattened];
-      }
-      return _link;
-    })
-    .flat(1);
-  return _links;
-};
+// const flattenLinks = (links) => {
+//   let _links = links
+//     .map((link) => {
+//       let _link = [link];
+//       if (link.children) {
+//         // recursively flatten children links
+//         let flattened = flattenLinks(link.children);
+//         _link = [link, ...flattened];
+//       }
+//       return _link;
+//     })
+//     .flat(1);
+//     console.log("👾 ~ file: TableOfContent.vue:20 ~ flattenLinks ~ _links:", _links)
+//   return _links;
+// };
 </script>
 <template>
   <nav class="rounded-lg border border-slate-200 bg-slate-50 p-4 max-h-[calc(100vh-6rem)] overflow-auto sticky top-20">
@@ -25,7 +26,7 @@ const flattenLinks = (links) => {
     </header>
     <ul class="flex flex-col gap-2 px-2">
       <!-- render each link with depth class -->
-      <li v-for="link of flattenLinks(links)" :key="link.id" :class="`toc-link _${link.depth}`">
+      <li v-for="link of links" :key="link.id" :class="`toc-link _${link.depth}`">
         <a :href="`#${link.id}`">
           {{ link.text }}
         </a>
