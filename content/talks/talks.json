@@ -1,0 +1,33 @@
+{
+  "talks": [
+    {
+      "speakerIds": ["si_10,si_30"],
+      "_______speakerPageLink": "/speakers/si_10/guy-passy",
+      "slides": {
+        "title": "slide-title",
+        "link": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      },
+      "talkTitle": "talk-title-4",
+      "talkDescription": "talk-description-4",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      }
+    },
+    {
+      "speakerIds": ["si_20"],
+      "speakerPageLink": "/speakers/si_20/michael-salaverry",
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
+        "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
+      },
+      "talkTitle": "talk-title-5",
+      "talkDescription": "talk-description-5",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "events": [
+    {
+      "eventId": "event-id-10",
+      "metaData": {
+        "title": "",
+        "description": "",
+        "image": ""
+      },
+      "eventPoster": {
+        "src": "/images/events/Vue.js-Israel-meetup-Torq-27.02.23.png",
+        "alt": "Vue.js Israel Official Meetup - Semperis - 02.05.23"
+      },
+      "eventTags": [
+        "Vue.js",
+        "Web",
+        "Development",
+        "Frameworks",
+        "Frontend",
+        "JavaScript"
+      ],
+      "eventDate": "02 May 2023 18:00",
+      "eventLocationName": "Semperis",
+      "eventTitle": "Data Management with Vue",
+      "mainContent": {
+        "type": "markdown",
+        "value": [
+          "Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+        ]
+      },
+      "sections": [
+        {
+          "sectionId": "photos",
+          "sectionTitle": "📷 Photos",
+          "sectionContent": {
+            "type": "markdown",
+            "value": ["array", "of", "photos"]
+          }
+        },
+        {
+          "sectionId": "speakers",
+          "sectionTitle": "📢 Speakers",
+          "sectionContent": {
+            "value": ["speaker-id-10", "speaker-id-20"]
+          }
+        },
+        {
+          "sectionId": "videos",
+          "sectionTitle": "📹 The full playlist",
+          "sectionContent": {
+            "value": ["array", "of", "videos"]
+          }
+        },
+        {
+          "sectionId": "agenda",
+          "sectionTitle": "📆 Agenda",
+          "sectionContent": {
+            "value": [
+              {
+                "timeSlot": "18:00 - 18:20",
+                "title": "Welcome & Networking"
+              },
+              {
+                "timeSlot": "18:20 - 18:30",
+                "title": "Keynotes"
+              },
+              {
+                "timeSlot": "18:30 - 19:00",
+                "speakerId": "speaker talk / speaker name / speaker company"
+              },
+              {
+                "title": "Short Break"
+              },
+              {
+                "timeSlot": "19:30 - 20:00",
+                "speakerId": "speaker talk / speaker name / speaker company"
+              },
+              {
+                "timeSlot": "20:05 - 20:15",
+                "title": "Networking - Q&A"
+              },
+              {
+                "timeSlot": "20:15 - 20:35",
+                "title": "GIFT time for the lucky attendees 🎁"
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": "venue",
+          "sectionTitle": "🏢 The venue",
+          "sectionContent": {
+            "type": "markdown",
+            "value": ["Semperis, Shoham 2, Ramat Gan"]
+          }
+        },
+        {
+          "sectionId": "sponsors",
+          "sectionTitle": "❤️ Sponsors",
+          "sectionContent": {
+            "type": "markdown",
+            "value": [
+              "Our meetup host & Gift sponsor: [Semperis](https://www.semperis.com/)",
+              "Gift sponsor: [Vue School](https://vueschool.io/)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "event-id-10",
+      "metaData": {
+        "title": "",
+        "description": "",
+        "image": ""
+      },
+      "eventPoster": {
+        "src": "/images/events/Vue.js-Israel-meetup-Torq-27.02.23.png",
+        "alt": "Vue.js Israel Official Meetup - Semperis - 02.05.23"
+      },
+      "eventTags": [
+        "Vue.js",
+        "Web",
+        "Development",
+        "Frameworks",
+        "Frontend",
+        "JavaScript"
+      ],
+      "eventDate": "02 May 2023 18:00",
+      "eventLocationName": "Semperis",
+      "eventTitle": "Data Management with Vue - 2",
+      "mainContent": {
+        "type": "markdown",
+        "value": [
+          "Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+        ]
+      },
+      "sections": [
+        {
+          "sectionId": "photos",
+          "sectionTitle": "📷 Photos",
+          "sectionContent": {
+            "type": "markdown",
+            "value": ["array", "of", "photos"]
+          }
+        },
+        {
+          "sectionId": "speakers",
+          "sectionTitle": "📢 Speakers",
+          "sectionContent": {
+            "value": ["speaker-id-10", "speaker-id-20"]
+          }
+        },
+        {
+          "sectionId": "videos",
+          "sectionTitle": "📹 The full playlist",
+          "sectionContent": {
+            "value": ["array", "of", "videos"]
+          }
+        },
+        {
+          "sectionId": "agenda",
+          "sectionTitle": "📆 Agenda",
+          "sectionContent": {
+            "value": [
+              {
+                "timeSlot": "18:00 - 18:20",
+                "title": "Welcome & Networking"
+              },
+              {
+                "timeSlot": "18:20 - 18:30",
+                "title": "Keynotes"
+              },
+              {
+                "timeSlot": "18:30 - 19:00",
+                "speakerId": "speaker talk / speaker name / speaker company"
+              },
+              {
+                "title": "Short Break"
+              },
+              {
+                "timeSlot": "19:30 - 20:00",
+                "speakerId": "speaker talk / speaker name / speaker company"
+              },
+              {
+                "timeSlot": "20:05 - 20:15",
+                "title": "Networking - Q&A"
+              },
+              {
+                "timeSlot": "20:15 - 20:35",
+                "title": "GIFT time for the lucky attendees 🎁"
+              }
+            ]
+          }
+        },
+        {
+          "sectionId": "venue",
+          "sectionTitle": "🏢 The venue",
+          "sectionContent": {
+            "type": "markdown",
+            "value": ["Semperis, Shoham 2, Ramat Gan"]
+          }
+        },
+        {
+          "sectionId": "sponsors",
+          "sectionTitle": "❤️ Sponsors",
+          "sectionContent": {
+            "type": "markdown",
+            "value": [
+              "Our meetup host & Gift sponsor: [Semperis](https://www.semperis.com/)",
+              "Gift sponsor: [Vue School](https://vueschool.io/)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
