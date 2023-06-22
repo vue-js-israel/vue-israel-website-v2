@@ -1,15 +1,14 @@
 export const getSpeakerData = async (id) => {
-  const { data } = await useAsyncData(() => queryContent("speakers").find());
-
-  const [speakersJsonFile] = data.value;
-  const { speakers } = speakersJsonFile;
+  const { data } = await useAsyncData(() => queryContent("/").where({_path:"/speakers"}).findOne());
+  const {speakers} = data.value;
   return speakers[id];
 };
 
 export const getSpeakersList = async () => {
-  const { data } = await useAsyncData(() => queryContent("speakers").find());
-  const [speakerListJson] = data.value;
-  return Object.entries(speakerListJson.speakers).map(([id, speaker]) => {
+  const { data } = await useAsyncData(() => queryContent("/").where({_path:"/speakers"}).findOne());
+  console.log("👾 ~ file: commonUtils.js:11 ~ getSpeakersList ~ data:", data.value)
+  const {speakers} = data.value;
+  return Object.entries(speakers).map(([id, speaker]) => {
     return { id, ...speaker };
   });
 };

@@ -18,3 +18,15 @@ export const removeURLParams = (key) => {
   const preservedState = history.state
   history.replaceState(preservedState, "", newUrl);
 };
+
+export const addURLSuffix = (suffix) => {
+  const url = new URL(window.location.href);
+  const decodedURL = decodeURIComponent(url.toString());
+
+  if(decodedURL.includes(suffix)){
+    return;
+  }
+
+  const preservedState = history.state
+  history.replaceState(preservedState, null, `${decodedURL}/${suffix}`);
+}

@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="`/events/${eventRoute}`">
+  <NuxtLink :to="`/events/${event.eventId}`">
     <div class="rounded-lg bg-white p-6 shadow-md">
       <h3 class="text-sm font-medium text-gray-500">
         {{ event.eventDate }}
@@ -35,13 +35,6 @@ const props = defineProps({
     default: () => [],
   },
 });
-
-console.log("📷",props.event);
-
-
-const eventRoute = computed(()=>{
-  return props.event.eventTitle.split(' ').map(word => word.toLowerCase()).join('-')
-})
 
 </script>
 

@@ -1,66 +1,43 @@
 <script setup>
-const { path } = useRoute();
-// const { data } = await useAsyncData(`content-${path}`, async () => {
-const { data } = await useAsyncData(`content-${path}`, async () => {
-  // fetch document where the document path matches with the current route
-  const event = queryContent().where({ _path: path }).findOne();
+import { events } from "@/content/events.json";
+import { addURLSuffix } from "@/components/utils/urlUtils";
 
-  return {
-    event: await event,
-  };
-});
+onMounted(() => {
+  const eventTitleUrl = event.value.eventTitle.split(' ').map(word => word.toLowerCase()).join('-')
+  addURLSuffix(eventTitleUrl);
+})
 
-const toc = [
-  {
-    "id": "photos",
-    "depth": 2,
-    "text": "📷 Photos"
-  },
-  {
-    "id": "speakers",
-    "depth": 2,
-    "text": "📢 Speakers"
-  },
-  {
-    "id": "the-full-playlist",
-    "depth": 2,
-    "text": "📹The full playlist"
-  },
-  {
-    "id": "agenda",
-    "depth": 2,
-    "text": "📆 Agenda"
-  },
-  {
-    "id": "the-venue",
-    "depth": 2,
-    "text": "🏢 The venue"
-  },
-  {
-    "id": "sponsors",
-    "depth": 2,
-    "text": "❤️ Sponsors"
-  }
-]
+const eventId = computed(() => {
+  const { path } = useRoute();
+  const [, , eventId] = path.split('/');
+  return eventId;
+})
 
-import { getSpeakersList } from "@/components/utils/commonUtils";
-const speakers = await getSpeakersList();
+const event = computed(() => {
+  return events.find(event => event.eventId === eventId.value)
+})
+console.log("👾 ~ file: [...slug].vue:19 ~ event ~ event:", event.value)
+
+const toc = event.value.sections.map((section) => { return { id: section.sectionId, depth: 2, text: section.sectionTitle } })
+
+// import { getSpeakersList } from "@/components/utils/commonUtils";
+// const speakers = await getSpeakersList();
 
 //Returns the speakers main information of the current event from the speakers-json
-const eventSpeakers = speakers
-  .map((speaker) => {
-    const speakerId = Object.keys(data.value.event.speakers).find(
-      (speakerId) => speakerId === speaker.id
-    );
-    return speakerId ? speaker : undefined;
-  })
-  .filter((eventSpeaker) => eventSpeaker !== undefined);
+// const eventSpeakers = speakers
+//   .map((speaker) => {
+//     const speakerId = Object.keys(data.value.event.speakers).find(
+//       (speakerId) => speakerId === speaker.id
+//     );
+//     return speakerId ? speaker : undefined;
+//   })
+//   .filter((eventSpeaker) => eventSpeaker !== undefined);
 
 // set the meta
 useHead({
-  title: `Vue.js Israel | ${data.value.event.title}`,
+  title: `Vue.js Israel | ${event.value.metaData.title}`,
   meta: [
-    { name: "description", content: data.value.event.description },
+    { name: "description", content: event.value.metaData.description },
   ],
 });
 </script>
@@ -75,18 +52,45 @@ useHead({
         class="prose col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
 
-        <img :src="data.event.eventPoster.src" :alt="data.event.eventPoster.alt" />
-        <h1 class="my-8 text-4xl font-bold">{{ data.event.title }}</h1>
-        <EventTags :tags="data.event.eventTags" />
-        <MarkdownContent :value="data.event.mainContent" class="my-6 text-lg" />
+        <img :src="event.eventPoster.src" :alt="event.eventPoster.alt" />
+        <h1 class="my-8 text-4xl font-bold">{{ event.eventTitle }}</h1>
+        <EventTags :tags="event.eventTags" />
+        <MarkdownContent v-for="line in event.mainContent.value" :key="line" :value="line" class="my-6 text-lg" />
 
-        <div class="mt-12">
+        <div v-for="{ sectionId, sectionContent, sectionTitle } in event.sections" :key="sectionId">
+
+          <a :id="sectionId" class="text-2xl font-medium" :href="`#${sectionId}`">{{ sectionTitle }}</a>
+          <hr class="md:mb-12 mb-6" />
+
+          <div v-if="sectionContent.type === 'markdown'" class="mt-12">
+            <MarkdownContent v-for="line in sectionContent.value" :key="line" :value="line" class="my-2" />
+            <div v-if="sectionId === 'venue'">
+              <p>👉 <strong>Date</strong>: {{ event.eventDate }}</p>
+            </div>
+          </div>
+
+
+          <p v-else-if="sectionId === 'agenda'" v-for="{ timeSlot, title, speakerId } in sectionContent.value" :key="title">
+            <strong>{{ `${timeSlot ?? ''} ` }}</strong>
+            <span v-if="speakerId">
+              {{ speakerId }}
+            </span>
+            <span v-else>
+              {{ title }}
+            </span>
+          
+            
+          </p>
+
+        </div>
+
+        <!-- <div class="mt-12">
           <a id="photos" class="text-2xl font-medium" href="#photos">📷 Photos</a>
           <hr class="md:mb-12 mb-6" />
           <p><a :href="data.event.photos.link" class="text-lg">Event Photos</a></p>
-        </div>
+        </div> -->
 
-        <div class="mt-12">
+        <!-- <div class="mt-12">
           <a id="speakers" class="text-2xl font-medium" href="#speakers">📢 Speakers</a>
           <hr class="md:mb-12 mb-6" />
           <ul>
@@ -95,31 +99,21 @@ useHead({
                               ${speaker.company}` }}</a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <div class="mt-12">
+        <!-- <div class="mt-12">
           <a id="the-full-playlist" class="text-2xl font-medium" href="#the-full-playlist">📹The full playlist</a>
           <hr class="md:mb-12 mb-6" />
-        </div>
+        </div> -->
 
-        <div class="mt-12">
-          <a id="agenda" class="text-2xl font-medium" href="#agenda">📆 Agenda</a>
-          <hr class="md:mb-12 mb-6" />
-          <MarkdownContent v-for="line in data.event.agenda" :key="line" :value="line" class="my-2" />
-        </div>
 
-        <div class="mt-12">
+
+        <!-- <div class="mt-12">
           <a id="the-venue" class="text-2xl font-medium" href="#the-venue">🏢 The venue</a>
           <hr class="md:mb-12 mb-6" />
           <MarkdownContent v-for="line in data.event.venue" :key="line" :value="line" class="my-2" />
           <p>👉 <strong>Date</strong>: {{ data.event.date }}</p>
-        </div>
-
-        <div class="mt-12">
-          <a id="sponsors" class="text-2xl font-medium" href="#sponsors">❤️ Sponsors</a>
-          <hr class="md:mb-12 mb-6" />
-          <MarkdownContent v-for="line in data.event.sponsors" :key="line" :value="line" class="my-2" />
-        </div>
+        </div> -->
 
       </article>
     </section>
