@@ -33,32 +33,21 @@
           "sectionId": "photos",
           "sectionTitle": "📷 Photos",
           "sectionContent": {
-            "value": [
-              "array",
-              "of",
-              "photos"
-            ]
+            "value": ["array", "of", "photos"]
           }
         },
         {
           "sectionId": "speakers",
           "sectionTitle": "📢 Speakers",
           "sectionContent": {
-            "value": [
-              "speaker-id-10",
-              "speaker-id-20"
-            ]
+            "value": ["speaker-id-10", "speaker-id-20"]
           }
         },
         {
           "sectionId": "videos",
           "sectionTitle": "📹 The full playlist",
           "sectionContent": {
-            "value": [
-              "array",
-              "of",
-              "videos"
-            ]
+            "value": ["array", "of", "videos"]
           }
         },
         {
@@ -76,14 +65,14 @@
               },
               {
                 "timeSlot": "18:30 - 19:00",
-                "speakerId": ["speaker talks","speaker name","speaker company"]
+                "speakerIds": ["speaker-id-10", "speaker-id-20"]
               },
               {
                 "title": "Short Break"
               },
               {
                 "timeSlot": "19:30 - 20:00",
-                "speakerId": ["speaker talks","speaker name","speaker company"]
+                "speakerIds": ["speaker-id-10", "speaker-id-20"]
               },
               {
                 "timeSlot": "20:05 - 20:15",
@@ -101,9 +90,7 @@
           "sectionTitle": "🏢 The venue",
           "sectionContent": {
             "type": "markdown",
-            "value": [
-              "Semperis, Shoham 2, Ramat Gan"
-            ]
+            "value": ["Semperis, Shoham 2, Ramat Gan"]
           }
         },
         {

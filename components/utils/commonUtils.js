@@ -1,15 +1,17 @@
+import {speakers} from '@/content/speakers.json'
+
 export const getSpeakerData = async (id) => {
   const { data } = await useAsyncData(() => queryContent("/").where({_path:"/speakers"}).findOne());
   const {speakers} = data.value;
   return speakers[id];
 };
 
-export const getSpeakersList = async () => {
-  const { data } = await useAsyncData(() => queryContent("/").where({_path:"/speakers"}).findOne());
-  console.log("👾 ~ file: commonUtils.js:11 ~ getSpeakersList ~ data:", data.value)
-  const {speakers} = data.value;
+export const getSpeakersList = () => {
+  console.log("👌",speakers);
   return Object.entries(speakers).map(([id, speaker]) => {
-    return { id, ...speaker };
+    const s = { id, ...speaker };
+    console.log(s);
+    return s;
   });
 };
 

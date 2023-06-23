@@ -26,7 +26,7 @@ useHead({
 });
 
 import { getSpeakersList } from "@/components/utils/commonUtils";
-const speakers = await getSpeakersList();
+const speakers = getSpeakersList();
 </script>
 
 <style scoped></style>

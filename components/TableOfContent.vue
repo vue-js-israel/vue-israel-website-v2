@@ -15,7 +15,6 @@ defineProps(["links"]);
 //       return _link;
 //     })
 //     .flat(1);
-//     console.log("👾 ~ file: TableOfContent.vue:20 ~ flattenLinks ~ _links:", _links)
 //   return _links;
 // };
 </script>

@@ -24,7 +24,6 @@ const eventsTags = computed(()=>{
     return event.eventTags;
   })
 })
-console.log("👾 ~ file: index.vue:27 ~ eventsTags ~ eventsTags:", eventsTags.value)
 
 const mergeAndRemoveDuplicates = (arrays) => {
   // Merge arrays into a single array
