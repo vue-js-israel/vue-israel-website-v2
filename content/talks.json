@@ -1,32 +1,63 @@
 {
   "talks": [
     {
-      "speakerIds": ["si_10,si_30"],
-      "_______speakerPageLink": "/speakers/si_10/guy-passy",
-      "slides": {
-        "title": "slide-title",
-        "link": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-      },
+      "speakerIds": ["speaker-id-10","speaker-id-20"],
       "talkTitle": "talk-title-4",
       "talkDescription": "talk-description-4",
       "talkPoster": {
         "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
         "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "slide-title",
+        "link": "https://www.youtube.com/embed/dQw4w9WgXcQ"
       }
     },
     {
-      "speakerIds": ["si_20"],
-      "speakerPageLink": "/speakers/si_20/michael-salaverry",
-      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
-      "slides": {
-        "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
-        "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
-      },
+      "speakerIds": ["speaker-id-20"],
       "talkTitle": "talk-title-5",
       "talkDescription": "talk-description-5",
       "talkPoster": {
         "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
         "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
+        "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
+      }
+    },
+
+
+
+
+    {
+      "speakerIds": ["speaker-id-30"],
+      "talkTitle": "How to put your code in production",
+      "talkDescription": "talk-description-5",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
+        "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
+      }
+    },
+    {
+      "speakerIds": ["speaker-id-40"],
+      "talkTitle": "Component testing with Vitest",
+      "talkDescription": "talk-description-5",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "Slide Link",
+        "link": "https://slides.com/mayashavin/component-testing-vitest"
       }
     }
   ]
