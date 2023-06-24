@@ -88,7 +88,7 @@ const socialIcon = (url) => {
       eventTitle,
       eventDate,
       videos,
-      // slides,
+      slides,
       talkTitle,
       talkDescription,
       talkPoster,
