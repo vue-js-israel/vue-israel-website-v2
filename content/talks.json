@@ -2,6 +2,7 @@
   "talks": [
     {
       "speakerIds": ["speaker-id-10","speaker-id-20"],
+      "eventId":"event-id-10",
       "talkTitle": "talk-title-4",
       "talkDescription": "talk-description-4",
       "talkPoster": {
@@ -16,6 +17,7 @@
     },
     {
       "speakerIds": ["speaker-id-20"],
+      "eventId":"event-id-10",
       "talkTitle": "talk-title-5",
       "talkDescription": "talk-description-5",
       "talkPoster": {
@@ -28,12 +30,9 @@
         "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
       }
     },
-
-
-
-
     {
       "speakerIds": ["speaker-id-30"],
+      "eventId": "event-id-20",
       "talkTitle": "How to put your code in production",
       "talkDescription": "talk-description-5",
       "talkPoster": {
@@ -48,6 +47,7 @@
     },
     {
       "speakerIds": ["speaker-id-40"],
+      "eventId": "event-id-20",
       "talkTitle": "Component testing with Vitest",
       "talkDescription": "talk-description-5",
       "talkPoster": {

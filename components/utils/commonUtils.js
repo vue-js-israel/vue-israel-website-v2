@@ -7,11 +7,8 @@ export const getSpeakerData = async (id) => {
 };
 
 export const getSpeakersList = () => {
-  console.log("👌",speakers);
   return Object.entries(speakers).map(([id, speaker]) => {
-    const s = { id, ...speaker };
-    console.log(s);
-    return s;
+    return { id, ...speaker };
   });
 };
 
