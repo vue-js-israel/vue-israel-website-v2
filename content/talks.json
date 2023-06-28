@@ -1,0 +1,68 @@
+{
+  "talks": [
+    {
+      "talkId":"talk-id-10",
+      "speakerIds": ["speaker-id-10","speaker-id-20"],
+      "eventId":"event-id-10",
+      "talkTitle": "talk-title-4",
+      "talkDescription": "talk-description-4",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "slide-title",
+        "link": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      }
+    },
+    {
+      "talkId":"talk-id-20",
+      "speakerIds": ["speaker-id-20"],
+      "eventId":"event-id-10",
+      "talkTitle": "talk-title-5",
+      "talkDescription": "talk-description-5",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
+        "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
+      }
+    },
+    {
+      "talkId":"talk-id-30",
+      "speakerIds": ["speaker-id-30"],
+      "eventId": "event-id-20",
+      "talkTitle": "How to put your code in production",
+      "talkDescription": "talk-description-5",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
+        "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
+      }
+    },
+    {
+      "talkId":"talk-id-40",
+      "speakerIds": ["speaker-id-40"],
+      "eventId": "event-id-20",
+      "talkTitle": "Component testing with Vitest",
+      "talkDescription": "talk-description-5",
+      "talkPoster": {
+        "src": "/images/speaker-posters/Vue.js-Israel-speakers-nameA-nameB.jpeg",
+        "alt": "img-alt"
+      },
+      "videos": ["https://www.youtube.com/embed/dQw4w9WgXcQ"],
+      "slides": {
+        "title": "Slide Link",
+        "link": "https://slides.com/mayashavin/component-testing-vitest"
+      }
+    }
+  ]
+}

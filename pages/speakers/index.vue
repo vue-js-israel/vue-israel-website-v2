@@ -6,7 +6,7 @@
         <p class="text-lg font-medium">Vue.js Israel community speakers</p>
       </div>
     </header>
-    <section class="m-auto py-2 md:max-w-xl max-w-sm grid md:grid-cols-3 grid-cols-1 gap-4">
+    <section class="m-auto grid max-w-sm grid-cols-1 gap-4 py-2 md:max-w-xl md:grid-cols-3">
       <div v-for="(speaker, index) in speakers" :key="`${speaker.name}-${index}-key`">
         <SpeakersSpeakerCard :speaker="speaker" />
       </div>
@@ -15,19 +15,18 @@
 </template>
 
 <script setup>
+import { speakers } from '@/content/speakers.json'
 
 useHead({
   title: "Vue.js Israel Speakers",
-  meta: [
-    { name: "description", content: "Vus.js Israel's speakers" },
-  ],
+  meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
 
-const { data } = await useAsyncData(() => queryContent("speakers").find());
-const [speakerListJson] = data.value
-const speakers = Object.entries(speakerListJson.speakers).map(([id, speaker]) => {
-  return {id,...speaker}
-})
+const getSpeakersList = () => {
+  return Object.entries(speakers).map(([id, speaker]) => {
+    return { id, ...speaker };
+  });
+}
 </script>
 
 <style scoped></style>

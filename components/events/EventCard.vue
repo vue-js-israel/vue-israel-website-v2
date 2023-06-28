@@ -1,13 +1,13 @@
 <template>
-  <NuxtLink :to="`${event._path}`">
+  <NuxtLink :to="`/events/${event.eventId}`">
     <div class="rounded-lg bg-white p-6 shadow-md">
       <h3 class="text-sm font-medium text-gray-500">
-        {{ event.date }}
+        {{ event.eventDate }}
       </h3>
-      <h2 class="mb-2 text-xl font-bold text-gray-600">{{ event.title }}</h2>
+      <h2 class="mb-2 text-xl font-bold text-gray-600">{{ event.eventTitle }}</h2>
       <div class="flex items-center">
         <Icon name="mdi:map-marker-outline" />
-        <p>{{ event.location }}</p>
+        <p>{{ event.eventLocationName }}</p>
       </div>
       <EventTags
         :tags="event.eventTags"
@@ -35,7 +35,6 @@ const props = defineProps({
     default: () => [],
   },
 });
-
 
 </script>
 
