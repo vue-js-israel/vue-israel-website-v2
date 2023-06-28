@@ -1,6 +1,7 @@
 {
   "talks": [
     {
+      "talkId":"talk-id-10",
       "speakerIds": ["speaker-id-10","speaker-id-20"],
       "eventId":"event-id-10",
       "talkTitle": "talk-title-4",
@@ -16,6 +17,7 @@
       }
     },
     {
+      "talkId":"talk-id-20",
       "speakerIds": ["speaker-id-20"],
       "eventId":"event-id-10",
       "talkTitle": "talk-title-5",
@@ -31,6 +33,7 @@
       }
     },
     {
+      "talkId":"talk-id-30",
       "speakerIds": ["speaker-id-30"],
       "eventId": "event-id-20",
       "talkTitle": "How to put your code in production",
@@ -46,6 +49,7 @@
       }
     },
     {
+      "talkId":"talk-id-40",
       "speakerIds": ["speaker-id-40"],
       "eventId": "event-id-20",
       "talkTitle": "Component testing with Vitest",

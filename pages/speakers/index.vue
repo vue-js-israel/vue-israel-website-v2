@@ -6,13 +6,8 @@
         <p class="text-lg font-medium">Vue.js Israel community speakers</p>
       </div>
     </header>
-    <section
-      class="m-auto grid max-w-sm grid-cols-1 gap-4 py-2 md:max-w-xl md:grid-cols-3"
-    >
-      <div
-        v-for="(speaker, index) in speakers"
-        :key="`${speaker.name}-${index}-key`"
-      >
+    <section class="m-auto grid max-w-sm grid-cols-1 gap-4 py-2 md:max-w-xl md:grid-cols-3">
+      <div v-for="(speaker, index) in speakers" :key="`${speaker.name}-${index}-key`">
         <SpeakersSpeakerCard :speaker="speaker" />
       </div>
     </section>
@@ -20,13 +15,18 @@
 </template>
 
 <script setup>
+import { speakers } from '@/content/speakers.json'
+
 useHead({
   title: "Vue.js Israel Speakers",
   meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
 
-import { getSpeakersList } from "@/components/utils/commonUtils";
-const speakers = getSpeakersList();
+const getSpeakersList = () => {
+  return Object.entries(speakers).map(([id, speaker]) => {
+    return { id, ...speaker };
+  });
+}
 </script>
 
 <style scoped></style>
