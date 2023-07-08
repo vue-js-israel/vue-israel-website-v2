@@ -15,6 +15,7 @@ html {
 body {
   @apply font-satoshi;
   @apply text-slate-700;
+  @apply min-h-screen
 }
 
 h1,
