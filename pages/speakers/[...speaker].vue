@@ -2,7 +2,7 @@
 import { speakers } from '@/content/speakers.json'
 import { events } from '@/content/events.json'
 import { talks } from '@/content/talks.json'
-import { addURLSuffix } from "@/components/utils/urlUtils";
+import { addURLSuffix, socialIcon } from "@/components/utils/urlUtils";
 
 const [speakerId] = useRoute().params.speaker;
 const speaker = speakers[speakerId];
@@ -32,36 +32,9 @@ const speakerTalk = computed(() => {
     const event = events.find((event) => {
       return event.eventId === talk.eventId
     })
-    return {...talk,...event};
+    return { ...talk, ...event };
   }).filter(talk => talk !== undefined)
 })
-
-const socialIcon = (url) => {
-  // Define the mapping of social media domains to MDI icon classes
-  const socialMediaMapping = {
-    'facebook.com': 'mdi:facebook',
-    'twitter.com': 'mdi:twitter',
-    'instagram.com': 'mdi:instagram',
-    'linkedin.com': 'mdi:linkedin',
-    'youtube.com': 'mdi:youtube',
-    'github.com': 'mdi:github',
-    // Add more social media domains and corresponding MDI icon classes as needed
-  };
-
-  // Remove the protocol part (http:// or https://)
-  const cleanedUrl = url.replace(/^https?:\/\//, '');
-  // Find the index of the first slash after the protocol
-  const slashIndex = cleanedUrl.indexOf('/');
-  // Extract the subdomain and domain name
-  const subdomainAndDomain = cleanedUrl.substring(0, slashIndex !== -1 ? slashIndex : cleanedUrl.length);
-  // Split the subdomain and domain name by dots
-  const parts = subdomainAndDomain.split('.');
-  // Extract the domain name
-  const domainName = parts.slice(-2).join('.');
-  // Look up the MDI icon class for the domain in the mapping
-  const mdiIconClass = socialMediaMapping[domainName];
-  return mdiIconClass || 'mdi:web'; // Return the MDI icon class or an empty string if not found
-};
 </script>
 
 <template>
@@ -93,7 +66,7 @@ const socialIcon = (url) => {
       talkDescription,
       talkPoster,
     } in 
-     speakerTalk" :key="title" class="mt-8">
+     speakerTalk" :key="`${eventId}-${eventTitle}`" class="mt-8">
       <div class="w-md grid p-2">
         <img :src="talkPoster.src" :alt="talkPoster.alt" class="md:h-96 md:w-auto w-screen justify-self-center" />
       </div>
