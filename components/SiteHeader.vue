@@ -1,7 +1,7 @@
 <!-- ./components/SiteHeader.vue -->
 
 <template>
-  <header class="p-4 dark:bg-gray-800 dark:text-gray-100">
+  <header class="p-4 dark:bg-gray-800 dark:text-gray-100 max-h-24">
     <div class="container flex justify-between h-16 mx-auto">
       <NuxtLink to="/" aria-label="Back to homepage" class="flex items-center p-2">
         <img class="mr-2 w-8" src="/logo/Vue.js-Israel-community-logo.svg" alt="Vue.js Israel Community Logo" />
