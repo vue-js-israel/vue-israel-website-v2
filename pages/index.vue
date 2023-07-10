@@ -1,18 +1,5 @@
 <template>
-  <main>
-    <section class="container mx-auto space-y-16">
-      <header class="m-5">
-        <h1 class="text-center text-5xl text-green-800">Vue.JS Israel Official Website V2</h1>
-      </header>
-      <div class="text-green-800">
-        <p class="text-2xl my-3">Something great is about to happen!</p>
-        <p>Vue.JS Israel is getting a new WEBSITE!</p>
-        <p>Meanwhile you are more then welcome to visit our <a href="https://www.vuejsisrael.com/"
-            class="text-green-400 hover:underline">Vue.JS Israel Official
-            Website</a></p>
-      </div>
-    </section>
-  </main>
+  <PlaceHolder />
 </template>
 
 <script setup>
