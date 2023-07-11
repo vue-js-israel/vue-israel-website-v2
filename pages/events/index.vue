@@ -76,7 +76,7 @@ const onTagEventClickHandler = (eventTag) => {
 </script>
 
 <template>
-  <main class="py-6 dark:bg-gray-700 dark:text-gray-100">
+  <main class="py-6">
     <div class="container mx-auto space-y-16 ">
 
       <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
@@ -84,7 +84,7 @@ const onTagEventClickHandler = (eventTag) => {
         <h1 class="text-4xl font-bold leadi text-center sm:text-5xl">Events of Vue.js Israel</h1>
         <section class="my-5">
           <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
-          <EventsEventCard v-for="event in events" :key="event.eventId" :event="event" :selectedTags="selectedTags"
+          <EventsEventCard v-for="event in filteredEvents" :key="event.eventId" :event="event" :selectedTags="selectedTags"
             @tag-click="onTagEventClickHandler" />
         </section>
       </div>

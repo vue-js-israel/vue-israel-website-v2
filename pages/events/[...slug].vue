@@ -76,7 +76,7 @@ useHead({
         <TableOfContent :links="toc" />
       </aside>
       <article
-        class="prose col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
+        class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
 
         <img :src="event.eventPoster.src" :alt="event.eventPoster.alt" />

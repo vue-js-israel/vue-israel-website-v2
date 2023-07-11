@@ -26,7 +26,8 @@ const onTagClickHandler = (tagIndex) => {
     <!-- Button to toggle expand -->
     <button
       @click="toggleExpand"
-      class="flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 p-1.5 px-2 pr-3 font-semibold transition-all hover:-translate-y-0.5 focus:bg-slate-100 active:translate-y-0.5 active:shadow-inner"
+      class="flex items-center gap-2 rounded-full bg-lighter text-gray-900 p-1.5 px-2 pr-3 font-semibold transition-all hover:-translate-y-0.5 active:bg-dark active:translate-y-0.5 active:shadow-inner"
+      :class="{ 'bg-darker': expanded }"
     >
       <Icon name="mdi:tag-outline" />
       <span>Tags</span>
@@ -40,8 +41,8 @@ const onTagClickHandler = (tagIndex) => {
         v-for="(tag, index) in tags"
         :key="`${tag}-${index}`"
         @click="onTagClickHandler(index)"
-        class="rounded-md bg-slate-100 p-2 py-1 text-center text-sm text-slate-700 transition-all hover:-translate-y-0.5"
-        :class="{ 'bg-slate-400': tag.selected }"
+        class="self-start px-3 py-1 text-sm rounded-full bg-lighter text-gray-900"
+        :class="{ 'bg-darker text-gray-300': tag.selected }"
       >
         <a>{{ tag.title }}</a>
       </li>
