@@ -41,8 +41,8 @@ const onTagClickHandler = (tagIndex) => {
         v-for="(tag, index) in tags"
         :key="`${tag}-${index}`"
         @click="onTagClickHandler(index)"
-        class="self-start px-3 py-1 text-sm rounded-full bg-lighter text-gray-900"
-        :class="{ 'bg-darker text-gray-300': tag.selected }"
+        class="self-start px-3 py-1 text-sm rounded-full bg-violet-400 text-gray-900"
+        :class="{ 'bg-violet-600': tag.selected }"
       >
         <a>{{ tag.title }}</a>
       </li>
