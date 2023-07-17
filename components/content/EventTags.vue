@@ -1,5 +1,5 @@
 <template>
-  <div class="my-2 flex gap-1">
+  <div class="flex flex-wrap gap-1">
     <span
       v-for="(tag, index) in tags"
       class="self-start rounded-full px-3 py-1 text-sm bg-lighter text-gray-900"
