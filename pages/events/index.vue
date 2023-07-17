@@ -73,6 +73,18 @@ const onTagEventClickHandler = (eventTag) => {
   );
   onTagClickHandler(tagIndex);
 };
+
+const filteredEvents = computed(() => {
+  if (selectedTags.value.length > 0) {
+    return events.filter((event) => {
+      return event.eventTags.find((eventTag) => {
+        return selectedTags.value.includes(eventTag)
+      })
+    })
+  } else {
+    return events
+  }
+})
 </script>
 
 <template>
@@ -84,8 +96,8 @@ const onTagEventClickHandler = (eventTag) => {
         <h1 class="text-4xl font-bold leadi text-center sm:text-5xl">Events of Vue.js Israel</h1>
         <section class="my-5">
           <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
-          <EventsEventCard v-for="event in filteredEvents" :key="event.eventId" :event="event" :selectedTags="selectedTags"
-            @tag-click="onTagEventClickHandler" />
+          <EventsEventCard v-for="event in filteredEvents" :key="event.eventId" :event="event"
+            :selectedTags="selectedTags" @tag-click="onTagEventClickHandler" />
         </section>
       </div>
     </div>
