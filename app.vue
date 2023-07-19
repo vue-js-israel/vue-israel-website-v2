@@ -1,5 +1,5 @@
 <template>
   <NuxtLayout>
-    <NuxtPage class="min-h-[calc(100vh-21rem)]"/>
+    <NuxtPage/>
   </NuxtLayout>
 </template>
