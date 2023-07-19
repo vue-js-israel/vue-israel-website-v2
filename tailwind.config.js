@@ -9,31 +9,48 @@ module.exports = {
       satoshi: ["Satoshi", "sans-serif"],
     },
     extend: {
-      backgroundColor: {
-        dark: {
-          main: colors.gray[700],
-          second: colors.gray[800],
+      colors:{
+        green:{
+          50:'#d6ffee',
+          100:'#acffdd',
+          200:'#83ffcc',
+          300:'#30ffaa',
+          400:'#00dc82',
+          500:'#00bd6f',
+          600:'#009d5d',
+          700:'#007e4a',
+          800:'#005e38',
+          900:'#003f25',
         },
-        light: {
-          main: colors.gray[50],
-          second: colors.gray[200],
+        dark:{
+          bg:{
+            dark:colors.gray[800],
+            darker:colors.gray[900],
+            darkest:colors.black,
+          },
+          text:{
+            light:colors.gray[500],
+            lighter:colors.gray[300],
+            lightest:colors.gray[100],
+          },
         },
-      },
-      textColor: {
-        dark: {
-          main: colors.slate[700],
-          second: colors.slate[800],
+        light:{
+          text:{
+            dark:colors.gray[800],
+            darker:colors.gray[900],
+            darkest:colors.black,
+          },
+          bg:{
+            light:colors.gray[500],
+            lighter:colors.gray[300],
+            lightest:colors.gray[100],
+          },
         },
-        light: {
-          main: colors.slate[200],
-          second: colors.slate[100],
+        cta:{
+          base:colors.green[400],
+          hover:colors.green[500],
         },
-      },
-      colors: {
-        primary: colors.violet[600],
-        lighter: colors.violet[400],
-        darker: colors.violet[800],
-      },
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],
