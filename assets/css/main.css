@@ -14,8 +14,8 @@ html {
 
 body {
   @apply font-satoshi;
-  @apply dark:text-light-main text-dark-main;
-  @apply dark:bg-dark-main bg-light-main;
+  @apply dark:text-dark-text-lightest text-light-text-dark;
+  @apply dark:bg-dark-bg-darkest ;
   @apply min-h-screen;
 }
 
@@ -26,6 +26,10 @@ h4,
 h5,
 h6 {
   @apply font-cabinetGrotesk;
+}
+
+hr{
+  @apply dark:border-dark-bg-dark border-light-bg-lighter
 }
 
 /* 
