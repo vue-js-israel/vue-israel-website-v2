@@ -26,14 +26,14 @@ const onTagClickHandler = (tagIndex) => {
     <!-- Button to toggle expand -->
     <button
       @click="toggleExpand"
-      class="flex items-center gap-2 rounded-full bg-lighter text-gray-900 p-1.5 px-2 pr-3 font-semibold transition-all hover:-translate-y-0.5 active:bg-dark active:translate-y-0.5 active:shadow-inner"
-      :class="{ 'bg-darker': expanded }"
+      class="flex items-center gap-2 rounded-full  p-1.5 px-2 pr-3 font-semibold transition-all hover:-translate-y-0.5 active:bg-dark-bg-dark border-2 active:translate-y-0.5 active:shadow-inner"
+      :class="{ 'border-cta-base': expanded }"
     >
       <Icon name="mdi:tag-outline" />
       <span>Tags</span>
     </button>
     <ul
-      class="grid max-h-0 select-none grid-cols-3 gap-2 overflow-hidden transition-all md:max-h-max md:max-w-0 md:grid-cols-4 md:py-2"
+      class="grid max-h-0 select-none grid-cols-3 gap-2 overflow-hidden transition-all md:max-h-max md:max-w-0 md:grid-cols-7 md:py-2"
       :class="{ 'max-h-max py-2 md:max-w-full md:py-2': expanded }"
     >
       <!-- list out tags with links -->
@@ -41,8 +41,8 @@ const onTagClickHandler = (tagIndex) => {
         v-for="(tag, index) in tags"
         :key="`${tag}-${index}`"
         @click="onTagClickHandler(index)"
-        class="self-start px-3 py-1 text-sm rounded-full bg-violet-400 text-gray-900"
-        :class="{ 'bg-violet-600': tag.selected }"
+        class="self-start px-3 py-1 text-sm rounded-full border-2 border-cta-base hover:border-cta-hover"
+        :class="{ 'bg-cta-hover border-cta-hover text-dark-text-light': tag.selected }"
       >
         <a>{{ tag.title }}</a>
       </li>

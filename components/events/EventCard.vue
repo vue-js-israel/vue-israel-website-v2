@@ -4,7 +4,7 @@
       <div class="col-span-2  rounded lg:flex">
         <img :src="event.eventPoster.src" alt="" class="h-auto max-h-96 w-full object-cover dark:bg-gray-500" />
       </div>
-      <div class="lg:col-span-1 col-span-2 space-y-6 p-6 dark:bg-dark-second bg-light-second md:flex md:flex-col lg:p-8">
+      <div class="lg:col-span-1 col-span-2 space-y-6 p-6 dark:bg-dark-bg-dark bg-light-bg-lightest md:flex md:flex-col lg:p-8">
         <EventTags :tags="event.eventTags" :selectedTags="selectedTags" @tag-click="(tag) => {
             emit('tagClick', tag);
           }
