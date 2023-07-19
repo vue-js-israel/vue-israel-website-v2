@@ -11,10 +11,10 @@
     </div>
     <div>
       <img :src="talk.talkPoster.src" :alt="talk.talkPoster.alt"
-        class="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500">
+        class="object-cover w-full mb-4 sm:h-96 dark:bg-gray-500">
       
-      <NuxtLink class="" :to="`/events/${talk.eventId}`">
-          <h1 class="mb-1 text-xl font-semibold">{{ currentEvent.eventTitle }}</h1>
+      <NuxtLink :to="`/events/${talk.eventId}`">
+          <h1 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ currentEvent.eventTitle }}</h1>
         </NuxtLink>
       <h2 class="mb-1 text-lg font-semibold">{{ talk.talkTitle }}</h2>
       <p class="text-sm dark:text-gray-400">{{ talk.talkDescription }}</p>
@@ -22,15 +22,15 @@
     <div class="flex flex-wrap justify-between">
       <div class="space-x-2">
         <a v-for="socialLink in speaker.socialLinks" :key="socialLink" @click.stop :href="socialLink">
-          <Icon :name="socialIcon(socialLink)" size="22" />
+          <Icon :name="socialIcon(socialLink)" size="22" class="hover:text-cta-hover"/>
         </a>
       </div>
       <div class="flex space-x-2 text-sm">
         <a v-for="video in talk.videos" :href="video">
-          <Icon name="mdi:youtube" size="22" />
+          <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover"/>
         </a>
         <a v-for="slide in talk.slides" :href="slide">
-          <Icon name="mdi:presentation" size="22" />
+          <Icon name="mdi:presentation" size="22" class="hover:text-cta-hover"/>
         </a>
       </div>
     </div>
