@@ -5,7 +5,7 @@
       <img :src="speaker.image" :alt="`profile picture of ${speaker.name}`"
         class="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500">
       <div class="flex flex-col space-y-1">
-        <span rel="noopener noreferrer" href="#" class="text-sm font-semibold">{{ speaker.name }} </span>
+        <span href="#" class="text-sm font-semibold">{{ speaker.name }} </span>
         <span class="text-xs dark:text-gray-400">{{ speaker.title }}</span>
       </div>
     </div>
@@ -14,7 +14,7 @@
         class="object-cover w-full mb-4 sm:h-96 dark:bg-gray-500">
       
       <NuxtLink :to="`/events/${talk.eventId}`">
-          <h1 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ currentEvent.eventTitle }}</h1>
+          <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ currentEvent.eventTitle }}</h2>
         </NuxtLink>
       <h2 class="mb-1 text-lg font-semibold">{{ talk.talkTitle }}</h2>
       <p class="text-sm dark:text-gray-400">{{ talk.talkDescription }}</p>

@@ -16,27 +16,27 @@
             </ul>
             <div class="flex flex-col justify-center pt-6 lg:pt-0">
                 <div class="flex gap-6 justify-center space-x-4">
-                    <a rel="noopener noreferrer" href="https://www.facebook.com/officalVuejsIsrael/" target="_blank"
+                    <a  href="https://www.facebook.com/officalVuejsIsrael/" target="_blank"
                         title="Vue.js Israel Facebook Page"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10   hover:text-cta-hover">
                         <Icon name="mdi:facebook" size="30"/>
                     </a>
-                    <a rel="noopener noreferrer" href="https://www.twitter.com/@VueJSIsrael" target="_blank"
+                    <a  href="https://www.twitter.com/@VueJSIsrael" target="_blank"
                         title="Vue.js Israel Twitter"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10  hover:text-cta-hover">
                         <Icon name="mdi:twitter" size="30"/>
                     </a>
-                    <a rel="noopener noreferrer" href="https://www.meetup.com/vue-js/" target="_blank"
+                    <a  href="https://www.meetup.com/vue-js/" target="_blank"
                         title="Vue.js Israel Meetup group"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10   hover:text-cta-hover">
                         <Icon name="mdi:meetup" size="30"/>
                     </a>
-                    <a rel="noopener noreferrer" href="https://www.instagram.com/vuejsisrael/" target="_blank"
+                    <a  href="https://www.instagram.com/vuejsisrael/" target="_blank"
                         title="Vue.js Israel Instagram"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10   hover:text-cta-hover">
                         <Icon name="mdi:instagram" size="30"/>
                     </a>
-                    <a rel="noopener noreferrer" href="https://www.youtube.com/@vuejsisrael/" target="_blank"
+                    <a  href="https://www.youtube.com/@vuejsisrael/" target="_blank"
                         title="Vue.js Israel YouTube Channel"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10   hover:text-cta-hover">
                         <Icon name="mdi:youtube" size="30"/>
@@ -48,8 +48,8 @@
             <p class="text-xl font-bold">
                 Official Vue.js Israel Community
             </p>
-            <span>Built with 💚 by <a href="#" target="_blank" rel="noopener noreferrer">Alex Nechayev</a> & <a
-                    href="https://dimshik.com" target="_blank" rel="noopener noreferrer">Dima Vishnevetsky</a></span>
+            <span>Built with 💚 by <a href="https://www.linkedin.com/in/alex-nechayev/" target="_blank" >Alex Nechayev</a> & <a
+                    href="https://www.linkedin.com/in/dimshik100" target="_blank" >Dima Vishnevetsky</a></span>
         </div>
     </footer>
 </template>
