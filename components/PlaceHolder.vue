@@ -18,8 +18,8 @@
 <script></script>
 <style>
 .vuejsisrael-container {
-  --color-white: #ffffff;
-  --color-green: #4dba87;
+  /* --color-white: #;
+  --color-green: tr; */
   background-color: lightgray;
   animation: bg-color 8s linear forwards infinite;
 

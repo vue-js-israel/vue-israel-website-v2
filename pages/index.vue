@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="text-center text-7xl py-7 text-green-600">Welcome To Vue.JS Israel</h1>
-    <PlaceHolder class="min-h-[calc(100vh-30rem)]" />
+    <!-- <h1 class="text-center text-7xl py-7 text-green-600">Welcome To Vue.JS Israel</h1> -->
+    <PlaceHolder class="min-h-[calc(100vh-21rem)]" />
   </div>
 </template>
 

@@ -26,7 +26,7 @@ module.exports = {
           bg:{
             dark:colors.gray[800],
             darker:colors.gray[900],
-            darkest:colors.black,
+            darkest:'#0c0c0d',
           },
           text:{
             light:colors.gray[500],
@@ -38,12 +38,12 @@ module.exports = {
           text:{
             dark:colors.gray[800],
             darker:colors.gray[900],
-            darkest:colors.black,
+            darkest:'#0c0c0d',
           },
           bg:{
             light:colors.gray[500],
             lighter:colors.gray[300],
-            lightest:colors.gray[100],
+            lightest:'#e9e9e9',
           },
         },
         cta:{

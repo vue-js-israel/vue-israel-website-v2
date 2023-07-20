@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-900 dark:text-gray-100">
+    class="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md bg-dark-bg-dark text-dark-text-lightest">
     <div class="flex space-x-4">
       <img :src="speaker.image" :alt="`profile picture of ${speaker.name}`"
         class="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500">

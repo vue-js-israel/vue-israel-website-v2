@@ -15,7 +15,7 @@ html {
 body {
   @apply font-satoshi;
   @apply dark:text-dark-text-lightest text-light-text-dark;
-  @apply dark:bg-dark-bg-darkest ;
+  @apply dark:bg-dark-bg-darkest bg-light-bg-lightest;
   @apply min-h-screen;
 }
 

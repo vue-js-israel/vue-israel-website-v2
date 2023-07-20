@@ -2,8 +2,8 @@
   <div class="flex flex-wrap gap-1">
     <span
       v-for="(tag, index) in tags"
-      class="self-start rounded-full px-3 py-1 text-sm border-2 border-cta-base hover:border-cta-hover"
-      :class="{ 'bg-cta-hover border-cta-hover text-dark-text-light': isTagSelected(tag) }"
+      class="self-start rounded-full px-3 py-1 text-sm border border-cta-base hover:border-cta-hover"
+      :class="{ 'bg-cta-hover border-cta-hover text-dark-bg-dark': isTagSelected(tag) }"
       :key="`tag-key-${tag}-${index}`"
       @click.stop.prevent="
         () => {
