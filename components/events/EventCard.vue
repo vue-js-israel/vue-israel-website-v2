@@ -1,25 +1,22 @@
 <template>
-  <NuxtLink :to="`/events/${event.eventId}`">
-    <div class="rounded-lg bg-white p-6 shadow-md">
-      <h3 class="text-sm font-medium text-gray-500">
-        {{ event.eventDate }}
-      </h3>
-      <h2 class="mb-2 text-xl font-bold text-gray-600">{{ event.eventTitle }}</h2>
-      <div class="flex items-center">
-        <Icon name="mdi:map-marker-outline" />
-        <p>{{ event.eventLocationName }}</p>
+  <section class="text-dark-text-lighter">
+    <NuxtLink :to="`/events/${event.eventId}`" class="my-5 max-w-5xl grid lg:grid-cols-3">
+      <div class="col-span-2  rounded lg:flex">
+        <img :src="event.eventPoster.src" alt="" class="h-auto max-h-96 w-full object-cover dark:bg-gray-500" />
       </div>
-      <EventTags
-        :tags="event.eventTags"
-        :selectedTags="selectedTags"
-        @tag-click="
-          (tag) => {
+      <div class="lg:col-span-1 col-span-2 space-y-6 p-6 bg-dark-bg-dark md:flex md:flex-col lg:p-8">
+        <EventTags :tags="event.eventTags" :selectedTags="selectedTags" @tag-click="(tag) => {
             emit('tagClick', tag);
           }
-        "
-      />
-    </div>
-  </NuxtLink>
+          " />
+        <h2 class="text-3xl font-bold md:flex-1">{{ event.eventTitle }}</h2>
+        <div>
+          <p class="text-gray-400">{{ event.eventDate }}</p>
+          <p class="text-gray-400">{{ event.eventLocationName }}</p>
+        </div>
+      </div>
+    </NuxtLink>
+  </section>
 </template>
 
 <script setup>
@@ -30,12 +27,11 @@ const props = defineProps({
     type: Object,
     require: true,
   },
-  selectedTags : {
+  selectedTags: {
     type: Object,
     default: () => [],
   },
 });
-
 </script>
 
 <style scoped></style>

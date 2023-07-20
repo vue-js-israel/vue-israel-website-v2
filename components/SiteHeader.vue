@@ -1,30 +1,72 @@
 <!-- ./components/SiteHeader.vue -->
 
 <template>
-  <header class="sticky top-0 z-20 w-full border-b-2 border-white border-opacity-30 bg-emerald-100 bg-opacity-40 p-4 backdrop-blur-lg">
-    <div class="m-auto flex max-w-6xl items-center justify-between">
-      <NuxtLink to="/" class="flex no-underline">
-        <img
-          class="mr-2 w-8"
-          src="/logo/Vue.js-Israel-community-logo.svg"
-          alt="Vue.js Israel Community Logo"
-        />
+  <header class="max-h-24 min-h-fit p-4 bg-dark-bg-dark text-dark-text-lightest border-light-bg-lighter dark:border-dark-bg-dark border-b-2">
+    <div v-if="menuToggle"
+      class="md:hidden absolute top-0 left-0 right-0 bottom-0 z-50 w-full opacity-95 dark:bg-dark-bg-darker bg-white py-7 px-4 flex justify-between">
+      <ul class="flex flex-col gap-10 justify-center text-3xl">
+        <li>
+          <NuxtLink @click="onMenuClose" class="flex items-center border-b-2 px-4 dark:border-transparent link"
+            to="/events">Events
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink @click="onMenuClose" class="flex items-center border-b-2 px-4 dark:border-transparent link"
+            to="/speakers">Speakers
+          </NuxtLink>
+        </li>
+      </ul>
+      <button @click.prevent="onMenuClose" class="flex justify-end p-4 md:hidden">
+        <Icon name="mdi:close" size="60" />
+      </button>
+    </div>
+    <div class="container mx-auto flex h-16 justify-between">
+      <NuxtLink to="/" aria-label="Back to homepage" class="flex items-center p-2">
+        <img class="mr-2 w-8" src="/logo/Vue.js-Israel-community-logo.svg" alt="Vue.js Israel Community Logo" />
         Vue.js Israel Community
       </NuxtLink>
-
-      <nav>
-        <ul class="flex gap-4">
-          <li>
-            <NuxtLink to="/events">Events</NuxtLink>
-          </li>
-          <li class="link">
-            <NuxtLink to="/speakers">Speakers</NuxtLink>
-          </li>
-        </ul>
-      </nav>
+      <ul class="hidden items-stretch space-x-3 md:flex">
+        <li class="flex">
+          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/events">Events
+          </NuxtLink>
+        </li>
+        <li class="flex">
+          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/speakers">Speakers
+          </NuxtLink>
+        </li>
+      </ul>
+      <button @click.prevent="onMenuOpen" class="flex justify-end p-4 md:hidden">
+        <Icon name="mdi:menu" size="30" />
+      </button>
     </div>
   </header>
 </template>
 
+<script setup>
+
+const menuToggle = ref(false)
+
+const onMenuOpen = () => {
+  menuToggle.value = true
+  document.body.style.overflow = 'hidden';
+}
+const onMenuClose = () => {
+  menuToggle.value = false
+  document.body.style.overflow = 'auto';
+}
+</script>
+
 <style scoped>
+a.router-link-active.link {
+  font-weight: bold;
+}
+
+/* exact link will show the primary color for only the exact matching link */
+a.router-link-exact-active.link {
+  @apply border-cta-base text-cta-base;
+}
+
+a:hover {
+  @apply text-cta-hover;
+}
 </style>

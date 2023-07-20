@@ -1,32 +1,26 @@
 <template>
-  <main class="py-5">
-    <header class="flex justify-center">
-      <div>
-        <h1 class="text-5xl font-extrabold">Speakers</h1>
-        <p class="text-lg font-medium">Vue.js Israel community speakers</p>
-      </div>
-    </header>
-    <section class="m-auto grid max-w-sm grid-cols-1 gap-4 py-2 md:max-w-xl md:grid-cols-3">
-      <div v-for="(speaker, index) in speakers" :key="`${speaker.name}-${index}-key`">
-        <SpeakersSpeakerCard :speaker="speaker" />
-      </div>
-    </section>
-  </main>
+	<section class="py-6">
+		<div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
+			<p class="p-2 text-md font-medium tracki text-center uppercase">Community speakers</p>
+			<div class="flex flex-row flex-wrap-reverse justify-center gap-4 mt-8">
+				<template v-for="talk in talks" :key="`${talk.talkId}-key`">
+					<template v-for="speakerId in talk.speakerIds" :key="`${speakerId}-key`">
+						<SpeakersSpeakerCard :speaker="speakers[speakerId]" :talk="talk"/>
+					</template>
+				</template>
+			</div>
+		</div>
+	</section>
 </template>
 
 <script setup>
 import { speakers } from '@/content/speakers.json'
-
+import { talks } from '@/content/talks.json'
 useHead({
-  title: "Vue.js Israel Speakers",
-  meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
+	title: "Vue.js Israel Speakers",
+	meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
 
-const getSpeakersList = () => {
-  return Object.entries(speakers).map(([id, speaker]) => {
-    return { id, ...speaker };
-  });
-}
 </script>
 
 <style scoped></style>

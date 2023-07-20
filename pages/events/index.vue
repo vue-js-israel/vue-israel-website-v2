@@ -7,20 +7,8 @@ useHead({
   meta: [{ name: "description", content: "Vus.js Israel's events" }],
 });
 
-const eventCardData = computed(() => {
+const eventsTags = computed(() => {
   return events.map((event) => {
-    return {
-      eventId: event.eventId,
-      eventDate: event.eventDate,
-      eventLocationName: event.eventLocationName,
-      eventTags: event.eventTags,
-      eventTitle: event.eventTitle,
-    };
-  });
-});
-
-const eventsTags = computed(()=>{
-  return events.map((event)=>{
     return event.eventTags;
   })
 })
@@ -29,7 +17,7 @@ const mergeAndRemoveDuplicates = (arrays) => {
   // Merge arrays into a single array
   const mergedArray = [].concat(...arrays);
   // Remove duplicates using a Set
-  return[...new Set(mergedArray)];
+  return [...new Set(mergedArray)];
 }
 
 const selectedTagsFromURL = () => {
@@ -85,25 +73,33 @@ const onTagEventClickHandler = (eventTag) => {
   );
   onTagClickHandler(tagIndex);
 };
+
+const filteredEvents = computed(() => {
+  if (selectedTags.value.length > 0) {
+    return events.filter((event) => {
+      return event.eventTags.find((eventTag) => {
+        return selectedTags.value.includes(eventTag)
+      })
+    })
+  } else {
+    return events
+  }
+})
 </script>
 
 <template>
-  <main class="py-5">
-    <header class="flex justify-center">
-      <div>
-        <h1 class="text-5xl font-extrabold">Events</h1>
-        <p class="text-lg font-medium">Events of Vus.JS Israel</p>
+  <main class="py-6">
+    <div class="container mx-auto space-y-16 ">
+
+      <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
+        <p class="p-2 text-md font-medium tracki text-center uppercase">Events</p>
+        <section class="my-5">
+          <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
+          <EventsEventCard v-for="event in filteredEvents" :key="event.eventId" :event="event"
+            :selectedTags="selectedTags" @tag-click="onTagEventClickHandler" />
+        </section>
       </div>
-    </header>
-    <section class="m-auto max-w-xl py-2">
-      <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
-      <div v-for="event in eventCardData" :key="event.eventId">
-        <EventsEventCard
-          :event="event"
-          :selectedTags="selectedTags"
-          @tag-click="onTagEventClickHandler"/>
-      </div>
-    </section>
+    </div>
   </main>
 </template>
 

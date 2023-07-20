@@ -51,15 +51,15 @@ const singleSpeakerTitle = (speakerId) => {
 
 // returns a costume sting that chains the speaker names first then the talk title and then the speaker companies
 const multipleSpeakerTitle = (speakerIds) => {
- const speakerNames = speakerIds.map((id)=> speakers[id].name);
- const speakerCompanies = speakerIds.map((id)=> speakers[id].company);
- const uniqueCompanies = [...new Set(speakerCompanies)]
+  const speakerNames = speakerIds.map((id) => speakers[id].name);
+  const speakerCompanies = speakerIds.map((id) => speakers[id].company);
+  const uniqueCompanies = [...new Set(speakerCompanies)]
 
- const speakerNamesString = speakerNames.join(' & ');
- const speakersTalk = speakerTalk(speakerIds[0]).talkTitle
- const speakerCompaniesString = uniqueCompanies.join(' / ');
+  const speakerNamesString = speakerNames.join(' & ');
+  const speakersTalk = speakerTalk(speakerIds[0]).talkTitle
+  const speakerCompaniesString = uniqueCompanies.join(' / ');
 
- return `${speakerNamesString} - ${speakersTalk} - ${speakerCompaniesString}`;
+  return `${speakerNamesString} - ${speakersTalk} - ${speakerCompaniesString}`;
 }
 
 // set the meta
@@ -76,7 +76,7 @@ useHead({
         <TableOfContent :links="toc" />
       </aside>
       <article
-        class="prose col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
+        class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
 
         <img :src="event.eventPoster.src" :alt="event.eventPoster.alt" />
@@ -108,21 +108,22 @@ useHead({
             </div>
           </div>
 
-          <p v-else-if="sectionId === 'agenda'" v-for="{ timeSlot, title, speakerIds } in sectionContent.value"
-            :key="title">
-            <strong>{{ `${timeSlot ?? ""} ` }}</strong>
-            <span v-if="speakerIds">
-              <span v-if="speakerIds.length === 1">
-                {{ singleSpeakerTitle(speakerIds[0]) }}
+          <template v-else-if="sectionId === 'agenda'">
+            <p v-for="{ timeSlot, title, speakerIds } in sectionContent.value" :key="title">
+              <strong>{{ `${timeSlot ?? ""} ` }}</strong>
+              <span v-if="speakerIds">
+                <span v-if="speakerIds.length === 1">
+                  {{ singleSpeakerTitle(speakerIds[0]) }}
+                </span>
+                <span v-else>
+                  {{ multipleSpeakerTitle(speakerIds) }}
+                </span>
               </span>
               <span v-else>
-                {{ multipleSpeakerTitle(speakerIds) }}
+                {{ title }}
               </span>
-            </span>
-            <span v-else>
-              {{ title }}
-            </span>
-          </p>
+            </p>
+          </template>
 
           <hr class="mt-2 mb-12" />
         </div>

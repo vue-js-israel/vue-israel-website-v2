@@ -1,4 +1,4 @@
-@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
+@import url("https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -14,7 +14,9 @@ html {
 
 body {
   @apply font-satoshi;
-  @apply text-slate-700;
+  @apply dark:text-dark-text-lightest text-light-text-dark;
+  @apply dark:bg-dark-bg-darkest bg-light-bg-lightest;
+  @apply min-h-screen;
 }
 
 h1,
@@ -24,6 +26,10 @@ h4,
 h5,
 h6 {
   @apply font-cabinetGrotesk;
+}
+
+hr{
+  @apply dark:border-dark-bg-dark border-light-bg-lighter
 }
 
 /* 

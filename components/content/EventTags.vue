@@ -1,9 +1,9 @@
 <template>
-  <div class="my-2 flex gap-1">
+  <div class="flex flex-wrap gap-1">
     <span
       v-for="(tag, index) in tags"
-      class="rounded-md bg-gray-200 p-1 text-xs"
-      :class="{ 'bg-slate-400': isTagSelected(tag) }"
+      class="self-start rounded-full px-3 py-1 text-sm border border-cta-base hover:border-cta-hover"
+      :class="{ 'bg-cta-hover border-cta-hover text-dark-bg-dark': isTagSelected(tag) }"
       :key="`tag-key-${tag}-${index}`"
       @click.stop.prevent="
         () => {
@@ -32,10 +32,10 @@ const props = defineProps({
   },
 });
 
-
-
 const isTagSelected = (tag) => {
-  const isTagSelected = props.selectedTags.findIndex((selectedTag)=> selectedTag === tag);
+  const isTagSelected = props.selectedTags.findIndex(
+    (selectedTag) => selectedTag === tag
+  );
   return isTagSelected !== -1;
 };
 </script>
