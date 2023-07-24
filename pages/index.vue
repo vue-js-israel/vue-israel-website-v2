@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <PlaceHolder class="min-h-[calc(100vh-21rem)]" />
-  </div>
+    <PlaceHolder/>
 </template>
 
 <script setup>
