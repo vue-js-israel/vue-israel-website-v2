@@ -15,6 +15,11 @@
             to="/speakers">Speakers
           </NuxtLink>
         </li>
+        <li>
+          <NuxtLink @click="onMenuClose" class="flex items-center border-b-2 px-4 dark:border-transparent link"
+            to="/talks">Talks
+          </NuxtLink>
+        </li>
       </ul>
       <button @click.prevent="onMenuClose" class="flex justify-end p-4 md:hidden">
         <Icon name="mdi:close" size="60" />
@@ -32,6 +37,10 @@
         </li>
         <li class="flex">
           <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/speakers">Speakers
+          </NuxtLink>
+        </li>
+        <li class="flex">
+          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/talks">Talks
           </NuxtLink>
         </li>
       </ul>

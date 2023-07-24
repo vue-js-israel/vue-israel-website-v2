@@ -13,6 +13,11 @@
                         Speakers
                     </NuxtLink>
                 </li>
+                <li class="flex">
+                    <NuxtLink class="flex items-center px-4 -mb-1  hover:text-cta-hover" to="/talks">
+                        Talks
+                    </NuxtLink>
+                </li>
             </ul>
             <div class="flex flex-col justify-center pt-6 lg:pt-0">
                 <div class="flex gap-6 justify-center space-x-4">
