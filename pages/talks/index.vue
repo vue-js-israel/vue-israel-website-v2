@@ -1,29 +1,30 @@
 <template>
-  <div class="container md:max-w-6xl mx-auto flex flex-col items-center justify-center p-4 py-6 sm:p-10">
-    <a
-      class="group mx-auto block max-w-sm gap-3 hover:no-underline focus:no-underline dark:bg-gray-900 sm:max-w-full lg:grid lg:grid-cols-12"
-    >
-      <img
-        src="https://source.unsplash.com/random/480x360"
-        alt=""
-        class="w-full rounded object-cover dark:bg-gray-500 lg:col-span-3"
-      />
-      <div class="space-y-2 p-6 lg:col-span-9">
-        <h3
-          class="text-2xl font-semibold group-hover:underline group-focus:underline sm:text-4xl"
+  <div
+    class="container mx-auto flex flex-col items-center justify-center p-4 py-6 sm:p-10"
+  >
+    <p class="text-md tracki p-2 text-center font-medium uppercase">
+      Community talks
+    </p>
+    <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
+      <template v-for="talk in talks" :key="`${talk.talkId}-key`">
+        <template
+          v-for="speakerId in talk.speakerIds"
+          :key="`${speakerId}-key`"
         >
-          Noster tincidunt reprimique ad pro
-        </h3>
-        <span class="text-xs dark:text-gray-400">February 19, 2021</span>
-        <p>
-          Ei delenit sensibus liberavisse pri. Quod suscipit no nam. Est in
-          graece fuisset, eos affert putent doctus id.
-        </p>
-      </div>
-    </a>
+          <SpeakersSpeakerCard :speaker="speakers[speakerId]" :talk="talk" />
+        </template>
+      </template>
+    </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { speakers } from "@/content/speakers.json";
+import { talks } from "@/content/talks.json";
+useHead({
+  title: "Vue.js Israel Speakers",
+  meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
+});
+</script>
 
 <style scoped></style>
