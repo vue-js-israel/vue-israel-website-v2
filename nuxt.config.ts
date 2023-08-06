@@ -1,7 +1,15 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content','nuxt-icon','@nuxtjs/tailwindcss'],
+  ssr: true,
+  modules: ["@nuxt/content", "nuxt-icon", "@nuxtjs/tailwindcss"],
   tailwindcss: {
-    cssPath: '~/assets/css/main.css',
-  }
-})
+    cssPath: "~/assets/css/main.css",
+  },
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true,
+    },
+  },
+});

@@ -6,17 +6,22 @@
       class="md:hidden absolute top-0 left-0 right-0 bottom-0 z-50 w-full opacity-95 dark:bg-dark-bg-darker bg-white py-7 px-4 flex justify-between">
       <ul class="flex flex-col gap-10 justify-center text-3xl">
         <li>
-          <NuxtLink @click="onMenuClose" class="flex items-center border-b-2 px-4 dark:border-transparent link"
+          <NuxtLink @click="closeMenu" class="flex items-center border-b-2 px-4 dark:border-transparent link"
             to="/events">Events
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink @click="onMenuClose" class="flex items-center border-b-2 px-4 dark:border-transparent link"
+          <NuxtLink @click="closeMenu" class="flex items-center border-b-2 px-4 dark:border-transparent link"
             to="/speakers">Speakers
           </NuxtLink>
         </li>
+        <li>
+          <NuxtLink @click="closeMenu" class="flex items-center border-b-2 px-4 dark:border-transparent link"
+            to="/talks">Talks
+          </NuxtLink>
+        </li>
       </ul>
-      <button @click.prevent="onMenuClose" class="flex justify-end p-4 md:hidden">
+      <button @click="closeMenu" class="flex justify-end p-4 md:hidden">
         <Icon name="mdi:close" size="60" />
       </button>
     </div>
@@ -34,8 +39,12 @@
           <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/speakers">Speakers
           </NuxtLink>
         </li>
+        <li class="flex">
+          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/talks">Talks
+          </NuxtLink>
+        </li>
       </ul>
-      <button @click.prevent="onMenuOpen" class="flex justify-end p-4 md:hidden">
+      <button @click.prevent="openMenu" class="flex justify-end p-4 md:hidden">
         <Icon name="mdi:menu" size="30" />
       </button>
     </div>
@@ -46,11 +55,11 @@
 
 const menuToggle = ref(false)
 
-const onMenuOpen = () => {
+const openMenu = () => {
   menuToggle.value = true
   document.body.style.overflow = 'hidden';
 }
-const onMenuClose = () => {
+const closeMenu = () => {
   menuToggle.value = false
   document.body.style.overflow = 'auto';
 }

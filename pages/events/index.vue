@@ -88,9 +88,7 @@ const filteredEvents = computed(() => {
 </script>
 
 <template>
-  <main class="py-6">
     <div class="container mx-auto space-y-16 ">
-
       <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
         <p class="p-2 text-md font-medium tracki text-center uppercase">Events</p>
         <section class="my-5">
@@ -100,7 +98,6 @@ const filteredEvents = computed(() => {
         </section>
       </div>
     </div>
-  </main>
 </template>
 
 <style scoped></style>
