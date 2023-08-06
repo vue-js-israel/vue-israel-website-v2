@@ -1,17 +1,12 @@
 <template>
-  <div
-    class="container mx-auto flex flex-col items-center justify-center p-4 py-6 sm:p-10"
-  >
+  <div class="container mx-auto flex flex-col items-center justify-center p-4 py-6 sm:p-10">
     <p class="text-md tracki p-2 text-center font-medium uppercase">
-      Community talks
+      Talks
     </p>
     <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
       <template v-for="talk in talks" :key="`${talk.talkId}-key`">
-        <template
-          v-for="speakerId in talk.speakerIds"
-          :key="`${speakerId}-key`"
-        >
-          <SpeakersSpeakerCard :speaker="speakers[speakerId]" :talk="talk" />
+        <template v-for="speakerId in talk.speakerIds" :key="`${speakerId}-key`">
+          <TalksTalkCard :speaker="speakers[speakerId]" :talk="talk" />
         </template>
       </template>
     </div>
