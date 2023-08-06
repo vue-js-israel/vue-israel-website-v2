@@ -20,6 +20,8 @@
 </template>
 
 <script setup>
+import EventTags from './EventTags.vue';
+
 const emit = defineEmits(["tagClick"]);
 
 const props = defineProps({
