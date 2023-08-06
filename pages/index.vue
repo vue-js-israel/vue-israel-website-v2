@@ -1,5 +1,5 @@
 <template>
-    <PlaceHolder/>
+    <MainLogoAnimation/>
 </template>
 
 <script setup>
