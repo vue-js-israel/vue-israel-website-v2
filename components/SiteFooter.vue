@@ -1,4 +1,5 @@
-<script></script>
+<script>
+</script>
 <template>
     <footer class="h-60 min-h-fit bg-dark-bg-dark text-dark-text-lightest border-t-light-bg-lighter dark:border-t-dark-bg-dark border-t-2">
         <div class="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
@@ -26,10 +27,10 @@
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10   hover:text-cta-hover">
                         <Icon name="mdi:facebook" size="30"/>
                     </a>
-                    <a  href="https://www.twitter.com/@VueJSIsrael" target="_blank"
-                        title="Vue.js Israel Twitter"
+                    <a  href="https://www.x.com/@VueJSIsrael" target="_blank"
+                        title="Vue.js Israel X.com"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10  hover:text-cta-hover">
-                        <Icon name="mdi:twitter" size="30"/>
+                        <Icon name="XIcon" size="30"/>
                     </a>
                     <a  href="https://www.meetup.com/vue-js/" target="_blank"
                         title="Vue.js Israel Meetup group"
