@@ -25,7 +25,7 @@ defineProps({
                     {{ speaker.company }}
                 </p>
                 <div class="space-x-2">
-                    <a v-for="socialLink in speaker.socialLinks" :key="socialLink" @click.stop :href="socialLink">
+                    <a v-for="socialLink in speaker.socialLinks" :key="socialLink" :href="socialLink">
                         <Icon :name="socialIcon(socialLink)" size="22" class="hover:text-cta-hover" />
                     </a>
                 </div>
