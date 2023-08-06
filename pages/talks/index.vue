@@ -4,8 +4,8 @@
       Talks
     </p>
     <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
-      <template v-for="talk in talks" :key="`${talk.talkId}-key`">
-        <template v-for="speakerId in talk.speakerIds" :key="`${speakerId}-key`">
+      <template v-for="talk in talks" :key="talk.talkId">
+        <template v-for="speakerId in talk.speakerIds" :key="speakerId">
           <TalksTalkCard :speaker="speakers[speakerId]" :talk="talk" />
         </template>
       </template>
