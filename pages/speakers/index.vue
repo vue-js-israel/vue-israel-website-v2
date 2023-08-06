@@ -3,13 +3,12 @@
     <p class="text-md tracki p-2 text-center font-medium uppercase">
       Community speakers
     </p>
-    <TalksTalkCard v-for="talk in talks" :key="talk.talkId" :talk="talk"></TalksTalkCard>
+    <SpeakersSpeakerCard v-for="speaker in speakers" :key="speaker" :speaker="speaker"></SpeakersSpeakerCard>
   </div>
 </template>
 
 <script setup>
-import { talks } from '@/content/talks.json'
-console.log("👾 ~ file: index.vue:7 ~ talks:", talks)
+import { speakers } from '@/content/speakers.json'
 </script>
 
 <style scoped></style>
