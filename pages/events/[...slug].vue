@@ -93,8 +93,9 @@ useHead({
           </div>
 
           <ul v-else-if="sectionId === 'speakers'">
-            <li v-for="speakerId in sectionContent.value" :key="`speaker-section-key-${speakerId}`">
-              <a :href="`/speakers/${speakerId}`">{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</a>
+            <li v-for="speakerId in sectionContent.value" :key="speakerId">
+              <!-- <a :href="`/speakers/${speakerId}`">{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</a> -->
+              <div>{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</div>
             </li>
           </ul>
 
