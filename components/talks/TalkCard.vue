@@ -21,7 +21,7 @@
     </div>
     <div class="flex flex-wrap justify-between">
       <div class="space-x-2">
-        <a v-for="socialLink in speaker.socialLinks" :key="socialLink" @click.stop :href="socialLink">
+        <a v-for="socialLink in speaker.socialLinks" :key="socialLink" :href="socialLink">
           <Icon :name="socialIcon(socialLink)" size="22" class="hover:text-cta-hover"/>
         </a>
       </div>
@@ -29,8 +29,8 @@
         <a v-for="video in talk.videos" :href="video">
           <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover"/>
         </a>
-        <a v-for="slide in talk.slides" :href="slide">
-          <Icon name="mdi:presentation" size="22" class="hover:text-cta-hover"/>
+        <a :href="talk.slides.link" :title="talk.slides.title">
+          <Icon name="mdi:present`ation" size="22" class="hover:text-cta-hover"/>
         </a>
       </div>
     </div>
