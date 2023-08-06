@@ -3,6 +3,7 @@ import { events } from "@/content/events.json";
 import { speakers } from "@/content/speakers.json";
 import { talks } from "@/content/talks.json"
 import { addURLSuffix } from "@/components/utils/urlUtils";
+import EventTags from "@/components/events/EventTags.vue";
 
 onMounted(() => {
   const eventTitleUrl = event.value.eventTitle
