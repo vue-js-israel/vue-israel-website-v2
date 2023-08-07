@@ -3,7 +3,7 @@
     <p class="text-md tracki p-2 text-center font-medium uppercase">
       Community speakers
     </p>
-    <SpeakersSpeakerCard v-for="[speakerId,speaker] in Object.entries(speakers)" :key="speakerId" :speaker="speaker"></SpeakersSpeakerCard>
+    <SpeakersSpeakerCard v-for="[speakerId,speaker] in Object.entries(speakers)" :key="speakerId" :speaker="{...speaker,speakerId}"></SpeakersSpeakerCard>
   </div>
 </template>
 
