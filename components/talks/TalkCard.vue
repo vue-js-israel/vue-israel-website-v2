@@ -30,7 +30,7 @@
           <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover"/>
         </a>
         <a :href="talk.slides.link" :title="talk.slides.title">
-          <Icon name="mdi:present`ation" size="22" class="hover:text-cta-hover"/>
+          <Icon name="mdi:presentation" size="22" class="hover:text-cta-hover"/>
         </a>
       </div>
     </div>
