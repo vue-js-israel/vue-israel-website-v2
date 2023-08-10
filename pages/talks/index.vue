@@ -6,7 +6,7 @@
     <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
       <template v-for="talk in filteredTalks" :key="talk.talkId">
         <template v-for="speakerId in talk.speakerIds" :key="speakerId">
-          <TalksTalkCard v-if="speakerId === sid" :speaker="speakers[speakerId]" :talk="talk" />
+          <TalksTalkCard v-if="displayFilteredSpeakers(speakerId)" :speaker="speakers[speakerId]" :talk="talk" />
         </template>
       </template>
     </div>
@@ -24,12 +24,25 @@ useHead({
 const { query } = useRoute();
 const { sid } = query;
 
+const isFiltered = ref(false)
+
 const filteredTalks = computed(() => {
   const filteredTalks = talks.filter((talk) => {
     return talk.speakerIds.includes(sid);
   })
-  return filteredTalks.length > 0 ? filteredTalks : talks;
+  if (filteredTalks.length > 0) {
+    isFiltered.value = true
+    return filteredTalks
+  } else {
+    isFiltered.value = false
+    return talks
+  }
 })
+
+const displayFilteredSpeakers = (speakerId) => {
+  return isFiltered.value ? speakerId === sid : true
+}
+
 </script>
 
 <style scoped></style>
