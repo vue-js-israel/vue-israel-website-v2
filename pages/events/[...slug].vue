@@ -3,7 +3,6 @@ import { events } from "@/content/events.json";
 import { speakers } from "@/content/speakers.json";
 import { talks } from "@/content/talks.json"
 import { addURLSuffix } from "@/components/utils/urlUtils";
-import EventTags from "@/components/events/EventTags.vue";
 
 onMounted(() => {
   const eventTitleUrl = event.value.eventTitle
@@ -27,17 +26,6 @@ const toc = event.value.sections.map((section) => {
   return { id: section.sectionId, depth: 2, text: section.sectionTitle };
 });
 
-const eventSpeakers = computed(() => {
-  const speakerSection = event.value.sections.find(
-    ({ sectionId }) => sectionId === "speakers"
-  );
-  const eventSpeakerIds = speakerSection.sectionContent.value;
-
-  return eventSpeakerIds.map((id) => {
-    return { id, ...speakers[id] };
-  });
-});
-
 const speakerTalk = speakerId => {
   return talks.find((talk) => {
     return talk.speakerIds.find((id) => {
@@ -46,14 +34,26 @@ const speakerTalk = speakerId => {
   })
 }
 
+const getSpeakerName = speakerId => {
+  const speaker = speakers.find(speaker => speaker.speakerId === speakerId)
+  return speaker.name
+}
+const getSpeakerCompanyName = speakerId => {
+  const speaker = speakers.find(speaker => speaker.speakerId === speakerId)
+  return speaker.company
+}
+
 const singleSpeakerTitle = (speakerId) => {
-  return `${speakers[speakerId].name} - ${speakerTalk(speakerId).talkTitle} - ${speakers[speakerId].company}`
+  const speaker = speakers.find(speaker => speaker.speakerId === speakerId)
+  return `${speaker.name} - ${speakerTalk(speakerId).talkTitle} - ${speaker.company}`
 }
 
 // returns a costume sting that chains the speaker names first then the talk title and then the speaker companies
 const multipleSpeakerTitle = (speakerIds) => {
-  const speakerNames = speakerIds.map((id) => speakers[id].name);
-  const speakerCompanies = speakerIds.map((id) => speakers[id].company);
+  const filteredSpeakers = speakers.filter((speaker) => speakerIds.includes(speaker.speakerId))
+
+  const speakerNames = filteredSpeakers.map((speaker) => speaker.name);
+  const speakerCompanies = filteredSpeakers.map((speaker) => speaker.company);
   const uniqueCompanies = [...new Set(speakerCompanies)]
 
   const speakerNamesString = speakerNames.join(' & ');
@@ -76,13 +76,12 @@ useHead({
       <aside class="col-span-full px-4 pt-8 md:col-start-8 md:col-end-10 md:pt-12">
         <TableOfContent :links="toc" />
       </aside>
-      <article
-        class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
+      <article class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
 
         <img :src="event.eventPoster.src" :alt="event.eventPoster.alt" />
         <h1 class="my-8 text-4xl font-bold">{{ event.eventTitle }}</h1>
-        <EventTags :tags="event.eventTags" />
+        <EventsTags :tags="event.eventTags" />
         <MarkdownContent v-for="line in event.mainContent.value" :key="line" :value="line" class="my-6 text-lg" />
 
         <div v-for="{ sectionId, sectionContent, sectionTitle } in event.sections" :key="sectionId">
@@ -95,7 +94,7 @@ useHead({
           <ul v-else-if="sectionId === 'speakers'">
             <li v-for="speakerId in sectionContent.value" :key="speakerId">
               <!-- <a :href="`/speakers/${speakerId}`">{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</a> -->
-              <div>{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</div>
+              <div>{{ `${getSpeakerName(speakerId)} - ${getSpeakerCompanyName(speakerId)}` }}</div>
             </li>
           </ul>
 

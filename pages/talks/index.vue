@@ -6,7 +6,7 @@
     <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
       <template v-for="talk in filteredTalks" :key="talk.talkId">
         <template v-for="speakerId in talk.speakerIds" :key="speakerId">
-          <TalksTalkCard v-if="displayFilteredSpeakers(speakerId)" :speaker="speakers[speakerId]" :talk="talk" />
+          <TalksCard v-if="displayFilteredSpeakers(speakerId)" :speaker="getSpeaker(speakerId)" :talk="talk" />
         </template>
       </template>
     </div>
@@ -41,6 +41,10 @@ const filteredTalks = computed(() => {
 
 const displayFilteredSpeakers = (speakerId) => {
   return isFiltered.value ? speakerId === sid : true
+}
+
+const getSpeaker = (speakerId) => {
+  return speakers.find((speaker) => speaker.speakerId === speakerId);
 }
 
 </script>

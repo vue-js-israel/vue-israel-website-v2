@@ -88,16 +88,16 @@ const filteredEvents = computed(() => {
 </script>
 
 <template>
-    <div class="container mx-auto space-y-16 ">
-      <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-        <p class="p-2 text-md font-medium tracki text-center uppercase">Events</p>
-        <section class="my-5">
-          <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
-          <EventsEventCard v-for="event in filteredEvents" :key="event.eventId" :event="event"
-            :selectedTags="selectedTags" @tag-click="onTagEventClickHandler" />
-        </section>
-      </div>
+  <div class="container mx-auto space-y-16 ">
+    <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
+      <p class="p-2 text-md font-medium tracki text-center uppercase">Events</p>
+      <section class="my-5">
+        <Tags :tags="eventTags" @tag-click="onTagClickHandler" />
+        <EventsCard v-for="event in filteredEvents" :key="event.eventId" :event="event" :selectedTags="selectedTags"
+          @tag-click="onTagEventClickHandler" />
+      </section>
     </div>
+  </div>
 </template>
 
 <style scoped></style>
