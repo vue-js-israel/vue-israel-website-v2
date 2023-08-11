@@ -16,7 +16,7 @@ defineProps({
         <div
             class="group mx-auto block max-w-sm gap-3 hover:no-underline focus:no-underline bg-dark-bg-dark text-dark-text-lightest sm:max-w-full lg:grid lg:grid-cols-12">
             <img :src="speaker.image" :alt="`${speaker.name} profile picture`"
-                class="w-full rounded-lg object-cover dark:bg-gray-500 lg:col-span-3" />
+                class="max-h-96 rounded-lg object-cover dark:bg-gray-500 lg:col-span-3" />
             <div class="space-y-2 p-6 lg:col-span-9">
                 <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline sm:text-4xl">
                     {{ speaker.name }}

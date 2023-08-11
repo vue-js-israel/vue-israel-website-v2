@@ -21,15 +21,15 @@
     </div>
     <div class="flex flex-wrap justify-between">
       <div class="space-x-2">
-        <a v-for="socialLink in speaker.socialLinks" :key="socialLink" :href="socialLink">
+        <a v-for="socialLink in speaker.socialLinks" :key="socialLink" :href="socialLink" target="_blank">
           <Icon :name="socialIcon(socialLink)" size="22" class="hover:text-cta-hover"/>
         </a>
       </div>
       <div class="flex space-x-2 text-sm">
-        <a v-for="video in talk.videos" :href="video">
+        <a v-for="video in talk.videos" :href="video" target="_blank">
           <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover"/>
         </a>
-        <a :href="talk.slides.link" :title="talk.slides.title">
+        <a :href="talk.slides.link" target="_blank" :title="talk.slides.title">
           <Icon name="mdi:presentation" size="22" class="hover:text-cta-hover"/>
         </a>
       </div>

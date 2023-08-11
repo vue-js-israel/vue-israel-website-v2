@@ -5,7 +5,7 @@
         <img :src="event.eventPoster.src" alt="" class="h-auto max-h-96 w-full object-cover dark:bg-gray-500" />
       </div>
       <div class="lg:col-span-1 col-span-2 space-y-6 p-6 bg-dark-bg-dark md:flex md:flex-col lg:p-8">
-        <EventTags :tags="event.eventTags" :selectedTags="selectedTags" @tag-click="(tag) => {
+        <EventsTags :tags="event.eventTags" :selectedTags="selectedTags" @tag-click="(tag) => {
             emit('tagClick', tag);
           }
           " />
@@ -20,7 +20,6 @@
 </template>
 
 <script setup>
-import EventTags from './EventTags.vue';
 
 const emit = defineEmits(["tagClick"]);
 
