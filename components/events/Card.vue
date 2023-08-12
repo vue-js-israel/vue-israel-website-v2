@@ -5,10 +5,7 @@
         <img :src="event.eventPoster.src" alt="" class="h-auto max-h-96 w-full object-cover dark:bg-gray-500" />
       </div>
       <div class="lg:col-span-1 col-span-2 space-y-6 p-6 bg-dark-bg-dark md:flex md:flex-col lg:p-8">
-        <EventsTags :tags="event.eventTags" :selectedTags="selectedTags" @tag-click="(tag) => {
-            emit('tagClick', tag);
-          }
-          " />
+        <Tags :tags="event.eventTags"/>
         <h2 class="text-3xl font-bold md:flex-1">{{ event.eventTitle }}</h2>
         <div>
           <p class="text-gray-400">{{ event.eventDate }}</p>
