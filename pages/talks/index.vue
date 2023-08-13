@@ -11,8 +11,8 @@ const isFiltered = ref(false)
 
 const selectedTags = computed(() => {
   const { query } = useRoute();
-  const { tags } = query;
-  return tags?.split(",") ?? [];
+  const { speakerId } = query;
+  return speakerId?.split(",") ?? [];
 });
 
 const filteredTalks = computed(() => {
@@ -51,9 +51,6 @@ const speakersTag = computed(() => {
   <div class="container mx-auto space-y-16 ">
     <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
       <p class="p-2 text-md font-medium tracki text-center uppercase">Talks</p>
-      <div class="w-full">
-        <TagsController :tags="speakersTag" />
-      </div>
       <section class="my-5">
         <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
           <template v-for="talk in filteredTalks" :key="talk.talkId">

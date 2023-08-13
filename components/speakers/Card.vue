@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-    <NuxtLink :to="{ path: '/talks', query: { tags: speaker.speakerId } }"
+    <NuxtLink :to="{ path: '/talks', query: { speakerId: speaker.speakerId } }"
         class="container rounded-lg md:max-w-6xl mx-auto flex flex-col items-center justify-center p-4 py-6 sm:p-10">
         <div
             class="group mx-auto block max-w-sm gap-3 hover:no-underline focus:no-underline bg-dark-bg-dark text-dark-text-lightest sm:max-w-full lg:grid lg:grid-cols-12">
