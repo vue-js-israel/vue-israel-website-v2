@@ -1,11 +1,13 @@
 <script setup>
-import { speakers } from "@/content/speakers.json";
-import { talks } from "@/content/talks.json";
+import speakers from "@/content/speakers.json";
+import talks from "@/content/talks.json";
 
 useHead({
   title: "Vue.js Israel Speakers",
   meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
+
+const talkList = Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
 
 const isFiltered = ref(false)
 
@@ -18,23 +20,19 @@ const selectedTags = computed(() => {
 const filteredTalks = computed(() => {
   if (selectedTags.value.length > 0) {
     isFiltered.value = true
-    return talks.filter((talk) => {
+    return talkList.filter((talk) => {
       return talk.speakerIds.find((speakerId) => {
         return selectedTags.value.includes(speakerId)
       })
     })
   } else {
     isFiltered.value = false
-    return talks
+    return talkList
   }
 })
 
 const displayFilteredSpeakers = (speakerId) => {
   return isFiltered.value ? selectedTags.value.includes(speakerId) : true
-}
-
-const getSpeaker = (speakerId) => {
-  return speakers.find((speaker) => speaker.speakerId === speakerId);
 }
 
 const speakersTag = computed(() => {
@@ -55,7 +53,7 @@ const speakersTag = computed(() => {
         <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
           <template v-for="talk in filteredTalks" :key="talk.talkId">
             <template v-for="speakerId in talk.speakerIds" :key="speakerId">
-              <TalksCard v-if="displayFilteredSpeakers(speakerId)" :speaker="getSpeaker(speakerId)" :talk="talk" />
+              <TalksCard v-if="displayFilteredSpeakers(speakerId)" :speaker="speakers[speakerId]" :talk="talk" />
             </template>
           </template>
         </div>

@@ -1,11 +1,11 @@
 <script setup>
-import { events } from "@/content/events.json";
-import { speakers } from "@/content/speakers.json";
-import { talks } from "@/content/talks.json"
+import events from "@/content/events.json";
+import speakers from "@/content/speakers.json";
+import talks from "@/content/talks.json"
 import { addURLSuffix } from "@/components/utils/urlUtils";
 
 onMounted(() => {
-  const eventTitleUrl = event.value.eventTitle
+  const eventTitleUrl = event.eventTitle
     .split(" ")
     .map((word) => word.toLowerCase())
     .join("-");
@@ -18,39 +18,31 @@ const eventId = computed(() => {
   return eventId;
 });
 
-const event = computed(() => {
-  return events.find((event) => event.eventId === eventId.value);
-});
+const talkList = Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
+const eventList = Object.entries(events).map(([eventId, event]) => { return { ...event, eventId } })
+const event = eventList.find((event) => event.eventId === eventId.value)
 
-const toc = event.value.sections.map((section) => {
+const tableOfContentLinks = event.sections.map((section) => {
   return { id: section.sectionId, depth: 2, text: section.sectionTitle };
 });
 
 const speakerTalk = speakerId => {
-  return talks.find((talk) => {
+  return talkList.find((talk) => {
     return talk.speakerIds.find((id) => {
       return id === speakerId;
     })
   })
 }
 
-const getSpeakerName = speakerId => {
-  const speaker = speakers.find(speaker => speaker.speakerId === speakerId)
-  return speaker.name
-}
-const getSpeakerCompanyName = speakerId => {
-  const speaker = speakers.find(speaker => speaker.speakerId === speakerId)
-  return speaker.company
-}
-
-const singleSpeakerTitle = (speakerId) => {
-  const speaker = speakers.find(speaker => speaker.speakerId === speakerId)
+const singleSpeakerTitle = speakerId => {
+  const speaker = speakers[speakerId];
   return `${speaker.name} - ${speakerTalk(speakerId).talkTitle} - ${speaker.company}`
 }
 
 // returns a costume sting that chains the speaker names first then the talk title and then the speaker companies
-const multipleSpeakerTitle = (speakerIds) => {
-  const filteredSpeakers = speakers.filter((speaker) => speakerIds.includes(speaker.speakerId))
+const multipleSpeakerTitle = speakerIds => {
+  const filteredSpeakersEntry = Object.entries(speakers).filter(([speakerId]) => speakerIds.includes(speakerId))
+  const filteredSpeakers = filteredSpeakersEntry.map(([speakerId, speaker]) => { return { ...speaker, speakerId } })
 
   const speakerNames = filteredSpeakers.map((speaker) => speaker.name);
   const speakerCompanies = filteredSpeakers.map((speaker) => speaker.company);
@@ -65,8 +57,8 @@ const multipleSpeakerTitle = (speakerIds) => {
 
 // set the meta
 useHead({
-  title: `Vue.js Israel | ${event.value.metaData.title}`,
-  meta: [{ name: "description", content: event.value.metaData.description }],
+  title: `Vue.js Israel | ${event.metaData.title}`,
+  meta: [{ name: "description", content: event.metaData.description }],
 });
 </script>
 
@@ -74,7 +66,7 @@ useHead({
   <main id="main">
     <section class="grid grid-cols-10">
       <aside class="col-span-full px-4 pt-8 md:col-start-8 md:col-end-10 md:pt-12">
-        <TableOfContent :links="toc" />
+        <TableOfContent :links="tableOfContentLinks" />
       </aside>
       <article class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
@@ -94,7 +86,7 @@ useHead({
           <ul v-else-if="sectionId === 'speakers'">
             <li v-for="speakerId in sectionContent.value" :key="speakerId">
               <!-- <a :href="`/speakers/${speakerId}`">{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</a> -->
-              <div>{{ `${getSpeakerName(speakerId)} - ${getSpeakerCompanyName(speakerId)}` }}</div>
+              <div>{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</div>
             </li>
           </ul>
 
