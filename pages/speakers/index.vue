@@ -3,12 +3,12 @@
     <p class="text-md tracki p-2 text-center font-medium uppercase">
       Community speakers
     </p>
-    <SpeakersCard v-for="(speaker,speakerId) in speakers" :key="speakerId" :speaker="{...speaker,speakerId}"></SpeakersCard>
+    <SpeakersCard v-for="(speaker, speakerId) in speakers" :key="speakerId" :speaker="{ ...speaker, speakerId }" />
   </div>
 </template>
 
 <script setup>
-import  speakers  from '@/content/speakers.json'
+import speakers from '@/content/speakers.json'
 </script>
 
 <style scoped></style>

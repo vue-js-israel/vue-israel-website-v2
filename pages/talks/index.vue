@@ -7,41 +7,10 @@ useHead({
   meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
 
-const talkList = Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
-
-const isFiltered = ref(false)
-
-const selectedTags = computed(() => {
-  const { query } = useRoute();
-  const { speakerId } = query;
-  return speakerId?.split(",") ?? [];
-});
-
-const filteredTalks = computed(() => {
-  if (selectedTags.value.length > 0) {
-    isFiltered.value = true
-    return talkList.filter((talk) => {
-      return talk.speakerIds.find((speakerId) => {
-        return selectedTags.value.includes(speakerId)
-      })
-    })
-  } else {
-    isFiltered.value = false
-    return talkList
-  }
+const talkList = computed(() => {
+  return Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
 })
 
-const displayFilteredSpeakers = (speakerId) => {
-  return isFiltered.value ? selectedTags.value.includes(speakerId) : true
-}
-
-const speakersTag = computed(() => {
-  const speakersList = {}
-  speakers.forEach((speaker) => {
-    speakersList[speaker.speakerId] = speaker.name
-  })
-  return speakersList
-})
 
 </script>
 
@@ -51,9 +20,9 @@ const speakersTag = computed(() => {
       <p class="p-2 text-md font-medium tracki text-center uppercase">Talks</p>
       <section class="my-5">
         <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
-          <template v-for="talk in filteredTalks" :key="talk.talkId">
+          <template v-for="talk in talkList" :key="talk.talkId">
             <template v-for="speakerId in talk.speakerIds" :key="speakerId">
-              <TalksCard v-if="displayFilteredSpeakers(speakerId)" :speaker="speakers[speakerId]" :talk="talk" />
+              <TalksCard :speaker="speakers[speakerId]" :talk="talk" />
             </template>
           </template>
         </div>
