@@ -12,25 +12,25 @@
     <div>
       <img :src="talk.talkPoster.src" :alt="talk.talkPoster.alt"
         class="object-cover w-full mb-4 sm:h-96 dark:bg-gray-500">
-      
+
       <NuxtLink :to="`/events/${talk.eventId}`">
-          <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ currentEvent.eventTitle }}</h2>
-        </NuxtLink>
+        <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ currentEvent.eventTitle }}</h2>
+      </NuxtLink>
       <h2 class="mb-1 text-lg font-semibold">{{ talk.talkTitle }}</h2>
       <p class="text-sm dark:text-gray-400">{{ talk.talkDescription }}</p>
     </div>
     <div class="flex flex-wrap justify-between">
       <div class="space-x-2">
-        <a v-for="socialLink in speaker.socialLinks" :key="socialLink" :href="socialLink">
-          <Icon :name="socialIcon(socialLink)" size="22" class="hover:text-cta-hover"/>
+        <a v-for="socialLink in speaker.socialLinks" :key="socialLink" :href="socialLink" target="_blank">
+          <Icon :name="socialIcon(socialLink)" size="22" class="hover:text-cta-hover" />
         </a>
       </div>
       <div class="flex space-x-2 text-sm">
-        <a v-for="video in talk.videos" :href="video">
-          <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover"/>
+        <a v-for="video in talk.videos" :href="video" target="_blank">
+          <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover" />
         </a>
-        <a :href="talk.slides.link" :title="talk.slides.title">
-          <Icon name="mdi:present`ation" size="22" class="hover:text-cta-hover"/>
+        <a :href="talk.slides.link" target="_blank" :title="talk.slides.title">
+          <Icon name="mdi:presentation" size="22" class="hover:text-cta-hover" />
         </a>
       </div>
     </div>
@@ -39,7 +39,7 @@
 
 <script setup>
 import { socialIcon } from "@/components/utils/urlUtils";
-import {events} from '@/content/events.json'
+import events from '@/content/events.json'
 
 const props = defineProps({
   speaker: {
@@ -51,9 +51,9 @@ const props = defineProps({
     require: true,
   },
 });
-const currentEvent = computed(()=>{
-  const {eventId} = props.talk
-  return events.find(event=>event.eventId === eventId);
+const currentEvent = computed(() => {
+  const { eventId } = props.talk
+  return events[eventId]
 })
 </script>
 

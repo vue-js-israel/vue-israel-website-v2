@@ -1,12 +1,11 @@
 <script setup>
-import { events } from "@/content/events.json";
-import { speakers } from "@/content/speakers.json";
-import { talks } from "@/content/talks.json"
+import events from "@/content/events.json";
+import speakers from "@/content/speakers.json";
+import talks from "@/content/talks.json"
 import { addURLSuffix } from "@/components/utils/urlUtils";
-import EventTags from "@/components/events/EventTags.vue";
 
 onMounted(() => {
-  const eventTitleUrl = event.value.eventTitle
+  const eventTitleUrl = event.eventTitle
     .split(" ")
     .map((word) => word.toLowerCase())
     .join("-");
@@ -19,41 +18,36 @@ const eventId = computed(() => {
   return eventId;
 });
 
-const event = computed(() => {
-  return events.find((event) => event.eventId === eventId.value);
+const talkList = Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
+const event = { ...events[eventId.value], eventId: eventId.value };
+
+const tableOfContentLinks = Object.entries(event.sections).map(([sectionId, section]) => {
+  return { id: sectionId, depth: 2, text: section.sectionTitle };
 });
 
-const toc = event.value.sections.map((section) => {
-  return { id: section.sectionId, depth: 2, text: section.sectionTitle };
-});
 
-const eventSpeakers = computed(() => {
-  const speakerSection = event.value.sections.find(
-    ({ sectionId }) => sectionId === "speakers"
-  );
-  const eventSpeakerIds = speakerSection.sectionContent.value;
-
-  return eventSpeakerIds.map((id) => {
-    return { id, ...speakers[id] };
-  });
-});
 
 const speakerTalk = speakerId => {
-  return talks.find((talk) => {
+  return talkList.find((talk) => {
     return talk.speakerIds.find((id) => {
       return id === speakerId;
     })
   })
 }
 
-const singleSpeakerTitle = (speakerId) => {
-  return `${speakers[speakerId].name} - ${speakerTalk(speakerId).talkTitle} - ${speakers[speakerId].company}`
+const singleSpeakerTitle = speakerId => {
+  const speaker = speakers[speakerId];
+  return `${speaker.name} - ${speakerTalk(speakerId).talkTitle} - ${speaker.company}`
 }
 
 // returns a costume sting that chains the speaker names first then the talk title and then the speaker companies
-const multipleSpeakerTitle = (speakerIds) => {
-  const speakerNames = speakerIds.map((id) => speakers[id].name);
-  const speakerCompanies = speakerIds.map((id) => speakers[id].company);
+const multipleSpeakerTitle = speakerIds => {
+
+  const filteredSpeakersEntry = Object.entries(speakers).filter(([speakerId]) => speakerIds.includes(speakerId))
+  const filteredSpeakers = filteredSpeakersEntry.map(([speakerId, speaker]) => { return { ...speaker, speakerId } })
+
+  const speakerNames = filteredSpeakers.map((speaker) => speaker.name);
+  const speakerCompanies = filteredSpeakers.map((speaker) => speaker.company);
   const uniqueCompanies = [...new Set(speakerCompanies)]
 
   const speakerNamesString = speakerNames.join(' & ');
@@ -65,8 +59,8 @@ const multipleSpeakerTitle = (speakerIds) => {
 
 // set the meta
 useHead({
-  title: `Vue.js Israel | ${event.value.metaData.title}`,
-  meta: [{ name: "description", content: event.value.metaData.description }],
+  title: `Vue.js Israel | ${event.metaData.title}`,
+  meta: [{ name: "description", content: event.metaData.description }],
 });
 </script>
 
@@ -74,18 +68,20 @@ useHead({
   <main id="main">
     <section class="grid grid-cols-10">
       <aside class="col-span-full px-4 pt-8 md:col-start-8 md:col-end-10 md:pt-12">
-        <TableOfContent :links="toc" />
+        <TableOfContent :links="tableOfContentLinks" />
       </aside>
-      <article
-        class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
+      <article class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
 
         <img :src="event.eventPoster.src" :alt="event.eventPoster.alt" />
         <h1 class="my-8 text-4xl font-bold">{{ event.eventTitle }}</h1>
-        <EventTags :tags="event.eventTags" />
+        <EventsTags :tags="event.eventTags" />
         <MarkdownContent v-for="line in event.mainContent.value" :key="line" :value="line" class="my-6 text-lg" />
 
-        <div v-for="{ sectionId, sectionContent, sectionTitle } in event.sections" :key="sectionId">
+        <div v-for="({
+          sectionContent,
+          sectionTitle
+        }, sectionId) in event.sections" :key="sectionId">
           <a :id="sectionId" class="text-2xl font-medium" :href="`#${sectionId}`">{{ sectionTitle }}</a>
 
           <div v-if="sectionId === 'photos'">

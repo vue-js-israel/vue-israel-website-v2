@@ -1,53 +1,64 @@
+<template>
+  <div class="flex flex-wrap gap-1">
+    <span v-for="(tag, tagKey) in localTags"
+      class="self-start rounded-full px-3 py-1 text-sm border border-cta-base hover:border-cta-hover"
+      :class="{ 'bg-cta-hover border-cta-hover text-dark-bg-dark': tag.isSelected }" :key="tagKey"
+      @click.prevent="tagClick(tagKey)">
+      {{ tag.title }}
+    </span>
+  </div>
+</template>
+
 <script setup>
 const props = defineProps({
   tags: {
-    type: Array,
-    required: true,
-  },
+    type: Object,
+    default: () => {
+      return {};
+    },
+  }
 });
 
-const emit = defineEmits(["tagClick"]);
+const router = useRouter();
 
-// tag list state
-const expanded = ref(false);
+const selectedTags = computed(() => {
+  const { query } = useRoute();
+  const { tags } = query;
+  return tags?.split(",") ?? [];
+});
 
-// function to toggle expanded state
-const toggleExpand = () => {
-  expanded.value = !expanded.value;
-};
+const localTags = computed(() => {
+  const tags = {};
+  for (const key in props.tags) {
+    const title = props.tags[key]
+    const isSelected = selectedTags.value.includes(key);
+    tags[key] = { title, isSelected }
+  }
+  return tags
+})
 
-const onTagClickHandler = (tagIndex) => {
-  emit("tagClick", tagIndex);
+const tagClick = (tagKey) => {
+
+  const currentSelectedTags = selectedTags.value
+  const isTagSelected = currentSelectedTags.includes(tagKey)
+
+  if (isTagSelected) {
+    const tagIndex = currentSelectedTags.findIndex((selectedTag) => {
+      return selectedTag === tagKey;
+    });
+    currentSelectedTags.splice(tagIndex, 1);
+  } else {
+    currentSelectedTags.push(tagKey)
+  }
+  const { path } = useRoute();
+  // Add/Remove tags to/from URL params
+  if (currentSelectedTags.length > 0) {
+    const decodedTags = decodeURIComponent(currentSelectedTags)
+    router.replace({ path, query: { 'tags': decodedTags } })
+  } else {
+    router.replace({ path })
+  }
 };
 </script>
-
-<template>
-  <div class="flex flex-col gap-2 rounded-lg p-4 md:flex-row md:items-center">
-    <!-- Button to toggle expand -->
-    <button
-      @click="toggleExpand"
-      class="flex items-center gap-2 rounded-full  p-1.5 px-2 pr-3 font-semibold transition-all hover:-translate-y-0.5 active:bg-dark-bg-dark border active:translate-y-0.5 active:shadow-inner"
-      :class="{ 'border-cta-base': expanded }"
-    >
-      <Icon name="mdi:tag-outline" />
-      <span>Tags</span>
-    </button>
-    <ul
-      class="grid max-h-0 select-none grid-cols-3 gap-2 overflow-hidden transition-all md:max-h-max md:max-w-0 md:grid-cols-7 md:py-2"
-      :class="{ 'max-h-max py-2 md:max-w-full md:py-2': expanded }"
-    >
-      <!-- list out tags with links -->
-      <li
-        v-for="(tag, index) in tags"
-        :key="`${tag}-${index}`"
-        @click="onTagClickHandler(index)"
-        class="self-start px-3 py-1 text-sm rounded-full border border-cta-base hover:border-cta-hover"
-        :class="{ 'bg-cta-hover border-cta-hover text-dark-bg-dark': tag.selected }"
-      >
-        <a>{{ tag.title }}</a>
-      </li>
-    </ul>
-  </div>
-</template>
 
 <style scoped></style>
