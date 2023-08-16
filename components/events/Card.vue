@@ -5,7 +5,7 @@
         <img :src="event.eventPoster.src" alt="" class="h-auto max-h-96 w-full object-cover dark:bg-gray-500" />
       </div>
       <div class="lg:col-span-1 col-span-2 space-y-6 p-6 bg-dark-bg-dark md:flex md:flex-col lg:p-8">
-        <Tags :tags="event.eventTags"/>
+        <Tags :tags="tagsObject" />
         <h2 class="text-3xl font-bold md:flex-1">{{ event.eventTitle }}</h2>
         <div>
           <p class="text-gray-400">{{ event.eventDate }}</p>
@@ -24,12 +24,19 @@ const props = defineProps({
   event: {
     type: Object,
     require: true,
-  },
-  selectedTags: {
-    type: Object,
-    default: () => [],
-  },
+  }
 });
+
+
+const arrayToObject = array => {
+  return array.reduce((obj, item,) => {
+    obj[item] = item;
+    return obj;
+  }, {});
+}
+
+const tagsObject = arrayToObject(props.event.eventTags)
+
 </script>
 
 <style scoped></style>

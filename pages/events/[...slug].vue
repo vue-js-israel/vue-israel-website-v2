@@ -19,12 +19,13 @@ const eventId = computed(() => {
 });
 
 const talkList = Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
-const eventList = Object.entries(events).map(([eventId, event]) => { return { ...event, eventId } })
-const event = eventList.find((event) => event.eventId === eventId.value)
+const event = { ...events[eventId.value], eventId: eventId.value };
 
-const tableOfContentLinks = event.sections.map((section) => {
-  return { id: section.sectionId, depth: 2, text: section.sectionTitle };
+const tableOfContentLinks = Object.entries(event.sections).map(([sectionId, section]) => {
+  return { id: sectionId, depth: 2, text: section.sectionTitle };
 });
+
+
 
 const speakerTalk = speakerId => {
   return talkList.find((talk) => {
@@ -41,6 +42,7 @@ const singleSpeakerTitle = speakerId => {
 
 // returns a costume sting that chains the speaker names first then the talk title and then the speaker companies
 const multipleSpeakerTitle = speakerIds => {
+
   const filteredSpeakersEntry = Object.entries(speakers).filter(([speakerId]) => speakerIds.includes(speakerId))
   const filteredSpeakers = filteredSpeakersEntry.map(([speakerId, speaker]) => { return { ...speaker, speakerId } })
 
@@ -76,7 +78,10 @@ useHead({
         <EventsTags :tags="event.eventTags" />
         <MarkdownContent v-for="line in event.mainContent.value" :key="line" :value="line" class="my-6 text-lg" />
 
-        <div v-for="{ sectionId, sectionContent, sectionTitle } in event.sections" :key="sectionId">
+        <div v-for="({
+          sectionContent,
+          sectionTitle
+        }, sectionId) in event.sections" :key="sectionId">
           <a :id="sectionId" class="text-2xl font-medium" :href="`#${sectionId}`">{{ sectionTitle }}</a>
 
           <div v-if="sectionId === 'photos'">

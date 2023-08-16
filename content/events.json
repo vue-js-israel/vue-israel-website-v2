@@ -26,9 +26,8 @@
         "Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
       ]
     },
-    "sections": [
-      {
-        "sectionId": "photos",
+    "sections": {
+      "photos": {
         "sectionTitle": "📷 Photos",
         "sectionContent": {
           "value": [
@@ -37,8 +36,7 @@
           ]
         }
       },
-      {
-        "sectionId": "speakers",
+      "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
           "value": [
@@ -47,8 +45,7 @@
           ]
         }
       },
-      {
-        "sectionId": "videos",
+      "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
           "value": [
@@ -58,8 +55,7 @@
           ]
         }
       },
-      {
-        "sectionId": "agenda",
+      "agenda": {
         "sectionTitle": "📆 Agenda",
         "sectionContent": {
           "value": [
@@ -98,8 +94,7 @@
           ]
         }
       },
-      {
-        "sectionId": "venue",
+      "venue": {
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
@@ -108,8 +103,7 @@
           ]
         }
       },
-      {
-        "sectionId": "sponsors",
+      "sponsors": {
         "sectionTitle": "❤️ Sponsors",
         "sectionContent": {
           "type": "markdown",
@@ -119,7 +113,7 @@
           ]
         }
       }
-    ]
+    }
   },
   "event-id-20": {
     "metaData": {
@@ -148,9 +142,8 @@
         "Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
       ]
     },
-    "sections": [
-      {
-        "sectionId": "photos",
+    "sections": {
+      "photos": {
         "sectionTitle": "📷 Photos",
         "sectionContent": {
           "value": [
@@ -159,8 +152,7 @@
           ]
         }
       },
-      {
-        "sectionId": "speakers",
+      "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
           "value": [
@@ -169,8 +161,7 @@
           ]
         }
       },
-      {
-        "sectionId": "videos",
+      "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
           "value": [
@@ -180,8 +171,7 @@
           ]
         }
       },
-      {
-        "sectionId": "agenda",
+      "agenda": {
         "sectionTitle": "📆 Agenda",
         "sectionContent": {
           "value": [
@@ -219,8 +209,7 @@
           ]
         }
       },
-      {
-        "sectionId": "venue",
+      "venue": {
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
@@ -229,8 +218,7 @@
           ]
         }
       },
-      {
-        "sectionId": "sponsors",
+      "sponsors": {
         "sectionTitle": "❤️ Sponsors",
         "sectionContent": {
           "type": "markdown",
@@ -240,6 +228,6 @@
           ]
         }
       }
-    ]
+    }
   }
 }

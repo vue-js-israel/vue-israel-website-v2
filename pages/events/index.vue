@@ -7,12 +7,15 @@ useHead({
 });
 
 const eventList = Object.entries(events).map(([eventId, event]) => { return { ...event, eventId } })
-const eventsTags = eventList.map((event) => event.eventTags)
 
-const tags = computed(() => {
-  const mergedArray = [].concat(...eventsTags);
-  // Remove duplicates using a Set
-  return [...new Set(mergedArray)];
+const tagsObject = computed(() => {
+  const eventTags = eventList.map((event) => event.eventTags)
+  const uniqueEventTags = [...new Set(...eventTags)];
+  // converts an array to an object
+  return uniqueEventTags.reduce((obj, item,) => {
+    obj[item] = item;
+    return obj;
+  }, {});
 })
 
 const selectedTags = computed(() => {
@@ -39,7 +42,7 @@ const filteredEvents = computed(() => {
     <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
       <p class="p-2 text-md font-medium tracki text-center uppercase">Events</p>
       <div class="w-full">
-        <TagsController :tags="tags" />
+        <TagsController :tags="tagsObject" />
       </div>
       <section class="my-5">
         <EventsCard v-for="event in filteredEvents" :key="event.eventId" :event="event" />

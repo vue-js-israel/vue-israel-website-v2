@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-wrap gap-1">
-    <span v-for="(tag, index) in tags"
+    <span v-for="(tag, tagKey) in localTags"
       class="self-start rounded-full px-3 py-1 text-sm border border-cta-base hover:border-cta-hover"
-      :class="{ 'bg-cta-hover border-cta-hover text-dark-bg-dark': isTagSelected(tag, index) }" :key="tag"
-      @click.stop.prevent="tagClick(tag, index)">
-      {{ tag }}
+      :class="{ 'bg-cta-hover border-cta-hover text-dark-bg-dark': tag.isSelected }" :key="tagKey"
+      @click.prevent="tagClick(tagKey)">
+      {{ tag.title }}
     </span>
   </div>
 </template>
@@ -12,22 +12,14 @@
 <script setup>
 const props = defineProps({
   tags: {
-    type: Array,
+    type: Object,
     default: () => {
-      return [];
+      return {};
     },
   }
 });
 
 const router = useRouter();
-
-const isTagSelected = (tag, index) => {
-  let tagKey = tag
-  if (!Array.isArray(props.tags)) {
-    tagKey = index
-  }
-  return selectedTags.value.includes(tagKey);
-}
 
 const selectedTags = computed(() => {
   const { query } = useRoute();
@@ -35,15 +27,19 @@ const selectedTags = computed(() => {
   return tags?.split(",") ?? [];
 });
 
-const tagClick = (tag, index) => {
-  let tagKey = tag
-  if (!Array.isArray(props.tags)) {
-    tagKey = index
+const localTags = computed(() => {
+  const tags = {};
+  for (const key in props.tags) {
+    const title = props.tags[key]
+    const isSelected = selectedTags.value.includes(key);
+    tags[key] = { title, isSelected }
   }
+  return tags
+})
 
+const tagClick = (tagKey) => {
 
   const currentSelectedTags = selectedTags.value
-
   const isTagSelected = currentSelectedTags.includes(tagKey)
 
   if (isTagSelected) {

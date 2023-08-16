@@ -5,9 +5,6 @@ const props = defineProps({
     required: true,
   },
 });
-
-const emit = defineEmits(["tagClick"]);
-
 // tag list state
 const expanded = ref(false);
 
