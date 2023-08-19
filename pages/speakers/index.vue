@@ -3,12 +3,19 @@
     <p class="text-md tracki p-2 text-center font-medium uppercase">
       Community speakers
     </p>
-    <SpeakersCard v-for="(speaker, speakerId) in speakers" :key="speakerId" :speaker="{ ...speaker, speakerId }" />
+    <SpeakersCard v-for="speaker in sortedSpeakers" :key="speaker.speakerId" :speaker="speaker" />
   </div>
 </template>
 
 <script setup>
 import speakers from '@/content/speakers.json'
+
+const sortedSpeakers = computed(() => {
+  const speakersEntries = Object.entries(speakers)
+  const sortedSpeakersEntries = speakersEntries.sort(([, speakerA], [, speakerB]) => speakerA.name.localeCompare(speakerB.name));
+  const speakerList = sortedSpeakersEntries.map(([speakerId, speaker]) => { return { ...speaker, speakerId } })
+  return speakerList
+})
 </script>
 
 <style scoped></style>
