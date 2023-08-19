@@ -14,7 +14,7 @@
         class="object-cover w-full mb-4 sm:h-96 dark:bg-gray-500">
 
       <NuxtLink :to="`/events/${talk.eventId}`">
-        <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ currentEvent.eventTitle }}</h2>
+        <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ event.eventTitle }}</h2>
       </NuxtLink>
       <h2 class="mb-1 text-lg font-semibold">{{ talk.talkTitle }}</h2>
       <p class="text-sm dark:text-gray-400">{{ talk.talkDescription }}</p>
@@ -50,11 +50,11 @@ const props = defineProps({
     type: Object,
     require: true,
   },
+  event: {
+    type: Object,
+    require: true,
+  },
 });
-const currentEvent = computed(() => {
-  const { eventId } = props.talk
-  return events[eventId]
-})
 </script>
 
 <style scoped></style>
