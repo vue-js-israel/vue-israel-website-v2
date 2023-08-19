@@ -10,8 +10,7 @@
       </div>
     </div>
     <div>
-      <img :src="talk.talkPoster.src" :alt="talk.talkPoster.alt"
-        class="object-cover w-full mb-4 sm:h-96 dark:bg-gray-500">
+      <img :src="talk.talkPoster.src" :alt="talk.talkPoster.alt" class="object-cover w-full mb-4 dark:bg-gray-500">
 
       <NuxtLink :to="`/events/${talk.eventId}`">
         <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ currentEvent.eventTitle }}</h2>
