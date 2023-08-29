@@ -78,5 +78,166 @@
       "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
       "link": "https://docs.google.com/presentation/d/1bKf_O1RzwxsSemDOckpvSxaURMWIbjZbC_w2QpN2aqw/edit?usp=sharing"
     }
+  },
+  "talk-id-50": {
+    "speakerIds": [
+      "speaker-id-50"
+    ],
+    "eventId": "event-id-30",
+    "talkDate": "21 Nov 2022",
+    "talkTitle": " Design System with Vue @Contentsquare",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-dudi-fedida-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Benjamin Rachi"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Design System",
+      "link": "https://docs.google.com/presentation/d/1E55RioXsY1YJLyFtF0meaoXE6mYO_2zs/edit?usp=sharing&ouid=116248289516881912295&rtpof=true&sd=true"
+    }
+  },
+  "talk-id-60": {
+    "speakerIds": [
+      "speaker-id-60"
+    ],
+    "eventId": "event-id-30",
+    "talkDate": "21 Nov 2022",
+    "talkTitle": "Writing full-stack code without repeating yourself",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Noam Honig"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-70": {
+    "speakerIds": [
+      "speaker-id-70",
+      "speaker-id-80"
+    ],
+    "eventId": "event-id-40",
+    "talkDate": "15 Sep 2022",
+    "talkTitle": "CA different point of Vue",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Meital Lazarovitch & Yovel Becker"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-80": {
+    "speakerIds": [
+      "speaker-id-90"
+    ],
+    "eventId": "event-id-40",
+    "talkDate": "15 Sep 2022",
+    "talkTitle": "Development the right way with Vue 3",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Kevin Louzoun"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-90": {
+    "speakerIds": [
+      "speaker-id-100"
+    ],
+    "eventId": "event-id-50",
+    "talkDate": "13 Jul 2022",
+    "talkTitle": "Composable store using Pinia",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster David Levy"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-100": {
+    "speakerIds": [
+      "speaker-id-110"
+    ],
+    "eventId": "event-id-50",
+    "talkDate": "13 Jul 2022",
+    "talkTitle": "Vue Microfrontends - How Vuex Saved the Day",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Evgeni Dikerman"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-110": {
+    "speakerIds": [
+      "speaker-id-120"
+    ],
+    "eventId": "event-id-60",
+    "talkDate": "11 April 2022",
+    "talkTitle": "Vue.js developers are victims of weaponized npm packages for protest and malware",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Liran Tal"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Vue.js developers are victims of weaponized npm packages for protest and malware",
+      "link": "https://bit.ly/lirantal-fb1"
+    }
+  },
+  "talk-id-120": {
+    "speakerIds": [
+      "speaker-id-130"
+    ],
+    "eventId": "event-id-60",
+    "talkDate": "11 April 2022",
+    "talkTitle": "Successful building a large Vue 3 application",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Liran Tal"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Successful building a large Vue 3 application",
+      "link": "https://slides.com/dimshik/successfully-building-a-large-vuejs-3-app"
+    }
   }
 }

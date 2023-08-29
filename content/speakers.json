@@ -34,5 +34,86 @@
       "https://www.linkedin.com/in/mayashavin/"
     ],
     "company": "Microsoft"
+  },
+  "speaker-id-50": {
+    "name": "Benjamin Rachi",
+    "title": "Tech Lead Full Stack Engineer",
+    "image": "/images/speaker-pictures/Benjamin Rachi.jpg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/benjamin-rachi-866b39b5"
+    ],
+    "company": "Contentsquare"
+  },
+  "speaker-id-60": {
+    "name": "Noam Honig",
+    "title": "Founder at Firefly Migration & Creator of Remult",
+    "image": "/images/speaker-pictures/Maya Shavin.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/noamhonig/"
+    ],
+    "company": "Remult"
+  },
+  "speaker-id-70": {
+    "name": "Meital Lazarovitch",
+    "title": "Frontend Developer",
+    "image": "/images/speaker-pictures/Meital Lazarovitch.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/meital-lazarovich"
+    ],
+    "company": "Morning"
+  },
+  "speaker-id-80": {
+    "name": "Yovel Becker",
+    "title": "Frontend Developer",
+    "image": "/images/speaker-pictures/Yovel Becker.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/yovelb/"
+    ],
+    "company": "Morning"
+  },
+  "speaker-id-90": {
+    "name": "Kevin Louzoun",
+    "title": "Lead Front-End",
+    "image": "/images/speaker-pictures/Maya Shavin.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/kevinsz/"
+    ],
+    "company": "Nilos"
+  },
+  "speaker-id-100": {
+    "name": "David Meir-Levy",
+    "title": "Developer",
+    "image": "/images/speaker-pictures/David Meir-Levy.jpeg",
+    "socialLinks": [
+      "https://www.facebook.com/davidmeirlevy"
+    ],
+    "company": "Tikal Knowledge"
+  },
+  "speaker-id-110": {
+    "name": "Evgeni Dikerman",
+    "title": "Developer",
+    "image": "/images/speaker-pictures/Evgeni Dikerman.jpeg",
+    "socialLinks": [
+      "https://twitter.com/EvgeniDikerman"
+    ],
+    "company": "JFrog"
+  },
+  "speaker-id-120": {
+    "name": "Liran Tal",
+    "title": "Developer",
+    "image": "/images/speaker-pictures/Liran Tal.jpeg",
+    "socialLinks": [
+      "https://twitter.com/liran_tal"
+    ],
+    "company": "Snyk"
+  },
+  "speaker-id-130": {
+    "name": "Dima Vishnevetsky",
+    "title": "Co-Founder, CEO & Front End Expert @ ClientSide",
+    "image": "/images/speaker-pictures/Dima Vishnevetsky.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/dimshik100"
+    ],
+    "company": "ClientSide"
   }
 }
