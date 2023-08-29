@@ -88,14 +88,14 @@ useHead({
             LINK OF Photos // OR // Embedded Player (Youtube?)
           </div>
 
-          <ul v-else-if="sectionId === 'speakers'">
+          <ul v-else-if="sectionId === 'speakers'" class="mt-12">
             <li v-for="speakerId in sectionContent.value" :key="speakerId">
               <!-- <a :href="`/speakers/${speakerId}`">{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</a> -->
               <div>{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</div>
             </li>
           </ul>
 
-          <div v-else-if="sectionId === 'videos'">
+          <div v-else-if="sectionId === 'videos'" class="mt-12">
             LINK OF VIDEOS // OR // Embedded Player (Youtube?)
           </div>
 
@@ -106,7 +106,7 @@ useHead({
             </div>
           </div>
 
-          <template v-else-if="sectionId === 'agenda'">
+          <div v-else-if="sectionId === 'agenda'" class="mt-12">
             <p v-for="{ timeSlot, title, speakerIds } in sectionContent.value" :key="title">
               <strong>{{ `${timeSlot ?? ""} ` }}</strong>
               <span v-if="speakerIds">
@@ -121,7 +121,7 @@ useHead({
                 {{ title }}
               </span>
             </p>
-          </template>
+          </div>
 
           <hr class="mt-2 mb-12" />
         </div>
