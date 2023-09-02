@@ -75,7 +75,7 @@ useHead({
 
         <img :src="event.eventPoster.src" :alt="event.eventPoster.alt" />
         <h1 class="my-8 text-4xl font-bold">{{ event.eventTitle }}</h1>
-        <EventsTags :tags="event.eventTags" />
+        <tags :tags="event.eventTags" />
         <MarkdownContent v-for="line in event.mainContent.value" :key="line" :value="line" class="my-6 text-lg" />
 
         <div v-for="({

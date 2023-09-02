@@ -1,9 +1,11 @@
 <script setup>
 const props = defineProps({
   tags: {
-    type: Array,
-    required: true,
-  },
+    type: Object,
+    default: () => {
+      return {};
+    },
+  }
 });
 // tag list state
 const expanded = ref(false);
