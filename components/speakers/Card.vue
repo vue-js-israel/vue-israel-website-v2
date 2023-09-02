@@ -14,7 +14,7 @@ defineProps({
     <NuxtLink :to="{ path: '/talks', query: { speakerId: speaker.speakerId } }"
         class="container rounded-lg md:max-w-6xl mx-auto flex flex-col items-center justify-center p-4 py-6 sm:p-10">
         <div
-            class="group mx-auto block max-w-sm gap-3 hover:no-underline focus:no-underline bg-dark-bg-dark text-dark-text-lightest sm:max-w-full lg:grid lg:grid-cols-12">
+            class="group mx-auto block max-w-sm gap-3 hover:no-underline focus:no-underline bg-dark-bg-dark text-dark-text-lightest lg:max-w-full lg:grid lg:grid-cols-12">
             <img :src="speaker.image" :alt="`${speaker.name} profile picture`"
                 class="max-h-96 rounded-lg object-cover dark:bg-gray-500 lg:col-span-3" />
             <div class="space-y-2 p-6 lg:col-span-9">
