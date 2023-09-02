@@ -918,5 +918,252 @@
         }
       }
     }
+  },
+  "event-id-90": {
+    "metaData": {
+      "title": "UI Frameworks in Vue.js - Component or Utility-first?",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "alt": "Vue.js Israel Official Meetup - TailorBrands - 18.08.2021"
+    },
+    "eventTags": [
+      "Vue.js",
+      "Web",
+      "Development",
+      "Frameworks",
+      "Frontend",
+      "JavaScript"
+    ],
+    "eventDate": "22 Jan 2020 18:00",
+    "eventLocationName": "TailorBrands",
+    "eventTitle": "UI Frameworks in Vue.js - Component or Utility-first?",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [TailorBrands](https://www.tailorbrands.com/) for hosting us with venue and food and gift"
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?vanity=officalVuejsIsrael&set=a.1525299144532363"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-160",
+            "speaker-id-170",
+            "speaker-id-40",
+            "speaker-id-130"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "Youtube Channel Playlist"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:30",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:35 - 18:45",
+              "title": "[Key notes about TailorBrands & VueJS Israel meetup](https://drive.google.com/file/d/1t4hc-qdaaSXr3jMrdZUsYkt9X_KM33TN/view?usp=sharing) (Shahar Avigezer - TailorBrands)"
+            },
+            {
+              "timeSlot": "18:45 - 19:15",
+              "speakerIds": [
+                "speaker-id-160"
+              ]
+            },
+            {
+              "timeSlot": "19:20 - 19:40",
+              "speakerIds": [
+                "speaker-id-170"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:50 - 20:10",
+              "speakerIds": [
+                "speaker-id-40"
+              ]
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "speakerIds": [
+                "speaker-id-130"
+              ]
+            },
+            {
+              "timeSlot": "20:35 - 20:45",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:45 - 20:55",
+              "title": "GIFT time!!! 🎁 Raffle for special gift - one year subscription (value ~190$) from VueSchool 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "TailorBrands HQ Office - Floor 4th",
+            "113 Allenby - Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our gift sponsor: [VueSchool](https://vueschool.io/) - provide quality and affordable learning & training for Vue developers.",
+            "Our meetup host: [TailorBrands](https://www.tailorbrands.com/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-100": {
+    "metaData": {
+      "title": "Performance optimization and Server-less in Vue",
+      "description": "test",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "alt": "Vue.js Israel Official Meetup - Cloudinary - 25.02.20"
+    },
+    "eventTags": [
+      "Vue.js",
+      "Web",
+      "Development",
+      "Frameworks",
+      "Frontend",
+      "JavaScript"
+    ],
+    "eventDate": "25 Feb 2020 18:00",
+    "eventLocationName": "Cloudinary",
+    "eventTitle": "Performance optimization and Server-less in Vue",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Cloudinary](https://www.cloudinary.com/) for sponsoring us with venue and food, and [Node.TLV](https://node.tlv/) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-180",
+            "speaker-id-160",
+            "speaker-id-190"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:25",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:25 - 18:35",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:40 - 18:45",
+              "speakerIds": [
+                "speaker-id-180"
+              ]
+            },
+            {
+              "timeSlot": "18:45 - 19:45",
+              "speakerIds": [
+                "speaker-id-160"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:55 - 20:55",
+              "speakerIds": [
+                "speaker-id-190"
+              ]
+            },
+            {
+              "timeSlot": "20:55 - 21:00",
+              "title": "GIFT time!!! 🎁 Raffle for special gift - ONE free ticket to Node.TLV conference (3 March 2020)"
+            },
+            {
+              "timeSlot": "21:00",
+              "title": "Bye bye 🖖"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Cloudinary HQ Office - Floor 2nd - Building C",
+            "18 Aharon Bart - Petah Tikvah",
+            "💻 Laptop required"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host: [Cloudinary](https://www.cloudinary.com/)"
+          ]
+        }
+      }
+    }
   }
 }

@@ -339,5 +339,145 @@
       "title": "",
       "link": ""
     }
+  },
+  "talk-id-180": {
+    "speakerIds": [
+      "speaker-id-160"
+    ],
+    "eventId": "event-id-90",
+    "talkDate": "22 Jan 2020",
+    "talkTitle": "Quasar - Really easy cross-platform",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Elad Cohen"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Quasar - Really easy cross-platform",
+      "link": "https://docs.google.com/presentation/d/1Cw7Qc0-FLrUHkVybIAtKTIsb3nyxwyeJpsvsl4PhSu4/edit?usp=sharing"
+    }
+  },
+  "talk-id-190": {
+    "speakerIds": [
+      "speaker-id-170"
+    ],
+    "eventId": "event-id-90",
+    "talkDate": "22 Jan 2020",
+    "talkTitle": "Mastering TailwindCSS",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Daniel Dror"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Mastering TailwindCSS",
+      "link": "https://drive.google.com/file/d/1o10voMGOpAKriDPuDzmcWF2e0ma26Vmn/view?usp=sharing"
+    }
+  },
+  "talk-id-200": {
+    "speakerIds": [
+      "speaker-id-40"
+    ],
+    "eventId": "event-id-90",
+    "talkDate": "22 Jan 2020",
+    "talkTitle": "Performant Component through customization",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Maya Shavin"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Performant Component through customization",
+      "link": "https://slides.com/mayashavin/performant-component-library"
+    }
+  },
+  "talk-id-210": {
+    "speakerIds": [
+      "speaker-id-130"
+    ],
+    "eventId": "event-id-90",
+    "talkDate": "22 Jan 2020",
+    "talkTitle": "Choosing Vuetify was a mistake",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Dima Vishnevetsky"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Choosing Vuetify was a mistake",
+      "link": "https://slides.com/dimshik/choosing-vuetify-was-a-mistake"
+    }
+  },
+  "talk-id-220": {
+    "speakerIds": [
+      "speaker-id-180"
+    ],
+    "eventId": "event-id-100",
+    "talkDate": "25 Feb 2020",
+    "talkTitle": "Lightning talk - Optimization with Cloudinary API designed for Vue",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Patrick Tolosa"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Lightning talk - Optimization with Cloudinary API designed for Vue",
+      "link": "https://drive.google.com/file/d/1QtnK5ruz3xF8HSvadPLt2MZdM155XizZ/view?usp=sharing"
+    }
+  },
+  "talk-id-230": {
+    "speakerIds": [
+      "speaker-id-180"
+    ],
+    "eventId": "event-id-100",
+    "talkDate": "25 Feb 2020",
+    "talkTitle": "Know awesome GridSome in one-hour",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Elad Cohen"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Know awesome GridSome in one-hour",
+      "link": "https://bit.ly/gocode-gridsome"
+    }
+  },
+  "talk-id-240": {
+    "speakerIds": [
+      "speaker-id-190"
+    ],
+    "eventId": "event-id-100",
+    "talkDate": "25 Feb 2020",
+    "talkTitle": "Web performance",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Tamas Piros"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Web performance",
+      "link": "https://drive.google.com/file/d/140Bw6R4CI2A_mNpDjjvz99n3u5tZmk98/view?usp=sharing"
+    }
   }
 }

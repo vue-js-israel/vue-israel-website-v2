@@ -135,5 +135,42 @@
       "https://www.facebook.com/adirkandel"
     ],
     "company": "Yahoo!"
+  },
+  "speaker-id-160": {
+    "name": "Elad Cohen",
+    "title": "Fullstack",
+    "image": "/images/speaker-pictures/Elad Cohen.jpeg",
+    "socialLinks": [
+      "https://www.facebook.com/elad.fullstack"
+    ],
+    "company": "GoCode"
+  },
+  "speaker-id-170": {
+    "name": "Daniel Dror",
+    "title": "Full Stack Team Lead",
+    "image": "/images/speaker-pictures/Daniel Dror.jpeg",
+    "socialLinks": [
+      "https://www.facebook.com/daniel.dror.96",
+      "https://www.linkedin.com/in/danieldror/"
+    ],
+    "company": "TailorBrands"
+  },
+  "speaker-id-180": {
+    "name": "Tamas Piros",
+    "title": "Developer Experience",
+    "image": "/images/speaker-pictures/Tamas Piros.jpeg",
+    "socialLinks": [
+      "https://twitter.com/tpiros"
+    ],
+    "company": "Cloudinary"
+  },
+  "speaker-id-190": {
+    "name": "Patrick Tolosa",
+    "title": "R&D Lead for Creative Automation",
+    "image": "/images/speaker-pictures/Patrick Tolosa.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/patrick-tolosa-a1991871/"
+    ],
+    "company": "Cloudinary"
   }
 }
