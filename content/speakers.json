@@ -38,7 +38,7 @@
   "speaker-id-50": {
     "name": "Benjamin Rachi",
     "title": "Tech Lead Full Stack Engineer",
-    "image": "/images/speaker-pictures/Benjamin Rachi.jpg",
+    "image": "/images/speaker-pictures/Benjamin Rachi.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/benjamin-rachi-866b39b5"
     ],
@@ -115,5 +115,25 @@
       "https://www.linkedin.com/in/dimshik100"
     ],
     "company": "ClientSide"
+  },
+  "speaker-id-140": {
+    "name": "Gilad Navot",
+    "title": "Co-Founder at Swimm.io",
+    "image": "/images/speaker-pictures/Gilad Navot.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/gilad-navot/",
+      "https://www.facebook.com/navotgil"
+    ],
+    "company": "Swimm"
+  },
+  "speaker-id-150": {
+    "name": "Adir Kandel",
+    "title": "Developer",
+    "image": "/images/speaker-pictures/Adir Kandel.jpeg",
+    "socialLinks": [
+      "https://twitter.com/AdirKandel",
+      "https://www.facebook.com/adirkandel"
+    ],
+    "company": "Yahoo!"
   }
 }

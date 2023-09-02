@@ -678,5 +678,245 @@
         }
       }
     }
+  },
+  "event-id-70": {
+    "metaData": {
+      "title": "have a reactive Pizza with the Vue 3.0",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "alt": "Vue.js Israel Official Meetup - Swimm - 24.03.22"
+    },
+    "eventTags": [
+      "Vue.js",
+      "Web",
+      "Development",
+      "Frameworks",
+      "Frontend",
+      "JavaScript"
+    ],
+    "eventDate": "24 March 2022 18:00",
+    "eventLocationName": "Swimm",
+    "eventTitle": "Have a reactive Pizza with the Vue 3.0",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Swimm](https://swimm.io) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?vanity=officalVuejsIsrael&set=a.1525299144532363"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-140",
+            "speaker-id-150",
+            "speaker-id-100"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "Youtube Channel Playlist"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-140"
+              ]
+            },
+            {
+              "timeSlot": "19:05 - 19:15",
+              "title": "Lightning talk (Nati Szczupak - Machshava Tova)"
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-150"
+              ]
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-150"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:35",
+              "speakerIds": [
+                "speaker-id-100"
+              ]
+            },
+            {
+              "timeSlot": "20:35 - 20:45",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Swimm - swimm.io Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Swimm](https://swimm.io/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-80": {
+    "metaData": {
+      "title": "back in One Piece with Vue 3",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "alt": "Vue.js Israel Official Meetup - Paradox - 18.08.2021"
+    },
+    "eventTags": [
+      "Vue.js",
+      "Web",
+      "Development",
+      "Frameworks",
+      "Frontend",
+      "JavaScript"
+    ],
+    "eventDate": "18 Aug 2021 18:00",
+    "eventLocationName": "Paradox",
+    "eventTitle": "Back in One Piece with Vue 3",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "We are back with our meetup in person!!!!",
+        "This meetup will be limited to 30 people, due to capacity and COVID's restriction. But we will have fun!",
+        "Thanks ❤️ ❤️ for [Paradox](https://paradox.ai) for hosting us with venue and food and gift"
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?vanity=officalVuejsIsrael&set=a.1525299144532363"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-40",
+            "speaker-id-130"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "Youtube Channel Playlist"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-130"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-40"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "ParadoxAI",
+            "Eliezer Kaplan St 30 - Tel Aviv",
+            "(Sarona Market)"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Paradox](https://paradox.ai)"
+          ]
+        }
+      }
+    }
   }
 }

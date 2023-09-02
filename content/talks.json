@@ -239,5 +239,105 @@
       "title": "Successful building a large Vue 3 application",
       "link": "https://slides.com/dimshik/successfully-building-a-large-vuejs-3-app"
     }
+  },
+  "talk-id-130": {
+    "speakerIds": [
+      "speaker-id-140"
+    ],
+    "eventId": "event-id-70",
+    "talkDate": "24 March 2022",
+    "talkTitle": "Diving under the Vue.js hood",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Gilad Navot"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Reactivity in Vue",
+      "link": "https://drive.google.com/file/d/17ZnF3CyN-yw3t3BR0-5IZq6N50EywN18/view?usp=sharing"
+    }
+  },
+  "talk-id-140": {
+    "speakerIds": [
+      "speaker-id-150"
+    ],
+    "eventId": "event-id-70",
+    "talkDate": "24 March 2022",
+    "talkTitle": "What's new on Vue 3",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Adir Kandel"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "What's new on Vue 3",
+      "link": "https://drive.google.com/file/d/1m3idz_4iDqWwfb2_53vP03v-iuXswdDd/view?usp=sharing"
+    }
+  },
+  "talk-id-150": {
+    "speakerIds": [
+      "speaker-id-100"
+    ],
+    "eventId": "event-id-70",
+    "talkDate": "24 March 2022",
+    "talkTitle": "Composable store using Pinia",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Liran Tal"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "Composable store using Pinia",
+      "link": "https://drive.google.com/file/d/1gpOrx4nBd3AaAa36pdDujYZU5T2PqST-/view?usp=sharing"
+    }
+  },
+  "talk-id-160": {
+    "speakerIds": [
+      "speaker-id-130"
+    ],
+    "eventId": "event-id-80",
+    "talkDate": "18 Aug 2021",
+    "talkTitle": "Vue tips and tricks",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Dima Vishnevetsky"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-170": {
+    "speakerIds": [
+      "speaker-id-40"
+    ],
+    "eventId": "event-id-80",
+    "talkDate": "18 Aug 2021",
+    "talkTitle": "Vuex? No, it's XState for Vue",
+    "talkDescription": "ADD - DESCRIPTION",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "alt": "Vue.js Israel speakers poster Maya Shavin"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
   }
 }
