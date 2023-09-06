@@ -237,7 +237,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-Contentsquare-21.11.22.png",
       "alt": "Vue.js Israel Official Meetup - Contentsquare - 21.11.22"
     },
     "eventTags": [
@@ -1161,6 +1161,118 @@
           "type": "markdown",
           "value": [
             "Our meetup host: [Cloudinary](https://www.cloudinary.com/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-110": {
+    "metaData": {
+      "title": "Let's get Nuxt (and maybe more)",
+      "description": "test",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/images/events/Vue.js-Israel-meetup-Swimm-31.07.23.png",
+      "alt": "Vue.js Israel Official Meetup - Swimm - 31.07.23"
+    },
+    "eventTags": [
+      "Vue.js",
+      "Web",
+      "Development",
+      "Frameworks",
+      "Frontend",
+      "JavaScript"
+    ],
+    "eventDate": "31 Jul 2023 18:00",
+    "eventLocationName": "Swimm",
+    "eventTitle": "Let's get Nuxt (and maybe more)",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Swimm](https://swimm.io) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-90",
+            "speaker-id-200"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-90"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-200"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Swimm - swimm.io Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Swimm](https://swimm.io/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
           ]
         }
       }

@@ -74,7 +74,7 @@
   "speaker-id-90": {
     "name": "Kevin Louzoun",
     "title": "Lead Front-End",
-    "image": "/images/speaker-pictures/avatar.png",
+    "image": "/images/speaker-pictures/Kevin Louzoun.png",
     "socialLinks": [
       "https://www.linkedin.com/in/kevinsz/"
     ],
@@ -172,5 +172,14 @@
       "https://www.linkedin.com/in/patrick-tolosa-a1991871/"
     ],
     "company": "Cloudinary"
+  },
+  "speaker-id-200": {
+    "name": "Ryan Taylor",
+    "title": "Principal Frontend Engineer",
+    "image": "/images/speaker-pictures/Ryan Taylor.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/ryanhavoctaylor/"
+    ],
+    "company": "Swimm"
   }
 }

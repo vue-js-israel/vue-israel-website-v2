@@ -86,9 +86,9 @@
     "eventId": "event-id-30",
     "talkDate": "21 Nov 2022",
     "talkTitle": " Design System with Vue @Contentsquare",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "What is a design system? Why we decided to implement a design system @Contentsquare and how it helped us speed up our development process",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-dudi-fedida-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-benjamin-rachi-21.11.png",
       "alt": "Vue.js Israel speakers poster Benjamin Rachi"
     },
     "videos": [
@@ -106,9 +106,9 @@
     "eventId": "event-id-30",
     "talkDate": "21 Nov 2022",
     "talkTitle": "Writing full-stack code without repeating yourself",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "Live coding session, where we'll turn a front-end VueJS app into a full-stack app with code that is easy to write, follow, and, most importantly - maintain. Using: VueJS, node js, express, Postgres and remult",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-noam-honig-21.11.png",
       "alt": "Vue.js Israel speakers poster Noam Honig"
     },
     "videos": [
@@ -478,6 +478,46 @@
     "slides": {
       "title": "Web performance",
       "link": "https://drive.google.com/file/d/140Bw6R4CI2A_mNpDjjvz99n3u5tZmk98/view?usp=sharing"
+    }
+  },
+  "talk-id-250": {
+    "speakerIds": [
+      "speaker-id-90"
+    ],
+    "eventId": "event-id-110",
+    "talkDate": "31 Jul 2023",
+    "talkTitle": "Developer Experience with Nuxt 3",
+    "talkDescription": "How @Nilos strives to enhance the Dx with Nuxt3 to onboard faster on different products.",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-kevin-louzoun-31.07.png",
+      "alt": "Vue.js Israel speakers poster Kevin Louzoun"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-260": {
+    "speakerIds": [
+      "speaker-id-200"
+    ],
+    "eventId": "event-id-110",
+    "talkDate": "31 Jul 2023",
+    "talkTitle": "Design Systems with Vue",
+    "talkDescription": "A discussion around the power of Vue when building a Design System and a look at the elements and tools that make up a scalable, consistent, reusable component library.",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-ryan-taylor-31.07.png",
+      "alt": "Vue.js Israel speakers poster Ryan Taylor"
+    },
+    "videos": [
+      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
     }
   }
 }
