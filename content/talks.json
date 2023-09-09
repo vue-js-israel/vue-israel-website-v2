@@ -427,7 +427,7 @@
     "eventId": "event-id-100",
     "talkDate": "25 Feb 2020",
     "talkTitle": "Know awesome GridSome in one-hour",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
       "src": "/images/speaker-posters/Vue.js-Israel-speakers-elad-cohen-25.02.png",
       "alt": "Vue.js Israel speakers poster Elad Cohen"
@@ -447,7 +447,7 @@
     "eventId": "event-id-100",
     "talkDate": "25 Feb 2020",
     "talkTitle": "Web performance",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
       "src": "/images/speaker-posters/Vue.js-Israel-speakers-tamas-piros-25.02.png",
       "alt": "Vue.js Israel speakers poster Tamas Piros"
