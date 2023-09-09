@@ -2,7 +2,7 @@
   "event-id-10": {
     "metaData": {
       "title": "data management with vue",
-      "description": "test",
+      "description": "",
       "image": ""
     },
     "eventPoster": {
@@ -118,7 +118,7 @@
   "event-id-20": {
     "metaData": {
       "title": "deployment vue projects securely",
-      "description": "test",
+      "description": "",
       "image": ""
     },
     "eventPoster": {
@@ -349,7 +349,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-Morning-15.9.22.png",
       "alt": "Vue.js Israel Official Meetup - Morning - 15.09.22"
     },
     "eventTags": [
@@ -462,7 +462,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-JFrog-13.07.22.png",
       "alt": "Vue.js Israel Official Meetup - JFrog Israel - 13.07.22"
     },
     "eventTags": [
@@ -473,7 +473,7 @@
       "Frontend",
       "JavaScript"
     ],
-    "eventDate": "15 Sep 2022 18:00",
+    "eventDate": "13 Jul 2022 18:00",
     "eventLocationName": "JFrog Israel",
     "eventTitle": "State management in Vue",
     "mainContent": {
@@ -574,7 +574,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-Microsoft-Reactor-11.04.22.png",
       "alt": "Vue.js Israel Official Meetup - Microsoft Reactor - 11.04.22"
     },
     "eventTags": [
@@ -686,7 +686,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-Swimm-24.03.22.png",
       "alt": "Vue.js Israel Official Meetup - Swimm - 24.03.22"
     },
     "eventTags": [
@@ -811,7 +811,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-Paradox-18.08.22.png",
       "alt": "Vue.js Israel Official Meetup - Paradox - 18.08.2021"
     },
     "eventTags": [
@@ -926,7 +926,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-TailorBrands-18.08.21.png",
       "alt": "Vue.js Israel Official Meetup - TailorBrands - 18.08.2021"
     },
     "eventTags": [
@@ -984,7 +984,7 @@
             },
             {
               "timeSlot": "18:35 - 18:45",
-              "title": "[Key notes about TailorBrands & VueJS Israel meetup](https://drive.google.com/file/d/1t4hc-qdaaSXr3jMrdZUsYkt9X_KM33TN/view?usp=sharing) (Shahar Avigezer - TailorBrands)"
+              "title": "Key notes about TailorBrands & VueJS Israel meetup - Shahar Avigezer - TailorBrands"
             },
             {
               "timeSlot": "18:45 - 19:15",
@@ -1049,11 +1049,11 @@
   "event-id-100": {
     "metaData": {
       "title": "Performance optimization and Server-less in Vue",
-      "description": "test",
+      "description": "",
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Event.png",
+      "src": "/images/events/Vue.js-Israel-meetup-Cloudinary-25.02.20.png",
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 25.02.20"
     },
     "eventTags": [
@@ -1084,9 +1084,8 @@
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
           "value": [
-            "speaker-id-180",
             "speaker-id-160",
-            "speaker-id-190"
+            "speaker-id-180"
           ]
         }
       },
@@ -1109,17 +1108,21 @@
               "title": "Welcome & Networking"
             },
             {
-              "timeSlot": "18:25 - 18:35",
+              "timeSlot": "18:25 - 18:30",
               "title": "Keynotes"
             },
             {
-              "timeSlot": "18:40 - 18:45",
+              "timeSlot": "18:25 - 18:30",
+              "title": "Lightning talk - Optimization with Cloudinary API designed for Vue - Patrick Tolosa - Cloudinary"
+            },
+            {
+              "timeSlot": "18:35 - 19:20",
               "speakerIds": [
                 "speaker-id-180"
               ]
             },
             {
-              "timeSlot": "18:45 - 19:45",
+              "timeSlot": "19:35 - 20:35",
               "speakerIds": [
                 "speaker-id-160"
               ]
@@ -1128,14 +1131,8 @@
               "title": "Short Break"
             },
             {
-              "timeSlot": "19:55 - 20:55",
-              "speakerIds": [
-                "speaker-id-190"
-              ]
-            },
-            {
-              "timeSlot": "20:55 - 21:00",
-              "title": "GIFT time!!! 🎁 Raffle for special gift - ONE free ticket to Node.TLV conference (3 March 2020)"
+              "timeSlot": "20:40 - 20:55 ",
+              "title": "GIFT time for the lucky attendee 🎁"
             },
             {
               "timeSlot": "21:00",
@@ -1169,7 +1166,7 @@
   "event-id-110": {
     "metaData": {
       "title": "Let's get Nuxt (and maybe more)",
-      "description": "test",
+      "description": "",
       "image": ""
     },
     "eventPoster": {
@@ -1271,8 +1268,250 @@
         "sectionContent": {
           "type": "markdown",
           "value": [
-            "Our meetup host & Gift sponsor: [Swimm](https://swimm.io/)",
+            "Our meetup host: [Yad2 HQ](https://www.yad2.co.il/)",
             "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-120": {
+    "metaData": {
+      "title": "SSR, SSG? Let’s go Nuxt (or not)",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/images/events/Vue.js-Israel-meetup-Yad2-13.08.19.png",
+      "alt": "Vue.js Israel Official Meetup - Yad2 - 13.08.19"
+    },
+    "eventTags": [
+      "Vue.js",
+      "Web",
+      "Development",
+      "Frameworks",
+      "Frontend",
+      "JavaScript"
+    ],
+    "eventDate": "13 Aug 2019 18:00",
+    "eventLocationName": "Yad2 HQ",
+    "eventTitle": "SSR, SSG? Let’s go Nuxt (or not)",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Yad2 HQ](https://www.yad2.co.il/) for hosting us with venue and food, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-220",
+            "speaker-id-40",
+            "speaker-id-210"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:30",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:30 - 19:10",
+              "speakerIds": [
+                "speaker-id-220"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:15 - 19:35",
+              "speakerIds": [
+                "speaker-id-40"
+              ]
+            },
+            {
+              "timeSlot": "19:35 - 19:50",
+              "title": "Break + Networking"
+            },
+            {
+              "timeSlot": "19:50 - 20:20",
+              "speakerIds": [
+                "speaker-id-210"
+              ]
+            },
+            {
+              "timeSlot": "20:25 - 20:40",
+              "title": "Networking & Discussion"
+            },
+            {
+              "timeSlot": "20:40 - 20:45",
+              "title": "GIFT time!!! 🎁Raffle for a special gift 🎁from VueSchool"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Yad2 HQ Office - Entrance A - Floor 3",
+            "HaKishon St 8 - Bnei Brak"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our raffle gift sponsor: [Vue School](https://vueschool.io/) - provide quality and affordable learning & training for Vue developers.",
+            "Our meetup host: [Yad2 HQ](https://www.yad2.co.il/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-130": {
+    "metaData": {
+      "title": "May the Vue be with you - New beginning 🎉🎉",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/images/events/Vue.js-Israel-meetup-Cloudinary-13.05.19.png",
+      "alt": "Vue.js Israel Official Meetup - Cloudinary - 13.05.19"
+    },
+    "eventTags": [
+      "Vue.js",
+      "Web",
+      "Development",
+      "Frameworks",
+      "Frontend",
+      "JavaScript"
+    ],
+    "eventDate": "13 May 2019 18:30",
+    "eventLocationName": "Cloudinary",
+    "eventTitle": "May the Vue be with you - New beginning 🎉🎉",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Cloudinary](https://www.cloudinary.com/) for sponsoring us with venue and food."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-230",
+            "speaker-id-240",
+            "speaker-id-220"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:40 - 18:45",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:45 - 19:00",
+              "title": "Key notes about VueJS & VueJS Israel - Maya Shavin"
+            },
+            {
+              "timeSlot": "18:45 - 19:00",
+              "speakerIds": [
+                "speaker-id-230"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:05 - 19:50",
+              "speakerIds": [
+                "speaker-id-240"
+              ]
+            },
+            {
+              "timeSlot": "19:55 - 20:10",
+              "speakerIds": [
+                "speaker-id-220"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "20:15 - 20:30",
+              "title": "Networking & Discussion"
+            },
+            {
+              "timeSlot": "20:30 - 20:45",
+              "title": "GIFT time!!! 🎁Raffle for special gift (value ~190$) 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Cloudinary HQ Office - Floor 2nd - Building C",
+            "18 Aharon Bart - Petah Tikvah"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host: [Cloudinary](https://www.cloudinary.com/)"
           ]
         }
       }

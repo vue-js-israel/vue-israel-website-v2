@@ -12,11 +12,11 @@
       "alt": "Vue.js Israel speakers poster Guy Passy"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "slide-title",
-      "link": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      "link": ""
     }
   },
   "talk-id-20": {
@@ -32,7 +32,7 @@
       "alt": "Vue.js Israel speakers poster Michael Salaverry"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
@@ -52,7 +52,7 @@
       "alt": "Vue.js Israel speakers poster Dudi Fedida"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
@@ -72,7 +72,7 @@
       "alt": "Vue.js Israel speakers poster Maya Shavin"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Unleashing the Power of Directus: Revolutionizing Data Management for Startups",
@@ -92,7 +92,7 @@
       "alt": "Vue.js Israel speakers poster Benjamin Rachi"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Design System",
@@ -112,7 +112,7 @@
       "alt": "Vue.js Israel speakers poster Noam Honig"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -126,14 +126,14 @@
     ],
     "eventId": "event-id-40",
     "talkDate": "15 Sep 2022",
-    "talkTitle": "CA different point of Vue",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkTitle": "a Different Point Of Vue (3)",
+    "talkDescription": "Take a look into our process of always staying up to date with Vue and see how we faced the questions of how, when and for how long will we upgrade to Vue 3.",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-Yovel-Becker-and-Meital-Lazarovitch-15.09.png",
       "alt": "Vue.js Israel speakers poster Meital Lazarovitch & Yovel Becker"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -147,13 +147,13 @@
     "eventId": "event-id-40",
     "talkDate": "15 Sep 2022",
     "talkTitle": "Development the right way with Vue 3",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "How to structure a design system and expose it to your product/design team using Storybook/Histoire",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-Kevin-Louzoun.15.09.png",
       "alt": "Vue.js Israel speakers poster Kevin Louzoun"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -167,13 +167,13 @@
     "eventId": "event-id-50",
     "talkDate": "13 Jul 2022",
     "talkTitle": "Composable store using Pinia",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-david-levy-13.07.jpeg",
       "alt": "Vue.js Israel speakers poster David Levy"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -187,13 +187,13 @@
     "eventId": "event-id-50",
     "talkDate": "13 Jul 2022",
     "talkTitle": "Vue Microfrontends - How Vuex Saved the Day",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-evgeni-dikerman-13.07.jpeg",
       "alt": "Vue.js Israel speakers poster Evgeni Dikerman"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -207,13 +207,13 @@
     "eventId": "event-id-60",
     "talkDate": "11 April 2022",
     "talkTitle": "Vue.js developers are victims of weaponized npm packages for protest and malware",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-liran-tal-11.04.png",
       "alt": "Vue.js Israel speakers poster Liran Tal"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Vue.js developers are victims of weaponized npm packages for protest and malware",
@@ -227,13 +227,13 @@
     "eventId": "event-id-60",
     "talkDate": "11 April 2022",
     "talkTitle": "Successful building a large Vue 3 application",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
-      "alt": "Vue.js Israel speakers poster Liran Tal"
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-dima-vishnevetsky-11.04.png",
+      "alt": "Vue.js Israel speakers poster Dima Vishnevetsky"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Successful building a large Vue 3 application",
@@ -247,13 +247,13 @@
     "eventId": "event-id-70",
     "talkDate": "24 March 2022",
     "talkTitle": "Diving under the Vue.js hood",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-gilad-navot-24.03.jpeg",
       "alt": "Vue.js Israel speakers poster Gilad Navot"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Reactivity in Vue",
@@ -267,13 +267,13 @@
     "eventId": "event-id-70",
     "talkDate": "24 March 2022",
     "talkTitle": "What's new on Vue 3",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-adir-kandel-24.03.jpeg",
       "alt": "Vue.js Israel speakers poster Adir Kandel"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "What's new on Vue 3",
@@ -287,13 +287,13 @@
     "eventId": "event-id-70",
     "talkDate": "24 March 2022",
     "talkTitle": "Composable store using Pinia",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-david-levy-24.03.jpeg",
       "alt": "Vue.js Israel speakers poster Liran Tal"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Composable store using Pinia",
@@ -307,13 +307,13 @@
     "eventId": "event-id-80",
     "talkDate": "18 Aug 2021",
     "talkTitle": "Vue tips and tricks",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "Tips, tricks, and guidelines that can be applied to any vue2/vue3 application and will make you a star Developer.",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-dima-vishnevetsky-18.08.png",
       "alt": "Vue.js Israel speakers poster Dima Vishnevetsky"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -327,13 +327,13 @@
     "eventId": "event-id-80",
     "talkDate": "18 Aug 2021",
     "talkTitle": "Vuex? No, it's XState for Vue",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "Let's explore how we can fully control our app's states and develop a more adaptive UI system to users' behavior while keeping the codebase scalable with state machines, in real time.",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-18.08.png",
       "alt": "Vue.js Israel speakers poster Maya Shavin"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -347,13 +347,13 @@
     "eventId": "event-id-90",
     "talkDate": "22 Jan 2020",
     "talkTitle": "Quasar - Really easy cross-platform",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "Meet the Quasar framework based on Vuejs, and create a cross-platform solution in an easy and peaceful way. We'll see some nice UI components, Capacitor for mobile development, PWA and various configurations that we've got out of the box.",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-elad-cohen-22.01.jpg",
       "alt": "Vue.js Israel speakers poster Elad Cohen"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Quasar - Really easy cross-platform",
@@ -367,13 +367,13 @@
     "eventId": "event-id-90",
     "talkDate": "22 Jan 2020",
     "talkTitle": "Mastering TailwindCSS",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "Tailwind is a highly customizable CSS framework for rapidly building custom designs. It provides low-level utility classes that you can use to control every visual aspect of your page without ever leaving your HTML. In this talk, we will not only explain the basic concepts of Tailwind but also share our experience of using it and reflect on how you get the most out of it.",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-daniel-dror-22.01.jpg",
       "alt": "Vue.js Israel speakers poster Daniel Dror"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Mastering TailwindCSS",
@@ -387,13 +387,13 @@
     "eventId": "event-id-90",
     "talkDate": "22 Jan 2020",
     "talkTitle": "Performant Component through customization",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "How to create a UI Library that provides users the most possible freedom in customizing components, while keeping our performance and scalability to the fullest? What other lessons learned, during building StorefrontUl, that can help other Vue developers in building their own system?",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-22.01.jpg",
       "alt": "Vue.js Israel speakers poster Maya Shavin"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Performant Component through customization",
@@ -407,53 +407,33 @@
     "eventId": "event-id-90",
     "talkDate": "22 Jan 2020",
     "talkTitle": "Choosing Vuetify was a mistake",
-    "talkDescription": "ADD - DESCRIPTION",
+    "talkDescription": "A personal story on how choosing one of the best Vue UI frameworks turned out to do more damage than help, and how to avoid this mistake in the future.",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-dima-vishnevetsky-22.01.jpg",
       "alt": "Vue.js Israel speakers poster Dima Vishnevetsky"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Choosing Vuetify was a mistake",
       "link": "https://slides.com/dimshik/choosing-vuetify-was-a-mistake"
     }
   },
-  "talk-id-220": {
-    "speakerIds": [
-      "speaker-id-180"
-    ],
-    "eventId": "event-id-100",
-    "talkDate": "25 Feb 2020",
-    "talkTitle": "Lightning talk - Optimization with Cloudinary API designed for Vue",
-    "talkDescription": "ADD - DESCRIPTION",
-    "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
-      "alt": "Vue.js Israel speakers poster Patrick Tolosa"
-    },
-    "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    ],
-    "slides": {
-      "title": "Lightning talk - Optimization with Cloudinary API designed for Vue",
-      "link": "https://drive.google.com/file/d/1QtnK5ruz3xF8HSvadPLt2MZdM155XizZ/view?usp=sharing"
-    }
-  },
   "talk-id-230": {
     "speakerIds": [
-      "speaker-id-180"
+      "speaker-id-160"
     ],
     "eventId": "event-id-100",
     "talkDate": "25 Feb 2020",
     "talkTitle": "Know awesome GridSome in one-hour",
     "talkDescription": "ADD - DESCRIPTION",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-elad-cohen-25.02.png",
       "alt": "Vue.js Israel speakers poster Elad Cohen"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Know awesome GridSome in one-hour",
@@ -462,18 +442,18 @@
   },
   "talk-id-240": {
     "speakerIds": [
-      "speaker-id-190"
+      "speaker-id-180"
     ],
     "eventId": "event-id-100",
     "talkDate": "25 Feb 2020",
     "talkTitle": "Web performance",
     "talkDescription": "ADD - DESCRIPTION",
     "talkPoster": {
-      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-27.02.jpeg",
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-tamas-piros-25.02.png",
       "alt": "Vue.js Israel speakers poster Tamas Piros"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "Web performance",
@@ -493,7 +473,7 @@
       "alt": "Vue.js Israel speakers poster Kevin Louzoun"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
     ],
     "slides": {
       "title": "",
@@ -513,7 +493,127 @@
       "alt": "Vue.js Israel speakers poster Ryan Taylor"
     },
     "videos": [
-      "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      ""
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-270": {
+    "speakerIds": [
+      "speaker-id-210"
+    ],
+    "eventId": "event-id-120",
+    "talkDate": "13 Aug 2019",
+    "talkTitle": "Our journey @Yad2 with NuxtJS",
+    "talkDescription": "Diving into the technology disruption @Yad2 in the last year, moving to VueJS and Nuxt, the challenges we faced and the conclusions we reached, how we dealt with memory leaks, responsive app, constantly refactoring our architecture to better suite our needs, important tips, do's and don'ts we took with us.",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-omri-matias-13.08.jpeg",
+      "alt": "Vue.js Israel speakers poster Omri Matias"
+    },
+    "videos": [
+      ""
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-280": {
+    "speakerIds": [
+      "speaker-id-40"
+    ],
+    "eventId": "event-id-120",
+    "talkDate": "13 Aug 2019",
+    "talkTitle": "Get your dynamic app up and running fast with Gridlify (Gridsome + Netlify).",
+    "talkDescription": "Keen to have fun building web applications and get some tasty JAM out of the stack of Gridsome and Netlify? Let's build Progressive web apps, SEO friendly. fast and dynamic in a 'static' way. entirely server-less.",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-maya-shavin-13.08.jpg",
+      "alt": "Vue.js Israel speakers poster Maya Shavin"
+    },
+    "videos": [
+      ""
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-290": {
+    "speakerIds": [
+      "speaker-id-220"
+    ],
+    "eventId": "event-id-120",
+    "talkDate": "13 Aug 2019",
+    "talkTitle": "Production-Ready Vue Websites with NutS in Depth.",
+    "talkDescription": "SSR development in-depth. SSR compared to SPA apps. How NutS speeds up development and adds ease-of-use.",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-snir-shechter-13.08.jpg",
+      "alt": "Vue.js Israel speakers poster Snir Shechter"
+    },
+    "videos": [
+      ""
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-300": {
+    "speakerIds": [
+      "speaker-id-230"
+    ],
+    "eventId": "event-id-130",
+    "talkDate": "13 May 2019",
+    "talkTitle": "Microinteractions: Little Things that Matter",
+    "talkDescription": "What are Microinteractions? A glance through the lens of a web developer. From UX aspects to actual code examples and on to understanding the building blocks.",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-jonathan-doron-13.05.png",
+      "alt": "Vue.js Israel speakers poster Jonathan Doron"
+    },
+    "videos": [
+      ""
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-310": {
+    "speakerIds": [
+      "speaker-id-240"
+    ],
+    "eventId": "event-id-130",
+    "talkDate": "13 May 2019",
+    "talkTitle": "Vue Dynamic Components are Superb!",
+    "talkDescription": "Lets start deep and go deeper, this will be a fun journey of code - from the basics of Vue and quickly into the art of using dynamic components to build generic stuff (meta-applications)",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-yaron-biton-13.05.png",
+      "alt": "Vue.js Israel speakers poster Yaron Biton"
+    },
+    "videos": [
+      ""
+    ],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-320": {
+    "speakerIds": [
+      "speaker-id-220"
+    ],
+    "eventId": "event-id-130",
+    "talkDate": "13 May 2019",
+    "talkTitle": "Universal App with NuxtJS better, simpler and easier SSR solution",
+    "talkDescription": "This talk is about the concept of universal apps, and how developers can create univeral apps easily with NuxtJS while speeding up development process and keeping KISS rules.",
+    "talkPoster": {
+      "src": "/images/speaker-posters/Vue.js-Israel-speakers-snir-shechter-13.05.png",
+      "alt": "Vue.js Israel speakers poster Snir Shechter"
+    },
+    "videos": [
+      ""
     ],
     "slides": {
       "title": "",

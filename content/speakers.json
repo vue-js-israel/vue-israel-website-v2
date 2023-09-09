@@ -164,15 +164,6 @@
     ],
     "company": "Cloudinary"
   },
-  "speaker-id-190": {
-    "name": "Patrick Tolosa",
-    "title": "R&D Lead for Creative Automation",
-    "image": "/images/speaker-pictures/Patrick Tolosa.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/patrick-tolosa-a1991871/"
-    ],
-    "company": "Cloudinary"
-  },
   "speaker-id-200": {
     "name": "Ryan Taylor",
     "title": "Principal Frontend Engineer",
@@ -181,5 +172,42 @@
       "https://www.linkedin.com/in/ryanhavoctaylor/"
     ],
     "company": "Swimm"
+  },
+  "speaker-id-210": {
+    "name": "Omri Matias",
+    "title": "Full Stack Team Lead",
+    "image": "/images/speaker-pictures/Omri Matias.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/omri-matias-4258947b/"
+    ],
+    "company": "Yad2"
+  },
+  "speaker-id-220": {
+    "name": "Snir Shechter",
+    "title": "R&D Team Leader",
+    "image": "/images/speaker-pictures/Snir Shechter.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/snir/"
+    ],
+    "company": "Monolith"
+  },
+  "speaker-id-230": {
+    "name": "Jonathan Doron",
+    "title": "Lead Web Developer",
+    "image": "/images/speaker-pictures/Jonathan Doron.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/yonatan-doron-7a128961/",
+      "https://www.facebook.com/yonatan.doron.10"
+    ],
+    "company": "ClientSide"
+  },
+  "speaker-id-240": {
+    "name": "Yaron Biton",
+    "title": "Chief of Technology",
+    "image": "/images/speaker-pictures/Yaron Biton.jpeg",
+    "socialLinks": [
+      "https://www.linkedin.com/in/yaronbiton/"
+    ],
+    "company": "misterBIT"
   }
 }
