@@ -30,7 +30,6 @@ const filteredEventsTalksSpeakers = computed(() => {
     return talk.speakerIds.map((speakerId) => { return { talk, event: events[talk.eventId], speaker: { ...speakers[speakerId], speakerId } } });
   })
   const flattenSpeakerList = talkAndSpeakerList.reduce((flattened, innerArray) => flattened.concat(innerArray), []);
-  console.log("👾 ~ file: index.vue:33 ~ filteredTalksAndSpeakers ~ flattenSpeakerList:", flattenSpeakerList)
 
   if (selectedSpeakerId !== undefined) {
     return flattenSpeakerList.filter(({ speaker }) => speaker.speakerId === selectedSpeakerId)
