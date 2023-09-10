@@ -24,15 +24,20 @@ const selectedTags = computed(() => {
   return tags?.split(",") ?? [];
 });
 
+
 const filteredEvents = computed(() => {
+  const sortEventByDate = eventList.sort((eventA, eventB) => {
+    return new Date(eventB.eventDate) - new Date(eventA.eventDate)
+  })
+
   if (selectedTags.value.length > 0) {
-    return eventList.filter((event) => {
+    return sortEventByDate.filter((event) => {
       return event.eventTags.find((eventTag) => {
         return selectedTags.value.includes(eventTag)
       })
     })
   } else {
-    return eventList
+    return sortEventByDate
   }
 })
 </script>

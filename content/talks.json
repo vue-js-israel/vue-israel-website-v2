@@ -5,6 +5,7 @@
       "speaker-id-20"
     ],
     "eventId": "event-id-10",
+    "talkDate": "01 May 2023",
     "talkTitle": "talk-title-4",
     "talkDescription": "talk-description-4",
     "talkPoster": {
@@ -24,6 +25,7 @@
       "speaker-id-20"
     ],
     "eventId": "event-id-10",
+    "talkDate": "02 May 2023",
     "talkTitle": "talk-title-5",
     "talkDescription": "talk-description-5",
     "talkPoster": {
@@ -43,6 +45,7 @@
       "speaker-id-30"
     ],
     "eventId": "event-id-20",
+    "talkDate": "03 May 2023",
     "talkTitle": "How to put your code in production",
     "talkDescription": "talk-description-5",
     "talkPoster": {
@@ -62,6 +65,7 @@
       "speaker-id-40"
     ],
     "eventId": "event-id-20",
+    "talkDate": "04 May 2023",
     "talkTitle": "Component testing with Vitest",
     "talkDescription": "talk-description-5",
     "talkPoster": {
