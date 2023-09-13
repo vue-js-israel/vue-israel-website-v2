@@ -10,12 +10,12 @@
       "alt": "Vue.js Israel Official Meetup - Semperis - 02.05.23"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Migration",
+      "Vue 2",
+      "Vue 3",
+      "Directus",
+      "Based on Vuejs",
+      "Live coding"
     ],
     "eventDate": "02 May 2023 18:00",
     "eventLocationName": "Semperis",
@@ -126,12 +126,11 @@
       "alt": "Vue.js Israel Official Meetup - Torq - 27.02.23"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "secure",
+      "How to",
+      "production",
+      "Component development",
+      "Testing with Vitest"
     ],
     "eventDate": "27 Feb 2023 18:00",
     "eventLocationName": "Torq",
@@ -241,12 +240,9 @@
       "alt": "Vue.js Israel Official Meetup - Contentsquare - 21.11.22"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Design system",
+      "Live coding",
+      "Code maintenance"
     ],
     "eventDate": "21 Nov 2022 18:00",
     "eventLocationName": "Contentsquare",
@@ -353,12 +349,12 @@
       "alt": "Vue.js Israel Official Meetup - Morning - 15.09.22"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Storybook",
+      "Histoire",
+      "Design system",
+      "Migration",
+      "Vue 2",
+      "Vue 3"
     ],
     "eventDate": "15 Sep 2022 18:00",
     "eventLocationName": "Morning",
@@ -466,12 +462,12 @@
       "alt": "Vue.js Israel Official Meetup - JFrog Israel - 13.07.22"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "State management",
+      "VueX",
+      "Pinia",
+      "Store",
+      "Microfrontend",
+      "Composable"
     ],
     "eventDate": "13 Jul 2022 18:00",
     "eventLocationName": "JFrog Israel",
@@ -578,12 +574,11 @@
       "alt": "Vue.js Israel Official Meetup - Microsoft Reactor - 11.04.22"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Malware",
+      "npm",
+      "packages",
+      "Large application",
+      "Vue 3"
     ],
     "eventDate": "11 Apr 2022 18:00",
     "eventLocationName": "Microsoft Reactor",
@@ -690,12 +685,11 @@
       "alt": "Vue.js Israel Official Meetup - Swimm - 24.03.22"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Under the hood",
+      "Vue 3",
+      "Store",
+      "Composable",
+      "Pinia"
     ],
     "eventDate": "24 March 2022 18:00",
     "eventLocationName": "Swimm",
@@ -815,12 +809,14 @@
       "alt": "Vue.js Israel Official Meetup - Paradox - 18.08.2021"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Vue 2",
+      "Vue 3",
+      "Tips",
+      "Tricks",
+      "VueX",
+      "UI",
+      "State management",
+      "Scalable"
     ],
     "eventDate": "18 Aug 2021 18:00",
     "eventLocationName": "Paradox",
@@ -930,12 +926,14 @@
       "alt": "Vue.js Israel Official Meetup - TailorBrands - 18.08.2021"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
+      "Quasar",
+      "Based on Vuejs",
+      "Cross-platform",
+      "UI",
       "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Costume",
+      "Components",
+      "StorefrontUl"
     ],
     "eventDate": "22 Jan 2020 18:00",
     "eventLocationName": "TailorBrands",
@@ -1057,12 +1055,10 @@
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 25.02.20"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Serverless",
+      "Performance",
+      "Optimization",
+      "GridSome"
     ],
     "eventDate": "25 Feb 2020 18:00",
     "eventLocationName": "Cloudinary",
@@ -1174,12 +1170,13 @@
       "alt": "Vue.js Israel Official Meetup - Swimm - 31.07.23"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Design system",
+      "Nuxt",
+      "Nuxt 3",
+      "Developer",
+      "Experience",
+      "Dx",
+      "Storybook"
     ],
     "eventDate": "31 Jul 2023 18:00",
     "eventLocationName": "Swimm",
@@ -1286,12 +1283,14 @@
       "alt": "Vue.js Israel Official Meetup - Yad2 - 13.08.19"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "SSR",
+      "SSG",
+      "Nuxt",
+      "GridSome",
+      "Netlify",
+      "Tips",
+      "Responsive app",
+      "SPA"
     ],
     "eventDate": "13 Aug 2019 18:00",
     "eventLocationName": "Yad2 HQ",
@@ -1406,12 +1405,11 @@
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 13.05.19"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Nuxt",
+      "Dynamic",
+      "Micro-interaction",
+      "UX",
+      "SSR"
     ],
     "eventDate": "13 May 2019 18:30",
     "eventLocationName": "Cloudinary",
