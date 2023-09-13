@@ -5,7 +5,14 @@
       class="my-5 max-w-5xl grid lg:grid-cols-3"
     >
       <div class="col-span-2 rounded lg:flex">
-        <NuxtImg provider="cloudinary" :src="event.eventPoster.src" :alt="event.eventPoster.alt"/>
+        <NuxtImg
+          provider="cloudinary"
+          :src="event.eventPoster.src"
+          :alt="event.eventPoster.alt"
+          fetchFormat="auto"
+          quality="auto"
+          loading="lazy"
+        />
       </div>
       <div
         class="lg:col-span-1 col-span-2 space-y-6 p-6 bg-dark-bg-dark md:flex md:flex-col lg:p-8"

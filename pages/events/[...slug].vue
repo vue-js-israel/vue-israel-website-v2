@@ -88,6 +88,9 @@ useHead({
           provider="cloudinary"
           :src="event.eventPoster.src"
           :alt="event.eventPoster.alt"
+          fetchFormat="auto"
+          quality="auto"
+          loading="lazy"
         />
         <h1 class="my-8 text-4xl font-bold">{{ event.eventTitle }}</h1>
         <tags :tags="event.eventTags" />

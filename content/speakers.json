@@ -2,7 +2,7 @@
   "speaker-id-10": {
     "name": "Guy Passy",
     "title": "Senior Frontend Developer",
-    "image": "/images/speaker-pictures/Guy Passy.jpeg",
+    "image": "/speaker-pictures/Guy Passy.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/guy-passy-1923a62a/"
     ],
@@ -11,7 +11,7 @@
   "speaker-id-20": {
     "name": "Michael Salaverry",
     "title": "Senior Fullstack Engineer",
-    "image": "/images/speaker-pictures/Michael Salaverry.jpeg",
+    "image": "/speaker-pictures/Michael Salaverry.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/michaelsalaverry/"
     ],
@@ -20,7 +20,7 @@
   "speaker-id-30": {
     "name": "Dudi Fedida",
     "title": "Frontend Tech Lead",
-    "image": "/images/speaker-pictures/Dudi Fedida.jpeg",
+    "image": "/speaker-pictures/Dudi Fedida.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/dudi-fedida-892b48113/"
     ],
@@ -29,7 +29,7 @@
   "speaker-id-40": {
     "name": "Maya Shavin",
     "title": "Senior Software Engineer",
-    "image": "/images/speaker-pictures/Maya Shavin.jpeg",
+    "image": "/speaker-pictures/Maya Shavin.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/mayashavin/"
     ],
@@ -38,7 +38,7 @@
   "speaker-id-50": {
     "name": "Benjamin Rachi",
     "title": "Tech Lead Full Stack Engineer",
-    "image": "/images/speaker-pictures/Benjamin Rachi.jpeg",
+    "image": "/speaker-pictures/Benjamin Rachi.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/benjamin-rachi-866b39b5"
     ],
@@ -47,7 +47,7 @@
   "speaker-id-60": {
     "name": "Noam Honig",
     "title": "Founder at Firefly Migration & Creator of Remult",
-    "image": "/images/speaker-pictures/avatar.png",
+    "image": "/speaker-pictures/avatar.png",
     "socialLinks": [
       "https://www.linkedin.com/in/noamhonig/"
     ],
@@ -56,7 +56,7 @@
   "speaker-id-70": {
     "name": "Meital Lazarovitch",
     "title": "Frontend Developer",
-    "image": "/images/speaker-pictures/Meital Lazarovitch.jpeg",
+    "image": "/speaker-pictures/Meital Lazarovitch.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/meital-lazarovich"
     ],
@@ -65,7 +65,7 @@
   "speaker-id-80": {
     "name": "Yovel Becker",
     "title": "Frontend Developer",
-    "image": "/images/speaker-pictures/Yovel Becker.jpeg",
+    "image": "/speaker-pictures/Yovel Becker.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/yovelb/"
     ],
@@ -74,7 +74,7 @@
   "speaker-id-90": {
     "name": "Kevin Louzoun",
     "title": "Lead Front-End",
-    "image": "/images/speaker-pictures/Kevin Louzoun.png",
+    "image": "/speaker-pictures/Kevin Louzoun.png",
     "socialLinks": [
       "https://www.linkedin.com/in/kevinsz/"
     ],
@@ -83,7 +83,7 @@
   "speaker-id-100": {
     "name": "David Meir-Levy",
     "title": "Developer",
-    "image": "/images/speaker-pictures/David Meir-Levy.jpeg",
+    "image": "/speaker-pictures/David Meir-Levy.jpeg",
     "socialLinks": [
       "https://www.facebook.com/davidmeirlevy"
     ],
@@ -92,7 +92,7 @@
   "speaker-id-110": {
     "name": "Evgeni Dikerman",
     "title": "Developer",
-    "image": "/images/speaker-pictures/Evgeni Dikerman.jpeg",
+    "image": "/speaker-pictures/Evgeni Dikerman.jpeg",
     "socialLinks": [
       "https://twitter.com/EvgeniDikerman"
     ],
@@ -101,7 +101,7 @@
   "speaker-id-120": {
     "name": "Liran Tal",
     "title": "Developer",
-    "image": "/images/speaker-pictures/Liran Tal.jpeg",
+    "image": "/speaker-pictures/Liran Tal.jpeg",
     "socialLinks": [
       "https://twitter.com/liran_tal"
     ],
@@ -110,7 +110,7 @@
   "speaker-id-130": {
     "name": "Dima Vishnevetsky",
     "title": "Co-Founder, CEO & Front End Expert @ ClientSide",
-    "image": "/images/speaker-pictures/Dima Vishnevetsky.jpeg",
+    "image": "/speaker-pictures/Dima Vishnevetsky.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/dimshik100"
     ],
@@ -119,7 +119,7 @@
   "speaker-id-140": {
     "name": "Gilad Navot",
     "title": "Co-Founder at Swimm.io",
-    "image": "/images/speaker-pictures/Gilad Navot.jpeg",
+    "image": "/speaker-pictures/Gilad Navot.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/gilad-navot/",
       "https://www.facebook.com/navotgil"
@@ -129,7 +129,7 @@
   "speaker-id-150": {
     "name": "Adir Kandel",
     "title": "Developer",
-    "image": "/images/speaker-pictures/Adir Kandel.jpeg",
+    "image": "/speaker-pictures/Adir Kandel.jpeg",
     "socialLinks": [
       "https://twitter.com/AdirKandel",
       "https://www.facebook.com/adirkandel"
@@ -139,7 +139,7 @@
   "speaker-id-160": {
     "name": "Elad Cohen",
     "title": "Fullstack",
-    "image": "/images/speaker-pictures/Elad Cohen.jpeg",
+    "image": "/speaker-pictures/Elad Cohen.jpeg",
     "socialLinks": [
       "https://www.facebook.com/elad.fullstack"
     ],
@@ -148,7 +148,7 @@
   "speaker-id-170": {
     "name": "Daniel Dror",
     "title": "Full Stack Team Lead",
-    "image": "/images/speaker-pictures/Daniel Dror.jpeg",
+    "image": "/speaker-pictures/Daniel Dror.jpeg",
     "socialLinks": [
       "https://www.facebook.com/daniel.dror.96",
       "https://www.linkedin.com/in/danieldror/"
@@ -158,7 +158,7 @@
   "speaker-id-180": {
     "name": "Tamas Piros",
     "title": "Developer Experience",
-    "image": "/images/speaker-pictures/Tamas Piros.jpeg",
+    "image": "/speaker-pictures/Tamas Piros.jpeg",
     "socialLinks": [
       "https://twitter.com/tpiros"
     ],
@@ -167,7 +167,7 @@
   "speaker-id-200": {
     "name": "Ryan Taylor",
     "title": "Principal Frontend Engineer",
-    "image": "/images/speaker-pictures/Ryan Taylor.jpeg",
+    "image": "/speaker-pictures/Ryan Taylor.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/ryanhavoctaylor/"
     ],
@@ -176,7 +176,7 @@
   "speaker-id-210": {
     "name": "Omri Matias",
     "title": "Full Stack Team Lead",
-    "image": "/images/speaker-pictures/Omri Matias.jpeg",
+    "image": "/speaker-pictures/Omri Matias.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/omri-matias-4258947b/"
     ],
@@ -185,7 +185,7 @@
   "speaker-id-220": {
     "name": "Snir Shechter",
     "title": "R&D Team Leader",
-    "image": "/images/speaker-pictures/Snir Shechter.jpeg",
+    "image": "/speaker-pictures/Snir Shechter.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/snir/"
     ],
@@ -194,7 +194,7 @@
   "speaker-id-230": {
     "name": "Jonathan Doron",
     "title": "Lead Web Developer",
-    "image": "/images/speaker-pictures/Jonathan Doron.jpeg",
+    "image": "/speaker-pictures/Jonathan Doron.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/yonatan-doron-7a128961/",
       "https://www.facebook.com/yonatan.doron.10"
@@ -204,7 +204,7 @@
   "speaker-id-240": {
     "name": "Yaron Biton",
     "title": "Chief of Technology",
-    "image": "/images/speaker-pictures/Yaron Biton.jpeg",
+    "image": "/speaker-pictures/Yaron Biton.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/yaronbiton/"
     ],
