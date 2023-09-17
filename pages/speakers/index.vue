@@ -7,8 +7,8 @@ const getSpeakerIdFromUrlParam = () => {
 }
 
 const filteredSpeakers = computed(() => {
-  const selectedSpeaker = getSpeakerIdFromUrlParam();
-  return speakers[selectedSpeaker] ? { [selectedSpeaker]: speakers[selectedSpeaker] } : speakers;
+  const selectedSpeakerId = getSpeakerIdFromUrlParam();
+  return speakers[selectedSpeakerId] ? { [selectedSpeakerId]: speakers[selectedSpeakerId] } : speakers;
 })
 </script>
 

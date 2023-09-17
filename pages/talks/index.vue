@@ -17,8 +17,8 @@ const talksArray = computed(() => {
 })
 
 const filteredTalksBySpeaker = computed(() => {
-  const selectedSpeaker = getSpeakerIdFromUrlParam();
-  const filteredTalks = talksArray.value.filter((talk) => talk.speakerIds.includes(selectedSpeaker))
+  const selectedSpeakerId = getSpeakerIdFromUrlParam();
+  const filteredTalks = talksArray.value.filter((talk) => talk.speakerIds.includes(selectedSpeakerId))
   return filteredTalks.length > 0 ? filteredTalks : talksArray.value
 })
 </script>
