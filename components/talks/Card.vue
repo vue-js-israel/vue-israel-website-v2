@@ -2,19 +2,21 @@
   <div
     class="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md bg-dark-bg-dark text-dark-text-lightest">
     <div class="flex space-x-4">
-      <img :src="speaker.image" :alt="`profile picture of ${speaker.name}`"
-        class="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500">
+      <NuxtImg provider="cloudinary" :src="speaker.image" :alt="`${speaker.name} profile picture`" width="64" heigh="64"
+        fetchFormat="auto" quality="auto" loading="lazy" :modifiers="{ roundCorner: 'max' }" />
       <div class="flex flex-col space-y-1">
         <span href="#" class="text-sm font-semibold">{{ speaker.name }} </span>
         <span class="text-xs dark:text-gray-400">{{ speaker.title }}</span>
       </div>
     </div>
     <div>
-      <img :src="talk.talkPoster.src" :alt="talk.talkPoster.alt"
-        class="object-cover w-full mb-4 sm:h-96 dark:bg-gray-500">
+      <NuxtImg provider="cloudinary" :src="talk.talkPoster.src" :alt="`Vue.js Israel speaker - ${speaker.name}`"
+        fetchFormat="auto" quality="auto" loading="lazy" />
 
       <NuxtLink :to="`/events/${talk.eventId}`">
-        <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">{{ event.eventTitle }}</h2>
+        <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">
+          {{ currentEvent.eventTitle }}
+        </h2>
       </NuxtLink>
       <h2 class="mb-1 text-lg font-semibold">{{ talk.talkTitle }}</h2>
       <p class="text-sm dark:text-gray-400">{{ talk.talkDescription }}</p>
@@ -39,7 +41,7 @@
 
 <script setup>
 import { socialIcon } from "@/components/utils/urlUtils";
-import events from '@/content/events.json'
+import events from "@/content/events.json";
 
 const props = defineProps({
   speaker: {
@@ -54,6 +56,10 @@ const props = defineProps({
     type: Object,
     require: true,
   },
+});
+const currentEvent = computed(() => {
+  const { eventId } = props.talk;
+  return events[eventId];
 });
 </script>
 

@@ -8,22 +8,22 @@ useHead({
   meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
 
-const getSpeakerId = () => {
-  const { query } = useRoute();
-  const { speakerId } = query;
-  return speakerId
-};
+const getSpeakerIdFromUrlParam = () => {
+  const { speakerId } = useRoute().query;
+  return speakerId;
+}
 
 const getSortedTalkList = () => {
   const talkList = Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
+
   const sortedTalksByDate = talkList.sort((talkA, talkB) => {
-    return new Date(talkB.talkDate) - new Date(talkA.talkDate)
+    return new Date(talkA.talkDate) - new Date(talkB.talkDate)
   })
   return sortedTalksByDate
 }
 
 const talkList = getSortedTalkList();
-const selectedSpeakerId = getSpeakerId();
+const selectedSpeakerId = getSpeakerIdFromUrlParam();
 
 const filteredEventsTalksSpeakers = computed(() => {
   const talkAndSpeakerList = talkList.map((talk) => {

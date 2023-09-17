@@ -6,17 +6,23 @@ useHead({
   meta: [{ name: "description", content: "Vus.js Israel's events" }],
 });
 
-const eventList = Object.entries(events).map(([eventId, event]) => { return { ...event, eventId } })
+const eventList = Object.entries(events).map(([eventId, event]) => {
+  return { ...event, eventId };
+});
 
 const tagsObject = computed(() => {
-  const eventTags = eventList.map((event) => event.eventTags)
-  const uniqueEventTags = [...new Set(...eventTags)];
+  const eventTags = eventList.map((event) => event.eventTags);
+  const flattenEventTags = eventTags.flat();
+  const uniqueEventTags = [...new Set(flattenEventTags)];
+  const tagsInAlphabeticOrder = uniqueEventTags.sort((tagA, tagB) =>
+    tagA.localeCompare(tagB)
+  );
   // converts an array to an object
-  return uniqueEventTags.reduce((obj, item,) => {
+  return uniqueEventTags.reduce((obj, item) => {
     obj[item] = item;
     return obj;
   }, {});
-})
+});
 
 const selectedTags = computed(() => {
   const { query } = useRoute();
@@ -33,17 +39,17 @@ const filteredEvents = computed(() => {
   if (selectedTags.value.length > 0) {
     return sortEventByDate.filter((event) => {
       return event.eventTags.find((eventTag) => {
-        return selectedTags.value.includes(eventTag)
-      })
-    })
+        return selectedTags.value.includes(eventTag);
+      });
+    });
   } else {
-    return sortEventByDate
+    return eventList;
   }
-})
+});
 </script>
 
 <template>
-  <div class="container mx-auto space-y-16 ">
+  <div class="container mx-auto space-y-16">
     <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
       <p class="p-2 text-md font-medium tracki text-center uppercase">Events</p>
       <div class="w-full">

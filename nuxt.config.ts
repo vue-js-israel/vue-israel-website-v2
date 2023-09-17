@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   ssr: true,
-  modules: ["@nuxt/content", "nuxt-icon", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxt/content", "nuxt-icon", "@nuxtjs/tailwindcss", "@nuxt/image"],
   tailwindcss: {
     cssPath: "~/assets/css/main.css",
   },
@@ -10,6 +10,12 @@ export default defineNuxtConfig({
 
     timeline: {
       enabled: true,
+    },
+  },
+  image: {
+    cloudinary: {
+      baseURL:
+        "https://res.cloudinary.com/dimshik/image/upload/vuejsisrael.com/",
     },
   },
 });

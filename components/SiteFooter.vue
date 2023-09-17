@@ -13,7 +13,7 @@
                     </a>
                     <a href="https://www.x.com/@VueJSIsrael" target="_blank" title="Vue.js Israel X.com"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10  hover:text-cta-hover">
-                        <Icon name="XIcon" size="30" />
+                        <Icon name="XIcon" size="28" />
                     </a>
                     <a href="https://www.meetup.com/vue-js/" target="_blank" title="Vue.js Israel Meetup group"
                         class="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10   hover:text-cta-hover">

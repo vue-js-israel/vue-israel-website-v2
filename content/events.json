@@ -2,20 +2,20 @@
   "event-id-10": {
     "metaData": {
       "title": "data management with vue",
-      "description": "test",
+      "description": "",
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Semperis-02.05.23.png",
+      "src": "/events/Vue.js-Israel-meetup-Semperis-02.05.23.png",
       "alt": "Vue.js Israel Official Meetup - Semperis - 02.05.23"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "Migration",
+      "Vue 2",
+      "Vue 3",
+      "Directus",
+      "Based on Vuejs",
+      "Live coding"
     ],
     "eventDate": "02 May 2023 18:00",
     "eventLocationName": "Semperis",
@@ -118,20 +118,19 @@
   "event-id-20": {
     "metaData": {
       "title": "deployment vue projects securely",
-      "description": "test",
+      "description": "",
       "image": ""
     },
     "eventPoster": {
-      "src": "/images/events/Vue.js-Israel-meetup-Torq-27.02.23.png",
+      "src": "/events/Vue.js-Israel-meetup-Torq-27.02.23.png",
       "alt": "Vue.js Israel Official Meetup - Torq - 27.02.23"
     },
     "eventTags": [
-      "Vue.js",
-      "Web",
-      "Development",
-      "Frameworks",
-      "Frontend",
-      "JavaScript"
+      "secure",
+      "How to",
+      "production",
+      "Component development",
+      "Testing with Vitest"
     ],
     "eventDate": "27 Feb 2023 18:00",
     "eventLocationName": "Torq",
@@ -225,6 +224,1292 @@
           "value": [
             "Our meetup host & Gift sponsor: [Torq](https://www.facebook.com/torqhq/)",
             "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-30": {
+    "metaData": {
+      "title": "be practical with Vue.js",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Contentsquare-21.11.22.png",
+      "alt": "Vue.js Israel Official Meetup - Contentsquare - 21.11.22"
+    },
+    "eventTags": [
+      "Design system",
+      "Live coding",
+      "Code maintenance"
+    ],
+    "eventDate": "21 Nov 2022 18:00",
+    "eventLocationName": "Contentsquare",
+    "eventTitle": "Be practical with Vue.js",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Contentsquare](https://www.facebook.com/contentsquareglobal/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/officalVuejsIsrael/"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-50",
+            "speaker-id-60"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "https://youtube.com/playlist?list=PLDOkyp-lEYFj613DyOgdKPrajtL6sRXQv"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-50"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-60"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Morning Resital Tower 28th Floor Menachem Begin 156 Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Contentsquare](https://www.facebook.com/contentsquareglobal/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-40": {
+    "metaData": {
+      "title": "The good and the bad of Vue 3",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Morning-15.9.22.png",
+      "alt": "Vue.js Israel Official Meetup - Morning - 15.09.22"
+    },
+    "eventTags": [
+      "Storybook",
+      "Histoire",
+      "Design system",
+      "Migration",
+      "Vue 2",
+      "Vue 3"
+    ],
+    "eventDate": "15 Sep 2022 18:00",
+    "eventLocationName": "Morning",
+    "eventTitle": "The good and the bad of Vue 3",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Morning](https://www.facebook.com/green.invoice) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/officalVuejsIsrael/"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-50",
+            "speaker-id-60"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "https://youtube.com/playlist?list=PLDOkyp-lEYFgOy4ykVdJyh2hGLyaPI7fm"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-70",
+                "speaker-id-80"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-90"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Morning Resital Tower 28th Floor Menachem Begin 156 Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Morning](https://www.facebook.com/green.invoice)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-50": {
+    "metaData": {
+      "title": "state management in Vue",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-JFrog-13.07.22.png",
+      "alt": "Vue.js Israel Official Meetup - JFrog Israel - 13.07.22"
+    },
+    "eventTags": [
+      "State management",
+      "VueX",
+      "Pinia",
+      "Store",
+      "Microfrontend",
+      "Composable"
+    ],
+    "eventDate": "13 Jul 2022 18:00",
+    "eventLocationName": "JFrog Israel",
+    "eventTitle": "State management in Vue",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [JFrog Israel](https://www.facebook.com/JFrogIsrael) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?set=a.1603751103353833&type=3"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-100",
+            "speaker-id-110"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "https://youtube.com/playlist?list=PLDOkyp-lEYFgZsH0UQYrcZFiESxCXXIQV"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-100"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-110"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "JFrog Israel Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [JFrogIsrael](https://www.facebook.com/JFrogIsrael)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-60": {
+    "metaData": {
+      "title": "be pretty and secure in developing with Vue.js",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Microsoft-Reactor-11.04.22.png",
+      "alt": "Vue.js Israel Official Meetup - Microsoft Reactor - 11.04.22"
+    },
+    "eventTags": [
+      "Malware",
+      "npm",
+      "packages",
+      "Large application",
+      "Vue 3"
+    ],
+    "eventDate": "11 Apr 2022 18:00",
+    "eventLocationName": "Microsoft Reactor",
+    "eventTitle": "Be pretty and secure in developing with Vue.js",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Microsoft Reactor](https://reactor-ext.azurewebsites.net/en-us/reactor/location/telaviv) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://photos.google.com/share/AF1QipM79ataeWjaiCWe-3XCSY-B-4DD5SvpBvSEkDNojKOh9AEyCgvCBczpLCi5yLh5Uw?pli=1&key=Ulc0N2x5Q0Ezb1lsR01WQVltV0RVaUVxaGxmVjRR"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-120",
+            "speaker-id-130"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "https://www.youtube.com/playlist?list=PLDOkyp-lEYFiMszHinPOLU2dABdqEnMpt"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-120"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-130"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Microsoft Reactor Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Microsoft Reactor](https://reactor-ext.azurewebsites.net/en-us/reactor/location/telaviv)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-70": {
+    "metaData": {
+      "title": "have a reactive Pizza with the Vue 3.0",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Swimm-24.03.22.png",
+      "alt": "Vue.js Israel Official Meetup - Swimm - 24.03.22"
+    },
+    "eventTags": [
+      "Under the hood",
+      "Vue 3",
+      "Store",
+      "Composable",
+      "Pinia"
+    ],
+    "eventDate": "24 March 2022 18:00",
+    "eventLocationName": "Swimm",
+    "eventTitle": "Have a reactive Pizza with the Vue 3.0",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Swimm](https://swimm.io) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?vanity=officalVuejsIsrael&set=a.1525299144532363"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-140",
+            "speaker-id-150",
+            "speaker-id-100"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "Youtube Channel Playlist"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-140"
+              ]
+            },
+            {
+              "timeSlot": "19:05 - 19:15",
+              "title": "Lightning talk (Nati Szczupak - Machshava Tova)"
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-150"
+              ]
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-150"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:35",
+              "speakerIds": [
+                "speaker-id-100"
+              ]
+            },
+            {
+              "timeSlot": "20:35 - 20:45",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Swimm - swimm.io Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Swimm](https://swimm.io/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-80": {
+    "metaData": {
+      "title": "back in One Piece with Vue 3",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Paradox-18.08.22.png",
+      "alt": "Vue.js Israel Official Meetup - Paradox - 18.08.2021"
+    },
+    "eventTags": [
+      "Vue 2",
+      "Vue 3",
+      "Tips",
+      "Tricks",
+      "VueX",
+      "UI",
+      "State management",
+      "Scalable"
+    ],
+    "eventDate": "18 Aug 2021 18:00",
+    "eventLocationName": "Paradox",
+    "eventTitle": "Back in One Piece with Vue 3",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "We are back with our meetup in person!!!!",
+        "This meetup will be limited to 30 people, due to capacity and COVID's restriction. But we will have fun!",
+        "Thanks ❤️ ❤️ for [Paradox](https://paradox.ai) for hosting us with venue and food and gift"
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?vanity=officalVuejsIsrael&set=a.1525299144532363"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-40",
+            "speaker-id-130"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "Youtube Channel Playlist"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-130"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-40"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "ParadoxAI",
+            "Eliezer Kaplan St 30 - Tel Aviv",
+            "(Sarona Market)"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Paradox](https://paradox.ai)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-90": {
+    "metaData": {
+      "title": "UI Frameworks in Vue.js - Component or Utility-first?",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-TailorBrands-18.08.21.png",
+      "alt": "Vue.js Israel Official Meetup - TailorBrands - 18.08.2021"
+    },
+    "eventTags": [
+      "Quasar",
+      "Based on Vuejs",
+      "Cross-platform",
+      "UI",
+      "Frameworks",
+      "Costume",
+      "Components",
+      "StorefrontUl"
+    ],
+    "eventDate": "22 Jan 2020 18:00",
+    "eventLocationName": "TailorBrands",
+    "eventTitle": "UI Frameworks in Vue.js - Component or Utility-first?",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [TailorBrands](https://www.tailorbrands.com/) for hosting us with venue and food and gift"
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?vanity=officalVuejsIsrael&set=a.1525299144532363"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-160",
+            "speaker-id-170",
+            "speaker-id-40",
+            "speaker-id-130"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "Youtube Channel Playlist"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:30",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:35 - 18:45",
+              "title": "Key notes about TailorBrands & VueJS Israel meetup - Shahar Avigezer - TailorBrands"
+            },
+            {
+              "timeSlot": "18:45 - 19:15",
+              "speakerIds": [
+                "speaker-id-160"
+              ]
+            },
+            {
+              "timeSlot": "19:20 - 19:40",
+              "speakerIds": [
+                "speaker-id-170"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:50 - 20:10",
+              "speakerIds": [
+                "speaker-id-40"
+              ]
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "speakerIds": [
+                "speaker-id-130"
+              ]
+            },
+            {
+              "timeSlot": "20:35 - 20:45",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:45 - 20:55",
+              "title": "GIFT time!!! 🎁 Raffle for special gift - one year subscription (value ~190$) from VueSchool 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "TailorBrands HQ Office - Floor 4th",
+            "113 Allenby - Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our gift sponsor: [VueSchool](https://vueschool.io/) - provide quality and affordable learning & training for Vue developers.",
+            "Our meetup host: [TailorBrands](https://www.tailorbrands.com/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-100": {
+    "metaData": {
+      "title": "Performance optimization and Server-less in Vue",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Cloudinary-25.02.20.png",
+      "alt": "Vue.js Israel Official Meetup - Cloudinary - 25.02.20"
+    },
+    "eventTags": [
+      "Serverless",
+      "Performance",
+      "Optimization",
+      "GridSome"
+    ],
+    "eventDate": "25 Feb 2020 18:00",
+    "eventLocationName": "Cloudinary",
+    "eventTitle": "Performance optimization and Server-less in Vue",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Cloudinary](https://www.cloudinary.com/) for sponsoring us with venue and food, and [Node.TLV](https://node.tlv/) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-160",
+            "speaker-id-180"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:25",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:25 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:25 - 18:30",
+              "title": "Lightning talk - Optimization with Cloudinary API designed for Vue - Patrick Tolosa - Cloudinary"
+            },
+            {
+              "timeSlot": "18:35 - 19:20",
+              "speakerIds": [
+                "speaker-id-180"
+              ]
+            },
+            {
+              "timeSlot": "19:35 - 20:35",
+              "speakerIds": [
+                "speaker-id-160"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "20:40 - 20:55 ",
+              "title": "GIFT time for the lucky attendee 🎁"
+            },
+            {
+              "timeSlot": "21:00",
+              "title": "Bye bye 🖖"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Cloudinary HQ Office - Floor 2nd - Building C",
+            "18 Aharon Bart - Petah Tikvah",
+            "💻 Laptop required"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host: [Cloudinary](https://www.cloudinary.com/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-110": {
+    "metaData": {
+      "title": "Let's get Nuxt (and maybe more)",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Swimm-31.07.23.png",
+      "alt": "Vue.js Israel Official Meetup - Swimm - 31.07.23"
+    },
+    "eventTags": [
+      "Design system",
+      "Nuxt",
+      "Nuxt 3",
+      "Developer",
+      "Experience",
+      "Dx",
+      "Storybook"
+    ],
+    "eventDate": "31 Jul 2023 18:00",
+    "eventLocationName": "Swimm",
+    "eventTitle": "Let's get Nuxt (and maybe more)",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Swimm](https://swimm.io) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-90",
+            "speaker-id-200"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": [
+                "speaker-id-90"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": [
+                "speaker-id-200"
+              ]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Swimm - swimm.io Tel Aviv"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host: [Yad2 HQ](https://www.yad2.co.il/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-120": {
+    "metaData": {
+      "title": "SSR, SSG? Let’s go Nuxt (or not)",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Yad2-13.08.19.png",
+      "alt": "Vue.js Israel Official Meetup - Yad2 - 13.08.19"
+    },
+    "eventTags": [
+      "SSR",
+      "SSG",
+      "Nuxt",
+      "GridSome",
+      "Netlify",
+      "Tips",
+      "Responsive app",
+      "SPA"
+    ],
+    "eventDate": "13 Aug 2019 18:00",
+    "eventLocationName": "Yad2 HQ",
+    "eventTitle": "SSR, SSG? Let’s go Nuxt (or not)",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Yad2 HQ](https://www.yad2.co.il/) for hosting us with venue and food, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-220",
+            "speaker-id-40",
+            "speaker-id-210"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:30",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:30 - 19:10",
+              "speakerIds": [
+                "speaker-id-220"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:15 - 19:35",
+              "speakerIds": [
+                "speaker-id-40"
+              ]
+            },
+            {
+              "timeSlot": "19:35 - 19:50",
+              "title": "Break + Networking"
+            },
+            {
+              "timeSlot": "19:50 - 20:20",
+              "speakerIds": [
+                "speaker-id-210"
+              ]
+            },
+            {
+              "timeSlot": "20:25 - 20:40",
+              "title": "Networking & Discussion"
+            },
+            {
+              "timeSlot": "20:40 - 20:45",
+              "title": "GIFT time!!! 🎁Raffle for a special gift 🎁from VueSchool"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Yad2 HQ Office - Entrance A - Floor 3",
+            "HaKishon St 8 - Bnei Brak"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our raffle gift sponsor: [Vue School](https://vueschool.io/) - provide quality and affordable learning & training for Vue developers.",
+            "Our meetup host: [Yad2 HQ](https://www.yad2.co.il/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-130": {
+    "metaData": {
+      "title": "May the Vue be with you - New beginning 🎉🎉",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Cloudinary-13.05.19.png",
+      "alt": "Vue.js Israel Official Meetup - Cloudinary - 13.05.19"
+    },
+    "eventTags": [
+      "Nuxt",
+      "Dynamic",
+      "Micro-interaction",
+      "UX",
+      "SSR"
+    ],
+    "eventDate": "13 May 2019 18:30",
+    "eventLocationName": "Cloudinary",
+    "eventTitle": "May the Vue be with you - New beginning 🎉🎉",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Cloudinary](https://www.cloudinary.com/) for sponsoring us with venue and food."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": [
+            "speaker-id-230",
+            "speaker-id-240",
+            "speaker-id-220"
+          ]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "array",
+            "of",
+            "videos"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:40 - 18:45",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:45 - 19:00",
+              "title": "Key notes about VueJS & VueJS Israel - Maya Shavin"
+            },
+            {
+              "timeSlot": "18:45 - 19:00",
+              "speakerIds": [
+                "speaker-id-230"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:05 - 19:50",
+              "speakerIds": [
+                "speaker-id-240"
+              ]
+            },
+            {
+              "timeSlot": "19:55 - 20:10",
+              "speakerIds": [
+                "speaker-id-220"
+              ]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "20:15 - 20:30",
+              "title": "Networking & Discussion"
+            },
+            {
+              "timeSlot": "20:30 - 20:45",
+              "title": "GIFT time!!! 🎁Raffle for special gift (value ~190$) 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Cloudinary HQ Office - Floor 2nd - Building C",
+            "18 Aharon Bart - Petah Tikvah"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host: [Cloudinary](https://www.cloudinary.com/)"
           ]
         }
       }
