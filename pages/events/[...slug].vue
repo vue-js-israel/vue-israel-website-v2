@@ -39,9 +39,8 @@ const speakerTalk = (speakerId) => {
 
 const singleSpeakerTitle = (speakerId) => {
   const speaker = speakers[speakerId];
-  return `${speaker.name} - ${speakerTalk(speakerId).talkTitle} - ${
-    speaker.company
-  }`;
+  return `${speaker.name} - ${speakerTalk(speakerId).talkTitle} - ${speaker.company
+    }`;
 };
 
 // returns a costume sting that chains the speaker names first then the talk title and then the speaker companies
@@ -74,45 +73,22 @@ useHead({
 <template>
   <main id="main">
     <section class="grid grid-cols-10">
-      <aside
-        class="col-span-full px-4 pt-8 md:col-start-8 md:col-end-10 md:pt-12"
-      >
+      <aside class="col-span-full px-4 pt-8 md:col-start-8 md:col-end-10 md:pt-12">
         <TableOfContent :links="tableOfContentLinks" />
       </aside>
-      <article
-        class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4"
-      >
+      <article class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
 
-        <NuxtImg
-          provider="cloudinary"
-          :src="event.eventPoster.src"
-          :alt="event.eventPoster.alt"
-          fetchFormat="auto"
-          quality="auto"
-          loading="lazy"
-        />
+        <NuxtImg provider="cloudinary" :src="event.eventPoster.src" :alt="event.eventPoster.alt" fetchFormat="auto"
+          quality="auto" loading="lazy" />
         <h1 class="my-8 text-4xl font-bold">{{ event.eventTitle }}</h1>
         <tags :tags="event.eventTags" />
-        <MarkdownContent
-          v-for="line in event.mainContent.value"
-          :key="line"
-          :value="line"
-          class="my-6 text-lg"
-        />
+        <MarkdownContent v-for="line in event.mainContent.value" :key="line" :value="line" class="my-6 text-lg" />
 
-        <div
-          v-for="(
+        <div v-for="(
             { sectionContent, sectionTitle }, sectionId
-          ) in event.sections"
-          :key="sectionId"
-        >
-          <a
-            :id="sectionId"
-            class="text-2xl font-medium"
-            :href="`#${sectionId}`"
-            >{{ sectionTitle }}</a
-          >
+          ) in event.sections" :key="sectionId">
+          <a :id="sectionId" class="text-2xl font-medium" :href="`#${sectionId}`">{{ sectionTitle }}</a>
 
           <div v-if="sectionId === 'photos'">
             LINK OF Photos // OR // Embedded Player (Youtube?)
@@ -120,12 +96,8 @@ useHead({
 
           <ul v-else-if="sectionId === 'speakers'" class="mt-12">
             <li v-for="speakerId in sectionContent.value" :key="speakerId">
-              <!-- <a :href="`/speakers/${speakerId}`">{{ `${speakers[speakerId].name} - ${speakers[speakerId].company}` }}</a> -->
-              <div>
-                {{
-                  `${speakers[speakerId].name} - ${speakers[speakerId].company}`
-                }}
-              </div>
+              <NuxtLink :to="{ path: '/speakers', query: { speakerId: speakerId } }">{{ `${speakers[speakerId].name} -
+                              ${speakers[speakerId].company}` }}</NuxtLink>
             </li>
           </ul>
 
@@ -134,22 +106,14 @@ useHead({
           </div>
 
           <div v-else-if="sectionContent.type === 'markdown'" class="mt-12">
-            <MarkdownContent
-              v-for="line in sectionContent.value"
-              :key="line"
-              :value="line"
-              class="my-2"
-            />
+            <MarkdownContent v-for="line in sectionContent.value" :key="line" :value="line" class="my-2" />
             <div v-if="sectionId === 'venue'">
               <p>👉 <strong>Date</strong>: {{ event.eventDate }}</p>
             </div>
           </div>
 
           <div v-else-if="sectionId === 'agenda'" class="mt-12">
-            <p
-              v-for="{ timeSlot, title, speakerIds } in sectionContent.value"
-              :key="title"
-            >
+            <p v-for="{ timeSlot, title, speakerIds } in sectionContent.value" :key="title">
               <strong>{{ `${timeSlot ?? ""} ` }}</strong>
               <span v-if="speakerIds">
                 <span v-if="speakerIds.length === 1">

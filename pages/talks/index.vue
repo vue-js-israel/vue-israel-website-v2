@@ -7,11 +7,20 @@ useHead({
   meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
 
-const talkList = computed(() => {
+const getSpeakerIdFromUrlParam = () => {
+  const { speakerId } = useRoute().query;
+  return speakerId;
+}
+
+const talksArray = computed(() => {
   return Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
 })
 
-
+const filteredTalksBySpeaker = computed(() => {
+  const selectedSpeaker = getSpeakerIdFromUrlParam();
+  const filteredTalks = talksArray.value.filter((talk) => talk.speakerIds.includes(selectedSpeaker))
+  return filteredTalks.length > 0 ? filteredTalks : talksArray.value
+})
 </script>
 
 <template>
@@ -20,7 +29,7 @@ const talkList = computed(() => {
       <p class="p-2 text-md font-medium tracki text-center uppercase">Talks</p>
       <section class="my-5">
         <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
-          <template v-for="talk in talkList" :key="talk.talkId">
+          <template v-for="talk in filteredTalksBySpeaker" :key="talk.talkId">
             <template v-for="speakerId in talk.speakerIds" :key="speakerId">
               <TalksCard :speaker="speakers[speakerId]" :talk="talk" />
             </template>
