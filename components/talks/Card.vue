@@ -52,6 +52,10 @@ const props = defineProps({
     type: Object,
     require: true,
   },
+  event: {
+    type: Object,
+    require: true,
+  },
 });
 const currentEvent = computed(() => {
   const { eventId } = props.talk;

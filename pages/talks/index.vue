@@ -1,6 +1,7 @@
 <script setup>
 import speakers from "@/content/speakers.json";
 import talks from "@/content/talks.json";
+import events from '@/content/events.json'
 
 useHead({
   title: "Vue.js Israel Speakers",
@@ -12,15 +13,31 @@ const getSpeakerIdFromUrlParam = () => {
   return speakerId;
 }
 
-const talksArray = computed(() => {
-  return Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
+const getSortedTalkList = () => {
+  const talkList = Object.entries(talks).map(([talkId, talk]) => { return { ...talk, talkId } })
+
+  const sortedTalksByDate = talkList.sort((talkA, talkB) => {
+    return new Date(talkA.talkDate) - new Date(talkB.talkDate)
+  })
+  return sortedTalksByDate
+}
+
+const talkList = getSortedTalkList();
+const selectedSpeakerId = getSpeakerIdFromUrlParam();
+
+const filteredEventsTalksSpeakers = computed(() => {
+  const talkAndSpeakerList = talkList.map((talk) => {
+    return talk.speakerIds.map((speakerId) => { return { talk, event: events[talk.eventId], speaker: { ...speakers[speakerId], speakerId } } });
+  })
+  const flattenSpeakerList = talkAndSpeakerList.reduce((flattened, innerArray) => flattened.concat(innerArray), []);
+
+  if (selectedSpeakerId !== undefined) {
+    return flattenSpeakerList.filter(({ speaker }) => speaker.speakerId === selectedSpeakerId)
+  }
+
+  return flattenSpeakerList;
 })
 
-const filteredTalksBySpeaker = computed(() => {
-  const selectedSpeakerId = getSpeakerIdFromUrlParam();
-  const filteredTalks = talksArray.value.filter((talk) => talk.speakerIds.includes(selectedSpeakerId))
-  return filteredTalks.length > 0 ? filteredTalks : talksArray.value
-})
 </script>
 
 <template>
@@ -29,11 +46,8 @@ const filteredTalksBySpeaker = computed(() => {
       <p class="p-2 text-md font-medium tracki text-center uppercase">Talks</p>
       <section class="my-5">
         <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
-          <template v-for="talk in filteredTalksBySpeaker" :key="talk.talkId">
-            <template v-for="speakerId in talk.speakerIds" :key="speakerId">
-              <TalksCard :speaker="speakers[speakerId]" :talk="talk" />
-            </template>
-          </template>
+          <TalksCard v-for="{ talk, speaker, event } in filteredEventsTalksSpeakers" :speaker="speaker" :talk="talk"
+            :event="event" />
         </div>
       </section>
     </div>
