@@ -79,8 +79,8 @@ useHead({
       <article class="col-span-full m-auto w-full max-w-3xl px-4 md:col-span-7 md:col-start-1 md:row-start-1 md:p-4">
         <header class="m-5"></header>
 
-        <NuxtImg provider="cloudinary" :src="event.eventPoster.src" :alt="event.eventPoster.alt" fetchFormat="auto"
-          quality="auto" loading="lazy" />
+        <NuxtImg provider="cloudinary" :src="event.eventPoster.src" :alt="event.eventPoster.alt" quality="auto"
+          loading="lazy" width="1352" height="720" sizes="696px md:521px" densities="x1 x2" />
         <h1 class="my-8 text-4xl font-bold">{{ event.eventTitle }}</h1>
         <tags :tags="event.eventTags" />
         <MarkdownContent v-for="line in event.mainContent.value" :key="line" :value="line" class="my-6 text-lg" />
