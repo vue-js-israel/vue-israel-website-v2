@@ -16,7 +16,7 @@ defineProps({
       class="group mx-auto block max-w-sm gap-3 hover:no-underline focus:no-underline bg-dark-bg-dark text-dark-text-lightest lg:max-w-full lg:grid lg:grid-cols-12">
       <div class="lg:col-span-3">
         <NuxtImg provider="cloudinary" :src="speaker.image" :alt="`${speaker.name} profile picture`" quality="auto"
-          loading="lazy" width="259px" height="259px" sizes="384px sm:207px" densities="x1 x2" />
+          fetchFormat="auto" loading="lazy" width="259px" height="259px" sizes="384px sm:207px" densities="x1 x2" />
       </div>
 
       <div class="space-y-2 w-64 lg:w-full p-6 lg:col-span-9">
