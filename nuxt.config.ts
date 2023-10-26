@@ -1,5 +1,12 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
+  },
   ssr: true,
   modules: ["@nuxt/content", "nuxt-icon", "@nuxtjs/tailwindcss", "@nuxt/image"],
   tailwindcss: {

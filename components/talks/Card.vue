@@ -2,8 +2,8 @@
   <div
     class="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md bg-dark-bg-dark text-dark-text-lightest">
     <div class="flex space-x-4">
-      <NuxtImg provider="cloudinary" :src="speaker.image" :alt="`${speaker.name} profile picture`" width="64" heigh="64"
-        fetchFormat="auto" quality="auto" loading="lazy" :modifiers="{ roundCorner: 'max' }" />
+      <NuxtImg provider="cloudinary" class="rounded-full" :src="speaker.image" :alt="`${speaker.name} profile picture`"
+        width="64px" heigh="64px" fetchFormat="auto" quality="auto" loading="lazy" densities="x1 x2" />
       <div class="flex flex-col space-y-1">
         <span href="#" class="text-sm font-semibold">{{ speaker.name }} </span>
         <span class="text-xs dark:text-gray-400">{{ speaker.title }}</span>
@@ -11,10 +11,10 @@
     </div>
     <div>
       <NuxtImg provider="cloudinary" :src="talk.talkPoster.src" :alt="`Vue.js Israel speaker - ${speaker.name}`"
-        fetchFormat="auto" quality="auto" loading="lazy" />
+        fetchFormat="auto" quality="auto" loading="lazy" width="464px" height="464px" densities="x1 x2" />
 
       <NuxtLink :to="`/events/${talk.eventId}`">
-        <h2 class="mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">
+        <h2 class="mt-5 mb-1 text-xl font-semibold hover:text-cta-hover hover:underline">
           {{ currentEvent.eventTitle }}
         </h2>
       </NuxtLink>
@@ -23,12 +23,12 @@
     </div>
     <div class="flex flex-wrap justify-between">
       <div class="space-x-2">
-        <a v-for="socialLink in speaker.socialLinks" :key="socialLink" :href="socialLink" target="_blank">
+        <a v-for=" socialLink  in  speaker.socialLinks " :key="socialLink" :href="socialLink" target="_blank">
           <Icon :name="socialIcon(socialLink)" size="22" class="hover:text-cta-hover" />
         </a>
       </div>
       <div class="flex space-x-2 text-sm">
-        <a v-for="video in talk.videos" :href="video" target="_blank">
+        <a v-for=" video  in  talk.videos " :href="video" target="_blank">
           <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover" />
         </a>
         <a :href="talk.slides.link" target="_blank" :title="talk.slides.title">
