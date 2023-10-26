@@ -49,6 +49,10 @@ const filterEventBySelectedTags = (events, selectedTags) => {
 }
 
 const addLazyLoadingPropertyToEvents = (events) => {
+  /**
+   * Adds lazy loading property to each event object for lazy loading
+   * When the first one gets undefined, it ensures that the event loaded above the fold.
+   */
   return events.map((event, index) => {
     return {
       ...event,
