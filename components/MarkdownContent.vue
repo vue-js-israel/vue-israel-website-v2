@@ -17,7 +17,7 @@ const markdown = await getParsedMarkdown(props.value);
 
 <template>
   <ContentRenderer :value="markdown">
-    <ContentRendererMarkdown :value="markdown" v-bind="$attrs"/>
+    <ContentRendererMarkdown :value="markdown" v-bind="$attrs" />
   </ContentRenderer>
 </template>
 

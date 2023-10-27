@@ -15,20 +15,17 @@ const convertArrayToObject = (array) => {
     obj[item] = item;
     return obj;
   }, {});
-}
+};
 
 const tagsObject = computed(() => {
   const eventTagsArray = rawEventsArray.map((event) => event.eventTags);
   const flattenEventTags = eventTagsArray.flat();
   const uniqueEventTags = [...new Set(flattenEventTags)];
-  uniqueEventTags.sort((tagA, tagB) =>
-    tagA.localeCompare(tagB)
-  );
+  uniqueEventTags.sort((tagA, tagB) => tagA.localeCompare(tagB));
 
   const tagsObject = convertArrayToObject(uniqueEventTags);
   return tagsObject;
-}
-)
+});
 
 const selectedTags = computed(() => {
   const { query } = useRoute();
@@ -37,8 +34,10 @@ const selectedTags = computed(() => {
 });
 
 const sortEventsByDateInDescendingOrder = (events) => {
-  return events.sort((eventA, eventB) => { return new Date(eventB.eventDate) - new Date(eventA.eventDate) });
-}
+  return events.sort((eventA, eventB) => {
+    return new Date(eventB.eventDate) - new Date(eventA.eventDate);
+  });
+};
 
 const filterEventBySelectedTags = (events, selectedTags) => {
   return events.filter((event) => {
@@ -46,7 +45,7 @@ const filterEventBySelectedTags = (events, selectedTags) => {
       return selectedTags.includes(eventTag);
     });
   });
-}
+};
 
 const addLazyLoadingPropertyToEvents = (events) => {
   /**
@@ -56,16 +55,17 @@ const addLazyLoadingPropertyToEvents = (events) => {
   return events.map((event, index) => {
     return {
       ...event,
-      lazyLoad: index === 0 ? undefined : 'lazy',
+      lazyLoad: index === 0 ? undefined : "lazy",
     };
   });
-}
+};
 
 const events = computed(() => {
   const sortedEvents = sortEventsByDateInDescendingOrder(rawEventsArray);
-  const eventsToDisplay = selectedTags.value.length > 0
-    ? filterEventBySelectedTags(sortedEvents, selectedTags.value)
-    : sortedEvents;
+  const eventsToDisplay =
+    selectedTags.value.length > 0
+      ? filterEventBySelectedTags(sortedEvents, selectedTags.value)
+      : sortedEvents;
 
   return addLazyLoadingPropertyToEvents(eventsToDisplay);
 });
@@ -73,13 +73,17 @@ const events = computed(() => {
 
 <template>
   <div class="container mx-auto space-y-16">
-    <div class="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-      <p class="p-2 text-md font-medium text-center uppercase">Events</p>
+    <div
+      class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
+      <p class="text-md p-2 text-center font-medium uppercase">Events</p>
       <div class="w-full">
         <TagsController :tags="tagsObject" />
       </div>
       <section class="my-5">
-        <EventsCard v-for="event in events" :key="event.eventId" :event="event" />
+        <EventsCard
+          v-for="event in events"
+          :key="event.eventId"
+          :event="event" />
       </section>
     </div>
   </div>

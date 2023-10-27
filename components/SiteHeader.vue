@@ -1,41 +1,53 @@
 <script setup>
-
-const menuToggle = ref(false)
+const menuToggle = ref(false);
 
 const openMenu = () => {
-  menuToggle.value = true
-  document.body.style.overflow = 'hidden';
-}
+  menuToggle.value = true;
+  document.body.style.overflow = "hidden";
+};
 const closeMenu = () => {
-  menuToggle.value = false
-  document.body.style.overflow = 'auto';
-}
+  menuToggle.value = false;
+  document.body.style.overflow = "auto";
+};
 </script>
 
 <template>
   <header
-    class="max-h-24 min-h-fit p-4 bg-dark-bg-dark text-dark-text-lightest border-light-bg-lighter dark:border-dark-bg-dark border-b-2">
-    <div v-if="menuToggle"
-      class="md:hidden absolute top-0 left-0 right-0 bottom-0 z-50 w-full opacity-95 dark:bg-dark-bg-darker bg-white py-7 px-4 flex justify-between">
-      <ul class="flex flex-col gap-10 justify-center text-3xl">
+    class="max-h-24 min-h-fit border-b-2 border-light-bg-lighter bg-dark-bg-dark p-4 text-dark-text-lightest dark:border-dark-bg-dark">
+    <div
+      v-if="menuToggle"
+      class="absolute bottom-0 left-0 right-0 top-0 z-50 flex w-full justify-between bg-white px-4 py-7 opacity-95 dark:bg-dark-bg-darker md:hidden">
+      <ul class="flex flex-col justify-center gap-10 text-3xl">
         <li>
-          <NuxtLink @click="closeMenu" class="flex items-center border-b-2 px-4 dark:border-transparent link"
-            to="/events">Events
+          <NuxtLink
+            @click="closeMenu"
+            class="link flex items-center border-b-2 px-4 dark:border-transparent"
+            to="/events"
+            >Events
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink @click="closeMenu" class="flex items-center border-b-2 px-4 dark:border-transparent link"
-            to="/speakers">Speakers
+          <NuxtLink
+            @click="closeMenu"
+            class="link flex items-center border-b-2 px-4 dark:border-transparent"
+            to="/speakers"
+            >Speakers
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink @click="closeMenu" class="flex items-center border-b-2 px-4 dark:border-transparent link" to="/talks">
+          <NuxtLink
+            @click="closeMenu"
+            class="link flex items-center border-b-2 px-4 dark:border-transparent"
+            to="/talks">
             Talks
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink @click="closeMenu" class="flex items-center border-b-2 px-4 dark:border-transparent link"
-            to="/contact-us">Contact Us
+          <NuxtLink
+            @click="closeMenu"
+            class="link flex items-center border-b-2 px-4 dark:border-transparent"
+            to="/contact-us"
+            >Contact Us
           </NuxtLink>
         </li>
       </ul>
@@ -44,30 +56,51 @@ const closeMenu = () => {
       </button>
     </div>
     <div class="container mx-auto flex h-16 justify-between">
-      <NuxtLink to="/" aria-label="Back to homepage" class="flex items-center p-2">
-        <NuxtImg src="/logo/Vue.js-Israel-community-logo.svg" alt="Vue.js Israel Community Logo" width="32px"
+      <NuxtLink
+        to="/"
+        aria-label="Back to homepage"
+        class="flex items-center p-2">
+        <NuxtImg
+          src="/logo/Vue.js-Israel-community-logo.svg"
+          alt="Vue.js Israel Community Logo"
+          width="32px"
           height="28px" />
         Vue.js Israel Community
       </NuxtLink>
       <ul class="hidden items-stretch space-x-3 md:flex">
         <li class="flex">
-          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/events">Events
+          <NuxtLink
+            class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
+            to="/events"
+            >Events
           </NuxtLink>
         </li>
         <li class="flex">
-          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/speakers">Speakers
+          <NuxtLink
+            class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
+            to="/speakers"
+            >Speakers
           </NuxtLink>
         </li>
         <li class="flex">
-          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/talks">Talks
+          <NuxtLink
+            class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
+            to="/talks"
+            >Talks
           </NuxtLink>
         </li>
         <li class="flex">
-          <NuxtLink class="-mb-1 flex items-center border-b-2 px-4 border-transparent link" to="/contact-us">Contact Us
+          <NuxtLink
+            class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
+            to="/contact-us"
+            >Contact Us
           </NuxtLink>
         </li>
       </ul>
-      <button @click.prevent="openMenu" aria-label="menu button" class="flex justify-end p-4 md:hidden">
+      <button
+        @click.prevent="openMenu"
+        aria-label="menu button"
+        class="flex justify-end p-4 md:hidden">
         <Icon name="mdi:menu" size="30" />
       </button>
     </div>

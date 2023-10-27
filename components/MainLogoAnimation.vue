@@ -1,19 +1,32 @@
 <template>
   <div class="vuejsisrael-container">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262" height="227"
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="262"
+      height="227"
       viewBox="0 0 262 227">
       <g id="Vue.js_logo_strokes" fill="none" fill-rule="evenodd">
         <g id="Path-2">
-          <polyline class="outer" stroke="#FFF" stroke-width="46" points="12.19 -24.031 131 181 250.351 -26.016" />
+          <polyline
+            class="outer"
+            stroke="#FFF"
+            stroke-width="46"
+            points="12.19 -24.031 131 181 250.351 -26.016" />
         </g>
         <g id="Path-3" transform="translate(52)">
-          <polyline class="inner" stroke="#0038B8" stroke-width="42" points="15.797 -14.056 79 94 142.83 -17.863" />
+          <polyline
+            class="inner"
+            stroke="#0038B8"
+            stroke-width="42"
+            points="15.797 -14.056 79 94 142.83 -17.863" />
         </g>
       </g>
     </svg>
     <p class="text">
-      <span class="text-vue">Vue</span><span class="text-dot">.</span><span class="text-js">js</span><span
-        class="text-israel">&nbsp;Israel</span>
+      <span class="text-vue">Vue</span><span class="text-dot">.</span
+      ><span class="text-js">js</span
+      ><span class="text-israel">&nbsp;Israel</span>
     </p>
   </div>
 </template>

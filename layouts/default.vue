@@ -1,5 +1,5 @@
 <template>
-    <SiteHeader />
-    <slot></slot>
-    <SiteFooter />
+  <SiteHeader />
+  <slot></slot>
+  <SiteFooter />
 </template>
