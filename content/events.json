@@ -39,20 +39,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-10",
-            "speaker-id-20"
-          ]
+          "value": ["speaker-id-10", "speaker-id-20"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "array",
-            "of",
-            "videos"
-          ]
+          "value": ["array", "of", "videos"]
         }
       },
       "agenda": {
@@ -69,19 +62,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-10",
-                "speaker-id-20"
-              ]
+              "speakerIds": ["speaker-id-10", "speaker-id-20"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-20"
-              ]
+              "speakerIds": ["speaker-id-20"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -98,9 +86,7 @@
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
-          "value": [
-            "Semperis, Shoham 2, Ramat Gan"
-          ]
+          "value": ["Semperis, Shoham 2, Ramat Gan"]
         }
       },
       "sponsors": {
@@ -154,20 +140,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-30",
-            "speaker-id-40"
-          ]
+          "value": ["speaker-id-30", "speaker-id-40"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "array",
-            "of",
-            "videos"
-          ]
+          "value": ["array", "of", "videos"]
         }
       },
       "agenda": {
@@ -184,18 +163,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-30"
-              ]
+              "speakerIds": ["speaker-id-30"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-40"
-              ]
+              "speakerIds": ["speaker-id-40"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -212,9 +187,7 @@
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
-          "value": [
-            "Torq Office, 10th Floor, HaMelacha St 3 · Tel Aviv-Yafo"
-          ]
+          "value": ["Torq Office, 10th Floor, HaMelacha St 3 · Tel Aviv-Yafo"]
         }
       },
       "sponsors": {
@@ -239,11 +212,7 @@
       "src": "/events/Vue.js-Israel-meetup-Contentsquare-21.11.22.png",
       "alt": "Vue.js Israel Official Meetup - Contentsquare - 21.11.22"
     },
-    "eventTags": [
-      "Design system",
-      "Live coding",
-      "Code maintenance"
-    ],
+    "eventTags": ["Design system", "Live coding", "Code maintenance"],
     "eventDate": "21 Nov 2022 18:00",
     "eventLocationName": "Contentsquare",
     "eventTitle": "Be practical with Vue.js",
@@ -257,18 +226,13 @@
       "photos": {
         "sectionTitle": "📷 Photos",
         "sectionContent": {
-          "value": [
-            "https://www.facebook.com/officalVuejsIsrael/"
-          ]
+          "value": ["https://www.facebook.com/officalVuejsIsrael/"]
         }
       },
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-50",
-            "speaker-id-60"
-          ]
+          "value": ["speaker-id-50", "speaker-id-60"]
         }
       },
       "videos": {
@@ -293,18 +257,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-50"
-              ]
+              "speakerIds": ["speaker-id-50"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-60"
-              ]
+              "speakerIds": ["speaker-id-60"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -369,19 +329,13 @@
       "photos": {
         "sectionTitle": "📷 Photos",
         "sectionContent": {
-          "value": [
-            "https://www.facebook.com/officalVuejsIsrael/"
-          ]
+          "value": ["https://www.facebook.com/officalVuejsIsrael/"]
         }
       },
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-70",
-            "speaker-id-80",
-            "speaker-id-90"
-          ]
+          "value": ["speaker-id-70", "speaker-id-80", "speaker-id-90"]
         }
       },
       "videos": {
@@ -406,19 +360,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-70",
-                "speaker-id-80"
-              ]
+              "speakerIds": ["speaker-id-70", "speaker-id-80"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-90"
-              ]
+              "speakerIds": ["speaker-id-90"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -491,10 +440,7 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-100",
-            "speaker-id-110"
-          ]
+          "value": ["speaker-id-100", "speaker-id-110"]
         }
       },
       "videos": {
@@ -519,18 +465,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-100"
-              ]
+              "speakerIds": ["speaker-id-100"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-110"
-              ]
+              "speakerIds": ["speaker-id-110"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -547,9 +489,7 @@
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
-          "value": [
-            "JFrog Israel Tel Aviv"
-          ]
+          "value": ["JFrog Israel Tel Aviv"]
         }
       },
       "sponsors": {
@@ -574,13 +514,7 @@
       "src": "/events/Vue.js-Israel-meetup-Microsoft-Reactor-11.04.22.png",
       "alt": "Vue.js Israel Official Meetup - Microsoft Reactor - 11.04.22"
     },
-    "eventTags": [
-      "Malware",
-      "npm",
-      "packages",
-      "Large application",
-      "Vue 3"
-    ],
+    "eventTags": ["Malware", "npm", "packages", "Large application", "Vue 3"],
     "eventDate": "11 Apr 2022 18:00",
     "eventLocationName": "Microsoft Reactor",
     "eventTitle": "Be pretty and secure in developing with Vue.js",
@@ -602,10 +536,7 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-120",
-            "speaker-id-130"
-          ]
+          "value": ["speaker-id-120", "speaker-id-130"]
         }
       },
       "videos": {
@@ -630,18 +561,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-120"
-              ]
+              "speakerIds": ["speaker-id-120"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-130"
-              ]
+              "speakerIds": ["speaker-id-130"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -658,9 +585,7 @@
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
-          "value": [
-            "Microsoft Reactor Tel Aviv"
-          ]
+          "value": ["Microsoft Reactor Tel Aviv"]
         }
       },
       "sponsors": {
@@ -685,13 +610,7 @@
       "src": "/events/Vue.js-Israel-meetup-Swimm-24.03.22.png",
       "alt": "Vue.js Israel Official Meetup - Swimm - 24.03.22"
     },
-    "eventTags": [
-      "Under the hood",
-      "Vue 3",
-      "Store",
-      "Composable",
-      "Pinia"
-    ],
+    "eventTags": ["Under the hood", "Vue 3", "Store", "Composable", "Pinia"],
     "eventDate": "24 March 2022 18:00",
     "eventLocationName": "Swimm",
     "eventTitle": "Have a reactive Pizza with the Vue 3.0",
@@ -713,19 +632,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-140",
-            "speaker-id-150",
-            "speaker-id-100"
-          ]
+          "value": ["speaker-id-140", "speaker-id-150", "speaker-id-100"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "Youtube Channel Playlist"
-          ]
+          "value": ["Youtube Channel Playlist"]
         }
       },
       "agenda": {
@@ -742,9 +655,7 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-140"
-              ]
+              "speakerIds": ["speaker-id-140"]
             },
             {
               "timeSlot": "19:05 - 19:15",
@@ -755,21 +666,15 @@
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-150"
-              ]
+              "speakerIds": ["speaker-id-150"]
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-150"
-              ]
+              "speakerIds": ["speaker-id-150"]
             },
             {
               "timeSlot": "20:05 - 20:35",
-              "speakerIds": [
-                "speaker-id-100"
-              ]
+              "speakerIds": ["speaker-id-100"]
             },
             {
               "timeSlot": "20:35 - 20:45",
@@ -782,9 +687,7 @@
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
-          "value": [
-            "Swimm - swimm.io Tel Aviv"
-          ]
+          "value": ["Swimm - swimm.io Tel Aviv"]
         }
       },
       "sponsors": {
@@ -842,18 +745,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-40",
-            "speaker-id-130"
-          ]
+          "value": ["speaker-id-40", "speaker-id-130"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "Youtube Channel Playlist"
-          ]
+          "value": ["Youtube Channel Playlist"]
         }
       },
       "agenda": {
@@ -870,18 +768,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-130"
-              ]
+              "speakerIds": ["speaker-id-130"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-40"
-              ]
+              "speakerIds": ["speaker-id-40"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -968,9 +862,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "Youtube Channel Playlist"
-          ]
+          "value": ["Youtube Channel Playlist"]
         }
       },
       "agenda": {
@@ -987,30 +879,22 @@
             },
             {
               "timeSlot": "18:45 - 19:15",
-              "speakerIds": [
-                "speaker-id-160"
-              ]
+              "speakerIds": ["speaker-id-160"]
             },
             {
               "timeSlot": "19:20 - 19:40",
-              "speakerIds": [
-                "speaker-id-170"
-              ]
+              "speakerIds": ["speaker-id-170"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:50 - 20:10",
-              "speakerIds": [
-                "speaker-id-40"
-              ]
+              "speakerIds": ["speaker-id-40"]
             },
             {
               "timeSlot": "20:15 - 20:35",
-              "speakerIds": [
-                "speaker-id-130"
-              ]
+              "speakerIds": ["speaker-id-130"]
             },
             {
               "timeSlot": "20:35 - 20:45",
@@ -1055,12 +939,7 @@
       "src": "/events/Vue.js-Israel-meetup-Cloudinary-25.02.20.png",
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 25.02.20"
     },
-    "eventTags": [
-      "Serverless",
-      "Performance",
-      "Optimization",
-      "GridSome"
-    ],
+    "eventTags": ["Serverless", "Performance", "Optimization", "GridSome"],
     "eventDate": "25 Feb 2020 18:00",
     "eventLocationName": "Cloudinary",
     "eventTitle": "Performance optimization and Server-less in Vue",
@@ -1080,20 +959,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-160",
-            "speaker-id-180"
-          ]
+          "value": ["speaker-id-160", "speaker-id-180"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "array",
-            "of",
-            "videos"
-          ]
+          "value": ["array", "of", "videos"]
         }
       },
       "agenda": {
@@ -1114,15 +986,11 @@
             },
             {
               "timeSlot": "18:35 - 19:20",
-              "speakerIds": [
-                "speaker-id-180"
-              ]
+              "speakerIds": ["speaker-id-180"]
             },
             {
               "timeSlot": "19:35 - 20:35",
-              "speakerIds": [
-                "speaker-id-160"
-              ]
+              "speakerIds": ["speaker-id-160"]
             },
             {
               "title": "Short Break"
@@ -1198,20 +1066,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-90",
-            "speaker-id-200"
-          ]
+          "value": ["speaker-id-90", "speaker-id-200"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "array",
-            "of",
-            "videos"
-          ]
+          "value": ["array", "of", "videos"]
         }
       },
       "agenda": {
@@ -1228,18 +1089,14 @@
             },
             {
               "timeSlot": "18:30 - 19:00",
-              "speakerIds": [
-                "speaker-id-90"
-              ]
+              "speakerIds": ["speaker-id-90"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:30 - 20:00",
-              "speakerIds": [
-                "speaker-id-200"
-              ]
+              "speakerIds": ["speaker-id-200"]
             },
             {
               "timeSlot": "20:05 - 20:15",
@@ -1256,9 +1113,7 @@
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
           "type": "markdown",
-          "value": [
-            "Swimm - swimm.io Tel Aviv"
-          ]
+          "value": ["Swimm - swimm.io Tel Aviv"]
         }
       },
       "sponsors": {
@@ -1312,21 +1167,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-220",
-            "speaker-id-40",
-            "speaker-id-210"
-          ]
+          "value": ["speaker-id-220", "speaker-id-40", "speaker-id-210"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "array",
-            "of",
-            "videos"
-          ]
+          "value": ["array", "of", "videos"]
         }
       },
       "agenda": {
@@ -1339,18 +1186,14 @@
             },
             {
               "timeSlot": "18:30 - 19:10",
-              "speakerIds": [
-                "speaker-id-220"
-              ]
+              "speakerIds": ["speaker-id-220"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:15 - 19:35",
-              "speakerIds": [
-                "speaker-id-40"
-              ]
+              "speakerIds": ["speaker-id-40"]
             },
             {
               "timeSlot": "19:35 - 19:50",
@@ -1358,9 +1201,7 @@
             },
             {
               "timeSlot": "19:50 - 20:20",
-              "speakerIds": [
-                "speaker-id-210"
-              ]
+              "speakerIds": ["speaker-id-210"]
             },
             {
               "timeSlot": "20:25 - 20:40",
@@ -1405,13 +1246,7 @@
       "src": "/events/Vue.js-Israel-meetup-Cloudinary-13.05.19.png",
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 13.05.19"
     },
-    "eventTags": [
-      "Nuxt",
-      "Dynamic",
-      "Micro-interaction",
-      "UX",
-      "SSR"
-    ],
+    "eventTags": ["Nuxt", "Dynamic", "Micro-interaction", "UX", "SSR"],
     "eventDate": "13 May 2019 18:30",
     "eventLocationName": "Cloudinary",
     "eventTitle": "May the Vue be with you - New beginning 🎉🎉",
@@ -1431,21 +1266,13 @@
       "speakers": {
         "sectionTitle": "📢 Speakers",
         "sectionContent": {
-          "value": [
-            "speaker-id-230",
-            "speaker-id-240",
-            "speaker-id-220"
-          ]
+          "value": ["speaker-id-230", "speaker-id-240", "speaker-id-220"]
         }
       },
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "array",
-            "of",
-            "videos"
-          ]
+          "value": ["array", "of", "videos"]
         }
       },
       "agenda": {
@@ -1462,24 +1289,18 @@
             },
             {
               "timeSlot": "18:45 - 19:00",
-              "speakerIds": [
-                "speaker-id-230"
-              ]
+              "speakerIds": ["speaker-id-230"]
             },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:05 - 19:50",
-              "speakerIds": [
-                "speaker-id-240"
-              ]
+              "speakerIds": ["speaker-id-240"]
             },
             {
               "timeSlot": "19:55 - 20:10",
-              "speakerIds": [
-                "speaker-id-220"
-              ]
+              "speakerIds": ["speaker-id-220"]
             },
             {
               "title": "Short Break"

@@ -3,117 +3,91 @@
     "name": "Guy Passy",
     "title": "Senior Frontend Developer",
     "image": "/speaker-pictures/Guy Passy.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/guy-passy-1923a62a/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/guy-passy-1923a62a/"],
     "company": "Semperis"
   },
   "speaker-id-20": {
     "name": "Michael Salaverry",
     "title": "Senior Fullstack Engineer",
     "image": "/speaker-pictures/Michael Salaverry.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/michaelsalaverry/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/michaelsalaverry/"],
     "company": "Quris"
   },
   "speaker-id-30": {
     "name": "Dudi Fedida",
     "title": "Frontend Tech Lead",
     "image": "/speaker-pictures/Dudi Fedida.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/dudi-fedida-892b48113/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/dudi-fedida-892b48113/"],
     "company": "Torq"
   },
   "speaker-id-40": {
     "name": "Maya Shavin",
     "title": "Senior Software Engineer",
     "image": "/speaker-pictures/Maya Shavin.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/mayashavin/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/mayashavin/"],
     "company": "Microsoft"
   },
   "speaker-id-50": {
     "name": "Benjamin Rachi",
     "title": "Tech Lead Full Stack Engineer",
     "image": "/speaker-pictures/Benjamin Rachi.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/benjamin-rachi-866b39b5"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/benjamin-rachi-866b39b5"],
     "company": "Contentsquare"
   },
   "speaker-id-60": {
     "name": "Noam Honig",
     "title": "Founder at Firefly Migration & Creator of Remult",
     "image": "/speaker-pictures/avatar.png",
-    "socialLinks": [
-      "https://www.linkedin.com/in/noamhonig/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/noamhonig/"],
     "company": "Remult"
   },
   "speaker-id-70": {
     "name": "Meital Lazarovitch",
     "title": "Frontend Developer",
     "image": "/speaker-pictures/Meital Lazarovitch.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/meital-lazarovich"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/meital-lazarovich"],
     "company": "Morning"
   },
   "speaker-id-80": {
     "name": "Yovel Becker",
     "title": "Frontend Developer",
     "image": "/speaker-pictures/Yovel Becker.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/yovelb/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/yovelb/"],
     "company": "Morning"
   },
   "speaker-id-90": {
     "name": "Kevin Louzoun",
     "title": "Lead Front-End",
     "image": "/speaker-pictures/Kevin Louzoun.png",
-    "socialLinks": [
-      "https://www.linkedin.com/in/kevinsz/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/kevinsz/"],
     "company": "Nilos"
   },
   "speaker-id-100": {
     "name": "David Meir-Levy",
     "title": "Developer",
     "image": "/speaker-pictures/David Meir-Levy.jpeg",
-    "socialLinks": [
-      "https://www.facebook.com/davidmeirlevy"
-    ],
+    "socialLinks": ["https://www.facebook.com/davidmeirlevy"],
     "company": "Tikal Knowledge"
   },
   "speaker-id-110": {
     "name": "Evgeni Dikerman",
     "title": "Developer",
     "image": "/speaker-pictures/Evgeni Dikerman.jpeg",
-    "socialLinks": [
-      "https://twitter.com/EvgeniDikerman"
-    ],
+    "socialLinks": ["https://twitter.com/EvgeniDikerman"],
     "company": "JFrog"
   },
   "speaker-id-120": {
     "name": "Liran Tal",
     "title": "Developer",
     "image": "/speaker-pictures/Liran Tal.jpeg",
-    "socialLinks": [
-      "https://twitter.com/liran_tal"
-    ],
+    "socialLinks": ["https://twitter.com/liran_tal"],
     "company": "Snyk"
   },
   "speaker-id-130": {
     "name": "Dima Vishnevetsky",
     "title": "Co-Founder, CEO & Front End Expert @ ClientSide",
     "image": "/speaker-pictures/Dima Vishnevetsky.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/dimshik100"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/dimshik100"],
     "company": "ClientSide"
   },
   "speaker-id-140": {
@@ -140,9 +114,7 @@
     "name": "Elad Cohen",
     "title": "Fullstack",
     "image": "/speaker-pictures/Elad Cohen.jpeg",
-    "socialLinks": [
-      "https://www.facebook.com/elad.fullstack"
-    ],
+    "socialLinks": ["https://www.facebook.com/elad.fullstack"],
     "company": "GoCode"
   },
   "speaker-id-170": {
@@ -159,36 +131,28 @@
     "name": "Tamas Piros",
     "title": "Developer Experience",
     "image": "/speaker-pictures/Tamas Piros.jpeg",
-    "socialLinks": [
-      "https://twitter.com/tpiros"
-    ],
+    "socialLinks": ["https://twitter.com/tpiros"],
     "company": "Cloudinary"
   },
   "speaker-id-200": {
     "name": "Ryan Taylor",
     "title": "Principal Frontend Engineer",
     "image": "/speaker-pictures/Ryan Taylor.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/ryanhavoctaylor/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/ryanhavoctaylor/"],
     "company": "Swimm"
   },
   "speaker-id-210": {
     "name": "Omri Matias",
     "title": "Full Stack Team Lead",
     "image": "/speaker-pictures/Omri Matias.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/omri-matias-4258947b/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/omri-matias-4258947b/"],
     "company": "Yad2"
   },
   "speaker-id-220": {
     "name": "Snir Shechter",
     "title": "R&D Team Leader",
     "image": "/speaker-pictures/Snir Shechter.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/snir/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/snir/"],
     "company": "Monolith"
   },
   "speaker-id-230": {
@@ -205,9 +169,7 @@
     "name": "Yaron Biton",
     "title": "Chief of Technology",
     "image": "/speaker-pictures/Yaron Biton.jpeg",
-    "socialLinks": [
-      "https://www.linkedin.com/in/yaronbiton/"
-    ],
+    "socialLinks": ["https://www.linkedin.com/in/yaronbiton/"],
     "company": "misterBIT"
   }
 }

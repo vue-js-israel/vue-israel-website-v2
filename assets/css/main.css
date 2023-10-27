@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -14,13 +14,13 @@ html {
 
 body {
   @apply font-Roboto;
-  @apply dark:text-dark-text-lightest text-light-text-dark;
-  @apply dark:bg-dark-bg-darkest bg-light-bg-lightest;
+  @apply text-light-text-dark dark:text-dark-text-lightest;
+  @apply bg-light-bg-lightest dark:bg-dark-bg-darkest;
   @apply min-h-screen;
 }
 
 hr {
-  @apply dark:border-dark-bg-dark border-light-bg-lighter
+  @apply border-light-bg-lighter dark:border-dark-bg-dark;
 }
 
 /* 

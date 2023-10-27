@@ -1,8 +1,12 @@
 <template>
   <div class="flex flex-wrap gap-1">
-    <span v-for="(tag, tagKey) in localTags"
-      class="self-start rounded-full px-3 py-1 text-sm border border-cta-base hover:border-cta-hover"
-      :class="{ 'bg-cta-hover border-cta-hover text-dark-bg-dark': tag.isSelected }" :key="tagKey"
+    <span
+      v-for="(tag, tagKey) in localTags"
+      class="self-start rounded-full border border-cta-base px-3 py-1 text-sm hover:border-cta-hover"
+      :class="{
+        'border-cta-hover bg-cta-hover text-dark-bg-dark': tag.isSelected,
+      }"
+      :key="tagKey"
       @click.prevent="tagClick(tagKey)">
       {{ tag.title }}
     </span>
@@ -16,7 +20,7 @@ const props = defineProps({
     default: () => {
       return {};
     },
-  }
+  },
 });
 
 const router = useRouter();
@@ -30,17 +34,19 @@ const selectedTags = computed(() => {
 const localTags = computed(() => {
   const tags = {};
   for (const key in props.tags) {
-    const title = props.tags[key]
+    const title = props.tags[key];
     const isSelected = selectedTags.value.includes(key);
-    tags[key] = { title, isSelected }
+    tags[key] = {
+      title,
+      isSelected,
+    };
   }
-  return tags
-})
+  return tags;
+});
 
 const tagClick = (tagKey) => {
-
-  const currentSelectedTags = selectedTags.value
-  const isTagSelected = currentSelectedTags.includes(tagKey)
+  const currentSelectedTags = selectedTags.value;
+  const isTagSelected = currentSelectedTags.includes(tagKey);
 
   if (isTagSelected) {
     const tagIndex = currentSelectedTags.findIndex((selectedTag) => {
@@ -48,15 +54,22 @@ const tagClick = (tagKey) => {
     });
     currentSelectedTags.splice(tagIndex, 1);
   } else {
-    currentSelectedTags.push(tagKey)
+    currentSelectedTags.push(tagKey);
   }
   const { path } = useRoute();
   // Add/Remove tags to/from URL params
   if (currentSelectedTags.length > 0) {
-    const decodedTags = decodeURIComponent(currentSelectedTags)
-    router.replace({ path, query: { 'tags': decodedTags } })
+    const decodedTags = decodeURIComponent(currentSelectedTags);
+    router.replace({
+      path,
+      query: {
+        tags: decodedTags,
+      },
+    });
   } else {
-    router.replace({ path })
+    router.replace({
+      path,
+    });
   }
 };
 </script>

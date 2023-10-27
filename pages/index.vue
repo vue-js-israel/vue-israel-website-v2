@@ -1,5 +1,5 @@
 <template>
-    <MainLogoAnimation/>
+  <MainLogoAnimation />
 </template>
 
 <script setup>
