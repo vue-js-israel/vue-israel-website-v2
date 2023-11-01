@@ -60,7 +60,10 @@ const filteredEventsTalksSpeakers = computed(() => {
       <section class="my-5">
         <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
           <TalksCard
-            v-for="{ talk, speaker, event } in filteredEventsTalksSpeakers"
+            v-for="(
+              { talk, speaker, event }, index
+            ) in filteredEventsTalksSpeakers"
+            :key="index"
             :speaker="speaker"
             :talk="talk"
             :event="event" />

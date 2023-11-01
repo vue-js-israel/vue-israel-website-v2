@@ -30,6 +30,7 @@ const filteredAndSortedSpeakers = computed(() => {
     <p class="text-md p-2 text-center font-medium uppercase">
       Community speakers
     </p>
+    <NuxtLink to="/new-talk">Apply for a talk</NuxtLink>
     <SpeakersCard
       v-for="speaker in filteredAndSortedSpeakers"
       :key="speaker.speakerId"

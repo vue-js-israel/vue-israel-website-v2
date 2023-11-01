@@ -53,7 +53,11 @@
         </a>
       </div>
       <div class="flex space-x-2 text-sm">
-        <a v-for="video in talk.videos" :href="video" target="_blank">
+        <a
+          v-for="(video, index) in talk.videos"
+          :key="index"
+          :href="video"
+          target="_blank">
           <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover" />
         </a>
         <a :href="talk.slides.link" target="_blank" :title="talk.slides.title">
@@ -75,14 +79,17 @@ const props = defineProps({
   speaker: {
     type: Object,
     require: true,
+    default: () => {},
   },
   talk: {
     type: Object,
     require: true,
+    default: () => {},
   },
   event: {
     type: Object,
     require: true,
+    default: () => {},
   },
 });
 const currentEvent = computed(() => {

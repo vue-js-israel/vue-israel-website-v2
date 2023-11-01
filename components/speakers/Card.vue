@@ -3,8 +3,9 @@ import { socialIcon } from "@/components/utils/urlUtils";
 
 defineProps({
   speaker: {
+    type: Object,
     require: true,
-    default: {},
+    default: () => {},
   },
 });
 </script>

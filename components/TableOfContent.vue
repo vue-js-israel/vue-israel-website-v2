@@ -1,5 +1,10 @@
 <script setup>
-defineProps(["links"]);
+defineProps({
+  links: {
+    type: Array,
+    default: () => [],
+  },
+});
 </script>
 <template>
   <nav
