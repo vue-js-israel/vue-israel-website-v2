@@ -1,5 +1,5 @@
 <script setup>
-import { socialIcon } from "@/components/utils/urlUtils";
+import { socialIcon } from "@/utils/urlUtils";
 
 defineProps({
   speaker: {

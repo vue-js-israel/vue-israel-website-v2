@@ -72,7 +72,7 @@
 </template>
 
 <script setup>
-import { socialIcon } from "@/components/utils/urlUtils";
+import { socialIcon } from "@/utils/urlUtils";
 import events from "@/content/events.json";
 
 const props = defineProps({
