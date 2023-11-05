@@ -13,7 +13,7 @@ const closeMenu = () => {
 
 <template>
   <header
-    class="max-h-24 min-h-fit border-b-2 border-light-bg-lighter bg-dark-bg-dark p-4 text-dark-text-lightest dark:border-dark-bg-dark">
+    class="sticky top-0 max-h-24 min-h-fit border-b-2 border-light-bg-lighter bg-dark-bg-dark p-4 text-dark-text-lightest dark:border-dark-bg-dark">
     <div
       v-if="menuToggle"
       class="absolute bottom-0 left-0 right-0 top-0 z-50 flex w-full justify-between bg-white px-4 py-7 opacity-95 dark:bg-dark-bg-darker md:hidden">
