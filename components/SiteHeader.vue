@@ -14,47 +14,6 @@ const closeMenu = () => {
 <template>
   <header
     class="sticky top-0 max-h-24 min-h-fit border-b-2 border-light-bg-lighter bg-dark-bg-dark p-4 text-dark-text-lightest dark:border-dark-bg-dark">
-    <div
-      v-if="menuToggle"
-      class="absolute bottom-0 left-0 right-0 top-0 z-50 flex w-full justify-between bg-white px-4 py-7 opacity-95 dark:bg-dark-bg-darker md:hidden">
-      <ul class="flex flex-col justify-center gap-10 text-3xl">
-        <li>
-          <NuxtLink
-            class="link flex items-center border-b-2 px-4 dark:border-transparent"
-            to="/events"
-            @click="closeMenu"
-            >Events
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="link flex items-center border-b-2 px-4 dark:border-transparent"
-            to="/speakers"
-            @click="closeMenu"
-            >Speakers
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="link flex items-center border-b-2 px-4 dark:border-transparent"
-            to="/talks"
-            @click="closeMenu">
-            Talks
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink
-            class="link flex items-center border-b-2 px-4 dark:border-transparent"
-            to="/contact-us"
-            @click="closeMenu"
-            >Contact Us
-          </NuxtLink>
-        </li>
-      </ul>
-      <button class="flex justify-end p-4 md:hidden" @click="closeMenu">
-        <Icon name="mdi:close" size="60" />
-      </button>
-    </div>
     <div class="container mx-auto flex h-16 justify-between">
       <NuxtLink
         to="/"
@@ -105,6 +64,47 @@ const closeMenu = () => {
       </button>
     </div>
   </header>
+  <div
+    v-if="menuToggle"
+    class="absolute bottom-0 left-0 right-0 top-0 flex w-full justify-between bg-white px-4 py-7 opacity-95 dark:bg-dark-bg-darker md:hidden">
+    <ul class="flex flex-col justify-center gap-10 text-3xl">
+      <li>
+        <NuxtLink
+          class="link flex items-center border-b-2 px-4 dark:border-transparent"
+          to="/events"
+          @click="closeMenu"
+          >Events
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          class="link flex items-center border-b-2 px-4 dark:border-transparent"
+          to="/speakers"
+          @click="closeMenu"
+          >Speakers
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          class="link flex items-center border-b-2 px-4 dark:border-transparent"
+          to="/talks"
+          @click="closeMenu">
+          Talks
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          class="link flex items-center border-b-2 px-4 dark:border-transparent"
+          to="/contact-us"
+          @click="closeMenu"
+          >Contact Us
+        </NuxtLink>
+      </li>
+    </ul>
+    <button class="flex justify-end p-4 md:hidden" @click="closeMenu">
+      <Icon name="mdi:close" size="60" />
+    </button>
+  </div>
 </template>
 
 <style scoped>
