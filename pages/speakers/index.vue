@@ -26,7 +26,12 @@ const filteredAndSortedSpeakers = computed(() => {
 
 <template>
   <div>
-    <SpeakersBanner></SpeakersBanner>
+    <Banner
+      title="Calling all speakers!"
+      sub-title="Share your insights at ours"
+      sub-title-bold="next event"
+      cta-link="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
+      cta-text-content="Apply Now!"></Banner>
     <div
       class="container mx-auto flex flex-col items-center justify-center p-4 py-6 sm:p-10">
       <p class="text-md p-2 text-center font-medium uppercase">
@@ -37,7 +42,12 @@ const filteredAndSortedSpeakers = computed(() => {
         :key="speaker.speakerId"
         :speaker="speaker" />
     </div>
-    <SpeakersBanner></SpeakersBanner>
+    <Banner
+      title="Calling all speakers!"
+      sub-title="Share your insights at ours"
+      sub-title-bold="next event"
+      cta-link="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
+      cta-text-content="Apply Now!"></Banner>
   </div>
 </template>
 

@@ -53,23 +53,38 @@ const filteredEventsTalksSpeakers = computed(() => {
 </script>
 
 <template>
-  <div class="container mx-auto space-y-16">
-    <div
-      class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
-      <p class="text-md p-2 text-center font-medium uppercase">Talks</p>
-      <section class="my-5">
-        <div class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
-          <TalksCard
-            v-for="(
-              { talk, speaker, event }, index
-            ) in filteredEventsTalksSpeakers"
-            :key="index"
-            :speaker="speaker"
-            :talk="talk"
-            :event="event" />
-        </div>
-      </section>
+  <div>
+    <Banner
+      title="Step into the Spotlight!"
+      sub-title="Share your knowledge"
+      sub-title-bold="with the community!"
+      cta-link="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
+      cta-text-content="Attend Now!"></Banner>
+    <div class="container mx-auto space-y-16">
+      <div
+        class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
+        <p class="text-md p-2 text-center font-medium uppercase">Talks</p>
+        <section class="my-5">
+          <div
+            class="mt-8 flex flex-row flex-wrap-reverse justify-center gap-4">
+            <TalksCard
+              v-for="(
+                { talk, speaker, event }, index
+              ) in filteredEventsTalksSpeakers"
+              :key="index"
+              :speaker="speaker"
+              :talk="talk"
+              :event="event" />
+          </div>
+        </section>
+      </div>
     </div>
+    <Banner
+      title="Step into the Spotlight!"
+      sub-title="Share your knowledge"
+      sub-title-bold="with the community!"
+      cta-link="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
+      cta-text-content="Attend Now!"></Banner>
   </div>
 </template>
 

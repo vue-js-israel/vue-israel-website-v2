@@ -72,20 +72,34 @@ const events = computed(() => {
 </script>
 
 <template>
-  <div class="container mx-auto space-y-16">
-    <div
-      class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
-      <p class="text-md p-2 text-center font-medium uppercase">Events</p>
-      <div class="w-full">
-        <TagsController :tags="tagsObject" />
+  <div>
+    <Banner
+      title="Host the Next Talk!"
+      sub-title="Showcase Your"
+      sub-title-bold="Innovation and Expertise"
+      cta-link="#"
+      cta-text-content="Host the Event"></Banner>
+    <div class="container mx-auto space-y-16">
+      <div
+        class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
+        <p class="text-md p-2 text-center font-medium uppercase">Events</p>
+        <div class="w-full">
+          <TagsController :tags="tagsObject" />
+        </div>
+        <section class="my-5">
+          <EventsCard
+            v-for="event in events"
+            :key="event.eventId"
+            :event="event" />
+        </section>
       </div>
-      <section class="my-5">
-        <EventsCard
-          v-for="event in events"
-          :key="event.eventId"
-          :event="event" />
-      </section>
     </div>
+    <Banner
+      title="Host the Next Talk!"
+      sub-title="Showcase Your"
+      sub-title-bold="Innovation and Expertise"
+      cta-link="#"
+      cta-text-content="Host the Event"></Banner>
   </div>
 </template>
 
