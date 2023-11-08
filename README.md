@@ -1,43 +1,41 @@
-# Content v2 Minimal Starter
+# Contributing to vuejsisrael Project
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+Welcome to our vuejsisrael website project!
+To ensure a consistent code style and minimize errors, we use <u>**Prettier**</u> and <u>**ESLint**</u>. Please follow the instructions below to set up and maintain the development environment.
 
-## Setup
+## Getting Started
 
-Make sure to install the dependencies:
+1. Clone the repository:
 
-```bash
-# yarn
-yarn install
+   ```bash
+   git clone https://github.com/vue-js-israel/vue-israel-website-v2.git
+   ```
 
-# npm
-npm install
+2. Make sure to install the dependencies:
 
-# pnpm
-pnpm install
-```
+   ```bash
+   # npm
+   npm install
+   ```
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+- Start the development server on http://localhost:3000
 
-```bash
-npm run dev
-```
+  ```bash
+  npm run dev
+  ```
 
 ## Production
 
-Build the application for production:
+- Build the application for production:
 
-```bash
-npm run build
-```
+  ```bash
+  npm run build
+  ```
 
-Locally preview production build:
+- Locally preview production build:
 
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
-"# websiteV2"
+  ```bash
+  npm run preview
+  ```
