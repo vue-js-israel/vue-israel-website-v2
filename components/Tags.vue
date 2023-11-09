@@ -2,11 +2,11 @@
   <div class="flex flex-wrap gap-1">
     <span
       v-for="(tag, tagKey) in localTags"
+      :key="tagKey"
       class="self-start rounded-full border border-cta-base px-3 py-1 text-sm hover:border-cta-hover"
       :class="{
         'border-cta-hover bg-cta-hover text-dark-bg-dark': tag.isSelected,
       }"
-      :key="tagKey"
       @click.prevent="tagClick(tagKey)">
       {{ tag.title }}
     </span>

@@ -20,9 +20,9 @@ const toggleExpand = () => {
   <div class="flex flex-col gap-2 rounded-lg p-4 md:flex-row md:items-center">
     <!-- Button to toggle expand -->
     <button
-      @click="toggleExpand"
       class="flex items-center gap-2 rounded-full border p-1.5 px-2 pr-3 font-semibold transition-all hover:-translate-y-0.5 active:translate-y-0.5 active:bg-dark-bg-dark active:shadow-inner"
-      :class="{ 'border-cta-base': expanded }">
+      :class="{ 'border-cta-base': expanded }"
+      @click="toggleExpand">
       <Icon name="mdi:tag-outline" />
       <span>Tags</span>
     </button>

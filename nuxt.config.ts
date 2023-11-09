@@ -8,7 +8,17 @@ export default defineNuxtConfig({
     },
   },
   ssr: true,
-  modules: ["@nuxt/content", "nuxt-icon", "@nuxtjs/tailwindcss", "@nuxt/image"],
+  modules: [
+    "@nuxtjs/eslint-module",
+    "@nuxt/content",
+    "nuxt-icon",
+    "@nuxtjs/tailwindcss",
+    "@nuxt/image",
+  ],
+  eslint: {
+    failOnWarning: true,
+    failOnError: true,
+  },
   tailwindcss: {
     cssPath: "~/assets/css/main.css",
   },

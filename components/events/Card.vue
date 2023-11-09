@@ -36,6 +36,7 @@ const props = defineProps({
   event: {
     type: Object,
     require: true,
+    default: () => {},
   },
 });
 

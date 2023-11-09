@@ -2,7 +2,7 @@
 import events from "@/content/events.json";
 import speakers from "@/content/speakers.json";
 import talks from "@/content/talks.json";
-import { addURLSuffix } from "@/components/utils/urlUtils";
+import { addURLSuffix } from "@/utils/urlUtils";
 
 onMounted(() => {
   const eventTitleUrl = event.eventTitle
