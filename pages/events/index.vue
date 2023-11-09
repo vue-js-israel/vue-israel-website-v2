@@ -73,12 +73,15 @@ const events = computed(() => {
 
 <template>
   <div>
-    <Banner
-      title="Host the Next Talk!"
-      sub-title="Showcase Your"
-      sub-title-bold="Innovation and Expertise"
-      cta-link="#"
-      cta-text-content="Host the Event"></Banner>
+    <Banner ctaUrl="#" ctaText="Host the Event">
+      <h2 class="text-center text-5xl font-bold md:text-4xl">
+        Host the Next Talk!
+      </h2>
+      <div class="space-x-2 py-2 text-center lg:py-0">
+        <span>Showcase Your</span>
+        <span class="text-lg font-bold">Innovation and Expertise</span>
+      </div>
+    </Banner>
     <div class="container mx-auto space-y-16">
       <div
         class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
@@ -94,12 +97,15 @@ const events = computed(() => {
         </section>
       </div>
     </div>
-    <Banner
-      title="Host the Next Talk!"
-      sub-title="Showcase Your"
-      sub-title-bold="Innovation and Expertise"
-      cta-link="#"
-      cta-text-content="Host the Event"></Banner>
+    <Banner ctaUrl="#" ctaText="Host the Event">
+      <h2 class="text-center text-5xl font-bold md:text-4xl">
+        Host the Next Talk!
+      </h2>
+      <div class="space-x-2 py-2 text-center lg:py-0">
+        <span>Showcase Your</span>
+        <span class="text-lg font-bold">Innovation and Expertise</span>
+      </div>
+    </Banner>
   </div>
 </template>
 

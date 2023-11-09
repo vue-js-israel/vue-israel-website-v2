@@ -55,11 +55,16 @@ const filteredEventsTalksSpeakers = computed(() => {
 <template>
   <div>
     <Banner
-      title="Step into the Spotlight!"
-      sub-title="Share your knowledge"
-      sub-title-bold="with the community!"
-      cta-link="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
-      cta-text-content="Attend Now!"></Banner>
+      ctaUrl="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
+      ctaText="Attend Now!">
+      <h2 class="text-center text-5xl font-bold md:text-4xl">
+        Step into the Spotlight!
+      </h2>
+      <div class="space-x-2 py-2 text-center lg:py-0">
+        <span>Share your knowledge</span>
+        <span class="text-lg font-bold">with the community!</span>
+      </div>
+    </Banner>
     <div class="container mx-auto space-y-16">
       <div
         class="container mx-auto flex flex-col items-center justify-center p-4 sm:p-10">
@@ -80,11 +85,16 @@ const filteredEventsTalksSpeakers = computed(() => {
       </div>
     </div>
     <Banner
-      title="Step into the Spotlight!"
-      sub-title="Share your knowledge"
-      sub-title-bold="with the community!"
-      cta-link="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
-      cta-text-content="Attend Now!"></Banner>
+      ctaUrl="https://docs.google.com/forms/d/e/1FAIpQLSeM_lZF_C1IJso9_85_WYU6Mhu6hrB6KgBMFwhqnmBwO7pfgQ/viewform"
+      ctaText="Attend Now!">
+      <h2 class="text-center text-5xl font-bold md:text-4xl">
+        Step into the Spotlight!
+      </h2>
+      <div class="space-x-2 py-2 text-center lg:py-0">
+        <span>Share your knowledge</span>
+        <span class="text-lg font-bold">with the community!</span>
+      </div>
+    </Banner>
   </div>
 </template>
 
