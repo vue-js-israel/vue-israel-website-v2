@@ -24,7 +24,7 @@
         </div>
       </div>
       <form
-        action="https://formsubmit.co/vuejs.israel@gmail.com"
+        action="https://formsubmit.co/3fa2e710471f62b8ac09c8cb15dfc0a9"
         method="POST"
         class="flex flex-col space-y-6 py-6 md:px-6 md:py-0">
         <label class="block">
