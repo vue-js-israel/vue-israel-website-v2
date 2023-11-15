@@ -8,7 +8,7 @@ defineProps({
 </script>
 <template>
   <nav
-    class="sticky top-20 overflow-auto rounded-lg border border-slate-300 bg-dark-text-lightest p-4 hover:border-cta-hover dark:border-dark-text-light dark:bg-dark-bg-dark">
+    class="sticky top-32 overflow-auto rounded-lg border border-slate-300 bg-dark-text-lightest p-4 hover:border-cta-hover dark:border-dark-text-light dark:bg-dark-bg-dark">
     <header
       class="mb-2 border-b border-slate-300 pb-2 dark:border-dark-text-light">
       <h3 class="text-xl font-bold">Table of contents</h3>
