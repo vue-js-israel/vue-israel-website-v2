@@ -14,7 +14,11 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
+    "nuxt-gtag",
   ],
+  gtag: {
+    id: "G-XKC3HJLSP6",
+  },
   eslint: {
     failOnWarning: true,
     failOnError: true,
