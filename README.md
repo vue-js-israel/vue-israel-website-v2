@@ -50,9 +50,9 @@ The Static Site Generation process in Nuxt 3 involves analyzing the project stru
 ## Contributing Guidelines
 
 As an offline database, the project uses JSON files.
-To publish a new event on the website.
-The files, speakers.json, events.json, and talks.json must all be modified under the Content folder.
+To publish a new event on the website, the files, speakers.json, events.json, and talks.json must all be modified under the Content folder.
 There is a direct link between the three files, and a lack of data in one of them may result in issues.
+[Full contribution guideline](./ContributingGuidelines.md)
 
 ## Code Style
 
@@ -77,11 +77,15 @@ In order to maintain consistency and readability across the Nuxt 3 or Vue 3 SSG 
 ###### 1.2 Naming Conventions
 
 - Use PascalCase for component names.
-- Use **"Vue.js-Israel-meetup-`Host name`-`dd.mm.yy`"** for naming event image `/public/images/events`
-- Use **"Vue.js-Israel-speakers-`first name`-`last name`-`dd.mm`"** for naming speaker poster image `/public/images/speaker-posters`
-- Use **"`First name` `Last name`"** for naming speaker profile image `/public/images/speaker-pictures`
 
-##### 2. JavaScript/TypeScript
+  ###### 1.2.1 Images Naming conventions
+
+  - We keep a copy of every image - all images are uploaded and displayed from Cloudinary
+  - Use **"Vue.js-Israel-meetup-`Host name`-`dd.mm.yy`"** for naming event image `/public/images/events`
+  - Use **"Vue.js-Israel-speakers-`first name`-`last name`-`dd.mm`"** for naming speaker poster image `/public/images/speaker-posters`
+  - Use **"`First name` `Last name`"** for naming speaker profile image `/public/images/speaker-pictures`
+
+##### 2. JavaScript
 
 ###### 2.1 Vue-Specific Guidelines
 
@@ -92,7 +96,6 @@ Use the `script setup` syntax for single-file components when possible.
 ###### 3.1 Formatting
 
 - Use a consistent indentation of 2 spaces.
-- Prefer double curly braces (`{{ }}`) for expressions in templates.
 
 #### 4. Tailwind CSS
 
@@ -108,12 +111,12 @@ Use the `script setup` syntax for single-file components when possible.
 
 ##### 6. Additional Tools
 
-Consider using linters and code formatters (ESLint, Prettier) to automate and enforce these guidelines.
+We are using linters and code formatters (ESLint, Prettier) to automate and enforce these guidelines.
 
 Remember to keep the codebase clean, modular, and easily maintainable by following these conventions.
 
 ## Documentation
 
-### formsubmit API
+### Contact-us form:
 
-- Contact-us page form uses formsubmit API for submission via email.
+- Contact-us page form uses [formsubmit API](https://formsubmit.co/) for submission via email.
