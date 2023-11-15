@@ -31,13 +31,8 @@
   </div>
 </template>
 <script></script>
-<style>
+<style scoped>
 .vuejsisrael-container {
-  /* --color-white: #;
-  --color-green: tr; */
-  background-color: lightgray;
-  animation: bg-color 8s linear forwards infinite;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +41,6 @@
 }
 
 .text {
-  /* font-family: "Dosis", serif; */
   font-size: 48px;
 }
 
@@ -77,7 +71,7 @@
 }
 
 .text-israel {
-  --text-width: 120px;
+  --text-width: 130px;
   overflow: hidden;
   width: 0;
   color: white;
@@ -220,40 +214,6 @@
 
   100% {
     width: 0;
-  }
-}
-
-@keyframes bg-color {
-  0% {
-    background-color: var(--color-white);
-  }
-
-  6.25% {
-    background-color: var(--color-white);
-  }
-
-  43.75% {
-    background-color: var(--color-white);
-  }
-
-  50% {
-    background-color: var(--color-white);
-  }
-
-  50.01% {
-    background-color: var(--color-white);
-  }
-
-  56.25% {
-    background-color: var(--color-green);
-  }
-
-  93.75% {
-    background-color: var(--color-green);
-  }
-
-  100% {
-    background-color: var(--color-white);
   }
 }
 
