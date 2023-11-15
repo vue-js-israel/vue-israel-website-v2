@@ -23,7 +23,9 @@
       </div>
       <div class="text-2xl">
         <p>The form was submitted successfully.</p>
-        <NuxtLink class="text-cta-base hover:text-cta-hover" to="/"
+        <NuxtLink
+          class="text-cta-base hover:text-cta-hover"
+          to="https://www.vuejsisrael.com/"
           >Back to homepage</NuxtLink
         >
       </div>

@@ -66,7 +66,7 @@
         <input
           type="hidden"
           name="_next"
-          value="http://localhost:3000/contact-us/thanks" />
+          value="https://www.vuejsisrael.com/contact-us/thanks" />
         <button
           type="submit"
           class="self-center rounded border border-cta-base px-8 py-3 text-lg hover:border-cta-hover">
