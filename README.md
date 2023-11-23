@@ -119,4 +119,4 @@ Remember to keep the codebase clean, modular, and easily maintainable by followi
 
 ### Contact-us form:
 
-- Contact-us page form uses [formsubmit API](https://formsubmit.co/) for submission via email.
+- Contact-us page form uses [form.texi API](https://form.taxi/) for submission via email.
