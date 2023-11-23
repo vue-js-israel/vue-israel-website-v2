@@ -24,7 +24,7 @@
         </div>
       </div>
       <form
-        action="https://formsubmit.co/3fa2e710471f62b8ac09c8cb15dfc0a9"
+        action="https://form.taxi/s/xwprvus4"
         method="POST"
         class="flex flex-col space-y-6 py-6 md:px-6 md:py-0">
         <label class="block">
@@ -62,7 +62,7 @@
             rows="3"
             class="block w-full rounded-md p-1 dark:bg-gray-800"></textarea>
         </label>
-        <input type="hidden" name="_template" value="table" />
+
         <input
           type="hidden"
           name="_next"
