@@ -102,13 +102,14 @@
   },
   "speaker-id-150": {
     "name": "Adir Kandel",
-    "title": "Developer",
+    "title": "Frontend Team Lead | ✨ Enriching developers via content",
     "image": "/speaker-pictures/Adir Kandel.jpeg",
     "socialLinks": [
-      "https://twitter.com/AdirKandel",
-      "https://www.facebook.com/adirkandel"
+      "https://www.linkedin.com/in/adir-kandel",
+      "https://linktr.ee/adir_kandel",
+      "https://twitter.com/AdirKandel"
     ],
-    "company": "Yahoo!"
+    "company": "Eureka Security"
   },
   "speaker-id-160": {
     "name": "Elad Cohen",
