@@ -44,18 +44,24 @@
         </div>
       </div>
     </div>
-    <div class="py-6 text-center text-sm dark:text-gray-400">
-      <p class="text-xl font-bold">Official Vue.js Israel Community</p>
-      <span
-        >Built with 💚 by
-        <a href="https://www.linkedin.com/in/alex-nechayev/" target="_blank"
-          >Alex Nechayev</a
+    <div
+      class="grid grid-cols-1 grid-rows-1 gap-4 md:grid-cols-[100px_auto_100px]">
+      <div class="hidden items-center px-8 md:flex">
+        <ThemeToggler />
+      </div>
+      <div class="py-6 text-center text-sm dark:text-gray-400">
+        <p class="text-xl font-bold">Official Vue.js Israel Community</p>
+        <span
+          >Built with 💚 by
+          <a href="https://www.linkedin.com/in/alex-nechayev/" target="_blank"
+            >Alex Nechayev</a
+          >
+          &
+          <a href="https://www.linkedin.com/in/dimshik100" target="_blank"
+            >Dima Vishnevetsky</a
+          ></span
         >
-        &
-        <a href="https://www.linkedin.com/in/dimshik100" target="_blank"
-          >Dima Vishnevetsky</a
-        ></span
-      >
+      </div>
     </div>
   </footer>
 </template>
