@@ -47,7 +47,7 @@
     <div
       class="grid grid-cols-1 grid-rows-1 gap-4 md:grid-cols-[100px_auto_100px]">
       <div class="hidden items-center px-8 md:flex">
-        <ThemeToggler />
+        <ColorMode />
       </div>
       <div class="py-6 text-center text-sm dark:text-gray-400">
         <p class="text-xl font-bold">Official Vue.js Israel Community</p>

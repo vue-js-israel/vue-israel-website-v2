@@ -106,7 +106,7 @@ const closeMenu = () => {
         <Icon name="mdi:close" size="60" />
       </button>
     </div>
-    <div class="self-center"><ThemeToggler /></div>
+    <div class="self-center"><ColorMode /></div>
   </div>
 </template>
 
