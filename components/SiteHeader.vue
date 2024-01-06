@@ -66,7 +66,7 @@ const closeMenu = () => {
   </header>
   <div
     v-if="menuToggle"
-    class="sticky top-0 flex h-screen flex-col bg-white px-4 py-7 opacity-95 dark:bg-dark-bg-darker md:hidden">
+    class="fixed left-0 top-0 z-50 flex h-screen w-full flex-col bg-white px-4 py-7 opacity-95 dark:bg-dark-bg-darker md:hidden">
     <div class="flex grow justify-between">
       <ul class="flex flex-col justify-center gap-10 text-3xl">
         <li>
