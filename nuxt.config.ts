@@ -12,10 +12,14 @@ export default defineNuxtConfig({
     "@nuxtjs/eslint-module",
     "@nuxt/content",
     "nuxt-icon",
+    "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
     "nuxt-gtag",
   ],
+  colorMode: {
+    classSuffix: "",
+  },
   gtag: {
     id: "G-XKC3HJLSP6",
   },
