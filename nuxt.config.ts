@@ -30,13 +30,9 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
-    "nuxt-gtag",
   ],
   colorMode: {
     classSuffix: "",
-  },
-  gtag: {
-    id: "G-XKC3HJLSP6",
   },
   eslint: {
     failOnWarning: true,
