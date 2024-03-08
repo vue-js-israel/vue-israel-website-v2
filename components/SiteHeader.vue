@@ -44,6 +44,13 @@ const closeMenu = () => {
         <li class="flex">
           <NuxtLink
             class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
+            to="/statistics"
+            >Statistics
+          </NuxtLink>
+        </li>
+        <li class="flex">
+          <NuxtLink
+            class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
             to="/talks"
             >Talks
           </NuxtLink>
