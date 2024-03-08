@@ -15,6 +15,7 @@
     "@nuxt/devtools": "^0.7.6",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/partytown": "^1.4.0",
     "@nuxtjs/tailwindcss": "^6.9.4",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^18.18.8",
@@ -24,8 +25,7 @@
     "eslint-plugin-n": "^16.2.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.18.1",
-    "nuxt": "^3.10.1",
-    "nuxt-gtag": "^1.1.1",
+    "nuxt": "^3.8.0",
     "nuxt-icon": "^0.4.2",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
