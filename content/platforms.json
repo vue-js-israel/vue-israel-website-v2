@@ -1,0 +1,44 @@
+[
+  {
+    "name": "meetup",
+    "label": "Meetup",
+    "url": "https://www.meetup.com/vue-js/",
+    "type": "members",
+    "icon": "mdi:meetup"
+  },
+  {
+    "name": "linkedin",
+    "label": "Linkedin",
+    "url": "https://www.linkedin.com/company/vuejsisrael-meetups/",
+    "type": "followers",
+    "icon": "mdi:linkedin"
+  },
+  {
+    "name": "facebook",
+    "label": "Facebook",
+    "url": "https://www.facebook.com/officalVuejsIsrael/",
+    "icon": "mdi:facebook",
+    "type": "followers"
+  },
+  {
+    "name": "instagram",
+    "label": "Instagram",
+    "url": "https://www.instagram.com/vuejsisrael/",
+    "type": "followers",
+    "icon": "mdi:instagram"
+  },
+  {
+    "name": "twitter",
+    "label": "Twitter",
+    "url": "https://www.x.com/@VueJSIsrael",
+    "type": "followers",
+    "icon": "XIcon"
+  },
+  {
+    "name": "youtube",
+    "label": "Youtube",
+    "url": "https://www.youtube.com/@vuejsisrael/",
+    "type": "subscribes",
+    "icon": "mdi:youtube"
+  }
+]
