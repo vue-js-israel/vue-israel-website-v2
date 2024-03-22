@@ -3,6 +3,14 @@
      <div class="flex justify-center items-center min-h-screen">
     <div class="p-6 rounded-lg ">
     <CompaniesTable class="shadow-md text-white" :data="companies" />
+     <div class="container mx-auto px-4 py-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+      <!-- Loop through companies and display a card for each -->
+      <div v-for="company in companies" :key="company.id">
+        <CompaniesCard :company="company"/>
+      </div>
+    </div>
+  </div>
     </div>
   </div>
 </template>
@@ -14,17 +22,6 @@ export default {
   data() {
     return {
       companies,
-      tableData: [
-        { id: 1, name: 'John', age: 30, country: 'USA' },
-        { id: 2, name: 'Alice', age: 25, country: 'Canada' },
-        { id: 3, name: 'Bob', age: 35, country: 'UK' },
-      ],
-      tableColumns: [
-        { key: 'id', label: 'ID' },
-        { key: 'name', label: 'Name', filterable: true },
-        { key: 'age', label: 'Age', filterable: true },
-        { key: 'country', label: 'Country', filterable: true },
-      ]
     };
   }
 }

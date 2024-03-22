@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="shadow-lg shadow-green-300  rounded-lg overflow-hidden bg-dark-bg-dark ">
+    <table class="shadow-md shadow-gray-300 rounded-lg overflow-hidden bg-dark-bg-dark ">
       <thead>
         
         <tr>
