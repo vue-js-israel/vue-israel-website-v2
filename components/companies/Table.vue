@@ -18,18 +18,18 @@
         </tr>
         <tr v-for="(row, index) in filteredData" :key="index" class="table-row border bg-dark-bg-dark border-green-300">
           <td v-for="column in visibleColumns" :key="column.key" class="table-data border-2 border-green-300 py-2 px-2 text-sm text-center">
-            <!-- If the current column is 'company', display the logo and company name -->
+           
             <template v-if="column.key === 'company'">
                 <div class="flex items-center">
                 <CompaniesLogo :domain="row['logo']" :size="24"></CompaniesLogo>
                 <span class="ml-2">{{ row[column.key] }}</span>
               </div>
             </template>
-            <!-- If it's a link, style it differently -->
+           
             <template v-else-if="column.key === 'website' || column.key === 'linkedin'">
               <a :href="row[column.key]" class="underline hover:text-cta-hover">{{ row[column.key] }}</a>
             </template>
-            <!-- If it's not 'company' or a link, display the value as usual -->
+           
             <template v-else>
               {{ row[column.key] }}
             </template>
@@ -73,7 +73,7 @@ const filteredData = computed(() => {
 
   let filteredData = props.data;
 
-  // Apply column filters
+ 
   for (let key in filters.value) {
     const filterValue = filters.value[key].toLowerCase();
     if (filterValue) {
@@ -88,7 +88,7 @@ const filteredData = computed(() => {
 </script>
 
 <style scoped>
-/* Add any custom styles if needed */
+
 .table-header,
 .table-data {
   padding: 8px;
@@ -96,10 +96,10 @@ const filteredData = computed(() => {
 
 .filter-input {
   padding: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to the filter input */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Add space between icon and text */
+/*space icon-company*/
 .table-data .flex .ml-2 {
   margin-left: 8px;
 }

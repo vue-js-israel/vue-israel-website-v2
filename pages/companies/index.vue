@@ -1,21 +1,28 @@
 <template>
   <!--Tabs-->
   <div class="flex min-h-screen">
-    <div class=" bg-gray-800 text-gray-100 flex flex-col">
-      <a href="#" :class="{ 'border-b border-gray-400': activeTab === 'table', 'active': activeTab === 'table' }" class="flex items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100"  @click="activeTab = 'table'">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
-          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-        </svg>
+    <div class="bg-gray-800 text-gray-100 flex flex-col items-center" >
+      <div class="relative">
+        <button class="flex items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100 group" @click="exportExcel">
+          <span>
+            <Icon name="mdi:table-download" width="2rem" height="2rem"  style="color: white" />
+          </span>
+          <span class="absolute hidden bg-black text-white text-xs px-2 py-1 rounded-lg top-1/4 right-full left-3/4 transform -translate-x-1/2 bottom-full group-hover:block">Export Excel</span>
+        </button>
+      </div>
+      <a href="#" :class="{ 'border-b border-gray-400': activeTab === 'table', 'active': activeTab === 'table' }" class="flex  items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100"  @click="activeTab = 'table'">
+        <a>
+         <Icon name="bi:table" width="1.2rem" height="1.2rem"  style="color: white" />
+        </a>
         <span>Table View</span>
       </a>
       <a href="#"  :class="{ 'border-b border-gray-400': activeTab === 'card', 'active': activeTab === 'card' }" class="flex items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100" @click="activeTab = 'card'">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
-          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-        </svg>
+        <a>
+        <Icon name="bi:card-list" width="1.2rem" height="1.2rem"  style="color: white" />
+          </a>
         <span>Card View</span>
       </a>
-      
+     
     </div>
 
     <!-- Tab content -->
@@ -38,13 +45,25 @@
 <script setup>
 import { ref } from 'vue'
 import companies from '@/content/companies.json';
-
+import * as XLSX from 'xlsx';
 const activeTab = ref('table');
 
+const excelData = ref([]);
+const excelFields = ref([]);
+const excelFileName = ref('companies');
+const excelButtonId = ref('excelButton');
+
+const exportExcel = () => {
+  if (window.confirm("Do you want to save the list of companies as an Excel file?")) {
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.json_to_sheet(companies);
+    XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
+    XLSX.writeFile(wb, 'companies.xlsx');
+  }
+};
 </script>
 
 <style>
-
 .active {
   background-color: #4b5563; 
   @apply text-gray-100;
