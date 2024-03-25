@@ -2,14 +2,6 @@
   <!--Tabs-->
   <div class="flex min-h-screen">
     <div class="bg-gray-800 text-gray-100 flex flex-col items-center" >
-      <div class="relative">
-        <button class="flex items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100 group" @click="exportExcel">
-          <span>
-            <Icon name="mdi:table-download" width="2rem" height="2rem"  style="color: white" />
-          </span>
-          <span class="absolute hidden bg-black text-white text-xs px-2 py-1 rounded-lg top-1/4 right-full left-3/4 transform -translate-x-1/2 bottom-full group-hover:block">Export Excel</span>
-        </button>
-      </div>
       <a href="#" :class="{ 'border-b border-gray-400': activeTab === 'table', 'active': activeTab === 'table' }" class="flex  items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100"  @click="activeTab = 'table'">
         <a>
          <Icon name="bi:table" width="1.2rem" height="1.2rem"  style="color: white" />
@@ -45,22 +37,9 @@
 <script setup>
 import { ref } from 'vue'
 import companies from '@/content/companies.json';
-import * as XLSX from 'xlsx';
 const activeTab = ref('table');
 
-const excelData = ref([]);
-const excelFields = ref([]);
-const excelFileName = ref('companies');
-const excelButtonId = ref('excelButton');
 
-const exportExcel = () => {
-  if (window.confirm("Do you want to save the list of companies as an Excel file?")) {
-    const wb = XLSX.utils.book_new();
-    const ws = XLSX.utils.json_to_sheet(companies);
-    XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
-    XLSX.writeFile(wb, 'companies.xlsx');
-  }
-};
 </script>
 
 <style>

@@ -212,7 +212,7 @@
   {
     "id": 29,
     "company": "Ibex Medical Analytics",
-    "logo": "ibex-ai",
+    "logo": "ibex-ai.com",
     "website": "https://ibex-ai.com/",
     "linkedin": "https://www.linkedin.com/company/ibexmedicalanalytics/",
     "location": "Tel Aviv, Home"
@@ -462,7 +462,7 @@
   {
     "id": 63,
     "company": "Yotpo",
-    "logo": "yotpo.com",
+    "logo": "https://www.yotpo.com/v2/",
     "website": "https://www.yotpo.com/",
     "linkedin": "https://www.linkedin.com/company/yotpo/",
     "location": "Tel Aviv"
@@ -470,7 +470,7 @@
   {
     "id": 64,
     "company": "Bytii Cloud",
-    "logo": "ytii.cloud",
+    "logo": "bytii.cloud",
     "website": "https://bytii.cloud/",
     "linkedin": "https://www.linkedin.com/in/gilad-levi-2660bb39/?originalSubdomain=il",
     "location": "Petah Tikva"

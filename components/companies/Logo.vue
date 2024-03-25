@@ -17,7 +17,8 @@ const props = defineProps({
 
 // Function to generate the favicon URL
 const getFaviconURL = (domain) => {
-  return `https://www.google.com/s2/favicons?sz=${props.size}&domain=${domain}`;
+ const  trimDomain=domain.trim();
+  return `https://www.google.com/s2/favicons?sz=${props.size}&domain=${trimDomain}`;
 };
 
 </script>
