@@ -8,17 +8,17 @@ const props = defineProps({
   },
 });
 
-const platform = platforms.find(
-  (platform) => platform.name === props.platformName
-);
+const { platformName } = props;
+
+const platform = platforms.find((platform) => platform.name === platformName);
 </script>
 
 <template>
-  <a
+  <NuxtLink
     :href="platform.url"
     target="_blank"
-    :title="`Vue JS Israel ${platform.label}`"
+    :title="platform.title"
     class="flex h-8 w-8 items-center justify-center rounded-full hover:text-cta-hover sm:h-10 sm:w-10">
-    <Icon :name="platform.icon" size="30" />
-  </a>
+    <Icon :name="platform.icon" :size="platform.iconSize" />
+  </NuxtLink>
 </template>

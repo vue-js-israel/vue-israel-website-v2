@@ -2,7 +2,7 @@
   <div class="flex flex-col rounded-lg bg-dark-bg-dark p-4 text-gray-100">
     <div class="flex space-x-4 md:space-x-6">
       <div class="flex items-center justify-center rounded-lg p-2 sm:p-4">
-        <PlatformLogo :platformName="stat.name" />
+        <IconLink :platformName="stat.name" />
       </div>
       <div class="flex flex-col justify-center align-middle">
         <p class="text-3xl font-semibold">{{ stat.currentValue }}</p>
@@ -15,7 +15,7 @@
 
 <script setup>
 import Chart from "@/components/Chart.vue";
-import PlatformLogo from "@/components/PlatformLogo.vue";
+import IconLink from "@/components/IconLink.vue";
 
 const props = defineProps({
   stat: {
@@ -25,10 +25,12 @@ const props = defineProps({
   },
 });
 
+const { label, values } = props.stat;
+
 const series = [
   {
-    name: props.stat.label,
-    data: props.stat.values.map((value) => value.value),
+    name: label,
+    data: values.map((value) => value.value),
   },
 ];
 
@@ -73,7 +75,7 @@ const chartOptions = computed(() => {
       },
     },
     xaxis: {
-      categories: props.stat.values.map((value) => value.date),
+      categories: values.map((value) => value.date),
       labels: {
         style: {
           colors: "#fff",
