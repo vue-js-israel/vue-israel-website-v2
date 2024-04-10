@@ -3,7 +3,11 @@ import platforms from "@/content/platforms.json";
 import Card from "@/components/statistics/Card.vue";
 import platformsStatistics from "@/content/statistics.json";
 
-const statistics = platforms.map((platform) => ({
+const platformsInStatistics = platforms.filter(
+  (p) => !!platformsStatistics[p.name]
+);
+
+const statistics = platformsInStatistics.map((platform) => ({
   ...platform,
   ...platformsStatistics[platform.name],
 }));
