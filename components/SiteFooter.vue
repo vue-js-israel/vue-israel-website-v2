@@ -1,5 +1,7 @@
 <script setup>
-const platforms = ["facebook", "twitter", "meetup", "instagram", "youtube"];
+import platforms from "@/content/platforms.json";
+
+const platformsNames = platforms.map((platform) => platform.name);
 </script>
 <template>
   <footer
@@ -9,7 +11,7 @@ const platforms = ["facebook", "twitter", "meetup", "instagram", "youtube"];
       <div class="flex flex-col justify-center pt-6 lg:pt-0">
         <div class="flex justify-center gap-6 space-x-4">
           <IconLink
-            v-for="platform in platforms"
+            v-for="platform in platformsNames"
             :key="platform"
             :platformName="platform" />
         </div>
