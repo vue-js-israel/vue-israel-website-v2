@@ -1,24 +1,30 @@
 <script setup>
-import platforms from "@/content/platforms.json";
-
 const props = defineProps({
-  platformName: {
+  title: {
     type: String,
     default: "",
   },
+  url: {
+    type: String,
+    default: "",
+  },
+  icon: {
+    type: String,
+    default: "",
+  },
+  iconSize: {
+    type: String,
+    default: "30",
+  },
 });
-
-const { platformName } = props;
-
-const platform = platforms.find((platform) => platform.name === platformName);
 </script>
 
 <template>
   <NuxtLink
-    :href="platform.url"
+    :href="url"
     target="_blank"
-    :title="platform.title"
+    :title="title"
     class="flex h-8 w-8 items-center justify-center rounded-full hover:text-cta-hover sm:h-10 sm:w-10">
-    <Icon :name="platform.icon" :size="platform.iconSize" />
+    <Icon :name="icon" :size="iconSize" />
   </NuxtLink>
 </template>

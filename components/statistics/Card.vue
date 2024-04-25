@@ -1,99 +1,74 @@
 <template>
   <div class="flex flex-col rounded-lg bg-dark-bg-dark p-4 text-gray-100">
-    <div class="flex space-x-4 md:space-x-6">
+    <div class="mb-2 flex space-x-4 md:space-x-6">
       <div class="flex items-center justify-center rounded-lg p-2 sm:p-4">
-        <IconLink :platformName="stat.name" />
+        <IconLink
+          :title="platform.name"
+          :url="platform.url"
+          :icon="platform.icon"
+          :iconSize="platform.iconSize" />
       </div>
       <div class="flex flex-col justify-center align-middle">
-        <p class="text-3xl font-semibold">{{ stat.currentValue }}</p>
-        <p class="capitalize">{{ stat.type }}</p>
+        <p class="text-3xl font-semibold">{{ platform.currentValue }}</p>
+        <p class="capitalize">{{ platform.type }}</p>
       </div>
     </div>
-    <Chart :series="series" :chart-options="chartOptions" />
+    <LineChart :data="chartData" :options="chartOptions" />
   </div>
 </template>
 
 <script setup>
-import Chart from "@/components/Chart.vue";
-import IconLink from "@/components/IconLink.vue";
-
 const props = defineProps({
-  stat: {
+  platform: {
     type: Object,
     require: true,
     default: () => {},
   },
 });
 
-const { label, values } = props.stat;
+const { values = [] } = props.platform || {};
 
-const series = [
-  {
-    name: label,
-    data: values.map((value) => value.value),
+const chartData = {
+  labels: values.map((v) => v.date),
+  datasets: [
+    {
+      type: "line",
+      data: values.map((v) => v.value),
+      borderColor: "#007e4a",
+      backgroundColor: "rgba(48, 255, 170, .1)",
+      fill: "start",
+    },
+  ],
+};
+
+const chartOptions = {
+  datasets: {
+    fill: "start",
+    line: {
+      borderWidth: 3,
+    },
   },
-];
-
-const chartOptions = computed(() => {
-  return {
-    chart: {
-      height: 200,
-      type: "area",
-      zoom: {
-        enabled: false,
-      },
-      toolbar: {
-        show: false,
-      },
+  plugins: {
+    filler: {
+      propagate: true,
     },
-    dataLabels: {
-      enabled: false,
+    legend: {
+      display: false,
     },
-    stroke: {
-      curve: "smooth",
-    },
-    title: {
-      show: false,
-    },
-    colors: ["#00DE80"],
-    tooltip: {
-      theme: "dark",
-    },
-    grid: {
-      row: {
-        opacity: 0.5,
-      },
-      yaxis: {
-        lines: {
-          show: false,
-        },
-      },
-      xaxis: {
-        lines: {
-          show: false,
-        },
+  },
+  scales: {
+    y: {
+      ticks: {
+        color: "white",
       },
     },
-    xaxis: {
-      categories: values.map((value) => value.date),
-      labels: {
-        style: {
-          colors: "#fff",
-        },
-      },
-      tooltip: {
-        enabled: false,
+    x: {
+      ticks: {
+        color: "white",
       },
     },
-    yaxis: {
-      labels: {
-        style: {
-          colors: "#fff",
-        },
-      },
-    },
-  };
-});
+  },
+};
 </script>
 
 <style scoped></style>

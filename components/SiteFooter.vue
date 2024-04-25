@@ -1,8 +1,7 @@
 <script setup>
 import platforms from "@/content/platforms.json";
-
-const platformsNames = platforms.map((platform) => platform.name);
 </script>
+
 <template>
   <footer
     class="h-60 min-h-fit border-t-2 border-t-light-bg-lighter bg-dark-bg-dark text-dark-text-lightest dark:border-t-dark-bg-dark">
@@ -11,9 +10,12 @@ const platformsNames = platforms.map((platform) => platform.name);
       <div class="flex flex-col justify-center pt-6 lg:pt-0">
         <div class="flex justify-center gap-6 space-x-4">
           <IconLink
-            v-for="platform in platformsNames"
+            v-for="platform in platforms"
             :key="platform"
-            :platformName="platform" />
+            :title="platform.name"
+            :url="platform.url"
+            :icon="platform.icon"
+            :iconSize="platform.iconSize" />
         </div>
       </div>
     </div>
