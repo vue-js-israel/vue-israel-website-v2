@@ -1,50 +1,38 @@
 <template>
-  <!--Tabs-->
-  <div class="flex min-h-screen">
-    <div class="bg-gray-800 text-gray-100 flex flex-col items-center" >
-      <a href="#" :class="{ 'border-b border-gray-400': activeTab === 'table', 'active': activeTab === 'table' }" class="flex  items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100"  @click="activeTab = 'table'">
-        <a>
-         <Icon name="bi:table" width="1.2rem" height="1.2rem"  style="color: white" />
-        </a>
-        <span>Table View</span>
-      </a>
-      <a href="#"  :class="{ 'border-b border-gray-400': activeTab === 'card', 'active': activeTab === 'card' }" class="flex items-center flex-shrink-0 px-5 py-3 space-x-2 text-gray-400 hover:text-gray-100" @click="activeTab = 'card'">
-        <a>
-        <Icon name="bi:card-list" width="1.2rem" height="1.2rem"  style="color: white" />
-          </a>
-        <span>Card View</span>
-      </a>
-     
-    </div>
+  <div class="container items-center justify-center p-4 sm:p-10 ">
+    <p class="text-md p-2 text-center font-medium uppercase">Companies</p>
 
-    <!-- Tab content -->
-    <div class="flex-1">
-      <div v-if="activeTab === 'table'" class="p-6 rounded-lg border border-gray-300" >
-        <CompaniesTable class="shadow-md text-white" :data="companies" />
-      </div>
-      <div v-else-if="activeTab === 'card'" class="p-6 rounded-lg border border-gray-300" >
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-          <div v-for="company in companies" :key="company.id">
-            <CompaniesCard :company="company"/>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </div>
+<section class=" container flex items-center justify-center my-5">
+  <label for="toggle-tabs" class="inline-flex items-center p-2 rounded-md cursor-pointer text-gray-100">
+    <input id="toggle-tabs" v-model="activeTab" type="checkbox" class="hidden peer">
+    <span class="px-4 py-2 rounded-l-md bg-green-500 peer-checked:bg-gray-700">Card View</span>
+    <span class="px-4 py-2 rounded-r-md bg-gray-700 peer-checked:bg-green-500">Table View</span>
+  </label>
+</section>
+
+
+<section v-if="activeTab" class="my-5 ">
+  <CompaniesTable :data="companies" />
+</section>
+<div v-else  class=" my-5 grid-cols-1  inline-grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 p-6 ">
+    <template v-for="company in companies" :key="company.id">
+
+ <CompaniesCard :company="company" />
+ </template>
+</div>
+</div>
+
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import companies from '@/content/companies.json';
-const activeTab = ref('table');
+const activeTab = ref(true);
 
 
+ 
 </script>
 
-<style>
-.active {
-  background-color: #4b5563; 
-  @apply text-gray-100;
-}
+<style scoped>
+/* Maintain existing styles for the tab content */
 </style>

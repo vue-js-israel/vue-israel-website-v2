@@ -1,49 +1,57 @@
 <template>
-  <div>
-    <table class="shadow-md shadow-gray-300 rounded-lg overflow-hidden bg-dark-bg-dark ">
-      <thead>
-        
-        <tr>
-          <th v-for="column in visibleColumns" :key="column.key" class="table-header   text-sm text-cta-base border-2 border-green-300 bg-dark-bg-dark ">
-            {{ column.label }}
-            <input v-if="column.filterable" v-model="filters[column.key]" type="text" placeholder="Filter..." class="filter-input ml-2 p-1 ring-offset-gray-300  rounded-lg border-2 border-green-300 focus:outline-none focus:border-green-500 shadow-md transition transform hover:transition-all">
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-if="filteredData.length === 0" class="table-row border bg-dark-bg-dark border-green-300">
-          <td :colspan="visibleColumns.length" class="text-xl text-center py-4">
-            No matching data found.
-          </td>
-        </tr>
-        <tr v-for="(row, index) in filteredData" :key="index" class="table-row border bg-dark-bg-dark border-green-300">
-          <td v-for="column in visibleColumns" :key="column.key" class="table-data border-2 border-green-300 py-2 px-2 text-sm text-center">
-           
-            <template v-if="column.key === 'company'">
+ 
+    <div class="container mx-auto flex flex-col items-center justify-center rounded-lg p-4 py-6 sm:p-10 md:max-w-6xl" >
+      <table class="w-full p-6 text-xs text-left whitespace-nowrap sm:text-sm md:text-base text-white">
+        <colgroup>
+          <col v-for="(column, index) in columns" :key="index">
+        </colgroup>
+        <thead>
+          <tr class="bg-gray-800">
+            <th class="p-3">A-Z</th>
+            <th v-for="(column, index) in columns" :key="index" class=" p-3">{{ column.label }}</th>
+          </tr>
+        </thead>
+        <tbody class="border-b bg-gray-700 border-gray-600">
+          <template v-for="(group, letter) in groupedData" :key="letter">
+            <template v-for="(item, itemIndex) in group" :key="itemIndex">
+              <tr>
+                <td v-if="itemIndex === 0" class="px-3 text-xl md:text-2xl font-medium  text-white dark:text-gray-400" :rowspan="group.length">{{ letter }}</td>
+                <td v-for="(column, colIndex) in columns" :key="colIndex" class=" px-3 py-2">
+                  <template v-if="column.key === 'link'">
+                    <div class="flex items-center space-x-4 mt-4">
+                      <template v-if="item.linkedin">
+                        <a :href="item.linkedin">
+                          <Icon name="mdi:linkedin" width="2rem" height="2rem" style="color: white" class="w-8 h-8 text-blue-500 dark:text-blue-300" />
+                        </a>
+                      </template>
+                      <template v-if="item.website">
+                        <a :href="item.website">
+                          <Icon name="mdi:web" width="2em" height="2rem" style="color: white" />
+                        </a>
+                      </template>
+                    </div>
+                  </template>
+                   <template v-if="column.key === 'company'">
                 <div class="flex items-center">
-                <CompaniesLogo :domain="row['logo']" :size="24"></CompaniesLogo>
-                <span class="ml-2">{{ row[column.key] }}</span>
+                <CompaniesLogo :domain="item['logo']" :size="24"></CompaniesLogo>
+                <span class="ml-2">{{ item[column.key] }}</span>
               </div>
             </template>
-           
-            <template v-else-if="column.key === 'website' || column.key === 'linkedin'">
-              <a :href="row[column.key]" class="underline hover:text-cta-hover">{{ row[column.key] }}</a>
+                  <template v-else>
+                    <p>{{ item[column.key] }}</p>
+                  </template>
+                </td>
+              </tr>
             </template>
-           
-            <template v-else>
-              {{ row[column.key] }}
-            </template>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+          </template>
+        </tbody>
+      </table>
+    </div>
+
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
-
-const filters = ref({});
+import { defineProps } from 'vue';
 
 const props = defineProps({
   data: {
@@ -54,57 +62,18 @@ const props = defineProps({
 });
 
 const columns = [
-  { key: 'company', label: 'Company', filterable: true },
-  { key: 'website', label: 'Website' },
-  { key: 'linkedin', label: 'LinkedIn' },
+  { key: 'company', label: 'Company Name', filterable: true },
   { key: 'location', label: 'Location', filterable: true },
+  { key: 'link', label: ''},
 ];
 
-// Filter out empty columns
-const visibleColumns = computed(() => {
-  return columns.filter(column => props.data.some(row => row[column.key] !== undefined));
-});
-
-const filteredData = computed(() => {
-  if (Object.values(filters.value).every(filter => filter === '')) {
-    // No search query and all filters are empty, return original data
-    return props.data;
+// Group data by first letter of company name
+const groupedData = props.data.reduce((acc, item) => {
+  const firstLetter = item.company[0].toUpperCase();
+  if (!acc[firstLetter]) {
+    acc[firstLetter] = [];
   }
-
-  let filteredData = props.data;
-
- 
-  for (let key in filters.value) {
-    const filterValue = filters.value[key].toLowerCase();
-    if (filterValue) {
-      filteredData = filteredData.filter(row =>
-        row[key].toString().toLowerCase().includes(filterValue)
-      );
-    }
-  }
-
-  return filteredData;
-});
+  acc[firstLetter].push(item);
+  return acc;
+}, {});
 </script>
-
-<style scoped>
-
-.table-header,
-.table-data {
-  padding: 8px;
-}
-
-.filter-input {
-  padding: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-}
-
-/*space icon-company*/
-.table-data .flex .ml-2 {
-  margin-left: 8px;
-}
-.filter-input:focus {
-  border-color: #2D3748;
-  box-shadow: 0 0 0 1px #2D3748;
-}
-</style>
