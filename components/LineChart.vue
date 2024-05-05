@@ -27,7 +27,7 @@ ChartJS.register(
 const props = defineProps({
   data: {
     type: Object,
-    default: () => {},
+    default: () => ({ labels: [], datasets: [] }),
   },
   options: {
     type: Object,
