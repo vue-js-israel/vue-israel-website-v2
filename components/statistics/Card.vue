@@ -21,7 +21,6 @@
 const props = defineProps({
   platform: {
     type: Object,
-    require: true,
     default: () => {},
   },
 });
