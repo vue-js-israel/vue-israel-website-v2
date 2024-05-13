@@ -1,6 +1,7 @@
 <template>
-      <img  :width="props.size" :height="props.size"  :src="getFaviconURL(domain)" :alt="`${domain} Favicon`"  @error="handleError"   />
-
+  <div :class="`p-2 bg-stone-50 w-${size} h-${size}` ">
+      <img  class="mix-blend-multiply" :width="props.size" :height="props.size"  :src="getFaviconURL(domain)" :alt="`${domain} Favicon`"  @error="handleError"   />
+    </div>
 </template>
 
 <script setup>
