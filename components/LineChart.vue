@@ -10,7 +10,6 @@ import {
   PointElement,
   LineElement,
   Tooltip,
-  Legend,
   Filler,
 } from "chart.js";
 import { Line } from "vue-chartjs";
@@ -21,7 +20,6 @@ ChartJS.register(
   PointElement,
   LineElement,
   Tooltip,
-  Legend,
   Filler
 );
 const props = defineProps({
