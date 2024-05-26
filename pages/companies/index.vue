@@ -34,5 +34,5 @@ const activeTab = ref(true);
 </script>
 
 <style scoped>
-/* Maintain existing styles for the tab content */
+
 </style>
