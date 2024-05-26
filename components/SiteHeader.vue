@@ -13,7 +13,7 @@ const closeMenu = () => {
 
 <template>
   <header
-    class="sticky z-50 top-0 max-h-24 min-h-fit border-b-2 border-light-bg-lighter bg-dark-bg-dark p-4 text-dark-text-lightest dark:border-dark-bg-dark">
+    class="sticky top-0 z-50 max-h-24 min-h-fit border-b-2 border-light-bg-lighter bg-dark-bg-dark p-4 text-dark-text-lightest dark:border-dark-bg-dark">
     <div class="container mx-auto flex h-16 justify-between">
       <NuxtLink
         to="/"
