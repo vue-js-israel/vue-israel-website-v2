@@ -12,7 +12,7 @@
           </tr>
         </thead>
         <tbody class="border-b bg-gray-700 border-gray-600">
-          <template v-for="(group, letter) in groupedData" :key="letter">
+          <template v-for="(group, letter) in sortedData" :key="letter">
             <template v-for="(item, itemIndex) in group" :key="itemIndex">
               <tr>
                 <td v-if="itemIndex === 0" class="px-3 text-xl md:text-2xl font-medium  text-white dark:text-gray-400" :rowspan="group.length">{{ letter }}</td>
@@ -67,8 +67,7 @@ const columns = [
   { key: 'link', label: ''},
 ];
 
-// Group data by first letter of company name
-const groupedData = props.data.reduce((acc, item) => {
+const sortedData = props.data.reduce((acc, item) => {
   const firstLetter = item.company[0].toUpperCase();
   if (!acc[firstLetter]) {
     acc[firstLetter] = [];

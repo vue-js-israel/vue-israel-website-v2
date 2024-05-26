@@ -1,6 +1,6 @@
 <template>
   <div :class="`p-2 bg-stone-50 w-${size} h-${size}` ">
-      <img  class="mix-blend-multiply" :width="props.size" :height="props.size"  :src="getFaviconURL(domain)" :alt="`${domain} Favicon`"  @error="handleError"   />
+      <img  class="mix-blend-multiply" :width="props.size" :height="props.size"  :src="getFaviconURL(domain)" :alt="`${domain} Favicon`"     />
     </div>
 </template>
 
@@ -16,10 +16,7 @@ const getFaviconURL = (domain) => {
   return `https://www.google.com/s2/favicons?sz=${props.size}&domain=${domain}`;
 };
 
-const handleError = (event) => {
-  event.target.src = 'favicon.co'
-  cosnole.log("Error")
-};
+
 </script>
 
 <style scoped>
