@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col rounded-lg bg-dark-bg-dark p-4 text-gray-100">
+  <div class="flex flex-col rounded-lg bg-dark-bg-dark p-6 text-gray-100">
     <div class="mb-2 flex space-x-4 md:space-x-6">
       <div class="flex items-center justify-center rounded-lg p-2 sm:p-4">
         <IconLink
