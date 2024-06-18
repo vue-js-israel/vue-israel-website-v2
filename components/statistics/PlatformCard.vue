@@ -1,16 +1,17 @@
 <template>
   <div class="flex flex-col rounded-lg bg-dark-bg-dark p-6 text-gray-100">
-    <div class="mb-2 flex space-x-4 md:space-x-6">
-      <div class="flex items-center justify-center rounded-lg p-2 sm:p-4">
+    <div class="mb-2 flex justify-between">
+      <div class="flex items-center justify-center gap-1 self-start rounded-lg">
         <IconLink
           :title="platform.name"
           :url="platform.url"
           :icon="platform.icon"
-          :iconSize="platform.iconSize" />
+          :iconSize="40" />
+        <div class="font-semibold capitalize">{{ platform.name }}</div>
       </div>
-      <div class="flex flex-col justify-center align-middle">
-        <p class="text-3xl font-semibold">{{ platform.currentValue }}</p>
-        <p class="capitalize">{{ platform.type }}</p>
+      <div class="flex flex-col items-end">
+        <span class="text-3xl font-semibold">{{ platform.currentValue }}</span>
+        <span class="capitalize">{{ platform.type }}</span>
       </div>
     </div>
     <LineChart :data="chartData" :options="chartOptions" />
@@ -60,10 +61,16 @@ const chartOptions = {
       ticks: {
         color: "white",
       },
+      grid: {
+        display: false,
+      },
     },
     x: {
       ticks: {
         color: "white",
+      },
+      grid: {
+        display: false,
       },
     },
   },
