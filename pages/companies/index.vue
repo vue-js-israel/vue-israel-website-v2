@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto  items-center justify-center p-4 py-6 sm:p-10">
+  <div class="container mx-auto items-center justify-center p-4 py-6 sm:p-10">
     <p class="text-md p-2 text-center font-medium uppercase">Companies</p>
 
     <section class="container my-5 flex items-center justify-center">
