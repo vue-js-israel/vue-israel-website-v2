@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto items-center justify-center p-4 py-6 sm:p-10">
-    <p class="text-md p-2 text-center font-medium uppercase">Companies</p>
+  <div class="container mx-auto items-center justify-center px-4 py-6 sm:p-10">
+    <p class="text-md p-2 text-center font-medium uppercase">Israeli Companies hat use Vue.js</p>
 
     <section class="container my-5 flex items-center justify-center">
       <label
