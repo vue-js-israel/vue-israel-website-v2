@@ -8,7 +8,6 @@
       </colgroup>
       <thead>
         <tr class="bg-gray-800">
-          <th class="p-3">A-Z</th>
           <th v-for="(column, index) in columns" :key="index" class="p-3">
             {{ column.label }}
           </th>
@@ -18,12 +17,7 @@
         <template v-for="(group, letter) in sortedData" :key="letter">
           <template v-for="(item, itemIndex) in group" :key="itemIndex">
             <tr>
-              <td
-                v-if="itemIndex === 0"
-                class="px-3 text-xl font-medium text-white dark:text-gray-400 md:text-2xl"
-                :rowspan="group.length">
-                {{ letter }}
-              </td>
+    
               <td
                 v-for="(column, colIndex) in columns"
                 :key="colIndex"
@@ -83,9 +77,9 @@ const props = defineProps({
 });
 
 const columns = [
-  { key: "company", label: "Company Name", filterable: true },
-  { key: "location", label: "Location", filterable: true },
-  { key: "link", label: "" },
+  { key: "company", label: "Company Name" },
+  { key: "location", label: "City" },
+  { key: "link", label: "Links" },
 ];
 
 const sortedData = props.data.reduce((acc, item) => {
