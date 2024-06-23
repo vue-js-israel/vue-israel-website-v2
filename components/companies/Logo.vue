@@ -2,9 +2,9 @@
   <div :class="`bg-stone-50 p-2 w-${size} h-${size}`">
     <img
       class="mix-blend-multiply"
-      :width="props.size"
-      :height="props.size"
-      :src="getFaviconURL(domain)"
+      :width="16"
+      :height="16"
+      :src="getFaviconURL()"
       :alt="`${domain} Favicon`" />
   </div>
 </template>
@@ -17,8 +17,8 @@ const props = defineProps({
   size: { type: Number, default: 16 },
 });
 
-const getFaviconURL = (domain) => {
-  return `https://www.google.com/s2/favicons?sz=${props.size}&domain=${domain}`;
+const getFaviconURL = () => {
+  return `https://www.google.com/s2/favicons?sz=${props.size}&domain=${props.domain}`;
 };
 </script>
 
