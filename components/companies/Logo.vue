@@ -1,12 +1,9 @@
 <template>
-  
-    <img
-     
-      :width="size"
-      :height="size"
-      :src="getFaviconURL()"
-      :alt="`${domain} Favicon`" />
-  
+  <img
+    :width="size"
+    :height="size"
+    :src="getFaviconURL()"
+    :alt="`${domain} Favicon`" />
 </template>
 
 <script setup>
