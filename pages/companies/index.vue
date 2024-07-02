@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto items-center justify-center px-4 py-6 sm:p-10">
-    <p class="text-md p-2 text-center font-medium uppercase">Israeli Companies hat use Vue.js</p>
+    <p class="text-md p-2 text-center font-medium uppercase">Israeli Companies that use Vue.js</p>
 
     <section class="container my-5 flex items-center justify-center">
       <label
@@ -25,13 +25,16 @@
     <section v-if="activeTab" class="my-5">
       <CompaniesTable :data="companies" />
     </section>
-    <div
-      v-else
+    <div v-else class="flex justify-center">
+      <div
+      
       class="my-5 inline-grid grid-cols-1 gap-10 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
       <template v-for="company in companies" :key="company.id">
         <CompaniesCard :company="company" />
       </template>
     </div>
+    </div>
+
   </div>
 </template>
 
