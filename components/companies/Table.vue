@@ -1,23 +1,21 @@
 <template>
   <div
-    class="container mx-auto flex flex-col items-center justify-center rounded-lg p-4 py-6 sm:p-10 md:max-w-6xl">
+    class="container mx-auto flex flex-col  items-center justify-center rounded-lg p-4 py-6 sm:p-10 md:max-w-6xl">
     <table
       class="w-full whitespace-nowrap p-6 text-left text-xs text-white sm:text-sm md:text-base">
       <colgroup>
         <col v-for="(column, index) in columns" :key="index" />
       </colgroup>
       <thead>
-        <tr class="bg-gray-800">
+        <tr class="bg-gray-800 font-normal">
           <th v-for="(column, index) in columns" :key="index" class="p-3">
             {{ column.label }}
           </th>
         </tr>
       </thead>
-      <tbody class="border-b border-gray-600 bg-gray-700">
-        <template v-for="(group, letter) in sortedData" :key="letter">
-          <template v-for="(item, itemIndex) in group" :key="itemIndex">
+      <tbody class="border-b border-gray-600 bg-gray-700 font-light" >
+          <template v-for="(item,itemIndex) in props.data" :key="itemIndex">
             <tr>
-    
               <td
                 v-for="(column, colIndex) in columns"
                 :key="colIndex"
@@ -43,13 +41,34 @@
                           style="color: white" />
                       </a>
                     </template>
+                    <template v-if="item.facebook">
+                      <a :href="item.facebook">
+                        <Icon
+                          name="mdi:facebook"
+                          width="2em"
+                          height="2rem"
+                          style="color: white" />
+                      </a>
+                    </template>
+                    <template v-if="item.github">
+                      <a :href="item.facebook">
+                        <Icon
+                          name="mdi:github"
+                          width="2em"
+                          height="2rem"
+                          style="color: white" />
+                      </a>
+                    </template>
                   </div>
                 </template>
                 <template v-if="column.key === 'company'">
-                  <div class="flex items-center">
-                    <CompaniesLogo
+                  <div class="flex items-center gap-2">
+                    <div class="relative flex items-center justify-center  h-8 w-8 border border-gray-300 bg-white overflow-hidden" >
+                      <CompaniesLogo
+                     
                       :domain="item['logo']"
                       :size="24"></CompaniesLogo>
+                    </div>
                     <span class="ml-2">{{ item[column.key] }}</span>
                   </div>
                 </template>
@@ -59,7 +78,7 @@
               </td>
             </tr>
           </template>
-        </template>
+        
       </tbody>
     </table>
   </div>

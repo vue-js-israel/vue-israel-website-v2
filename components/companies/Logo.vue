@@ -1,12 +1,12 @@
 <template>
-  <div :class="`bg-stone-50 p-2 w-${size} h-${size}`">
+  
     <img
-      class="mix-blend-multiply"
-      :width="16"
-      :height="16"
+     
+      :width="size"
+      :height="size"
       :src="getFaviconURL()"
       :alt="`${domain} Favicon`" />
-  </div>
+  
 </template>
 
 <script setup>
