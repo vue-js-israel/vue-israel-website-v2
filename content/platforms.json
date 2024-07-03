@@ -1,0 +1,56 @@
+[
+  {
+    "name": "meetup",
+    "label": "Meetup",
+    "url": "https://www.meetup.com/vue-js/",
+    "type": "members",
+    "icon": "mdi:meetup",
+    "iconSize": "30",
+    "title": "Vue.js Israel Meetup group"
+  },
+  {
+    "name": "linkedin",
+    "label": "Linkedin",
+    "url": "https://www.linkedin.com/company/vuejsisrael-meetups/",
+    "type": "followers",
+    "icon": "mdi:linkedin",
+    "iconSize": "30",
+    "title": "Vue.js Israel Linkedin Page"
+  },
+  {
+    "name": "facebook",
+    "label": "Facebook",
+    "url": "https://www.facebook.com/officalVuejsIsrael/",
+    "type": "followers",
+    "icon": "mdi:facebook",
+    "iconSize": "30",
+    "title": "Vue.js Israel Facebook Page"
+  },
+  {
+    "name": "instagram",
+    "label": "Instagram",
+    "url": "https://www.instagram.com/vuejsisrael/",
+    "type": "followers",
+    "icon": "mdi:instagram",
+    "iconSize": "30",
+    "title": "Vue.js Israel Instagram"
+  },
+  {
+    "name": "twitter",
+    "label": "Twitter",
+    "url": "https://www.x.com/@VueJSIsrael",
+    "type": "followers",
+    "icon": "XIcon",
+    "iconSize": "28",
+    "title": "Vue.js Israel X.com"
+  },
+  {
+    "name": "youtube",
+    "label": "Youtube",
+    "url": "https://www.youtube.com/@vuejsisrael/",
+    "type": "subscribes",
+    "icon": "mdi:youtube",
+    "iconSize": "30",
+    "title": "Vue.js Israel YouTube Channel"
+  }
+]
