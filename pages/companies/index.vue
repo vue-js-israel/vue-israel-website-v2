@@ -29,7 +29,7 @@
     </section>
     <div v-else class="flex justify-center">
       <div
-        class="my-5 inline-grid grid-cols-1 gap-10 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+        class="my-5 inline-grid grid-cols-1 gap-20 p-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
         <template v-for="company in companies" :key="company.id">
           <CompaniesCard :company="company" />
         </template>
