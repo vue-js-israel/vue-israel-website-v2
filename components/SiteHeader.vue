@@ -95,6 +95,14 @@ const closeMenu = () => {
         <li>
           <NuxtLink
             class="link flex items-center border-b-2 px-4 dark:border-transparent"
+            to="/statistics"
+            @click="closeMenu"
+            >Statistics
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            class="link flex items-center border-b-2 px-4 dark:border-transparent"
             to="/talks"
             @click="closeMenu">
             Talks
