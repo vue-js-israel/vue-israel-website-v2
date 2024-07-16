@@ -5,21 +5,6 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "en",
       },
-      script: [
-        {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-XKC3HJLSP6",
-          async: true,
-          type: "text/partytown",
-        },
-        {
-          innerHTML: `window.dataLayer = window.dataLayer || [];
-        function gtag(){
-          dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-XKC3HJLSP6');`,
-        },
-      ],
     },
   },
   ssr: true,
@@ -30,9 +15,13 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
+    "nuxt-gtag",
   ],
   colorMode: {
     classSuffix: "",
+  },
+  gtag: {
+    id: "G-XKC3HJLSP6",
   },
   eslint: {
     failOnWarning: true,
