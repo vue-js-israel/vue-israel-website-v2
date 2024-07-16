@@ -25,7 +25,7 @@
     </section>
 
     <section v-if="activeTab" class="my-5">
-      <CompaniesTable :data="companies" />
+      <CompaniesTable :companiesData="companies" />
     </section>
     <div v-else class="flex justify-center">
       <div
