@@ -1,0 +1,42 @@
+[
+  {
+    "value": "3 Olympic pools",
+    "emoji": "🍺",
+    "text": "How many Olympic pools would it take to hold all the beers served at our meetups?"
+  },
+  {
+    "value": 0,
+    "emoji": "⚛️",
+    "text": "Number of times the word React was mentioned"
+  },
+  {
+    "value": 404,
+    "emoji": "🗺️",
+    "text": "Number of people who did not find our meetup address"
+  },
+  {
+    "value": "The height of Tower of Pisa",
+    "emoji": "🍕",
+    "text": "How tall would a stack of all the pizzas eaten at our meetups be?"
+  },
+  {
+    "value": 4,
+    "emoji": "🏙️",
+    "text": "Number of cities where the meetups took place"
+  },
+  {
+    "value": 13,
+    "emoji": "👨‍💻",
+    "text": "Number of meetups we conducted"
+  },
+  {
+    "value": 11,
+    "emoji": "🏢",
+    "text": "Number of companies that hosted us at a meetup"
+  },
+  {
+    "value": 5,
+    "emoji": "🎉",
+    "text": "Number of times we celebrated our community birthday"
+  }
+]
