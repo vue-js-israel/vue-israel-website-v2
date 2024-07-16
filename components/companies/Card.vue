@@ -21,30 +21,16 @@
         <p>{{ company.location }}</p>
       </div>
       <div class="flex items-center justify-center space-x-3 border-t-2 p-3">
-        <a v-if="company.website" :href="company.website">
-          <Icon name="mdi:web" width="2em" height="2rem" style="color: white" />
-        </a>
-        <a v-if="company.linkedin" :href="company.linkedin">
+        <NuxtLink
+          v-for="companyLink in company.links"
+          :key="companyLink.url"
+          :to="companyLink.url">
           <Icon
-            name="mdi:linkedin"
-            width="2rem"
+            :name="`mdi:${companyLink.name}`"
+            width="2em"
             height="2rem"
             style="color: white" />
-        </a>
-        <a v-if="company.facebook" :href="company.facebook">
-          <Icon
-            name="mdi:facebook"
-            width="2rem"
-            height="2rem"
-            style="color: white" />
-        </a>
-        <a v-if="company.github" :href="company.github">
-          <Icon
-            name="mdi:github"
-            width="2rem"
-            height="2rem"
-            style="color: white" />
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>
