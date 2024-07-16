@@ -102,12 +102,17 @@ const closeMenu = () => {
         <li>
           <NuxtLink
             class="link flex items-center border-b-2 px-4 dark:border-transparent"
-            <<<<<<<
-            HEAD
+            to="/statistics"
+            @click="closeMenu"
+            >Statistics
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            class="link flex items-center border-b-2 px-4 dark:border-transparent"
             to="/companies"
             @click="closeMenu"
-            >Companies ======= to="/statistics" @click="closeMenu" >Statistics
-            >>>>>>> origin/main
+            >Companies
           </NuxtLink>
         </li>
         <li>
