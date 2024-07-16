@@ -27,7 +27,7 @@
           </td>
 
           <td
-            class="grid grid-cols-2 grid-rows-2 place-content-center px-3 py-2 md:grid-cols-4 md:grid-rows-1 md:place-content-start">
+            class="grid w-20 grid-cols-2 grid-rows-2 place-content-center px-3 py-2 md:w-64 md:grid-cols-4 md:grid-rows-1 md:place-content-start">
             <NuxtLink
               v-for="companyLink in links"
               :key="companyLink.url"
