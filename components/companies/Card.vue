@@ -3,7 +3,7 @@
     <div
       class="flex w-full flex-col justify-center rounded-md bg-gray-800 px-8 text-center text-gray-100 md:w-96 lg:w-80 xl:w-64">
       <div
-        class="-mt-12 flex h-24 w-24 flex-shrink-0 items-center justify-center self-center rounded-full bg-gray-500 bg-cover bg-center">
+        class="-mt-12 flex h-24 w-24 flex-shrink-0 items-center justify-center self-center rounded-full bg-white bg-cover bg-center">
         <CompaniesLogo :domain="company.logo" :size="48" />
       </div>
       <div class="my-4 flex-1">
