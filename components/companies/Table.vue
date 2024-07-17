@@ -6,7 +6,7 @@
       <thead>
         <tr class="flex flex-row items-center bg-gray-800 p-2 font-normal">
           <th class="w-1/3">Company Name</th>
-          <th class="w-1/3">City</th>
+          <th class="w-1/3 text-center">City</th>
           <th class="w-1/3">Links</th>
         </tr>
       </thead>
@@ -14,7 +14,7 @@
         <tr
           v-for="{ logo, company, location, links } in companiesData"
           :key="company"
-          class="flex flex-row items-center p-2">
+          class="flex flex-row items-center border-b border-gray-800 p-2">
           <td class="flex w-4/12 items-center gap-2">
             <div class="rounded-md bg-white p-1">
               <CompaniesLogo :domain="logo" :size="24"></CompaniesLogo>
@@ -22,7 +22,7 @@
             <span class="whitespace-break-spaces">{{ company }}</span>
           </td>
 
-          <td class="w-4/12">
+          <td class="w-4/12 text-center">
             <p>{{ location }}</p>
           </td>
 
