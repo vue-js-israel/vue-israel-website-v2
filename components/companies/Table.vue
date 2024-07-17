@@ -30,7 +30,7 @@
               :key="companyLink.url"
               :to="companyLink.url"
               class="">
-              <Icon :name="`mdi:${companyLink.name}`" :size="40" />
+              <Icon :name="`mdi:${companyLink.name}`" :size="'40'" />
             </NuxtLink>
           </td>
         </tr>
