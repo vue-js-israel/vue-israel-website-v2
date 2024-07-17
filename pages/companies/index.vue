@@ -4,7 +4,7 @@
       ctaUrl="https://github.com/vue-js-israel/vue-israel-website-v2"
       ctaText="Create a Pull Request">
       <h2 class="text-center text-5xl font-bold md:text-4xl">
-        Does Your Company Work With VueJs?
+        Does your company use Vue.js?
       </h2>
       <div class="space-x-2 py-2 text-center lg:py-0">
         <span>Add your company</span>
@@ -51,7 +51,7 @@
       ctaUrl="https://github.com/vue-js-israel/vue-israel-website-v2"
       ctaText="Create a Pull Request">
       <h2 class="text-center text-5xl font-bold md:text-4xl">
-        Does Your Company Work With VueJs
+        Does your company use Vue.js?
       </h2>
       <div class="space-x-2 py-2 text-center lg:py-0">
         <span>Add your company</span>
