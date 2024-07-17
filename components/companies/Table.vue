@@ -16,7 +16,9 @@
           :key="company"
           class="flex flex-row items-center p-2">
           <td class="flex w-4/12 items-center gap-2">
-            <CompaniesLogo :domain="logo" :size="24"></CompaniesLogo>
+            <div class="rounded-md bg-white p-1">
+              <CompaniesLogo :domain="logo" :size="24"></CompaniesLogo>
+            </div>
             <span class="whitespace-break-spaces">{{ company }}</span>
           </td>
 
