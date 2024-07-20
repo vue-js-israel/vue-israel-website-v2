@@ -7,7 +7,7 @@
         <tr class="flex flex-row items-center bg-gray-800 p-2 font-normal">
           <th class="w-1/3">Company Name</th>
           <th class="w-1/3 text-center">City</th>
-          <th class="w-1/3">Links</th>
+          <th class="w-1/3 text-end">Links</th>
         </tr>
       </thead>
       <tbody class="border-b border-gray-800 bg-gray-700 font-light">
@@ -15,18 +15,20 @@
           v-for="{ logo, company, location, links } in companiesData"
           :key="company"
           class="flex flex-row items-center border-b border-gray-800 p-2">
-          <td class="flex w-4/12 items-center gap-2">
+          <td class="flex w-1/3 items-center gap-2">
             <div class="rounded-md bg-white p-1">
               <CompaniesLogo :domain="logo" :size="24"></CompaniesLogo>
             </div>
             <span class="whitespace-break-spaces">{{ company }}</span>
           </td>
 
-          <td class="w-4/12 text-center">
+          <td class="w-1/3 text-center">
             <p>{{ location }}</p>
           </td>
 
-          <td class="grid w-4/12 grid-cols-2 gap-y-4 md:grid-cols-4">
+          <td
+            dir="rtl"
+            class="grid w-1/3 grid-cols-2 justify-end gap-y-4 text-start md:grid-cols-4">
             <NuxtLink
               v-for="companyLink in links"
               :key="companyLink.url"
