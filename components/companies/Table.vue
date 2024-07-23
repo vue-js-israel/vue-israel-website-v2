@@ -32,9 +32,11 @@
             <NuxtLink
               v-for="companyLink in links"
               :key="companyLink.url"
-              :to="companyLink.url"
-              class="">
-              <Icon :name="`mdi:${companyLink.name}`" :size="'40'" />
+              :to="companyLink.url">
+              <Icon
+                :name="`mdi:${companyLink.name}`"
+                :size="'40'"
+                class="hover:text-cta-hover" />
             </NuxtLink>
           </td>
         </tr>
