@@ -51,6 +51,13 @@ const closeMenu = () => {
         <li class="flex">
           <NuxtLink
             class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
+            to="/companies"
+            >Companies
+          </NuxtLink>
+        </li>
+        <li class="flex">
+          <NuxtLink
+            class="link -mb-1 flex items-center border-b-2 border-transparent px-4"
             to="/talks"
             >Talks
           </NuxtLink>
@@ -98,6 +105,14 @@ const closeMenu = () => {
             to="/statistics"
             @click="closeMenu"
             >Statistics
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink
+            class="link flex items-center border-b-2 px-4 dark:border-transparent"
+            to="/companies"
+            @click="closeMenu"
+            >Companies
           </NuxtLink>
         </li>
         <li>
