@@ -29,7 +29,7 @@
             :name="`mdi:${companyLink.name}`"
             width="2em"
             height="2rem"
-            style="color: white" />
+            class="hover:text-cta-hover" />
         </NuxtLink>
       </div>
     </div>
