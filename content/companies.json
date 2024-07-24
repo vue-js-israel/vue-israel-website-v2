@@ -1238,5 +1238,25 @@
       }
     ],
     "location": "Haifa"
+  },
+  {
+    "id": 69,
+    "company": "Coro",
+    "logo": "coro.net",
+    "links": [
+      {
+        "name": "web",
+        "url": "https://www.coro.net/"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/company/corocyber/"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/corocyber"
+      }
+    ],
+    "location": "Tel Aviv"
   }
 ]
