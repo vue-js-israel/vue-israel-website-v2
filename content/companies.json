@@ -1258,5 +1258,25 @@
       }
     ],
     "location": "Tel Aviv"
+  },
+  {
+    "id": 70,
+    "company": "FINQ",
+    "logo": "finqai.co.il",
+    "links": [
+      {
+        "name": "web",
+        "url": "https://finqai.co.il/"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/company/finqai/"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/finqisrael"
+      }
+    ],
+    "location": "Tel Aviv"
   }
 ]
