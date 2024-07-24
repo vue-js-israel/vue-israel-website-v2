@@ -85,10 +85,14 @@
   },
   "speaker-id-130": {
     "name": "Dima Vishnevetsky",
-    "title": "Co-Founder, CEO & Front End Expert @ ClientSide",
+    "title": "CEO & Front End Expert @ Mega Profit Apps",
     "image": "/speaker-pictures/Dima Vishnevetsky.jpeg",
-    "socialLinks": ["https://www.linkedin.com/in/dimshik100"],
-    "company": "ClientSide"
+    "socialLinks": [
+      "https://www.linkedin.com/in/dimshik100",
+      "https://x.com/dimshik100",
+      "https://www.facebook.com/dimshik100"
+    ],
+    "company": "Mega Profit Apps"
   },
   "speaker-id-140": {
     "name": "Gilad Navot",
