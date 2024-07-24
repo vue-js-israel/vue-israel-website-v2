@@ -120,3 +120,42 @@ Remember to keep the codebase clean, modular, and easily maintainable by followi
 ### Contact-us form:
 
 - Contact-us page form uses [form.texi API](https://form.taxi/) for submission via email.
+
+### Adding a New Company to Companies.json
+
+#### Understanding the Data Structure
+
+The `Companies.json` file contains an array of company objects. Each company object has the following properties:
+
+- **id**: A unique identifier for the company (integer).
+- **company**: The name of the company (string).
+- **logo**: The URL of the company logo (string - without the prefix `https://wwww`).
+- **links**: An array of objects containing links to the company's web presence.
+  - Each link object has `name` (string) specifying the platform (e.g., "web", "linkedin") and `url` (string) containing the actual link.
+- **location**: The company's location (string).
+
+**Important Note:** The `name` property within the `links` array should now adhere to the following convention:
+
+- If the link is to a platform that has an icon available in the Material Design Icons (MDI) library, use the MDI icon name prefixed with "mdi:" (e.g., "mdi:facebook").
+- If the platform doesn't have an MDI icon, use a `web` ad default.
+- To validate the existence of MDI icons, you can use the following online resource:
+  **Material Design Icons:** https://pictogrammers.com/library/mdi/
+
+#### JSON object structure
+
+Build a new JSON object with the following structure:
+
+```json
+{
+    "id": <last id + 1>,
+    "company": "<company_name>",
+    "logo": "<company_logo_url>",
+    "links": [
+        {
+            "name": "<platform_name>",
+            "url": "<platform_url>"
+        },
+    ],
+    "location": "<company_location>"
+}
+```
