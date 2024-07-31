@@ -4,7 +4,7 @@
       class="flex w-full flex-col justify-center rounded-md bg-gray-800 px-8 text-center text-gray-100 md:w-96 lg:w-80 xl:w-64">
       <div
         class="-mt-12 flex h-24 w-24 flex-shrink-0 items-center justify-center self-center rounded-full bg-white bg-cover bg-center">
-        <CompaniesLogo :domain="company.logo" :size="48" />
+        <CompaniesLogo :domain="company.companyLogo" :size="48" />
       </div>
       <div class="my-4 flex-1">
         <p
@@ -12,21 +12,24 @@
           :class="[
             'text-4xl',
             'text-center',
-            { 'text-3xl': company.company.length > 20 },
+            { 'text-3xl': company.companyName.length > 20 },
             'font-bold',
             'text-white',
           ]">
-          {{ company.company }}
+          {{ company.companyName }}
         </p>
-        <p>{{ company.location }}</p>
+        <p>{{ company.companyCity }}</p>
       </div>
       <div class="flex items-center justify-center space-x-3 border-t-2 p-3">
+        <NuxtLink :to="company.companyWebsite">
+          <Icon :name="'mdi:web'" :size="'32'" class="hover:text-cta-hover" />
+        </NuxtLink>
         <NuxtLink
-          v-for="companyLink in company.links"
+          v-for="companyLink in company.companySocialLinks"
           :key="companyLink.url"
           :to="companyLink.url">
           <Icon
-            :name="`mdi:${companyLink.name}`"
+            :name="`${companyLink.socialMediaType}`"
             width="2em"
             height="2rem"
             class="hover:text-cta-hover" />

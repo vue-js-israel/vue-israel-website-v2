@@ -36,12 +36,12 @@
         </label>
       </section>
       <section v-if="activeTab" class="my-5">
-        <CompaniesTable :companiesData="companies" />
+        <CompaniesTable :companiesData="companiesWithIconsData" />
       </section>
       <div v-else class="flex justify-center">
         <div
           class="my-5 inline-grid grid-cols-1 gap-20 p-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-          <template v-for="company in companies" :key="company.id">
+          <template v-for="company in companiesWithIconsData" :key="company.id">
             <CompaniesCard :company="company" />
           </template>
         </div>
@@ -63,8 +63,40 @@
 
 <script setup>
 import { ref } from "vue";
+import { socialIcon, extractIconifyIdentifier } from "@/utils/urlUtils";
 import companies from "@/content/companies.json";
 const activeTab = ref(true);
+
+const getLogoFromUrl = (companiesData) => {
+  const newCompanies = [];
+  companiesData.forEach((company) => {
+    const iconify = extractIconifyIdentifier(company.companyWebsite);
+    company = { ...company, companyLogo: iconify };
+    newCompanies.push(company);
+  });
+  return newCompanies;
+};
+const getSocialIconsFromUrl = (companiesData) => {
+  let companiesDataWithSocialData = [];
+  companiesData.forEach((company) => {
+    const { companySocialLinks } = company;
+    const newLinksList = companySocialLinks.map((link) => {
+      const icon = socialIcon(link);
+      const newLinkObject = { socialMediaType: icon, url: link };
+      return newLinkObject;
+    });
+    company = { ...company, companySocialLinks: newLinksList };
+    companiesDataWithSocialData.push(company);
+  });
+  return companiesDataWithSocialData;
+};
+const companiesWithIconsData = computed(() => {
+  const companiesWithCompanyLogo = getLogoFromUrl(companies);
+  const companiesWithSocialIcons = getSocialIconsFromUrl(
+    companiesWithCompanyLogo
+  );
+  return companiesWithSocialIcons;
+});
 </script>
 
 <style scoped></style>

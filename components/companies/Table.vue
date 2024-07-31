@@ -12,29 +12,41 @@
       </thead>
       <tbody class="border-b border-gray-800 bg-gray-700 font-light">
         <tr
-          v-for="{ logo, company, location, links } in companiesData"
-          :key="company"
+          v-for="{
+            companyLogo,
+            companyName,
+            companyCity,
+            companySocialLinks,
+            companyWebsite,
+          } in companiesData"
+          :key="companyName"
           class="flex flex-row items-center border-b border-gray-800 p-2">
           <td class="flex w-1/3 items-center gap-2">
             <div class="rounded-md bg-white p-1">
-              <CompaniesLogo :domain="logo" :size="24"></CompaniesLogo>
+              <CompaniesLogo :domain="companyLogo" :size="24"></CompaniesLogo>
             </div>
-            <span class="whitespace-break-spaces">{{ company }}</span>
+            <span class="whitespace-break-spaces">{{ companyName }}</span>
           </td>
 
           <td class="w-1/3 text-center">
-            <p>{{ location }}</p>
+            <p>{{ companyCity }}</p>
           </td>
 
           <td
             dir="rtl"
             class="grid w-1/3 grid-cols-2 justify-end gap-y-4 text-start md:grid-cols-4">
+            <NuxtLink :to="companyWebsite">
+              <Icon
+                :name="'mdi:web'"
+                :size="'38'"
+                class="hover:text-cta-hover" />
+            </NuxtLink>
             <NuxtLink
-              v-for="companyLink in links"
+              v-for="companyLink in companySocialLinks"
               :key="companyLink.url"
               :to="companyLink.url">
               <Icon
-                :name="`mdi:${companyLink.name}`"
+                :name="`${companyLink.socialMediaType}`"
                 :size="'40'"
                 class="hover:text-cta-hover" />
             </NuxtLink>
