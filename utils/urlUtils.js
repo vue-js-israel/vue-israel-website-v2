@@ -39,3 +39,26 @@ export const socialIcon = (url) => {
   const mdiIconClass = socialMediaMapping[domainName];
   return mdiIconClass || "mdi:web"; // Return the MDI icon class or an empty string if not found
 };
+
+export const extractIconifyIdentifier = (urlString) => {
+  // Regular expression to match the main domain and multi-level extension
+  const regex =
+    /https?:\/\/(?:www\.)?((?:[^\/.]+\.)*[^\/.]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?)/;
+
+  // Execute the regex on the input URL string
+  const match = urlString.match(regex);
+
+  if (match) {
+    // Extract the main domain and extension from the match groups
+    const mainDomain = match[1];
+
+    // Construct the Iconify identifier
+    const iconifyIdentifier = mainDomain;
+
+    return iconifyIdentifier;
+  } else {
+    // Return null if the regex doesn't match the input URL
+    console.error("Invalid URL format");
+    return null;
+  }
+};
