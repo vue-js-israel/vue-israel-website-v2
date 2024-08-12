@@ -67,34 +67,26 @@ import { socialIcon, extractIconifyIdentifier } from "@/utils/urlUtils";
 import companies from "@/content/companies.json";
 const activeTab = ref(true);
 
-const getLogoFromUrl = (companiesData) => {
-  const newCompanies = [];
-  companiesData.forEach((company) => {
-    const iconify = extractIconifyIdentifier(company.companyWebsite);
-    company = { ...company, companyLogo: iconify };
-    newCompanies.push(company);
-  });
-  return newCompanies;
-};
-const getSocialIconsFromUrl = (companiesData) => {
-  let companiesDataWithSocialData = [];
-  companiesData.forEach((company) => {
-    const { companySocialLinks } = company;
+const getComapnyIconsFromUrl = () => {
+  let companiesWithIconsData = companies.map((company) => {
+    const { companySocialLinks, companyWebsite } = company;
     const newLinksList = companySocialLinks.map((link) => {
       const icon = socialIcon(link);
       const newLinkObject = { socialMediaType: icon, url: link };
       return newLinkObject;
     });
-    company = { ...company, companySocialLinks: newLinksList };
-    companiesDataWithSocialData.push(company);
+    const iconify = extractIconifyIdentifier(companyWebsite);
+    company = {
+      ...company,
+      companyLogo: iconify,
+      companySocialLinks: newLinksList,
+    };
+    return company;
   });
-  return companiesDataWithSocialData;
+  return companiesWithIconsData;
 };
 const companiesWithIconsData = computed(() => {
-  const companiesWithCompanyLogo = getLogoFromUrl(companies);
-  const companiesWithSocialIcons = getSocialIconsFromUrl(
-    companiesWithCompanyLogo
-  );
+  const companiesWithSocialIcons = getComapnyIconsFromUrl();
   return companiesWithSocialIcons;
 });
 </script>

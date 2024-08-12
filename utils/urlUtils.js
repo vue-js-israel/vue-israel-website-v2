@@ -49,11 +49,8 @@ export const extractIconifyIdentifier = (urlString) => {
   const match = urlString.match(regex);
 
   if (match) {
-    // Extract the main domain and extension from the match groups
-    const mainDomain = match[1];
-
     // Construct the Iconify identifier
-    const iconifyIdentifier = mainDomain;
+    const iconifyIdentifier = match[1];
 
     return iconifyIdentifier;
   } else {
