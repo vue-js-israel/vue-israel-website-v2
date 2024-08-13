@@ -120,3 +120,27 @@ Remember to keep the codebase clean, modular, and easily maintainable by followi
 ### Contact-us form:
 
 - Contact-us page form uses [form.texi API](https://form.taxi/) for submission via email.
+
+### Adding a New Company to Companies.json
+
+#### Understanding the Data Structure
+
+The `Companies.json` file contains an array of company objects. Each company object has the following properties:
+
+- **companyName**: The name of the company.
+- **companyWebsite**: The URL of the company website.
+- **companySocialLinks**: An array of social website links to the company's web presence.
+- **companyCity**: The city that the company is located in.
+
+#### JSON object structure
+
+Build a new JSON object with the following structure:
+
+```json
+{
+      "companyName": <company_name>,
+      "companyWebsite": <company_website>,
+      "companySocialLinks": [ <comapy_social_link> ],
+      "companyCity": <company_city>
+}
+```
