@@ -1,1262 +1,552 @@
 [
   {
-    "id": 1,
-    "company": "ActiveFence",
-    "logo": "activefence.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.activefence.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/activefence/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/p/ActiveFence-100087292573059/"
-      }
+    "companyName": "ActiveFence",
+    "companyWebsite": "https://www.activefence.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/activefence/",
+      "https://www.facebook.com/p/ActiveFence-100087292573059/"
     ],
-    "location": "Binyamina"
+    "companyCity": "Binyamina"
   },
   {
-    "id": 2,
-    "company": "Agritask",
-    "logo": "agritask.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://start.agritask.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/agritask/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Agritask/"
-      }
+    "companyName": "Agritask",
+    "companyWebsite": "https://start.agritask.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/agritask/",
+      "https://www.facebook.com/Agritask/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 3,
-    "company": "Anima",
-    "logo": "animaapp.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.animaapp.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/applitools/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/animaapp/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/AnimaApp"
-      }
+    "companyName": "Anima",
+    "companyWebsite": "https://www.animaapp.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/applitools/",
+      "https://www.facebook.com/animaapp/",
+      "https://github.com/AnimaApp"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 4,
-    "company": "Applitools",
-    "logo": "applitools.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://applitools.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/applitools/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Applitools/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/applitools"
-      }
+    "companyName": "Applitools",
+    "companyWebsite": "https://applitools.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/applitools/",
+      "https://www.facebook.com/Applitools/",
+      "https://github.com/applitools"
     ],
-    "location": "Ramat Gan"
+    "companyCity": "Ramat Gan"
   },
   {
-    "id": 5,
-    "company": "Aqua",
-    "logo": "aquasec.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.aquasec.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/aquasecteam/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/AquaSecTeam"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/aquasecurity"
-      }
+    "companyName": "Aqua",
+    "companyWebsite": "https://www.aquasec.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/aquasecteam/",
+      "https://www.facebook.com/AquaSecTeam",
+      "https://github.com/aquasecurity"
     ],
-    "location": "Ramat Gan"
+    "companyCity": "Ramat Gan"
   },
   {
-    "id": 6,
-    "company": "Axonius",
-    "logo": "axonius.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.axonius.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/axonius/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Axonius/"
-      }
+    "companyName": "Axonius",
+    "companyWebsite": "https://www.axonius.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/axonius/",
+      "https://www.facebook.com/Axonius/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 7,
-    "company": "BlueVine",
-    "logo": "bluevine.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.bluevine.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/bluevine/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/bluevinecapital"
-      }
+    "companyName": "BlueVine",
+    "companyWebsite": "https://www.bluevine.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/bluevine/",
+      "https://www.facebook.com/bluevinecapital"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 8,
-    "company": "BrainPoP",
-    "logo": "brainpop.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.brainpop.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/brainpop/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/p/%D7%91%D7%A8%D7%99%D7%99%D7%A0%D7%A4%D7%95%D7%A4-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-100057375591589/"
-      }
+    "companyName": "BrainPoP",
+    "companyWebsite": "https://www.brainpop.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/brainpop/",
+      "https://www.facebook.com/p/%D7%91%D7%A8%D7%99%D7%99%D7%A0%D7%A4%D7%95%D7%A4-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-100057375591589/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 9,
-    "company": "BreezoMeter",
-    "logo": "breezometer.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.breezometer.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/breezometer/"
-      }
-    ],
-    "location": "Haifa"
+    "companyName": "BreezoMeter",
+    "companyWebsite": "https://www.breezometer.com/",
+    "companySocialLinks": ["https://www.linkedin.com/company/breezometer/"],
+    "companyCity": "Haifa"
   },
   {
-    "id": 10,
-    "company": "Carebox",
-    "logo": "careboxhealth.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://careboxhealth.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/carebox-healthcare-solutions-inc-/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/CareboxConnect/"
-      }
+    "companyName": "Carebox",
+    "companyWebsite": "https://careboxhealth.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/carebox-healthcare-solutions-inc-/",
+      "https://www.facebook.com/CareboxConnect/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 11,
-    "company": "cnvrg.io",
-    "logo": "cnvrg.io",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://cnvrg.io/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/cnvrg-io/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/cnvrg.io/"
-      }
+    "companyName": "cnvrg.io",
+    "companyWebsite": "https://cnvrg.io/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/cnvrg-io/",
+      "https://www.facebook.com/cnvrg.io/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 12,
-    "company": "Confetti",
-    "logo": "withconfetti.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.withconfetti.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/withconfetti/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/withconfetti"
-      }
+    "companyName": "Confetti",
+    "companyWebsite": "https://www.withconfetti.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/withconfetti/",
+      "https://www.facebook.com/withconfetti"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 13,
-    "company": "Constru",
-    "logo": "crunchbase.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.crunchbase.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/constru/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/crunchbase/"
-      }
+    "companyName": "Constru",
+    "companyWebsite": "https://www.crunchbase.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/constru/",
+      "https://www.facebook.com/crunchbase/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 14,
-    "company": "Cool Cousin",
-    "logo": "coolcousin.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.coolcousin.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/cool-cousin/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/CoolCousin/?locale=he_IL"
-      }
+    "companyName": "Cool Cousin",
+    "companyWebsite": "https://www.coolcousin.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/cool-cousin/",
+      "https://www.facebook.com/CoolCousin/?locale=he_IL"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 15,
-    "company": "Cynerio",
-    "logo": "cynerio.com/",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.cynerio.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/cynerio/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Cynerio/"
-      }
+    "companyName": "Cynerio",
+    "companyWebsite": "https://www.cynerio.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/cynerio/",
+      "https://www.facebook.com/Cynerio/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 16,
-    "company": "daily.dev",
-    "logo": "daily.dev",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://daily.dev/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/dailydotdev/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/dailydotdev/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/dailydotdev/daily"
-      }
+    "companyName": "daily.dev",
+    "companyWebsite": "https://daily.dev/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/dailydotdev/",
+      "https://www.facebook.com/dailydotdev/",
+      "https://github.com/dailydotdev/daily"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 17,
-    "company": "Databand.ai",
-    "logo": "ibm.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.ibm.com/products/databand"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/databand-ai/"
-      }
-    ],
-    "location": "Tel Aviv"
+    "companyName": "Databand.ai",
+    "companyWebsite": "https://www.ibm.com/products/databand",
+    "companySocialLinks": ["https://www.linkedin.com/company/databand-ai/"],
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 18,
-    "company": "Earnix",
-    "logo": "earnix.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://earnix.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/earnix/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/earnix/"
-      }
+    "companyName": "Earnix",
+    "companyWebsite": "https://earnix.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/earnix/",
+      "https://www.facebook.com/earnix/"
     ],
-    "location": "Ramat Gan "
+    "companyCity": "Ramat Gan"
   },
   {
-    "id": 19,
-    "company": "Elbit Systems",
-    "logo": "elbitsystems.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://elbitsystems.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/elbit-systems-ltd/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/elbitsystemsltd"
-      }
+    "companyName": "Elbit Systems",
+    "companyWebsite": "https://elbitsystems.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/elbit-systems-ltd/",
+      "https://www.facebook.com/elbitsystemsltd"
     ],
-    "location": "Netanya"
+    "companyCity": "Netanya"
   },
   {
-    "id": 20,
-    "company": "Enghouse",
-    "logo": "enghouse.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.enghouse.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/enghouse/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/EnghouseInteractiveUK/"
-      }
+    "companyName": "Enghouse",
+    "companyWebsite": "https://www.enghouse.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/enghouse/",
+      "https://www.facebook.com/EnghouseInteractiveUK/"
     ],
-    "location": "Raanana "
+    "companyCity": "Raanana"
   },
   {
-    "id": 21,
-    "company": "Finaloop",
-    "logo": "finaloop.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.finaloop.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/finaloop/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/FinaloopTeam/"
-      }
+    "companyName": "Finaloop",
+    "companyWebsite": "https://www.finaloop.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/finaloop/",
+      "https://www.facebook.com/FinaloopTeam/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 22,
-    "company": "Fundbox",
-    "logo": "fundbox.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://fundbox.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/fundbox/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Fundbox/"
-      }
+    "companyName": "Fundbox",
+    "companyWebsite": "https://fundbox.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/fundbox/",
+      "https://www.facebook.com/Fundbox/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 23,
-    "company": "Gaviti",
-    "logo": "gaviti.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://gaviti.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/gaviti/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/gavitii"
-      }
+    "companyName": "Gaviti",
+    "companyWebsite": "https://gaviti.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/gaviti/",
+      "https://www.facebook.com/gavitii"
     ],
-    "location": "Givatyim"
+    "companyCity": "Givatyim"
   },
   {
-    "id": 24,
-    "company": "Geteat",
-    "logo": "geteat.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://geteat.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/geteat/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Geteat.Technology/"
-      }
+    "companyName": "Geteat",
+    "companyWebsite": "https://geteat.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/geteat/",
+      "https://www.facebook.com/Geteat.Technology/"
     ],
-    "location": "Rehovot"
+    "companyCity": "Rehovot"
   },
   {
-    "id": 25,
-    "company": "GreenInvoice",
-    "logo": "greeninvoice.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.greeninvoice.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/greeninvoice/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/green.invoice"
-      }
+    "companyName": "GreenInvoice",
+    "companyWebsite": "https://www.greeninvoice.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/greeninvoice/",
+      "https://www.facebook.com/green.invoice"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 26,
-    "company": "HyperGuest",
-    "logo": "hyperguest.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.hyperguest.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/hyperguest/"
-      }
-    ],
-    "location": "Tel Aviv"
+    "companyName": "HyperGuest",
+    "companyWebsite": "https://www.hyperguest.com/",
+    "companySocialLinks": ["https://www.linkedin.com/company/hyperguest/"],
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 29,
-    "company": "Ibex Medical Analytics",
-    "logo": "ibex-ai.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://ibex-ai.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/ibexmedicalanalytics/"
-      }
+    "companyName": "Ibex Medical Analytics",
+    "companyWebsite": "https://ibex-ai.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/ibexmedicalanalytics/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 30,
-    "company": "Igentify",
-    "logo": "igentify.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.igentify.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/igentify/"
-      }
-    ],
-    "location": "Haifa"
+    "companyName": "Igentify",
+    "companyWebsite": "https://www.igentify.com/",
+    "companySocialLinks": ["https://www.linkedin.com/company/igentify/"],
+    "companyCity": "Haifa"
   },
   {
-    "id": 33,
-    "company": "Liquidity",
-    "logo": "liquiditygroup.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.liquiditygroup.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/liquidity-capital/"
-      }
+    "companyName": "Liquidity",
+    "companyWebsite": "https://www.liquiditygroup.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/liquidity-capital/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
+  },
+
+  {
+    "companyName": "Loox",
+    "companyWebsite": "https://loox.app/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/loox/",
+      "https://www.facebook.com/looxreviews"
+    ],
+    "companyCity": "Ramat Gan"
   },
   {
-    "id": 34,
-    "company": "Loox",
-    "logo": "loox.app",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://loox.app/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/loox/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/looxreviews"
-      }
+    "companyName": "Namogoo",
+    "companyWebsite": "https://www.namogoo.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/namogoo/",
+      "https://www.facebook.com/namogoo/"
     ],
-    "location": "Ramat Gan"
+    "companyCity": "Herzliya"
   },
   {
-    "id": 36,
-    "company": "Namogoo",
-    "logo": "namogoo.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.namogoo.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/namogoo/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/namogoo/"
-      }
+    "companyName": "Noname Security",
+    "companyWebsite": "https://nonamesecurity.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/nonamesecurity/",
+      "https://www.facebook.com/nonamesec/?locale=he_IL"
     ],
-    "location": "Herzliya"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 37,
-    "company": "Noname Security",
-    "logo": "nonamesecurity.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://nonamesecurity.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/nonamesecurity/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/nonamesec/?locale=he_IL"
-      }
+    "companyName": "Outbrain",
+    "companyWebsite": "https://www.outbrain.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/outbrain/",
+      "https://www.facebook.com/Outbrain/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Netanya"
   },
   {
-    "id": 38,
-    "company": "Outbrain",
-    "logo": "outbrain.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.outbrain.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/outbrain/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Outbrain/"
-      }
+    "companyName": "Ozcode",
+    "companyWebsite": "https://www.oz-code.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/ozcode/",
+      "https://www.facebook.com/oz.code.software/"
     ],
-    "location": "Netanya"
+    "companyCity": "Herzliya"
   },
   {
-    "id": 39,
-    "company": "Ozcode",
-    "logo": "oz-code.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.oz-code.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/ozcode/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/oz.code.software/"
-      }
+    "companyName": "Pendo",
+    "companyWebsite": "https://www.pendo.io/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/pendo-io/",
+      "https://www.facebook.com/Pendoio/"
     ],
-    "location": "Herzliya"
+    "companyCity": "Herzliya"
   },
   {
-    "id": 40,
-    "company": "Pendo",
-    "logo": "pendo.io",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.pendo.io/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/pendo-io/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Pendoio/"
-      }
+    "companyName": "Pic-Time",
+    "companyWebsite": "https://www.pic-time.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/pic-time-ltd/",
+      "https://www.facebook.com/pictimeus"
     ],
-    "location": "Herzliya"
+    "companyCity": "Caesarea"
   },
   {
-    "id": 41,
-    "company": "Pic-Time",
-    "logo": "pic-time.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.pic-time.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/pic-time-ltd/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/pictimeus"
-      }
+    "companyName": "powerdoc",
+    "companyWebsite": "https://powerdoc.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/powerdoc-%E2%84%A2/",
+      "https://www.facebook.com/PowerdocIsrael/"
     ],
-    "location": "Caesarea"
+    "companyCity": "Raanana"
   },
   {
-    "id": 42,
-    "company": "powerdoc",
-    "logo": "powerdoc.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://powerdoc.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/powerdoc-%E2%84%A2/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/PowerdocIsrael/"
-      }
-    ],
-    "location": "Raanana"
+    "companyName": "Resonai",
+    "companyWebsite": "https://www.resonai.com/",
+    "companySocialLinks": ["https://www.linkedin.com/company/resonai/"],
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 43,
-    "company": "Resonai",
-    "logo": "www.resonai.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.resonai.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/resonai/"
-      }
+    "companyName": "Riseup",
+    "companyWebsite": "https://www.riseup.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/letsriseup/",
+      "https://www.facebook.com/riseupisrael/?locale=he_IL"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 44,
-    "company": "Riseup",
-    "logo": "riseup.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.riseup.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/letsriseup/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/riseupisrael/?locale=he_IL"
-      }
+    "companyName": "Run.ai",
+    "companyWebsite": "https://www.run.ai/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/runailabs/",
+      "https://github.com/run-ai"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 45,
-    "company": "Run.ai",
-    "logo": "run.ai",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.run.ai/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/runailabs/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/run-ai"
-      }
+    "companyName": "Segmanta",
+    "companyWebsite": "https://segmanta.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/segmanta/",
+      "https://www.facebook.com/segmanta/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 46,
-    "company": "Segmanta",
-    "logo": "segmanta.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://segmanta.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/segmanta/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/segmanta/"
-      }
+    "companyName": "SentinelOne",
+    "companyWebsite": "https://www.sentinelone.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/sentinelone/",
+      "https://www.facebook.com/SentinelOne/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 47,
-    "company": "SentinelOne",
-    "logo": "sentinelone.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.sentinelone.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/sentinelone/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/SentinelOne/"
-      }
+    "companyName": "Snyk",
+    "companyWebsite": "https://snyk.io/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/snyk/",
+      "https://github.com/snyk/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 48,
-    "company": "Snyk",
-    "logo": "snyk.io",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://snyk.io/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/snyk/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/snyk/"
-      }
+    "companyName": "SparkBeyond",
+    "companyWebsite": "https://www.sparkbeyond.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/sparkbeyond/",
+      "https://www.facebook.com/sparkbeyond/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Netanya"
   },
   {
-    "id": 49,
-    "company": "SparkBeyond",
-    "logo": "sparkbeyond.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.sparkbeyond.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/sparkbeyond/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sparkbeyond/"
-      }
-    ],
-    "location": "Netanya"
+    "companyName": "Squadded",
+    "companyWebsite": "https://www.squadded.co/",
+    "companySocialLinks": ["https://www.linkedin.com/company/squadded/"],
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 50,
-    "company": "Squadded",
-    "logo": "squadded.co",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.squadded.co/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/squadded/"
-      }
+    "companyName": "Storemaven",
+    "companyWebsite": "https://www.storemaven.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/storemaven/",
+      "https://www.facebook.com/storemaven/?locale=he_IL"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 51,
-    "company": "Storemaven",
-    "logo": "storemaven.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.storemaven.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/storemaven/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/storemaven/?locale=he_IL"
-      }
+    "companyName": "Swimm",
+    "companyWebsite": "https://swimm.io/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/swimm-io/",
+      "https://github.com/swimmio"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 52,
-    "company": "Swimm",
-    "logo": "swimm.io",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://swimm.io/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/swimm-io/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/swimmio"
-      }
-    ],
-    "location": "Tel Aviv"
+    "companyName": "T-Rex",
+    "companyWebsite": "https://www.trexgroup.com/",
+    "companySocialLinks": ["https://www.linkedin.com/company/t-rex-group/"],
+    "companyCity": "Ramat Gan"
   },
   {
-    "id": 53,
-    "company": "T-Rex",
-    "logo": "trexgroup.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.trexgroup.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/t-rex-group/"
-      }
+    "companyName": "Tipalti",
+    "companyWebsite": "https://tipalti.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/tipalti",
+      "https://www.facebook.com/Tipalti/?locale=it_IT"
     ],
-    "location": "Ramat Gan"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 54,
-    "company": "Tipalti",
-    "logo": "tipalti.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://tipalti.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/tipalti"
-      },
-      {
-        "name": "facebook",
-        "url": "ttps://www.facebook.com/Tipalti/?locale=it_IT"
-      }
+    "companyName": "Toonimo",
+    "companyWebsite": "https://toonimo.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/toonimo/",
+      "https://www.facebook.com/toonimoanimation/?locale=he_IL"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 55,
-    "company": "Toonimo",
-    "logo": "toonimo.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://toonimo.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/toonimo/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/toonimoanimation/?locale=he_IL"
-      }
+    "companyName": "Travelor",
+    "companyWebsite": "https://www.travelor.com/he",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/travelor/",
+      "https://www.facebook.com/travelorcom"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Petah Tikva"
   },
   {
-    "id": 56,
-    "company": "Travelor",
-    "logo": "travelor.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.travelor.com/he"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/travelor/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/travelorcom"
-      }
+    "companyName": "vcita",
+    "companyWebsite": "https://www.vcita.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/1816111/",
+      "https://www.facebook.com/vcitaIsrael/"
     ],
-    "location": "Petah Tikva"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 57,
-    "company": "vcita",
-    "logo": "vcita.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.vcita.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/1816111/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/vcitaIsrael/"
-      }
+    "companyName": "Vonage",
+    "companyWebsite": "https://www.vonage.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/vonage/",
+      "https://www.facebook.com/vonage?adobe_mc=MCMID%3D78027089908460794043578351190843802451%7CMCORGID%3DA8833BC75245AF9E0A490D4D%2540AdobeOrg%7CTS%3D1719948719"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 58,
-    "company": "Vonage",
-    "logo": "vonage.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.vonage.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/vonage/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/vonage?adobe_mc=MCMID%3D78027089908460794043578351190843802451%7CMCORGID%3DA8833BC75245AF9E0A490D4D%2540AdobeOrg%7CTS%3D1719948719"
-      }
+    "companyName": "VRsteps",
+    "companyWebsite": "https://www.vrsteps.co/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/vrsteps/",
+      "https://www.facebook.com/vrsteps/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Beersheba"
   },
   {
-    "id": 59,
-    "company": "VRsteps",
-    "logo": "vrsteps.co",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.vrsteps.co/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/vrsteps/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/vrsteps/"
-      }
+    "companyName": "WiseStamp",
+    "companyWebsite": "https://www.wisestamp.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/wisestamp/",
+      "https://www.facebook.com/WiseStamp/"
     ],
-    "location": "Beersheba"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 60,
-    "company": "WiseStamp",
-    "logo": "wisestamp.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.wisestamp.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/wisestamp/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/WiseStamp/"
-      }
+    "companyName": "Wochit",
+    "companyWebsite": "https://www.wochit.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/wochit/",
+      "https://www.facebook.com/Wochit/?locale=he_IL"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   },
   {
-    "id": 61,
-    "company": "Wochit",
-    "logo": "wochit.com",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.wochit.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/wochit/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/Wochit/?locale=he_IL"
-      }
+    "companyName": "Yad2",
+    "companyWebsite": "https://www.yad2.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/yad2/",
+      "https://www.facebook.com/yad2page"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Ramat Gan"
   },
   {
-    "id": 62,
-    "company": "Yad2",
-    "logo": "yad2.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.yad2.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/yad2/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/yad2page"
-      }
+    "companyName": "Yotpo",
+    "companyWebsite": "https://www.yotpo.com/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/yotpo/",
+      "https://www.facebook.com/yotpo"
     ],
-    "location": "Ramat Gan"
+
+    "companyCity": "Petah Tikva"
   },
   {
-    "id": 63,
-    "company": "Yotpo",
-    "logo": "https://www.yotpo.com/v2/",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.yotpo.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/yotpo/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/yotpo"
-      }
+    "companyName": "Close App",
+    "companyWebsite": "https://closeapp.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/closeapp?originalSubdomain=il",
+      "https://www.facebook.com/closeapp.co.il/"
     ],
-    "location": "Tel Aviv"
+    "companyCity": "Kfar Tapush"
   },
   {
-    "id": 64,
-    "company": "Bytii Cloud",
-    "logo": "bytii.cloud",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://bytii.cloud/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/gilad-levi-2660bb39/?originalSubdomain=il"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/bytii.cloud"
-      }
+    "companyName": "Compie",
+    "companyWebsite": "https://www.compie.co.il/en",
+    "companySocialLinks": [
+      "https://il.linkedin.com/company/compie_technologies/",
+      "https://www.facebook.com/compietech/"
     ],
-    "location": "Petah Tikva"
+    "companyCity": "Ramat Gan"
   },
   {
-    "id": 65,
-    "company": "Close App",
-    "logo": "closeapp.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://closeapp.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/closeapp?originalSubdomain=il"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/closeapp.co.il/"
-      }
+    "companyName": "Go Code",
+    "companyWebsite": "https://gocode.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/gocode-sderot/?originalSubdomain=il",
+      "https://www.facebook.com/gocodeweb/?locale=he_IL"
     ],
-    "location": "Kfar Tapush"
+    "companyCity": "Sderot"
   },
   {
-    "id": 66,
-    "company": "Compie",
-    "logo": "compie.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.compie.co.il/en"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://il.linkedin.com/company/compie_technologies/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/compietech/"
-      }
+    "companyName": "Intel",
+    "companyWebsite": "https://www.intel.co.il/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/intel-corporation/",
+      "https://www.facebook.com/IntelIsrael/?brand_redir=22707976849"
     ],
-    "location": "Ramat Gan"
+    "companyCity": "Haifa"
   },
   {
-    "id": 67,
-    "company": "Go Code",
-    "logo": "gocode.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://gocode.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/gocode-sderot/?originalSubdomain=il"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/gocodeweb/?locale=he_IL"
-      }
+    "companyName": "Coro",
+    "companyWebsite": "https://www.coro.net/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/corocyber/",
+      "https://www.facebook.com/corocyber"
     ],
-    "location": "Sderot"
-  },
-  {
-    "id": 68,
-    "company": "Intel",
-    "logo": "intel.co.il",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.intel.co.il/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/intel-corporation/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/IntelIsrael/?brand_redir=22707976849"
-      }
-    ],
-    "location": "Haifa"
-  },
-  {
-    "id": 69,
-    "company": "Coro",
-    "logo": "coro.net",
-    "links": [
-      {
-        "name": "web",
-        "url": "https://www.coro.net/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/corocyber/"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/corocyber"
-      }
-    ],
-    "location": "Tel Aviv"
+    "companyCity": "Tel Aviv"
   }
 ]

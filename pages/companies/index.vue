@@ -36,12 +36,12 @@
         </label>
       </section>
       <section v-if="activeTab" class="my-5">
-        <CompaniesTable :companiesData="companies" />
+        <CompaniesTable :companiesData="companiesWithIconsData" />
       </section>
       <div v-else class="flex justify-center">
         <div
           class="my-5 inline-grid grid-cols-1 gap-20 p-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-          <template v-for="company in companies" :key="company.id">
+          <template v-for="company in companiesWithIconsData" :key="company.id">
             <CompaniesCard :company="company" />
           </template>
         </div>
@@ -63,8 +63,32 @@
 
 <script setup>
 import { ref } from "vue";
+import { socialIcon, extractIconifyIdentifier } from "@/utils/urlUtils";
 import companies from "@/content/companies.json";
 const activeTab = ref(true);
+
+const getComapnyIconsFromUrl = () => {
+  let companiesWithIconsData = companies.map((company) => {
+    const { companySocialLinks, companyWebsite } = company;
+    const newLinksList = companySocialLinks.map((link) => {
+      const icon = socialIcon(link);
+      const newLinkObject = { socialMediaType: icon, url: link };
+      return newLinkObject;
+    });
+    const iconify = extractIconifyIdentifier(companyWebsite);
+    company = {
+      ...company,
+      companyLogo: iconify,
+      companySocialLinks: newLinksList,
+    };
+    return company;
+  });
+  return companiesWithIconsData;
+};
+const companiesWithIconsData = computed(() => {
+  const companiesWithSocialIcons = getComapnyIconsFromUrl();
+  return companiesWithSocialIcons;
+});
 </script>
 
 <style scoped></style>
