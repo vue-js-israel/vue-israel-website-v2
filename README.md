@@ -132,7 +132,6 @@ The `Companies.json` file contains an array of company objects. Each company obj
 - **companySocialLinks**: An array of social website links to the company's web presence.
 - **companyCity**: The city that the company is located in.
 
-
 #### JSON object structure
 
 Build a new JSON object with the following structure:
