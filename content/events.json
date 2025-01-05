@@ -1060,7 +1060,7 @@
       "photos": {
         "sectionTitle": "📷 Photos",
         "sectionContent": {
-          "value": []
+          "value": ["https://www.facebook.com/share/15WJQkbxWi/"]
         }
       },
       "speakers": {
@@ -1072,7 +1072,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": ["https://www.youtube.com/watch?v=hB6luEjqANA&list=PLDOkyp-lEYFg2TB2elf_M7EwLV2rCxhPy"]
         }
       },
       "agenda": {
@@ -1332,6 +1332,105 @@
           "type": "markdown",
           "value": [
             "Our meetup host: [Cloudinary](https://www.cloudinary.com/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-131": {
+    "metaData": {
+      "title": "Best practice with Vue",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Isracard-18.12.24",
+      "alt": "Vue.js Israel Official Meetup - Isracard - 18.12.24"
+    },
+    "eventTags": [
+      "Vue 3",
+      "Vitest",
+      "Best practice"
+    ],
+    "eventDate": "18 Dec 2024 18:00",
+    "eventLocationName": "Isracard",
+    "eventTitle": "Best practice with Vue",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Isracard](https://digital.isracard.co.il/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/share/19VVD8dLbC/"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-100", "speaker-id-40"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": ["speaker-id-100"]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": ["speaker-id-40"]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": ["Isracard, 12 Bar Kochva, Bnei Brak"]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Isracard](https://www.linkedin.com/company/isracard/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
           ]
         }
       }

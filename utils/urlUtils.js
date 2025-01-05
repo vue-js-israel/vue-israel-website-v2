@@ -19,6 +19,7 @@ export const socialIcon = (url) => {
     "linkedin.com": "mdi:linkedin",
     "youtube.com": "mdi:youtube",
     "github.com": "mdi:github",
+    "x.com": "mdi:twitter",
     // Add more social media domains and corresponding MDI icon classes as needed
   };
 

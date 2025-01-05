@@ -463,5 +463,35 @@
       "title": "",
       "link": ""
     }
+  },
+  "talk-id-321": {
+    "speakerIds": ["speaker-id-100"],
+    "eventId": "event-id-131",
+    "talkDate": "18 Dec 2024",
+    "talkTitle": "Trust me. I’ve seen things ",
+    "talkDescription": "Best practice in Vue, learned from experience with the best and the worst practices you can ever imagine",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-david-levy-18.12"
+    },
+    "videos": [""],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-322": {
+    "speakerIds": ["speaker-id-40"],
+    "eventId": "event-id-131",
+    "talkDate": "18 Dec 2024",
+    "talkTitle": "Unlock the power of visual testing with Vitest",
+    "talkDescription": "How to develop a reliable and efficient strategy for visual testing with Vitest",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-maya-shavin-18.12"
+    },
+    "videos": [""],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
   }
 }

@@ -31,7 +31,7 @@ const tableOfContentLinks = Object.entries(event.sections).map(
 
 const speakerTalk = (speakerId) => {
   return talkList.find((talk) => {
-    return talk.speakerIds.find((id) => {
+    return talk.eventId === eventId.value && talk.speakerIds.find((id) => {
       return id === speakerId;
     });
   });
@@ -58,7 +58,7 @@ const multipleSpeakerTitle = (speakerIds) => {
   const uniqueCompanies = [...new Set(speakerCompanies)];
 
   const speakerNamesString = speakerNames.join(" & ");
-  const speakersTalk = speakerTalk(speakerIds[0]).talkTitle;
+  const speakersTalk = speakerTalk(speakerIds[0], eventId.value).talkTitle;
   const speakerCompaniesString = uniqueCompanies.join(" / ");
 
   return `${speakerNamesString} - ${speakersTalk} - ${speakerCompaniesString}`;
@@ -113,11 +113,18 @@ useHead({
             >{{ sectionTitle }}</a
           >
 
-          <div v-if="sectionId === 'photos'">
-            LINK OF Photos // OR // Embedded Player (Youtube?)
+          <div v-if="sectionId === 'photos'" class="mt-6">
+            <a
+              v-for="photo in sectionContent.value" 
+              :key="photo"
+              :href="photo" 
+              target="_blank" 
+              class="underline">
+              {{ photo }}
+            </a>
           </div>
 
-          <ul v-else-if="sectionId === 'speakers'" class="mt-12">
+          <ul v-else-if="sectionId === 'speakers'" class="mt-6">
             <li v-for="speakerId in sectionContent.value" :key="speakerId">
               <NuxtLink
                 :to="{ path: '/speakers', query: { speakerId: speakerId } }"
@@ -129,11 +136,18 @@ useHead({
             </li>
           </ul>
 
-          <div v-else-if="sectionId === 'videos'" class="mt-12">
-            LINK OF VIDEOS // OR // Embedded Player (Youtube?)
+          <div v-else-if="sectionId === 'videos'" class="mt-6">
+            <a
+              v-for="video in sectionContent.value" 
+              :key="video"
+              :href="video" 
+              target="_blank" 
+              class="underline">
+              {{ video }}
+            </a>
           </div>
 
-          <div v-else-if="sectionContent.type === 'markdown'" class="mt-12">
+          <div v-else-if="sectionContent.type === 'markdown'" class="mt-6">
             <MarkdownContent
               v-for="line in sectionContent.value"
               :key="line"
@@ -144,7 +158,7 @@ useHead({
             </div>
           </div>
 
-          <div v-else-if="sectionId === 'agenda'" class="mt-12">
+          <div v-else-if="sectionId === 'agenda'" class="mt-6">
             <p
               v-for="{ timeSlot, title, speakerIds } in sectionContent.value"
               :key="title">

@@ -24,7 +24,7 @@
     "name": "Maya Shavin",
     "title": "Senior Software Engineer",
     "image": "/speaker-pictures/Maya Shavin.jpeg",
-    "socialLinks": ["https://www.linkedin.com/in/mayashavin/"],
+    "socialLinks": ["https://www.linkedin.com/in/mayashavin/", "https://x.com/mayashavin", "https://facebook.com/mayashavin", "https://mayashavin.com"],
     "company": "Microsoft"
   },
   "speaker-id-50": {
@@ -67,7 +67,7 @@
     "title": "Developer",
     "image": "/speaker-pictures/David Meir-Levy.jpeg",
     "socialLinks": ["https://www.facebook.com/davidmeirlevy"],
-    "company": "Tikal Knowledge"
+    "company": "Qelos"
   },
   "speaker-id-110": {
     "name": "Evgeni Dikerman",
