@@ -1072,7 +1072,9 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["https://www.youtube.com/watch?v=hB6luEjqANA&list=PLDOkyp-lEYFg2TB2elf_M7EwLV2rCxhPy"]
+          "value": [
+            "https://www.youtube.com/watch?v=hB6luEjqANA&list=PLDOkyp-lEYFg2TB2elf_M7EwLV2rCxhPy"
+          ]
         }
       },
       "agenda": {
@@ -1347,11 +1349,7 @@
       "src": "/events/Vue.js-Israel-meetup-Isracard-18.12.24",
       "alt": "Vue.js Israel Official Meetup - Isracard - 18.12.24"
     },
-    "eventTags": [
-      "Vue 3",
-      "Vitest",
-      "Best practice"
-    ],
+    "eventTags": ["Vue 3", "Vitest", "Best practice"],
     "eventDate": "18 Dec 2024 18:00",
     "eventLocationName": "Isracard",
     "eventTitle": "Best practice with Vue",
@@ -1365,9 +1363,7 @@
       "photos": {
         "sectionTitle": "📷 Photos",
         "sectionContent": {
-          "value": [
-            "https://www.facebook.com/share/19VVD8dLbC/"
-          ]
+          "value": ["https://www.facebook.com/share/19VVD8dLbC/"]
         }
       },
       "speakers": {
@@ -1416,7 +1412,7 @@
           ]
         }
       },
-      
+
       "venue": {
         "sectionTitle": "🏢 The venue",
         "sectionContent": {

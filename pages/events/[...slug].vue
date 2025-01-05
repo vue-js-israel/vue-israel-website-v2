@@ -31,9 +31,12 @@ const tableOfContentLinks = Object.entries(event.sections).map(
 
 const speakerTalk = (speakerId) => {
   return talkList.find((talk) => {
-    return talk.eventId === eventId.value && talk.speakerIds.find((id) => {
-      return id === speakerId;
-    });
+    return (
+      talk.eventId === eventId.value &&
+      talk.speakerIds.find((id) => {
+        return id === speakerId;
+      })
+    );
   });
 };
 
@@ -115,10 +118,10 @@ useHead({
 
           <div v-if="sectionId === 'photos'" class="mt-6">
             <a
-              v-for="photo in sectionContent.value" 
+              v-for="photo in sectionContent.value"
               :key="photo"
-              :href="photo" 
-              target="_blank" 
+              :href="photo"
+              target="_blank"
               class="underline">
               {{ photo }}
             </a>
@@ -138,10 +141,10 @@ useHead({
 
           <div v-else-if="sectionId === 'videos'" class="mt-6">
             <a
-              v-for="video in sectionContent.value" 
+              v-for="video in sectionContent.value"
               :key="video"
-              :href="video" 
-              target="_blank" 
+              :href="video"
+              target="_blank"
               class="underline">
               {{ video }}
             </a>

@@ -24,7 +24,12 @@
     "name": "Maya Shavin",
     "title": "Senior Software Engineer",
     "image": "/speaker-pictures/Maya Shavin.jpeg",
-    "socialLinks": ["https://www.linkedin.com/in/mayashavin/", "https://x.com/mayashavin", "https://facebook.com/mayashavin", "https://mayashavin.com"],
+    "socialLinks": [
+      "https://www.linkedin.com/in/mayashavin/",
+      "https://x.com/mayashavin",
+      "https://facebook.com/mayashavin",
+      "https://mayashavin.com"
+    ],
     "company": "Microsoft"
   },
   "speaker-id-50": {
