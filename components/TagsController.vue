@@ -1,9 +1,9 @@
 <script setup>
 const props = defineProps({
   tags: {
-    type: Object,
+    type: Array,
     default: () => {
-      return {};
+      return [];
     },
   },
 });

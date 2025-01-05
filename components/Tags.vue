@@ -1,77 +1,73 @@
 <template>
   <div class="flex flex-wrap gap-1">
-    <span
-      v-for="(tag, tagKey) in localTags"
-      :key="tagKey"
-      class="self-start rounded-full border border-cta-base px-3 py-1 text-sm hover:border-cta-hover"
-      :class="{
-        'border-cta-hover bg-cta-hover text-dark-bg-dark': tag.isSelected,
-      }"
-      @click.prevent="tagClick(tagKey)">
-      {{ tag.title }}
-    </span>
+    <component
+      :is="props.isClickable ? 'button' : 'span'"
+      v-for="(tag, key) in tags"
+      :key="key"
+      class="tag"
+      :class="getTagClasses(tag)"
+      @click.prevent="props.isClickable && tagClick(tag)">
+      {{ tag }}
+    </component>
   </div>
 </template>
 
 <script setup>
 const props = defineProps({
   tags: {
-    type: Object,
+    type: Array,
     default: () => {
-      return {};
+      return [];
     },
   },
+  isClickable: {
+    type: Boolean,
+    default: true,
+  },
 });
-
+const { selectedTags } = useSelectedTags();
 const router = useRouter();
 
-const selectedTags = computed(() => {
-  const { query } = useRoute();
-  const { tags } = query;
-  return tags?.split(",") ?? [];
-});
+const isSelected = (tag) => {
+  return selectedTags.value.includes(tag);
+};
 
-const localTags = computed(() => {
-  const tags = {};
-  for (const key in props.tags) {
-    const title = props.tags[key];
-    const isSelected = selectedTags.value.includes(key);
-    tags[key] = {
-      title,
-      isSelected,
-    };
-  }
-  return tags;
+const getTagClasses = (tag) => ({
+  "border-cta-hover bg-cta-hover text-dark-bg-dark": isSelected(tag),
+  clickable: props.isClickable,
 });
 
 const tagClick = (tagKey) => {
-  const currentSelectedTags = selectedTags.value;
-  const isTagSelected = currentSelectedTags.includes(tagKey);
+  const tagSelectedIndex = selectedTags.value.findIndex(
+    (selectedTag) => selectedTag === tagKey
+  );
 
-  if (isTagSelected) {
-    const tagIndex = currentSelectedTags.findIndex((selectedTag) => {
-      return selectedTag === tagKey;
-    });
-    currentSelectedTags.splice(tagIndex, 1);
+  if (tagSelectedIndex !== -1) {
+    selectedTags.value.splice(tagSelectedIndex, 1);
   } else {
-    currentSelectedTags.push(tagKey);
+    selectedTags.value.push(tagKey);
   }
+
   const { path } = useRoute();
   // Add/Remove tags to/from URL params
-  if (currentSelectedTags.length > 0) {
-    const decodedTags = decodeURIComponent(currentSelectedTags);
-    router.replace({
-      path,
-      query: {
-        tags: decodedTags,
-      },
-    });
-  } else {
-    router.replace({
-      path,
-    });
-  }
+  const query =
+    selectedTags.value.length > 0
+      ? { tags: decodeURIComponent(selectedTags.value) }
+      : null;
+
+  router.replace({
+    path,
+    query,
+  });
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.tag {
+  @apply self-start rounded-full border border-cta-base px-3 py-1 text-sm;
+}
+
+.clickable {
+  @apply hover:border-cta-hover;
+}
+</style>

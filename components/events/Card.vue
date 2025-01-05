@@ -18,10 +18,10 @@
       </div>
       <div
         class="col-span-2 space-y-6 bg-dark-bg-dark p-6 md:flex md:flex-col lg:col-span-1 lg:p-8">
-        <Tags :tags="tagsObject" />
+        <Tags :tags="event.eventTags" />
         <h2 class="text-3xl font-bold md:flex-1">{{ event.eventTitle }}</h2>
         <div>
-          <p class="text-gray-400">{{ event.eventDate }}</p>
+          <p class="text-gray-400">{{ event.date }}</p>
           <p class="text-gray-400">{{ event.eventLocationName }}</p>
         </div>
       </div>
@@ -30,8 +30,6 @@
 </template>
 
 <script setup>
-const emit = defineEmits(["tagClick"]);
-
 const props = defineProps({
   event: {
     type: Object,
@@ -39,15 +37,6 @@ const props = defineProps({
     default: () => {},
   },
 });
-
-const arrayToObject = (array) => {
-  return array.reduce((obj, item) => {
-    obj[item] = item;
-    return obj;
-  }, {});
-};
-
-const tagsObject = arrayToObject(props.event.eventTags);
 </script>
 
 <style scoped></style>

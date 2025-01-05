@@ -8,6 +8,10 @@ const props = defineProps({
     type: String,
     default: undefined,
   },
+  isExternal: {
+    type: Boolean,
+    default: false,
+  },
 });
 </script>
 
@@ -19,7 +23,7 @@ const props = defineProps({
         <NuxtLink
           v-if="ctaUrl && ctaText"
           :href="ctaUrl"
-          target="_blank"
+          :target="isExternal ? '_blank' : ''"
           class="mt-4 block rounded-md border border-gray-400 bg-gray-50 px-5 py-3 text-gray-900 lg:mt-0"
           >{{ ctaText }}</NuxtLink
         >

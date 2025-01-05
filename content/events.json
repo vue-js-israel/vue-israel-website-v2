@@ -17,7 +17,7 @@
       "Based on Vuejs",
       "Live coding"
     ],
-    "eventDate": "02 May 2023 18:00",
+    "date": "02 May 2023 18:00",
     "eventLocationName": "Semperis",
     "eventTitle": "Data Management with Vue",
     "mainContent": {
@@ -118,7 +118,7 @@
       "Component development",
       "Testing with Vitest"
     ],
-    "eventDate": "27 Feb 2023 18:00",
+    "date": "27 Feb 2023 18:00",
     "eventLocationName": "Torq",
     "eventTitle": "Deployment Vue projects securely",
     "mainContent": {
@@ -213,7 +213,7 @@
       "alt": "Vue.js Israel Official Meetup - Contentsquare - 21.11.22"
     },
     "eventTags": ["Design system", "Live coding", "Code maintenance"],
-    "eventDate": "21 Nov 2022 18:00",
+    "date": "21 Nov 2022 18:00",
     "eventLocationName": "Contentsquare",
     "eventTitle": "Be practical with Vue.js",
     "mainContent": {
@@ -316,7 +316,7 @@
       "Vue 2",
       "Vue 3"
     ],
-    "eventDate": "15 Sep 2022 18:00",
+    "date": "15 Sep 2022 18:00",
     "eventLocationName": "Morning",
     "eventTitle": "The good and the bad of Vue 3",
     "mainContent": {
@@ -419,7 +419,7 @@
       "Microfrontend",
       "Composable"
     ],
-    "eventDate": "13 Jul 2022 18:00",
+    "date": "13 Jul 2022 18:00",
     "eventLocationName": "JFrog Israel",
     "eventTitle": "State management in Vue",
     "mainContent": {
@@ -515,7 +515,7 @@
       "alt": "Vue.js Israel Official Meetup - Microsoft Reactor - 11.04.22"
     },
     "eventTags": ["Malware", "npm", "packages", "Large application", "Vue 3"],
-    "eventDate": "11 Apr 2022 18:00",
+    "date": "11 Apr 2022 18:00",
     "eventLocationName": "Microsoft Reactor",
     "eventTitle": "Be pretty and secure in developing with Vue.js",
     "mainContent": {
@@ -611,7 +611,7 @@
       "alt": "Vue.js Israel Official Meetup - Swimm - 24.03.22"
     },
     "eventTags": ["Under the hood", "Vue 3", "Store", "Composable", "Pinia"],
-    "eventDate": "24 March 2022 18:00",
+    "date": "24 March 2022 18:00",
     "eventLocationName": "Swimm",
     "eventTitle": "Have a reactive Pizza with the Vue 3.0",
     "mainContent": {
@@ -722,7 +722,7 @@
       "State management",
       "Scalable"
     ],
-    "eventDate": "18 Aug 2021 18:00",
+    "date": "18 Aug 2021 18:00",
     "eventLocationName": "Paradox",
     "eventTitle": "Back in One Piece with Vue 3",
     "mainContent": {
@@ -830,7 +830,7 @@
       "Components",
       "StorefrontUl"
     ],
-    "eventDate": "22 Jan 2020 18:00",
+    "date": "22 Jan 2020 18:00",
     "eventLocationName": "TailorBrands",
     "eventTitle": "UI Frameworks in Vue.js - Component or Utility-first?",
     "mainContent": {
@@ -940,7 +940,7 @@
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 25.02.20"
     },
     "eventTags": ["Serverless", "Performance", "Optimization", "GridSome"],
-    "eventDate": "25 Feb 2020 18:00",
+    "date": "25 Feb 2020 18:00",
     "eventLocationName": "Cloudinary",
     "eventTitle": "Performance optimization and Server-less in Vue",
     "mainContent": {
@@ -1047,7 +1047,7 @@
       "Dx",
       "Storybook"
     ],
-    "eventDate": "31 Jul 2023 18:00",
+    "date": "31 Jul 2023 18:00",
     "eventLocationName": "Swimm",
     "eventTitle": "Let's get Nuxt (and maybe more)",
     "mainContent": {
@@ -1150,7 +1150,7 @@
       "Responsive app",
       "SPA"
     ],
-    "eventDate": "13 Aug 2019 18:00",
+    "date": "13 Aug 2019 18:00",
     "eventLocationName": "Yad2 HQ",
     "eventTitle": "SSR, SSG? Let’s go Nuxt (or not)",
     "mainContent": {
@@ -1249,7 +1249,7 @@
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 13.05.19"
     },
     "eventTags": ["Nuxt", "Dynamic", "Micro-interaction", "UX", "SSR"],
-    "eventDate": "13 May 2019 18:30",
+    "date": "13 May 2019 18:30",
     "eventLocationName": "Cloudinary",
     "eventTitle": "May the Vue be with you - New beginning 🎉🎉",
     "mainContent": {
@@ -1350,7 +1350,7 @@
       "alt": "Vue.js Israel Official Meetup - Isracard - 18.12.24"
     },
     "eventTags": ["Vue 3", "Vitest", "Best practice"],
-    "eventDate": "18 Dec 2024 18:00",
+    "date": "18 Dec 2024 18:00",
     "eventLocationName": "Isracard",
     "eventTitle": "Best practice with Vue",
     "mainContent": {
