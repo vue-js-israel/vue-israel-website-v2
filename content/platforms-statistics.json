@@ -1,6 +1,6 @@
 {
   "meetup": {
-    "currentValue": 1785,
+    "currentValue": 1866,
     "values": [
       {
         "date": "08-2021",
@@ -41,11 +41,15 @@
       {
         "date": "05-2025",
         "value": 1785
+      },
+      {
+        "date": "10-2025",
+        "value": 1766
       }
     ]
   },
   "linkedin": {
-    "currentValue": 1053,
+    "currentValue": 1062,
     "values": [
       {
         "date": "08-2021",
@@ -86,11 +90,15 @@
       {
         "date": "05-2025",
         "value": 1053
+      },
+      {
+        "date": "10-2025",
+        "value": 1062
       }
     ]
   },
   "facebook": {
-    "currentValue": 821,
+    "currentValue": 815,
     "values": [
       {
         "date": "08-2021",
@@ -131,11 +139,15 @@
       {
         "date": "05-2025",
         "value": 821
+      },
+      {
+        "date": "10-2025",
+        "value": 815
       }
     ]
   },
   "instagram": {
-    "currentValue": 763,
+    "currentValue": 755,
     "values": [
       {
         "date": "08-2021",
@@ -176,11 +188,15 @@
       {
         "date": "05-2025",
         "value": 763
+      },
+      {
+        "date": "10-2025",
+        "value": 755
       }
     ]
   },
   "twitter": {
-    "currentValue": 353,
+    "currentValue": 355,
     "values": [
       {
         "date": "08-2021",
@@ -221,11 +237,15 @@
       {
         "date": "05-2025",
         "value": 353
+      },
+      {
+        "date": "10-2025",
+        "value": 355
       }
     ]
   },
   "youtube": {
-    "currentValue": 174,
+    "currentValue": 180,
     "values": [
       {
         "date": "08-2021",
@@ -266,6 +286,10 @@
       {
         "date": "05-2025",
         "value": 174
+      },
+      {
+        "date": "10-2025",
+        "value": 180
       }
     ]
   }
