@@ -1431,5 +1431,98 @@
         }
       }
     }
+  },
+  "event-id-140": {
+    "metaData": {
+      "title": "Best practice with Vue",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Imagen-21.05.25",
+      "alt": "Vue.js Israel Official Meetup - Imagen - 21.05.25"
+    },
+    "eventTags": ["Vue 3", "PixiJS", "Astro"],
+    "date": "21 May 2025 18:00",
+    "eventLocationName": "Imagen",
+    "eventTitle": "Vue with Imagen",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Imagen](https://www.linkedin.com/company/imagenai/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": ["https://www.facebook.com/share/19VVD8dLbC/"]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-250", "speaker-id-260"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": ["https://youtu.be/ZXP-0YWOfgA?si=JILQ7bYhlHcvbwW9"]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": ["speaker-id-260"]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": ["speaker-id-270"]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": ["Imagen Office, Ariel Sharon 4, Givatayim"]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Imagen](https://www.linkedin.com/company/imagenai/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
   }
 }
