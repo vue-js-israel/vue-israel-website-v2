@@ -45,7 +45,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -146,7 +146,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -965,7 +965,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -1175,7 +1175,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -1274,7 +1274,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
