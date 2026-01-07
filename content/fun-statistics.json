@@ -20,22 +20,22 @@
     "text": "How tall would a stack of all the pizzas eaten at our meetups be?"
   },
   {
-    "value": 4,
+    "value": 6,
     "emoji": "🏙️",
     "text": "Number of cities where the meetups took place"
   },
   {
-    "value": 14,
+    "value": 17,
     "emoji": "👨‍💻",
     "text": "Number of meetups we conducted"
   },
   {
-    "value": 12,
+    "value": 16,
     "emoji": "🏢",
     "text": "Number of companies that hosted us at a meetup"
   },
   {
-    "value": 5,
+    "value": 6,
     "emoji": "🎉",
     "text": "Number of times we celebrated our community birthday"
   }
