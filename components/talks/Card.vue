@@ -18,7 +18,7 @@
         <span class="text-xs dark:text-gray-400">{{ speaker.title }}</span>
       </div>
     </div>
-    <div>
+    <div class="flex-1">
       <NuxtImg
         provider="cloudinary"
         :src="talk.talkPoster.src"
@@ -54,13 +54,17 @@
       </div>
       <div class="flex space-x-2 text-sm">
         <a
-          v-for="(video, index) in talk.videos"
+          v-for="(video, index) in videoLinks"
           :key="index"
           :href="video"
           target="_blank">
           <Icon name="mdi:youtube" size="22" class="hover:text-cta-hover" />
         </a>
-        <a :href="talk.slides.link" target="_blank" :title="talk.slides.title">
+        <a
+          v-if="talk.slides.link"
+          :href="talk.slides.link"
+          target="_blank"
+          :title="talk.slides.title">
           <Icon
             name="mdi:presentation"
             size="22"
@@ -95,6 +99,10 @@ const props = defineProps({
 const currentEvent = computed(() => {
   const { eventId } = props.talk;
   return events[eventId];
+});
+const videoLinks = computed(() => {
+  const { videos } = props.talk;
+  return videos.filter((video) => video && video.trim() !== "");
 });
 </script>
 
