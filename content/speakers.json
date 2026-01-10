@@ -181,5 +181,12 @@
     "image": "/speaker-pictures/Yaron Biton.jpeg",
     "socialLinks": ["https://www.linkedin.com/in/yaronbiton/"],
     "company": "misterBIT"
+  },
+  "speaker-id-250": {
+    "name": "Shira Gold",
+    "title": "Frontend Architect",
+    "image": "/speaker-pictures/Shira Gold.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/shira-gold-5b306b17/"],
+    "company": "Axonius"
   }
 }
