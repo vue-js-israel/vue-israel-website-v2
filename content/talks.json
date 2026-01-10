@@ -493,5 +493,50 @@
       "title": "",
       "link": ""
     }
+  },
+  "talk-id-340": {
+    "speakerIds": ["speaker-id-250"],
+    "eventId": "event-id-140",
+    "talkDate": "21 May 2025",
+    "talkTitle": "Future-Proofing Frontend with Vue + Astro",
+    "talkDescription": "In a fast-changing world, from AI to frontend tech – our mindset must keep up. Discover how Vue + Astro help us build quickly and stay ready for what's next.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-narkis-feldman-21.05.png"
+    },
+    "videos": ["https://youtu.be/F_979Ekfh8s?si=SX2Jf9RpnTHA1gpP"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-350": {
+    "speakerIds": ["speaker-id-260"],
+    "eventId": "event-id-140",
+    "talkDate": "21 May 2025",
+    "talkTitle": "Powering your Vue.js Application using PixiJS",
+    "talkDescription": "Discover how combining Vue.js with PixiJS can transform your web applications from static to extraordinary. Explores practical integration techniques, and performance optimizations.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-alex-nechayev-21.05.png"
+    },
+    "videos": ["https://youtu.be/ZXP-0YWOfgA?si=JILQ7bYhlHcvbwW9"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-360": {
+    "speakerIds": ["speaker-id-40"],
+    "eventId": "event-id-140",
+    "talkDate": "21 May 2025",
+    "talkTitle": "Pina Colada with TanStack Query",
+    "talkDescription": "How to architecture our App State management efficiently with Pinia and TanStack Query",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-maya-shavin-21.05.png"
+    },
+    "videos": ["https://youtu.be/ZXP-0YWOfgA?si=JILQ7bYhlHcvbwW9"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
   }
 }

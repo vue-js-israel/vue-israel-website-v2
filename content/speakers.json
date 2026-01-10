@@ -22,7 +22,7 @@
   },
   "speaker-id-40": {
     "name": "Maya Shavin",
-    "title": "Senior Software Engineer",
+    "title": "Lead Fullstack Engineer",
     "image": "/speaker-pictures/Maya Shavin.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/mayashavin/",
@@ -30,7 +30,7 @@
       "https://facebook.com/mayashavin",
       "https://mayashavin.com"
     ],
-    "company": "Microsoft"
+    "company": "Salesforce"
   },
   "speaker-id-50": {
     "name": "Benjamin Rachi",
@@ -181,5 +181,19 @@
     "image": "/speaker-pictures/Yaron Biton.jpeg",
     "socialLinks": ["https://www.linkedin.com/in/yaronbiton/"],
     "company": "misterBIT"
+  },
+  "speaker-id-250": {
+    "name": "Narkis Feldman",
+    "title": "Front-End Team Lead",
+    "image": "/speaker-pictures/Narkis Feldman.jpg",
+    "socialLinks": ["https://www.linkedin.com/in/narkis/"],
+    "company": "imagen"
+  },
+  "speaker-id-260": {
+    "name": "Alex Nechayev",
+    "title": "Senior Fullstack Engineer",
+    "image": "/speaker-pictures/Alex Nechayev.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/alex-nechayev/"],
+    "company": "JFrog"
   }
 }
