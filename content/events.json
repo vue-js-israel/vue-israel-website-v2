@@ -1524,5 +1524,111 @@
         }
       }
     }
+  },
+  "event-id-150": {
+    "metaData": {
+      "title": "vue meets tanstack db and user experience",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Axonius-27.10.25",
+      "alt": "Vue.js Israel Official Meetup - Axonius - 27.10.25"
+    },
+    "eventTags": [
+      "User Experience",
+      "Tanstack DB",
+      "Live Queries",
+      "Optimistic Updates",
+      "Vue 3"
+    ],
+    "date": "27 Oct 2025 18:00",
+    "eventLocationName": "Axonius",
+    "eventTitle": "Vue Patterns",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Axonius](https://www.axonius.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-270", "speaker-id-150"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "https://www.youtube.com/playlist?list=PLDOkyp-lEYFimI7vnCskLxPC08yodgHCD"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:25",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:25 - 18:45",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:45 - 19:00",
+              "speakerIds": ["speaker-id-270"]
+            },
+            {
+              "timeSlot": "19:05 - 19:15",
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:25 - 20:00",
+              "speakerIds": ["speaker-id-150"]
+            },
+            {
+              "timeSlot": "20:10 - 20:20",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:25 - 20:35",
+              "title": "GIFT time for the lucky attendee 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Axonius Office",
+            "Azrieli Center, Circular Tower, 15th floor",
+            "Derech Menachem Begin 132",
+            "Tel Aviv-Yafo"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Axonius](https://www.axonius.com/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
   }
 }
