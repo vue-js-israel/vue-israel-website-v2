@@ -538,5 +538,35 @@
       "title": "",
       "link": ""
     }
+  },
+  "talk-id-370": {
+    "speakerIds": ["speaker-id-270"],
+    "eventId": "event-id-150",
+    "talkDate": "27 Oct 2025",
+    "talkTitle": "What good is an app without happy users?",
+    "talkDescription": "Let's explore how small Vue coding patterns can have a big impact on performance.With some attention and care, we can keep our apps smooth, responsive, and readyto delight users!",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-shira-gold-27.10"
+    },
+    "videos": ["https://youtu.be/mbM-dPYhzEk?si=z3nyji8V0iOB17XJ"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-380": {
+    "speakerIds": ["speaker-id-150"],
+    "eventId": "event-id-150",
+    "talkDate": "27 Oct 2025",
+    "talkTitle": "Vue Meets TanStack DB Live Queries, Optimistic Updates, and Beyond",
+    "talkDescription": "Master TanStack DB in Vue! Learn live queries, optimistic updates, and transactions to build dynamic, offline-first applications that sync with any backend.Practical insights and best practices included.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-adir-kandel-27.10"
+    },
+    "videos": ["https://youtu.be/QOn4nLiPKZE?si=lBlnt1o_jzAOS29C"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
   }
 }

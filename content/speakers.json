@@ -195,5 +195,12 @@
     "image": "/speaker-pictures/Alex Nechayev.jpeg",
     "socialLinks": ["https://www.linkedin.com/in/alex-nechayev/"],
     "company": "JFrog"
+  },
+  "speaker-id-270": {
+    "name": "Shira Gold",
+    "title": "Frontend Architect",
+    "image": "/speaker-pictures/Shira Gold.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/shira-gold-5b306b17/"],
+    "company": "Axonius"
   }
 }
