@@ -77,7 +77,7 @@ const handleSubmit = (e) => {
             placeholder="Evan You"
             required
             class="block w-full rounded-md p-1 shadow-sm dark:bg-gray-800"
-            :class="{ 'border-red-500 border-2': errors.name }" />
+            :class="{ 'border-2 border-red-500': errors.name }" />
           <span v-if="errors.name" class="mt-1 block text-sm text-red-500">{{
             errors.name
           }}</span>
@@ -91,7 +91,7 @@ const handleSubmit = (e) => {
             placeholder="abcd@gmail.com"
             required
             class="block w-full rounded-md p-1 shadow-sm dark:bg-gray-800"
-            :class="{ 'border-red-500 border-2': errors.email }" />
+            :class="{ 'border-2 border-red-500': errors.email }" />
           <span v-if="errors.email" class="mt-1 block text-sm text-red-500">{{
             errors.email
           }}</span>
@@ -105,10 +105,8 @@ const handleSubmit = (e) => {
             placeholder="Last meetup was great"
             required
             class="block w-full rounded-md p-1 shadow-sm dark:bg-gray-800"
-            :class="{ 'border-red-500 border-2': errors.subject }" />
-          <span
-            v-if="errors.subject"
-            class="mt-1 block text-sm text-red-500">{{
+            :class="{ 'border-2 border-red-500': errors.subject }" />
+          <span v-if="errors.subject" class="mt-1 block text-sm text-red-500">{{
             errors.subject
           }}</span>
         </label>
@@ -120,10 +118,8 @@ const handleSubmit = (e) => {
             required
             rows="3"
             class="block w-full rounded-md p-1 dark:bg-gray-800"
-            :class="{ 'border-red-500 border-2': errors.message }"></textarea>
-          <span
-            v-if="errors.message"
-            class="mt-1 block text-sm text-red-500">{{
+            :class="{ 'border-2 border-red-500': errors.message }"></textarea>
+          <span v-if="errors.message" class="mt-1 block text-sm text-red-500">{{
             errors.message
           }}</span>
         </label>
