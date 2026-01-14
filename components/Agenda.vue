@@ -23,12 +23,12 @@
 const props = defineProps({
   agenda: {
     type: Array,
-    require: true,
+    required: true,
     default: () => [],
   },
   eventId: {
     type: String,
-    require: true,
+    required: true,
     default: "",
   },
 });

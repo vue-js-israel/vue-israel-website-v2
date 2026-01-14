@@ -82,17 +82,17 @@ import events from "@/content/events.json";
 const props = defineProps({
   speaker: {
     type: Object,
-    require: true,
+    required: true,
     default: () => {},
   },
   talk: {
     type: Object,
-    require: true,
+    required: true,
     default: () => {},
   },
   event: {
     type: Object,
-    require: true,
+    required: true,
     default: () => {},
   },
 });
