@@ -1,3 +1,9 @@
+/**
+ * Adds a suffix to the current URL path if it doesn't already exist
+ * Updates the browser history without reloading the page
+ * @param {string} suffix - The suffix to append to the URL path
+ * @returns {void}
+ */
 export const addURLSuffix = (suffix) => {
   const url = new URL(window.location.href);
   const decodedURL = decodeURIComponent(url.toString());
@@ -10,6 +16,11 @@ export const addURLSuffix = (suffix) => {
   history.replaceState(preservedState, null, `${decodedURL}/${suffix}`);
 };
 
+/**
+ * Extracts the domain from a URL and maps it to a social media icon identifier
+ * @param {string} url - The social media URL
+ * @returns {string} The Iconify identifier (e.g., "mdi:facebook") or "mdi:web" as fallback
+ */
 export const socialIcon = (url) => {
   // Define the mapping of social media domains to MDI icon classes
   const socialMediaMapping = {
@@ -41,6 +52,11 @@ export const socialIcon = (url) => {
   return mdiIconClass || "mdi:web"; // Return the MDI icon class or an empty string if not found
 };
 
+/**
+ * Extracts the domain name from a URL string for use as an Iconify identifier
+ * @param {string} urlString - The URL string to extract the domain from
+ * @returns {string|null} The domain name (e.g., "example.com") or null if URL format is invalid
+ */
 export const extractIconifyIdentifier = (urlString) => {
   // Regular expression to match the main domain and multi-level extension
   const regex =
@@ -56,7 +72,6 @@ export const extractIconifyIdentifier = (urlString) => {
     return iconifyIdentifier;
   } else {
     // Return null if the regex doesn't match the input URL
-    console.error("Invalid URL format");
-    return null;
+    return null; // Invalid URL format
   }
 };

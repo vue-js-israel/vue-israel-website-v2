@@ -36,12 +36,22 @@ const props = defineProps({
 const { getTalksBySpeaker } = useTalks(props.eventId);
 const { speakers } = useSpeakers();
 
+/**
+ * Generates a formatted title string for a single speaker's talk
+ * @param {string} speakerId - The ID of the speaker
+ * @returns {string} Formatted string: "Speaker Name - Talk Title"
+ */
 const singleSpeakerTitle = (speakerId) => {
   const talks = getTalksBySpeaker(speakerId);
   return `${speakers[speakerId].name} - ${talks.talkTitle}`;
 };
 
-// returns a costume sting that chains the speaker names first then the talk title and then the speaker companies
+/**
+ * Generates a formatted title string for multiple speakers' talk
+ * Chains speaker names, talk title, and unique companies
+ * @param {Array<string>} speakerIds - Array of speaker IDs
+ * @returns {string} Formatted string: "Speaker1 & Speaker2 - Talk Title - Company1 / Company2"
+ */
 const multipleSpeakerTitle = (speakerIds) => {
   const filteredSpeakersEntry = Object.entries(speakers).filter(([speakerId]) =>
     speakerIds.includes(speakerId)
