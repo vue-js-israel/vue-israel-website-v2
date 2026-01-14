@@ -1,13 +1,19 @@
 <script setup>
 const menuToggle = ref(false);
+const isMenuOpen = computed(() => menuToggle.value);
+
+watch(isMenuOpen, (isOpen) => {
+  if (process.client) {
+    document.body.style.overflow = isOpen ? "hidden" : "auto";
+  }
+});
 
 const openMenu = () => {
   menuToggle.value = true;
-  document.body.style.overflow = "hidden";
 };
+
 const closeMenu = () => {
   menuToggle.value = false;
-  document.body.style.overflow = "auto";
 };
 </script>
 

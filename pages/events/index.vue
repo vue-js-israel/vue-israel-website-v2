@@ -1,21 +1,28 @@
 <script setup>
 useHead({
   title: "Vue.js Israel Events",
-  meta: [{ name: "description", content: "Vus.js Israel's events" }],
+  meta: [{ name: "description", content: "Vue.js Israel's events" }],
 });
 
 const { events, tags } = useEvents();
+
+const bannerContent = {
+  title: "Host the Next Talk!",
+  subtitle: "Innovation and Expertise",
+  ctaUrl: "/contact-us",
+  ctaText: "Host the Event",
+};
 </script>
 
 <template>
   <div>
-    <Banner ctaUrl="/contact-us" ctaText="Host the Event">
+    <Banner :ctaUrl="bannerContent.ctaUrl" :ctaText="bannerContent.ctaText">
       <h2 class="text-center text-5xl font-bold md:text-4xl">
-        Host the Next Talk!
+        {{ bannerContent.title }}
       </h2>
       <div class="space-x-2 py-2 text-center lg:py-0">
         <span>Showcase Your</span>
-        <span class="text-lg font-bold">Innovation and Expertise</span>
+        <span class="text-lg font-bold">{{ bannerContent.subtitle }}</span>
       </div>
     </Banner>
     <div class="container mx-auto space-y-16">
@@ -33,13 +40,13 @@ const { events, tags } = useEvents();
         </section>
       </div>
     </div>
-    <Banner ctaUrl="#" ctaText="Host the Event">
+    <Banner :ctaUrl="bannerContent.ctaUrl" :ctaText="bannerContent.ctaText">
       <h2 class="text-center text-5xl font-bold md:text-4xl">
-        Host the Next Talk!
+        {{ bannerContent.title }}
       </h2>
       <div class="space-x-2 py-2 text-center lg:py-0">
         <span>Showcase Your</span>
-        <span class="text-lg font-bold">Innovation and Expertise</span>
+        <span class="text-lg font-bold">{{ bannerContent.subtitle }}</span>
       </div>
     </Banner>
   </div>

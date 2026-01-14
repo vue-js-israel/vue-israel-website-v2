@@ -5,6 +5,12 @@ const eventsArr = Object.entries(rawEvents).map(([eventId, event]) => {
 });
 
 export const useEvents = () => {
+  /**
+   * Filters events based on selected tags
+   * @param {Array} events - Array of event objects to filter
+   * @param {Array<string>} tags - Array of tag strings to filter by
+   * @returns {Array} Filtered array of events that match at least one of the selected tags, or all events if no tags provided
+   */
   const filterEvents = (events, tags) => {
     return tags.length > 0
       ? events.filter((event) =>

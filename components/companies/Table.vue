@@ -58,8 +58,6 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-
 const { companiesData } = defineProps({
   companiesData: {
     type: Array,

@@ -10,12 +10,11 @@ onMounted(() => {
   addURLSuffix(eventTitleUrl);
 });
 
-const { event } = useEvent();
+const { event } = useEventFromRoute();
 
 const eventId = computed(() => {
-  const { path } = useRoute();
-  const [, , eventId] = path.split("/");
-  return eventId;
+  const route = useRoute();
+  return route.params.slug?.[0] || route.params.slug;
 });
 
 const tableOfContentLinks = Object.entries(event.sections).map(

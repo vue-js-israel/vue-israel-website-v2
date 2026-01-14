@@ -29,17 +29,17 @@
 const props = defineProps({
   contents: {
     type: Array,
-    require: true,
+    required: true,
     default: () => [],
   },
   id: {
     type: String,
-    require: true,
+    required: true,
     default: "",
   },
   title: {
     type: String,
-    require: true,
+    required: true,
     default: "",
   },
   type: {
