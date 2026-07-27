@@ -182,6 +182,20 @@
     "socialLinks": ["https://www.linkedin.com/in/yaronbiton/"],
     "company": "misterBIT"
   },
+  "speaker-id-241": {
+    "name": "Meidan Weiss",
+    "title": "Team Lead",
+    "image": "/speaker-pictures/Meidan Weiss.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/meidanws/"],
+    "company": "Semperis"
+  },
+  "speaker-id-242": {
+    "name": "Ziv Erlichson",
+    "title": "Senior Fullstack Engineer",
+    "image": "/speaker-pictures/Ziv Erlichson.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/ziverlichson/"],
+    "company": "Plynn"
+  },
   "speaker-id-250": {
     "name": "Narkis Feldman",
     "title": "Front-End Team Lead",
@@ -202,5 +216,19 @@
     "image": "/speaker-pictures/Shira Gold.jpeg",
     "socialLinks": ["https://www.linkedin.com/in/shira-gold-5b306b17/"],
     "company": "Axonius"
+  },
+  "speaker-id-243": {
+    "name": "Sean Dvir",
+    "title": "Founder",
+    "image": "/speaker-pictures/Sean Dvir.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/sean-dvir-a6a9b451/"],
+    "company": "Melodic Mind"
+  },
+  "speaker-id-244": {
+    "name": "Zachary Leighton",
+    "title": "Senior Software Engineer",
+    "image": "/speaker-pictures/Zachary Leighton.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/zachary-leighton-798aa632/"],
+    "company": "Torq"
   }
 }

@@ -494,6 +494,36 @@
       "link": ""
     }
   },
+  "talk-id-323": {
+    "speakerIds": ["speaker-id-241"],
+    "eventId": "event-id-132",
+    "talkDate": "13 Jul 2026",
+    "talkTitle": "When organizations grow, frontend must evolve.",
+    "talkDescription": "Learn how we evolved from a single product frontend into a scalable platform, why we adopted Micro Frontends, and the lessons we learned.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-meidan-weiss-13.07.png"
+    },
+    "videos": [""],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-324": {
+    "speakerIds": ["speaker-id-242"],
+    "eventId": "event-id-132",
+    "talkDate": "13 Jul 2026",
+    "talkTitle": "LLMs are dumb. We need to be smarter.",
+    "talkDescription": "Exploring the limitations of current LLMs and strategies to effectively leverage them in real-world applications.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-ziv-erlichson-13.07.png"
+    },
+    "videos": ["https://youtu.be/75G1y-KAjS0"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
   "talk-id-340": {
     "speakerIds": ["speaker-id-250"],
     "eventId": "event-id-140",
@@ -564,6 +594,36 @@
       "src": "/speaker-posters/Vue.js-Israel-speakers-adir-kandel-27.10"
     },
     "videos": ["https://youtu.be/QOn4nLiPKZE?si=lBlnt1o_jzAOS29C"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-381": {
+    "speakerIds": ["speaker-id-243"],
+    "eventId": "event-id-133",
+    "talkDate": "12 Jan 2026",
+    "talkTitle": "Nuxt At Scale: Architecting Multi-App Monorepo",
+    "talkDescription": "This talk covers practical patterns for structuring multiple Nuxt applications in a single monorepo using pnpm workspaces, Turborepo, Nuxt Layers and shared packages to keep your codebase scalable and maintainable.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-sean-dvir-12.01"
+    },
+    "videos": [""],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-382": {
+    "speakerIds": ["speaker-id-244"],
+    "eventId": "event-id-133",
+    "talkDate": "12 Jan 2026",
+    "talkTitle": "Vue Micro Frontends - Horses, not Zebras",
+    "talkDescription": "Lessons learned and enterprise strategies to create scalable and maintainable micro frontends.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-zachary-leighton-12.01"
+    },
+    "videos": [""],
     "slides": {
       "title": "",
       "link": ""

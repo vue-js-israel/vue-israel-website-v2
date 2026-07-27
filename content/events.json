@@ -1630,5 +1630,193 @@
         }
       }
     }
+  },
+  "event-id-132": {
+    "metaData": {
+      "title": "Building Vue With AI",
+      "description": "Monthly meetup of Vue.js Israel, hosted by Semperis. The meetup will be focused on Vue micro-frontends and AI Workflows",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Semperis-13.07.26",
+      "alt": "Vue.js Israel Official Meetup - Semperis - 13.07.26"
+    },
+    "eventTags": ["AI", "Vue 3", "Microfrontend", "LLMs", "AI Engineering"],
+    "date": "13 Jul 2026 18:00",
+    "eventLocationName": "Semperis",
+    "eventTitle": "Building Vue With AI",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?set=a.1356037249945274&type=3"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-241", "speaker-id-242"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": ["https://youtu.be/75G1y-KAjS0"]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:25",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:25 - 18:45",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:45 - 19:15",
+              "speakerIds": ["speaker-id-241"]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:25 - 20:00",
+              "speakerIds": ["speaker-id-242"]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": ["Semperis, Shoham 2, Ramat Gan"]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Semperis](https://www.semperis.com/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-133": {
+    "metaData": {
+      "title": "January 2026 Meetup with Torq",
+      "description": "Monthly meetup of Vue.js Israel, hosted by Torq.",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Torq-12.01.26",
+      "alt": "Vue.js Israel Official Meetup - Torq - 12.01.26"
+    },
+    "eventTags": ["Nuxt 3", "Microfrontend", "Monorepo"],
+    "date": "12 Jan 2026 18:00",
+    "eventLocationName": "Torq",
+    "eventTitle": "January 2026 Meetup with Torq",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?set=a.1198554882360179&type=3"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-243", "speaker-id-244"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": ["speaker-id-243"]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": ["speaker-id-244"]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": ["Torq Office, 10th Floor, HaMelacha St 3 · Tel Aviv-Yafo"]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Torq](https://www.facebook.com/torqhq/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
   }
 }
