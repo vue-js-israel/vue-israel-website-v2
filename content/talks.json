@@ -606,7 +606,7 @@
     "talkTitle": "Nuxt At Scale: Architecting Multi-App Monorepo",
     "talkDescription": "This talk covers practical patterns for structuring multiple Nuxt applications in a single monorepo using pnpm workspaces, Turborepo, Nuxt Layers and shared packages to keep your codebase scalable and maintainable.",
     "talkPoster": {
-      "src": "/speaker-posters/Vue.js-Israel-speakers-sean-dvir-12.01.26"
+      "src": "/speaker-posters/Vue.js-Israel-speakers-sean-dvir-12.01"
     },
     "videos": [""],
     "slides": {
@@ -621,7 +621,7 @@
     "talkTitle": "Vue Micro Frontends - Horses, not Zebras",
     "talkDescription": "Lessons learned and enterprise strategies to create scalable and maintainable micro frontends.",
     "talkPoster": {
-      "src": "/speaker-posters/Vue.js-Israel-speakers-zachary-leighton-12.01.26"
+      "src": "/speaker-posters/Vue.js-Israel-speakers-zachary-leighton-12.01"
     },
     "videos": [""],
     "slides": {
