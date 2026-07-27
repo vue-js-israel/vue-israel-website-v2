@@ -8,6 +8,12 @@ watch(isMenuOpen, (isOpen) => {
   }
 });
 
+onBeforeUnmount(() => {
+  if (process.client) {
+    document.body.style.overflow = "auto";
+  }
+});
+
 const openMenu = () => {
   menuToggle.value = true;
 };
