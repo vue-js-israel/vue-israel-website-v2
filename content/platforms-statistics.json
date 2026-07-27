@@ -1,6 +1,6 @@
 {
   "meetup": {
-    "currentValue": 1711,
+    "currentValue": 1866,
     "values": [
       {
         "date": "08-2021",
@@ -37,11 +37,19 @@
       {
         "date": "12-2024",
         "value": 1711
+      },
+      {
+        "date": "05-2025",
+        "value": 1785
+      },
+      {
+        "date": "10-2025",
+        "value": 1766
       }
     ]
   },
   "linkedin": {
-    "currentValue": 1013,
+    "currentValue": 1062,
     "values": [
       {
         "date": "08-2021",
@@ -78,11 +86,19 @@
       {
         "date": "12-2024",
         "value": 1013
+      },
+      {
+        "date": "05-2025",
+        "value": 1053
+      },
+      {
+        "date": "10-2025",
+        "value": 1062
       }
     ]
   },
   "facebook": {
-    "currentValue": 811,
+    "currentValue": 815,
     "values": [
       {
         "date": "08-2021",
@@ -119,11 +135,19 @@
       {
         "date": "12-2024",
         "value": 811
+      },
+      {
+        "date": "05-2025",
+        "value": 821
+      },
+      {
+        "date": "10-2025",
+        "value": 815
       }
     ]
   },
   "instagram": {
-    "currentValue": 767,
+    "currentValue": 755,
     "values": [
       {
         "date": "08-2021",
@@ -160,11 +184,19 @@
       {
         "date": "12-2024",
         "value": 767
+      },
+      {
+        "date": "05-2025",
+        "value": 763
+      },
+      {
+        "date": "10-2025",
+        "value": 755
       }
     ]
   },
   "twitter": {
-    "currentValue": 358,
+    "currentValue": 355,
     "values": [
       {
         "date": "08-2021",
@@ -201,11 +233,19 @@
       {
         "date": "12-2024",
         "value": 358
+      },
+      {
+        "date": "05-2025",
+        "value": 353
+      },
+      {
+        "date": "10-2025",
+        "value": 355
       }
     ]
   },
   "youtube": {
-    "currentValue": 162,
+    "currentValue": 180,
     "values": [
       {
         "date": "08-2021",
@@ -242,6 +282,14 @@
       {
         "date": "12-2024",
         "value": 162
+      },
+      {
+        "date": "05-2025",
+        "value": 174
+      },
+      {
+        "date": "10-2025",
+        "value": 180
       }
     ]
   }

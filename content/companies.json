@@ -548,5 +548,14 @@
       "https://www.facebook.com/corocyber"
     ],
     "companyCity": "Tel Aviv"
+  },
+  {
+    "companyName": "Torq",
+    "companyWebsite": "https://www.torq.io/",
+    "companySocialLinks": [
+      "https://www.linkedin.com/company/torqio/",
+      "https://www.facebook.com/torqhq"
+    ],
+    "companyCity": "Tel Aviv"
   }
 ]

@@ -6,7 +6,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Semperis-02.05.23.png",
+      "src": "/events/Vue.js-Israel-meetup-Semperis-02.05.23",
       "alt": "Vue.js Israel Official Meetup - Semperis - 02.05.23"
     },
     "eventTags": [
@@ -45,7 +45,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -108,7 +108,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Torq-27.02.23.png",
+      "src": "/events/Vue.js-Israel-meetup-Torq-27.02.23",
       "alt": "Vue.js Israel Official Meetup - Torq - 27.02.23"
     },
     "eventTags": [
@@ -146,7 +146,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -209,7 +209,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Contentsquare-21.11.22.png",
+      "src": "/events/Vue.js-Israel-meetup-Contentsquare-21.11.22",
       "alt": "Vue.js Israel Official Meetup - Contentsquare - 21.11.22"
     },
     "eventTags": ["Design system", "Live coding", "Code maintenance"],
@@ -305,7 +305,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Morning-15.9.22.png",
+      "src": "/events/Vue.js-Israel-meetup-Morning-15.9.22",
       "alt": "Vue.js Israel Official Meetup - Morning - 15.09.22"
     },
     "eventTags": [
@@ -408,7 +408,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-JFrog-13.07.22.png",
+      "src": "/events/Vue.js-Israel-meetup-JFrog-13.07.22",
       "alt": "Vue.js Israel Official Meetup - JFrog Israel - 13.07.22"
     },
     "eventTags": [
@@ -511,7 +511,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Microsoft-Reactor-11.04.22.png",
+      "src": "/events/Vue.js-Israel-meetup-Microsoft-Reactor-11.04.22",
       "alt": "Vue.js Israel Official Meetup - Microsoft Reactor - 11.04.22"
     },
     "eventTags": ["Malware", "npm", "packages", "Large application", "Vue 3"],
@@ -607,7 +607,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Swimm-24.03.22.png",
+      "src": "/events/Vue.js-Israel-meetup-Swimm-24.03.22",
       "alt": "Vue.js Israel Official Meetup - Swimm - 24.03.22"
     },
     "eventTags": ["Under the hood", "Vue 3", "Store", "Composable", "Pinia"],
@@ -709,7 +709,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Paradox-18.08.22.png",
+      "src": "/events/Vue.js-Israel-meetup-Paradox-18.08.22",
       "alt": "Vue.js Israel Official Meetup - Paradox - 18.08.2021"
     },
     "eventTags": [
@@ -817,7 +817,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-TailorBrands-18.08.21.png",
+      "src": "/events/Vue.js-Israel-meetup-TailorBrands-18.08.21",
       "alt": "Vue.js Israel Official Meetup - TailorBrands - 18.08.2021"
     },
     "eventTags": [
@@ -936,7 +936,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Cloudinary-25.02.20.png",
+      "src": "/events/Vue.js-Israel-meetup-Cloudinary-25.02.20",
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 25.02.20"
     },
     "eventTags": ["Serverless", "Performance", "Optimization", "GridSome"],
@@ -965,7 +965,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -1035,7 +1035,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Swimm-31.07.23.png",
+      "src": "/events/Vue.js-Israel-meetup-Swimm-31.07.23",
       "alt": "Vue.js Israel Official Meetup - Swimm - 31.07.23"
     },
     "eventTags": [
@@ -1137,7 +1137,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Yad2-13.08.19.png",
+      "src": "/events/Vue.js-Israel-meetup-Yad2-13.08.19",
       "alt": "Vue.js Israel Official Meetup - Yad2 - 13.08.19"
     },
     "eventTags": [
@@ -1175,7 +1175,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -1245,7 +1245,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Cloudinary-13.05.19.png",
+      "src": "/events/Vue.js-Israel-meetup-Cloudinary-13.05.19",
       "alt": "Vue.js Israel Official Meetup - Cloudinary - 13.05.19"
     },
     "eventTags": ["Nuxt", "Dynamic", "Micro-interaction", "UX", "SSR"],
@@ -1274,7 +1274,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": ["array", "of", "videos"]
+          "value": []
         }
       },
       "agenda": {
@@ -1412,7 +1412,6 @@
           ]
         }
       },
-
       "venue": {
         "sectionTitle": "🏢 The venue",
         "sectionContent": {
@@ -1432,6 +1431,206 @@
       }
     }
   },
+  "event-id-140": {
+    "metaData": {
+      "title": "Best practice with Vue",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Imagen-21.05.25",
+      "alt": "Vue.js Israel Official Meetup - Imagen - 21.05.25"
+    },
+    "eventTags": ["Vue 3", "PixiJS", "Astro"],
+    "date": "21 May 2025 18:00",
+    "eventLocationName": "Imagen",
+    "eventTitle": "Vue with Imagen",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Imagen](https://www.linkedin.com/company/imagenai/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": ["https://www.facebook.com/share/19VVD8dLbC/"]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-250", "speaker-id-260"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "https://www.youtube.com/playlist?list=PLDOkyp-lEYFiJ1x0RlXi-Ca1n-iy44_FZ"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": ["speaker-id-260"]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": ["speaker-id-250"]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": ["Imagen Office, Ariel Sharon 4, Givatayim"]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Imagen](https://www.linkedin.com/company/imagenai/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-150": {
+    "metaData": {
+      "title": "vue meets tanstack db and user experience",
+      "description": "",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Axonius-27.10.25",
+      "alt": "Vue.js Israel Official Meetup - Axonius - 27.10.25"
+    },
+    "eventTags": [
+      "User Experience",
+      "Tanstack DB",
+      "Live Queries",
+      "Optimistic Updates",
+      "Vue 3"
+    ],
+    "date": "27 Oct 2025 18:00",
+    "eventLocationName": "Axonius",
+    "eventTitle": "Vue Patterns",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Axonius](https://www.axonius.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-270", "speaker-id-150"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": [
+            "https://www.youtube.com/playlist?list=PLDOkyp-lEYFimI7vnCskLxPC08yodgHCD"
+          ]
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:25",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:25 - 18:45",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:45 - 19:00",
+              "speakerIds": ["speaker-id-270"]
+            },
+            {
+              "timeSlot": "19:05 - 19:15",
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:25 - 20:00",
+              "speakerIds": ["speaker-id-150"]
+            },
+            {
+              "timeSlot": "20:10 - 20:20",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:25 - 20:35",
+              "title": "GIFT time for the lucky attendee 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Axonius Office",
+            "Azrieli Center, Circular Tower, 15th floor",
+            "Derech Menachem Begin 132",
+            "Tel Aviv-Yafo"
+          ]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Axonius](https://www.axonius.com/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
   "event-id-132": {
     "metaData": {
       "title": "Building Vue With AI",
@@ -1439,7 +1638,7 @@
       "image": ""
     },
     "eventPoster": {
-      "src": "/events/Vue.js-Israel-meetup-Semperis-13.07.26.png",
+      "src": "/events/Vue.js-Israel-meetup-Semperis-13.07.26",
       "alt": "Vue.js Israel Official Meetup - Semperis - 13.07.26"
     },
     "eventTags": [
@@ -1456,7 +1655,7 @@
       "type": "markdown",
       "value": [
         "Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
-      ]
+        ]
     },
     "sections": {
       "photos": {
@@ -1465,7 +1664,7 @@
           "value": [
             "https://www.facebook.com/media/set/?set=a.1356037249945274&type=3"
           ]
-        }
+          }
       },
       "speakers": {
         "sectionTitle": "📢 Speakers",
@@ -1478,7 +1677,7 @@
         "sectionContent": {
           "value": [
             "https://youtu.be/75G1y-KAjS0"
-          ]
+            ]
         }
       },
       "agenda": {
@@ -1496,14 +1695,14 @@
             {
               "timeSlot": "18:45 - 19:15",
               "speakerIds": ["speaker-id-241"]
-            },
+              },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:25 - 20:00",
               "speakerIds": ["speaker-id-242"]
-            },
+              },
             {
               "timeSlot": "20:05 - 20:15",
               "title": "Networking - Q&A"
@@ -1520,7 +1719,7 @@
         "sectionContent": {
           "type": "markdown",
           "value": ["Semperis, Shoham 2, Ramat Gan"]
-        }
+          }
       },
       "sponsors": {
         "sectionTitle": "❤️ Sponsors",
@@ -1528,6 +1727,104 @@
           "type": "markdown",
           "value": [
             "Our meetup host & Gift sponsor: [Semperis](https://www.semperis.com/)",
+            "Gift sponsor: [Vue School](https://vueschool.io/)"
+          ]
+        }
+      }
+    }
+  },
+  "event-id-133": {
+    "metaData": {
+      "title": "January 2026 Meetup with Torq",
+      "description": "Monthly meetup of Vue.js Israel, hosted by Torq.",
+      "image": ""
+    },
+    "eventPoster": {
+      "src": "/events/Vue.js-Israel-meetup-Torq-12.01.26",
+      "alt": "Vue.js Israel Official Meetup - Torq - 12.01.26"
+    },
+    "eventTags": [
+      "Nuxt 3",
+      "Micro-frontends",
+      "Monorepo"
+    ],
+    "date": "12 Jan 2026 18:00",
+    "eventLocationName": "Torq",
+    "eventTitle": "January 2026 Meetup with Torq",
+    "mainContent": {
+      "type": "markdown",
+      "value": [
+        "Thanks ❤️ ❤️ for [Torq](https://torq.io/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
+      ]
+    },
+    "sections": {
+      "photos": {
+        "sectionTitle": "📷 Photos",
+        "sectionContent": {
+          "value": [
+            "https://www.facebook.com/media/set/?set=a.1198554882360179&type=3"
+          ]
+        }
+      },
+      "speakers": {
+        "sectionTitle": "📢 Speakers",
+        "sectionContent": {
+          "value": ["speaker-id-243", "speaker-id-244"]
+        }
+      },
+      "videos": {
+        "sectionTitle": "📹 The full playlist",
+        "sectionContent": {
+          "value": []
+        }
+      },
+      "agenda": {
+        "sectionTitle": "📆 Agenda",
+        "sectionContent": {
+          "value": [
+            {
+              "timeSlot": "18:00 - 18:20",
+              "title": "Welcome & Networking"
+            },
+            {
+              "timeSlot": "18:20 - 18:30",
+              "title": "Keynotes"
+            },
+            {
+              "timeSlot": "18:30 - 19:00",
+              "speakerIds": ["speaker-id-243"]
+            },
+            {
+              "title": "Short Break"
+            },
+            {
+              "timeSlot": "19:30 - 20:00",
+              "speakerIds": ["speaker-id-244"]
+            },
+            {
+              "timeSlot": "20:05 - 20:15",
+              "title": "Networking - Q&A"
+            },
+            {
+              "timeSlot": "20:15 - 20:35",
+              "title": "GIFT time for the lucky attendees 🎁"
+            }
+          ]
+        }
+      },
+      "venue": {
+        "sectionTitle": "🏢 The venue",
+        "sectionContent": {
+          "type": "markdown",
+          "value": ["Torq Office, 10th Floor, HaMelacha St 3 · Tel Aviv-Yafo"]
+        }
+      },
+      "sponsors": {
+        "sectionTitle": "❤️ Sponsors",
+        "sectionContent": {
+          "type": "markdown",
+          "value": [
+            "Our meetup host & Gift sponsor: [Torq](https://www.facebook.com/torqhq/)",
             "Gift sponsor: [Vue School](https://vueschool.io/)"
           ]
         }

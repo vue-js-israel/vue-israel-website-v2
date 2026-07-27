@@ -15,14 +15,14 @@
   },
   "speaker-id-30": {
     "name": "Dudi Fedida",
-    "title": "Frontend Tech Lead",
+    "title": "Frontend Architect",
     "image": "/speaker-pictures/Dudi Fedida.jpeg",
     "socialLinks": ["https://www.linkedin.com/in/dudi-fedida-892b48113/"],
     "company": "Torq"
   },
   "speaker-id-40": {
     "name": "Maya Shavin",
-    "title": "Senior Software Engineer",
+    "title": "Lead Fullstack Engineer",
     "image": "/speaker-pictures/Maya Shavin.jpeg",
     "socialLinks": [
       "https://www.linkedin.com/in/mayashavin/",
@@ -30,7 +30,7 @@
       "https://facebook.com/mayashavin",
       "https://mayashavin.com"
     ],
-    "company": "Microsoft"
+    "company": "Salesforce"
   },
   "speaker-id-50": {
     "name": "Benjamin Rachi",
@@ -195,5 +195,40 @@
     "image": "/speaker-pictures/Ziv Erlichson.jpeg",
     "socialLinks": ["https://www.linkedin.com/in/ziverlichson/"],
     "company": "Plynn"
+  },
+  "speaker-id-250": {
+    "name": "Narkis Feldman",
+    "title": "Front-End Team Lead",
+    "image": "/speaker-pictures/Narkis Feldman.jpg",
+    "socialLinks": ["https://www.linkedin.com/in/narkis/"],
+    "company": "imagen"
+  },
+  "speaker-id-260": {
+    "name": "Alex Nechayev",
+    "title": "Senior Fullstack Engineer",
+    "image": "/speaker-pictures/Alex Nechayev.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/alex-nechayev/"],
+    "company": "JFrog"
+  },
+  "speaker-id-270": {
+    "name": "Shira Gold",
+    "title": "Frontend Architect",
+    "image": "/speaker-pictures/Shira Gold.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/shira-gold-5b306b17/"],
+    "company": "Axonius"
+  },
+  "speaker-id-243": {
+    "name": "Sean Dvir",
+    "title": "Founder",
+    "image": "/speaker-pictures/Sean Dvir.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/sean-dvir-a6a9b451/"],
+    "company": "Melodic Mind"
+  },
+  "speaker-id-244": {
+    "name": "Zachary Leighton",
+    "title": "Senior Software Engineer",
+    "image": "/speaker-pictures/Zachary Leighton.jpeg",
+    "socialLinks": ["https://www.linkedin.com/in/zachary-leighton-798aa632/"],
+    "company": "Torq"
   }
 }
