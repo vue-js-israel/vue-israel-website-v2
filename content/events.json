@@ -1641,13 +1641,7 @@
       "src": "/events/Vue.js-Israel-meetup-Semperis-13.07.26",
       "alt": "Vue.js Israel Official Meetup - Semperis - 13.07.26"
     },
-    "eventTags": [
-      "AI",
-      "Vue 3",
-      "Microfrontend",
-      "LLMs",
-      "AI Engineering"
-    ],
+    "eventTags": ["AI", "Vue 3", "Microfrontend", "LLMs", "AI Engineering"],
     "date": "13 Jul 2026 18:00",
     "eventLocationName": "Semperis",
     "eventTitle": "Building Vue With AI",
@@ -1655,7 +1649,7 @@
       "type": "markdown",
       "value": [
         "Thanks ❤️ ❤️ for [Semperis](https://www.semperis.com/) for hosting us with venue and food and gift, and [Vue School](https://vueschool.io) for sponsoring our meetup gift."
-        ]
+      ]
     },
     "sections": {
       "photos": {
@@ -1664,7 +1658,7 @@
           "value": [
             "https://www.facebook.com/media/set/?set=a.1356037249945274&type=3"
           ]
-          }
+        }
       },
       "speakers": {
         "sectionTitle": "📢 Speakers",
@@ -1675,9 +1669,7 @@
       "videos": {
         "sectionTitle": "📹 The full playlist",
         "sectionContent": {
-          "value": [
-            "https://youtu.be/75G1y-KAjS0"
-            ]
+          "value": ["https://youtu.be/75G1y-KAjS0"]
         }
       },
       "agenda": {
@@ -1695,14 +1687,14 @@
             {
               "timeSlot": "18:45 - 19:15",
               "speakerIds": ["speaker-id-241"]
-              },
+            },
             {
               "title": "Short Break"
             },
             {
               "timeSlot": "19:25 - 20:00",
               "speakerIds": ["speaker-id-242"]
-              },
+            },
             {
               "timeSlot": "20:05 - 20:15",
               "title": "Networking - Q&A"
@@ -1719,7 +1711,7 @@
         "sectionContent": {
           "type": "markdown",
           "value": ["Semperis, Shoham 2, Ramat Gan"]
-          }
+        }
       },
       "sponsors": {
         "sectionTitle": "❤️ Sponsors",
@@ -1743,11 +1735,7 @@
       "src": "/events/Vue.js-Israel-meetup-Torq-12.01.26",
       "alt": "Vue.js Israel Official Meetup - Torq - 12.01.26"
     },
-    "eventTags": [
-      "Nuxt 3",
-      "Micro-frontends",
-      "Monorepo"
-    ],
+    "eventTags": ["Nuxt 3", "Micro-frontends", "Monorepo"],
     "date": "12 Jan 2026 18:00",
     "eventLocationName": "Torq",
     "eventTitle": "January 2026 Meetup with Torq",
