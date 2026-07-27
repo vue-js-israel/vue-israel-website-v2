@@ -493,5 +493,35 @@
       "title": "",
       "link": ""
     }
+  },
+  "talk-id-323": {
+    "speakerIds": ["speaker-id-241"],
+    "eventId": "event-id-132",
+    "talkDate": "13 Jul 2026",
+    "talkTitle": "When organizations grow, frontend must evolve.",
+    "talkDescription": "Learn how we evolved from a single product frontend into a scalable platform, why we adopted Micro Frontends, and the lessons we learned.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-meidan-weiss-13.07.png"
+    },
+    "videos": [""],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
+  "talk-id-324": {
+    "speakerIds": ["speaker-id-242"],
+    "eventId": "event-id-132",
+    "talkDate": "13 Jul 2026",
+    "talkTitle": "LLMs are dumb. We need to be smarter.",
+    "talkDescription": "We were promised huge context windows will solve the problem. Guess what? It didn't. LLMs have a dumb zone, and they get there sooner than you expected. We will explore the dumb zone, and I will share my SLDC workflow that helps me stay away from it and get high quality results.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-ziv-erlichson-13.07.png"
+    },
+    "videos": ["https://youtu.be/75G1y-KAjS0"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
   }
 }
