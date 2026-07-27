@@ -3,5 +3,5 @@ export const sortByDate = (a, b) => {
 };
 
 export const sortDescendingByDate = (events) => {
-  return events.sort(sortByDate);
+  return [...events].sort(sortByDate);
 };

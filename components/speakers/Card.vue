@@ -4,7 +4,7 @@ import { socialIcon } from "@/utils/urlUtils";
 defineProps({
   speaker: {
     type: Object,
-    require: true,
+    required: true,
     default: () => {},
   },
 });

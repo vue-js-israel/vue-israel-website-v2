@@ -7,8 +7,6 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-
 const props = defineProps({
   domain: { type: String, default: "logo.com" },
   size: { type: Number, default: 16 },

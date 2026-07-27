@@ -8,10 +8,17 @@ useHead({
   meta: [{ name: "description", content: "Vus.js Israel's speakers" }],
 });
 
+const route = useRoute();
+
 const getSpeakerIdFromUrlParam = () => {
-  const { speakerId } = useRoute().query;
+  const { speakerId } = route.query;
   return speakerId;
 };
+
+const selectedSpeakerId = getSpeakerIdFromUrlParam();
+if (selectedSpeakerId && !speakers[selectedSpeakerId]) {
+  navigateTo("/talks", { replace: true });
+}
 
 const getSortedTalkList = () => {
   const talkList = Object.entries(talks).map(([talkId, talk]) => {
@@ -25,24 +32,29 @@ const getSortedTalkList = () => {
 };
 
 const talkList = getSortedTalkList();
-const selectedSpeakerId = getSpeakerIdFromUrlParam();
 
 const filteredEventsTalksSpeakers = computed(() => {
   const talkAndSpeakerList = talkList.map((talk) => {
-    return talk.speakerIds.map((speakerId) => {
-      return {
-        talk,
-        event: events[talk.eventId],
-        speaker: { ...speakers[speakerId], speakerId },
-      };
-    });
+    return talk.speakerIds
+      .map((speakerId) => {
+        const speaker = speakers[speakerId];
+        if (!speaker) {
+          return null;
+        }
+        return {
+          talk,
+          event: events[talk.eventId],
+          speaker: { ...speaker, speakerId },
+        };
+      })
+      .filter(Boolean);
   });
   const flattenSpeakerList = talkAndSpeakerList.reduce(
     (flattened, innerArray) => flattened.concat(innerArray),
     []
   );
 
-  if (selectedSpeakerId !== undefined) {
+  if (selectedSpeakerId !== undefined && speakers[selectedSpeakerId]) {
     return flattenSpeakerList.filter(
       ({ speaker }) => speaker.speakerId === selectedSpeakerId
     );
