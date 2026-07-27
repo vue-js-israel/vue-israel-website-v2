@@ -509,6 +509,21 @@
       "link": ""
     }
   },
+  "talk-id-324": {
+    "speakerIds": ["speaker-id-242"],
+    "eventId": "event-id-132",
+    "talkDate": "13 Jul 2026",
+    "talkTitle": "LLMs are dumb. We need to be smarter.",
+    "talkDescription": "Exploring the limitations of current LLMs and strategies to effectively leverage them in real-world applications.",
+    "talkPoster": {
+      "src": "/speaker-posters/Vue.js-Israel-speakers-ziv-erlichson-13.07.png"
+    },
+    "videos": ["https://youtu.be/75G1y-KAjS0"],
+    "slides": {
+      "title": "",
+      "link": ""
+    }
+  },
   "talk-id-340": {
     "speakerIds": ["speaker-id-250"],
     "eventId": "event-id-140",
